@@ -28,10 +28,12 @@ Ce dossier constitue la base de travail commune pour la suite du projet. Il ne r
 
 ## Documents disponibles
 
-- `01-fondements-de-reference.md` : cadre institutionnel, pédagogiques, acteurs et principes de base.
+- `01-fondements-de-reference.md` : cadre institutionnel, pédagogique, acteurs et principes de base.
 - `02-architecture-fonctionnelle-de-reference.md` : modules fonctionnels, workflows et logique métier de référence.
 - `03-gouvernance-securite-et-tracabilite.md` : gouvernance, sécurité, traçabilité et responsabilités.
 - `04-conventions-de-depot-et-d-ecriture.md` : conventions de travail, structure du dépôt et qualité documentaire.
+- `05-integration-des-tomes-3.md` : intégration de la Partie III existante dans le socle fondamental.
+- `06-roadmap-et-prerequis-pour-les-tomes-3-3-a-3-10.md` : feuille de route et prérequis pour les sous-tomes 3.3 à 3.10.
 
 ## Utilisation future
 
