@@ -65,6 +65,8 @@ Les tomes futurs doivent :
 - citer explicitement leurs dépendances ;
 - expliciter les cas d’usage, les rôles et les règles métier ;
 - distinguer clairement ce qui relève de la gouvernance, de la pédagogie, de la technique ou de l’organisation.
+- inclure une section de liaison vers les tomes précédents et vers les tomes ultérieurs identifiés dans la feuille de route.
+- documenter les points de connexion avec le socle de référence et les impacts attendus sur l’institution.
 
 ## 7. Checklist de qualité avant validation
 

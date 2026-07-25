@@ -69,6 +69,22 @@ Les éléments suivants doivent être veillés de manière permanente :
 - Les développeurs et architectes fonctionnels doivent utiliser 3.2 pour les structures de parcours et les règles métier.
 - Les responsables de validation doivent utiliser les deux tomes pour tout changement de règle académique.
 
+### 4.3 Liens structurés vers les tomes 3.3 à 3.10
+- Tome 3.3 doit traduire les principes d’évaluation de 3.1 en règles opérationnelles et en scénarios de certification compatibles avec les parcours de 3.2.
+- Tome 3.4 doit prolonger la logique d’individualisation, de remédiation et d’accompagnement humain de 3.1 tout en respectant l’architecture de parcours de 3.2.
+- Tome 3.5 doit prolonger l’exigence d’accessibilité de 3.1 par des règles concrètes de faible débit, hors connexion et inclusion, tout en respectant le calendrier et la structure des études de 3.2.
+- Tome 3.6 doit définir les ressources et supports pédagogiques en cohérence avec l’architecture de contenu prévue par 3.1 et avec la structure des UE et des modules de 3.2.
+- Tome 3.7 doit traduire les exigences de qualité pédagogique de 3.1 en dispositifs de contrôle, d’audit et d’amélioration continue, en lien avec la gouvernance définie dans le Tome 2.
+- Tome 3.8 doit mettre en place les indicateurs et tableaux de bord nécessaires à la traçabilité des parcours, en s’appuyant sur les principes de suivi et de progression de 3.1 et 3.2.
+- Tome 3.9 doit formaliser la gouvernance pédagogique et les règles métiers en s’appuyant sur les invariants de 3.1, la structure de 3.2 et les exigences de responsabilité humaine.
+- Tome 3.10 doit formaliser l’interopérabilité et les intégrations externes en cohérence avec les exigences de compatibilité réglementaire de 3.2 et les principes institutionnels de 3.1.
+
+### 4.4 Règles de liaison et de validation
+- Chaque nouveau sous-tome doit inclure une section « Références au socle fondamental » listant explicitement les sections de 3.1, 3.2 et du Tome 2 auxquelles il se réfère.
+- Chaque nouveau sous-tome doit inclure une section « Invariants préservés » qui identifie les règles qu’il ne peut pas modifier sans révision du socle.
+- Chaque nouveau sous-tome doit inclure une section « Effets attendus sur les parcours » qui décrit les points de connexion avec les modules fonctionnels et les acteurs.
+- Toute rédaction ultérieure est invalide si elle ne documente pas ces liens de manière explicite.
+
 ## 5. Ce qui reste à produire
 
 ### 5.1 Rédaction des tomes 3.3 à 3.10

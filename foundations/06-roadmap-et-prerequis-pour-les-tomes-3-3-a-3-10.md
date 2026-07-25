@@ -70,7 +70,26 @@ Ces deux sous-tomes sont désormais intégrés dans le socle de référence et d
 - administration des référentiels ;
 - intégrations avec le Tome 5 et le Tome 7.
 
-## 4. Pré requis à respecter avant rédaction
+## 4. Connexions structurées aux fondations
+
+Chaque sous-tome de la série 3.3 à 3.10 doit s’appuyer explicitement sur des éléments concrets du socle fondamental.
+
+- Tome 3.3 : référence prioritaire à 3.1 (évaluation, intégrité, règles de validation) et à 3.2 (structure des parcours, périodes, unités d’enseignement).
+- Tome 3.4 : référence prioritaire à 3.1 (individualisation, remédiation, rôle du tuteur) et à 3.2 (parcours, niveaux, filières).
+- Tome 3.5 : référence prioritaire à 3.1 (accessibilité, inclusion, continuité pédagogique) et à 3.2 (calendrier, organisation des cycles, déroulé des semestres).
+- Tome 3.6 : référence prioritaire à 3.1 (architecture de cours et de leçon, ressources) et à 3.2 (UE, modules, contenus disciplinaires).
+- Tome 3.7 : référence prioritaire à 3.1 (amélioration continue, qualité pédagogique) et à 3.2 (suivi de progression, tableaux de bord).
+- Tome 3.8 : référence prioritaire à 3.1 (suivi et progression) et à 3.2 (structure des parcours, états d’avancement, historique).
+- Tome 3.9 : référence prioritaire à 3.1 (principes pédagogiques, responsabilité humaine) et à 3.2 (règles métiers et validation académique).
+- Tome 3.10 : référence prioritaire à 3.1 (principes institutionnels, non substitution de l’IA) et à 3.2 (interopérabilité des parcours, standards externes).
+
+Chaque sous-tome doit également inclure :
+
+- une section « Références au socle fondamental » ;
+- une section « Invariants à préserver » ;
+- une section « Liaison avec les tomes fonctionnels et techniques à venir ».
+
+## 5. Pré requis à respecter avant rédaction
 
 ### 4.1 Pré requis institutionnels
 - le Tome 2 doit rester la constitution de référence ;
