@@ -26,6 +26,13 @@ Ce dossier constitue la base de travail commune pour la suite du projet. Il ne r
 - Fondements techniques : sécurité, données, intégrité, traçabilité.
 - Fondements d’opération : gouvernance, lancement pilote, qualité, amélioration continue.
 
+## Documents disponibles
+
+- `01-fondements-de-reference.md` : cadre institutionnel, pédagogiques, acteurs et principes de base.
+- `02-architecture-fonctionnelle-de-reference.md` : modules fonctionnels, workflows et logique métier de référence.
+- `03-gouvernance-securite-et-tracabilite.md` : gouvernance, sécurité, traçabilité et responsabilités.
+- `04-conventions-de-depot-et-d-ecriture.md` : conventions de travail, structure du dépôt et qualité documentaire.
+
 ## Utilisation future
 
 Les tomes 4 et suivants doivent s’appuyer sur ce socle sans le contredire. Les futurs documents devront être rédigés de manière à être cohérents avec :

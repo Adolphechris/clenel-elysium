@@ -14,6 +14,9 @@ Afin de préparer la suite du travail, un socle de fondation a été mis en plac
 ## Nouveaux documents de fondation
 
 - `foundations/README.md` — introduction au socle de référence ;
-- `foundations/01-fondements-de-reference.md` — principes institutionnels, rôles, fondements pédagogiques, fondements fonctionnels et techniques.
+- `foundations/01-fondements-de-reference.md` — principes institutionnels, rôles, fondements pédagogiques, fondements fonctionnels et techniques ;
+- `foundations/02-architecture-fonctionnelle-de-reference.md` — modules fonctionnels, acteurs et workflows de référence ;
+- `foundations/03-gouvernance-securite-et-tracabilite.md` — gouvernance, sécurité, traçabilité et responsabilité humaine ;
+- `foundations/04-conventions-de-depot-et-d-ecriture.md` — conventions de dépôt, de rédaction et de qualité documentaire.
 
-Ces documents servent de base de travail pour la rédaction et l’architecture des tomes 4 et suivants.
+Ces documents servent de base de travail robuste pour la rédaction et l’architecture des tomes 4 et suivants.
