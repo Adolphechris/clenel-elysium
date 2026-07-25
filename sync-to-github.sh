@@ -10,7 +10,11 @@ cd "$(git rev-parse --show-toplevel)"
 
 if git diff --quiet --ignore-submodules --cached && git diff --quiet --ignore-submodules; then
   echo "Nothing to commit."
-  git push origin HEAD
+  if [ -n "${GITHUB_TOKEN:-}" ]; then
+    git push "https://x-access-token:${GITHUB_TOKEN}@github.com/Adolphechris/clenel-elysium.git" HEAD
+  else
+    git push origin HEAD
+  fi
   exit 0
 fi
 
@@ -24,4 +28,8 @@ else
   git commit -m "$MESSAGE"
 fi
 
-git push origin HEAD
+if [ -n "${GITHUB_TOKEN:-}" ]; then
+  git push "https://x-access-token:${GITHUB_TOKEN}@github.com/Adolphechris/clenel-elysium.git" HEAD
+else
+  git push origin HEAD
+fi
