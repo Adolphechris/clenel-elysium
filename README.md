@@ -4,10 +4,11 @@ Cahier des charges officiel du Centre National d’Étude en Ligne ELYSIUM (CNEL
 
 ## État actuel du dépôt
 
-Le projet est aujourd’hui structuré autour de trois tomes fondateurs déjà rédigés :
+Le projet est aujourd’hui structuré autour des tomes fondateurs suivants :
 - Tome 1 — Vision, philosophie et mission ;
 - Tome 2 — Constitution de l’institution ;
-- Tome 3 — Architecture pédagogique et ingénierie de l’enseignement.
+- Tome 3 — Architecture pédagogique et ingénierie de l’enseignement ;
+- Tome 4 — Programmes d’études (en cours de rédaction et déjà structuré dans `tome-4/`).
 
 Afin de préparer la suite du travail, un socle de fondation a été mis en place dans le dossier `foundations/`.
 
