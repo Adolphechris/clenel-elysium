@@ -1,10 +1,3 @@
-Parfait. Je lance la rédaction du Chapitre 8 fusionné : Conditions de passage et redoublement dans le secondaire.
-
-Je reprends l’essentiel de vos chapitres 10 et 12, je supprime les redondances et j’organise le tout en un seul texte fluide.
-
-
----
-
 CHAPITRE 8 — CONDITIONS DE PASSAGE ET REDOUBLEMENT DANS LE SECONDAIRE
 
 
@@ -38,15 +31,13 @@ L’année scolaire suit le calendrier officiel congolais et est divisée en deu
 
 Le système de notation utilisé est un système de points avec des maxima variables (ex. 20, 30, 50 points). La performance est exprimée en points obtenus sur le total maximum, puis convertie en pourcentage.
 
-Calcul de la moyenne par discipline : somme des points obtenus dans toutes les évaluations de la discipline, divisée par la somme des maxima possibles, multipliée par 100.
+Calcul du résultat par discipline : somme des points obtenus dans les évaluations de la discipline, rapportée à la somme de leurs maxima et exprimée en pourcentage.
 
-Calcul de la moyenne générale : même principe appliqué à l’ensemble des disciplines.
+Calcul du résultat général : somme des points obtenus dans l’ensemble des disciplines, rapportée à la somme de leurs maxima et exprimée en pourcentage.
 
-Moyenne de la période : calculée à partir des évaluations de la période.
+Résultat du semestre : cumul des points obtenus et des maxima des deux périodes qui composent le semestre ; il ne résulte pas d’une simple moyenne arithmétique des pourcentages.
 
-Moyenne du semestre : moyenne des moyennes des deux périodes.
-
-Moyenne annuelle : moyenne des moyennes des deux semestres.
+Résultat annuel : cumul des points obtenus et des maxima des quatre périodes de l’année scolaire.
 
 
 ---
@@ -55,7 +46,7 @@ Moyenne annuelle : moyenne des moyennes des deux semestres.
 
 Conformément aux règles du Ministère :
 
-Seuil de passage : le passage en classe supérieure est conditionné par l’obtention d’une moyenne générale annuelle supérieure ou égale à 50 %.
+Seuil de passage : le passage en classe supérieure est examiné au regard d’une moyenne générale annuelle de 10 sur 20, équivalente à 50 % lorsque le calcul est exprimé en pourcentage des maxima.
 
 Seuil d’alerte : un élève dont la moyenne générale est inférieure à 50 % fait l’objet d’une alerte et d’un accompagnement personnalisé.
 
@@ -70,11 +61,11 @@ Conformément à l’Article 9 de la Constitution d’ELLYSIUM et aux règles p�
 
 Définition : une absence est injustifiée lorsqu’elle n’est pas couverte par un justificatif valable (certificat médical, autorisation parentale, etc.).
 
-Impact : toute absence injustifiée à une évaluation donne lieu à une note ABI, qui est traitée comme un zéro (0 point) pour le calcul de la moyenne de la discipline concernée.
+Impact : toute absence injustifiée à une évaluation donne lieu à une note ABI, enregistrée comme zéro (0 point) sur le maximum de l’évaluation. Une ABI est non compensable : elle entraîne l’ajournement dans la discipline concernée selon les règles académiques de référence.
 
-Seuils d’alerte : un élève cumulant un nombre important d’absences injustifiées fait l’objet d’une alerte et d’un suivi personnalisé.
+Seuils d’alerte : un élève cumulant des absences injustifiées fait l’objet d’une alerte et d’un suivi personnalisé.
 
-Sanctions : en cas d’absentéisme chronique, des sanctions peuvent être appliquées conformément au règlement intérieur de l’établissement ou aux dispositions d’ELLYSIUM.
+Sanctions : en cas d’absentéisme chronique, des sanctions peuvent être appliquées conformément au règlement intérieur de l’établissement et aux règles académiques applicables.
 
 
 ---
@@ -88,7 +79,7 @@ L’entrée en 7ème année est conditionnée par la réussite de l’ENAFEP (Ex
 
 8.7 Conditions de passage à l’intérieur du cycle d’orientation
 
-Passage de la 7ème à la 8ème année : il est subordonné à l’obtention d’une moyenne générale annuelle supérieure ou égale à 50 % et à une assiduité suffisante. Les élèves qui n’atteignent pas ce seuil bénéficient de cours de rattrapage et d’un accompagnement personnalisé.
+Passage de la 7ème à la 8ème année : il est examiné au regard d’une moyenne générale annuelle de 10 sur 20, d’une assiduité suffisante et des règles de délibération applicables. Les élèves qui n’atteignent pas ce seuil bénéficient d’une remédiation et d’un accompagnement personnalisé avant la décision du conseil de classe.
 
 Passage de la 8ème année aux humanités : il est conditionné par l’obtention d’une moyenne générale annuelle suffisante et par la réussite du TENASOSP. L’orientation vers l’une des filières (générale, technique ou professionnelle) tient compte des résultats et des aptitudes, ainsi que des préférences de l’élève.
 
@@ -97,9 +88,9 @@ Passage de la 8ème année aux humanités : il est conditionné par l’obtentio
 
 8.8 Conditions de passage à l’intérieur du cycle des humanités
 
-Les passages de la 1ère à la 2ème année, de la 2ème à la 3ème année, et de la 3ème à la 4ème année sont soumis aux mêmes conditions : obtention d’une moyenne générale annuelle supérieure ou égale à 50 % et assiduité suffisante.
+Les passages de la 1ère à la 2ème année, de la 2ème à la 3ème année, et de la 3ème à la 4ème année sont examinés au regard d’une moyenne générale annuelle de 10 sur 20, d’une assiduité suffisante et des règles de délibération applicables.
 
-L’obtention du diplôme d’État est conditionnée par la réussite de l’EXETAT et la validation de l’ensemble des années du cycle secondaire.
+ELLYSIUM prépare l’élève à l’EXETAT et l’accompagne, le cas échéant, dans les démarches d’inscription auprès d’un centre officiel désigné par l’État. L’institution ne délivre pas elle-même le Diplôme d’État ; elle délivre uniquement ses bulletins et attestations internes, clairement distincts de ce diplôme national.
 
 
 ---
@@ -146,7 +137,7 @@ Suivi de la progression : des tableaux de bord permettent de visualiser en temps
 
 Alertes : des alertes sont générées lorsque les résultats d’un élève passent sous les seuils d’alerte ou de remédiation.
 
-Décisions de passage : la plateforme propose une décision automatisée (admis, ajourné, redoublant) sur la base des résultats, mais la décision finale revient au conseil de classe.
+Décisions de passage : la plateforme calcule les résultats, signale les seuils et prépare une proposition de délibération. La décision d’admission, d’ajournement ou de redoublement relève exclusivement du conseil de classe.
 
 Suivi des élèves en difficulté : l’outil permet d’identifier et de suivre les élèves bénéficiant de remédiation.
 
@@ -157,12 +148,3 @@ Suivi des élèves en difficulté : l’outil permet d’identifier et de suivre
 
 Les conditions de passage et les règles de redoublement définies dans ce chapitre assurent la cohérence du parcours des élèves, la conformité avec les normes nationales, la transparence des évaluations et la possibilité pour chaque élève de bénéficier d’un accompagnement adapté. Leur intégration dans la plateforme ELLYSIUM rend ces processus automatisés, traçables et équitables, tout en laissant la décision pédagogique finale aux instances humaines compétentes.
 
-
----
-
-Fin du Chapitre 8.
-
-
----
-
-Ce chapitre fusionne et harmonise nos textes.

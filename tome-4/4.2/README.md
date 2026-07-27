@@ -191,7 +191,7 @@ Le résultat du semestre s'obtient par cumul des points obtenus aux deux périod
 
 Le résultat annuel s'obtient par cumul des points des quatre périodes, rapporté au cumul des quatre maxima périodiques, exprimé en pourcentage.
 
-Le passage en classe supérieure est conditionné par l'obtention d'un résultat général annuel supérieur ou égal à cinquante pour cent du total des maxima. Ce seuil correspond à la pratique généralement observée dans le système congolais et reste à confirmer formellement par un texte réglementaire avant toute publication externe du présent document.
+Le passage en classe supérieure est examiné au regard d’un seuil général de 10 sur 20, exprimé comme 50 % lorsque le calcul repose sur des maxima de points. La décision est prise par l’instance humaine compétente après prise en compte des règles de délibération, de remédiation et d’assiduité applicables.
 
 ### 5.7 Prise en compte des absences injustifiées
 
@@ -237,37 +237,45 @@ Le quatrième principe concerne l'orientation vers l'enseignement supérieur ou 
 
 ### 6.3 Les humanités générales
 
-L'option Pédagogie générale, appelée officiellement humanités pédagogiques, forme des enseignants pour les niveaux primaire et secondaire inférieur, en développant les compétences pédagogiques, psychologiques et didactiques nécessaires à l'exercice du métier. Elle débouche sur l'enseignement primaire et secondaire, l'animation éducative et la formation professionnelle. Ses matières principales sont la pédagogie générale, la psychologie de l'enfant, la didactique des disciplines, le français, les mathématiques, l'anglais, l'histoire, la géographie et l'éducation civique.
+Les humanités générales rassemblent les options suivantes : Scientifique (Mathématiques-Physique), Biochimie (Chimie-Biologie), Latin-Philosophie, Grec-Philosophie, Sciences commerciales et administratives, Pédagogie générale et Pédagogie spécialisée.
 
-L'option Sciences humaines, ou humanités littéraires, forme des élèves maîtrisant les langues, la littérature, l'histoire, la géographie et la philosophie, en développant l'esprit critique, la capacité d'analyse et de synthèse, et la maîtrise de l'expression écrite et orale. Elle débouche sur l'enseignement, le journalisme, l'édition, l'administration, la recherche, et les métiers de la culture et du patrimoine. Ses matières principales sont le français, la littérature, le latin, la philosophie, l'histoire, la géographie, l'anglais, l'éducation civique et l'éducation physique.
+L'option Scientifique forme des élèves maîtrisant les mathématiques, la physique et les sciences expérimentales, en développant le raisonnement logique et la méthode scientifique.
 
-L'option Sciences, orientation Mathématiques-Physique, forme des élèves maîtrisant les mathématiques, la physique et la chimie, en développant le raisonnement logique, la capacité d'abstraction et la méthode expérimentale. Elle débouche sur les études supérieures en sciences, ingénierie, médecine, architecture, informatique et mathématiques appliquées. Ses matières principales sont les mathématiques, la physique, la chimie, le français, l'anglais, l'histoire, la géographie, la philosophie et l'éducation physique.
+L'option Biochimie forme des élèves maîtrisant la biologie, la chimie et les sciences de la vie, en développant l'observation, l'analyse scientifique et la compréhension du vivant.
 
-L'option Sciences, orientation Biochimie, forme des élèves maîtrisant la biologie, la chimie et les sciences de la vie, en développant la méthode expérimentale, l'observation et l'analyse scientifique. Elle débouche sur les études supérieures en médecine, pharmacie, biologie, agronomie, environnement et santé publique. Ses matières principales sont la biologie, la chimie, les mathématiques, le français, l'anglais, l'histoire, la géographie, la philosophie et l'éducation physique.
+L'option Latin-Philosophie forme des élèves maîtrisant le latin, la philosophie et les sciences humaines, en développant l'esprit critique, l'analyse et la synthèse.
 
-L'option Sciences commerciales et administratives, ou humanités commerciales, forme des élèves maîtrisant les principes de l'économie, de la gestion, de la comptabilité et du droit, en développant les compétences nécessaires à la gestion des organisations. Elle débouche sur les études supérieures en économie, gestion, finance, comptabilité, marketing et administration des affaires. Ses matières principales sont l'économie générale, la comptabilité, la gestion, le droit commercial, les mathématiques, le français, l'anglais, l'histoire, la géographie et l'éducation civique.
+L'option Grec-Philosophie forme des élèves maîtrisant le grec ancien, la philosophie et les sciences humaines, en développant l'analyse linguistique et la rigueur argumentative.
 
-L'option Langues et littératures forme des élèves maîtrisant plusieurs langues et leurs littératures, en développant la compréhension interculturelle et la capacité de traduction et d'interprétation. Elle débouche sur l'enseignement des langues, la traduction, l'interprétation, le journalisme, les relations internationales et le tourisme. Ses matières principales sont le français, l'anglais, le latin, le grec ou d'autres langues modernes, la littérature comparée, l'histoire, la géographie, la philosophie et l'éducation civique.
+L'option Sciences commerciales et administratives forme des élèves maîtrisant l'économie, la gestion, la comptabilité et le droit, en développant les compétences nécessaires à la gestion des organisations.
+
+L'option Pédagogie générale forme des élèves préparés aux métiers de l'enseignement et de la formation, en développant les compétences pédagogiques, psychologiques et didactiques nécessaires à l'exercice du métier.
+
+L'option Pédagogie spécialisée forme des élèves préparés à l'éducation inclusive et à l'accompagnement des apprenants à besoins spécifiques, en développant les compétences d'écoute, d'adaptation et de prise en charge éducative.
 
 ### 6.4 Les humanités techniques
 
-L'option Construction, orientée vers le génie civil, forme des techniciens capables de participer à la conception, à la réalisation et à la maintenance des ouvrages de construction — bâtiments, routes, ponts. Elle débouche sur le bâtiment et les travaux publics, le génie civil, l'architecture, l'urbanisme et les bureaux d'études. Ses matières principales sont les mathématiques, la physique, le dessin technique, la résistance des matériaux, la technologie de la construction, la topographie, le français et l'anglais.
+Les humanités techniques rassemblent les options suivantes : Mécanique générale, Électronique, Électricité et Informatique de gestion.
 
-L'option Électricité-Électronique forme des techniciens capables d'installer, de maintenir et de réparer les équipements électriques et électroniques. Elle débouche sur l'électrotechnique, l'électronique, les télécommunications, l'énergie, la maintenance industrielle et l'informatique industrielle. Ses matières principales sont les mathématiques, la physique, l'électricité, l'électronique, le dessin technique, la technologie, le français et l'anglais.
+L'option Mécanique générale forme des techniciens capables de concevoir, de fabriquer et de réparer des systèmes mécaniques.
 
-L'option Mécanique générale forme des techniciens capables de concevoir, de fabriquer et de réparer les systèmes mécaniques. Elle débouche sur la mécanique industrielle, la construction mécanique, la maintenance, l'automobile et l'aéronautique. Ses matières principales sont les mathématiques, la physique, le dessin technique, la mécanique générale, la résistance des matériaux, la technologie, le français et l'anglais.
+L'option Électronique forme des techniciens capables d'installer, de maintenir et de réparer des équipements électroniques et des systèmes embarqués.
 
-L'option Maintenance industrielle forme des techniciens capables d'assurer la maintenance préventive et corrective des équipements industriels. Elle débouche sur la maintenance industrielle, la gestion de la production, la qualité et la sécurité industrielle. Ses matières principales sont les mathématiques, la physique, la mécanique, l'électricité, la maintenance, le dessin technique, la technologie, le français et l'anglais.
+L'option Électricité forme des techniciens capables d'installer, de maintenir et de réparer des systèmes électriques, électrotechniques et énergétiques.
+
+L'option Informatique de gestion forme des techniciens capables d'appliquer l'informatique à la gestion des organisations, aux bases de données et aux systèmes d'information.
 
 ### 6.5 Les humanités professionnelles
 
-Les humanités professionnelles sont exclusivement orientées vers l'acquisition de compétences pratiques et de métiers. Elles ont une durée spécifique de trois années, contre quatre années pour les humanités générales et techniques, et visent prioritairement l'insertion directe sur le marché du travail. Cette durée différenciée reste à confirmer formellement.
+Les humanités professionnelles sont orientées vers l'acquisition progressive de compétences pratiques et de métiers sur les quatre années du cycle des humanités. Elles visent prioritairement l'insertion professionnelle et la poursuite d'études adaptées.
 
-L'option Hôtellerie et tourisme forme des professionnels capables d'exercer dans les métiers de l'hôtellerie, de la restauration et du tourisme. Elle débouche sur l'hôtellerie, la restauration, le tourisme, la gestion de l'accueil et l'animation touristique. Ses matières principales sont les techniques hôtelières, la cuisine, le service, la gestion, la comptabilité, le français, l'anglais, l'économie et la géographie touristique.
+Les humanités professionnelles rassemblent les options suivantes : Arts et métiers, Coupe et couture / Confection, et Aide-soignante et Accoucheuse.
 
-L'option Arts et métiers forme des artisans capables d'exercer dans les métiers d'art, de l'artisanat et des industries créatives. Elle débouche sur l'artisanat, le design, la décoration, les métiers d'art, l'entrepreneuriat et les industries créatives. Ses matières principales sont les arts plastiques, le dessin, les techniques artisanales, l'histoire de l'art, le français, les mathématiques et l'anglais.
+L'option Arts et métiers forme des artisans capables d'exercer dans les métiers d'art, de l'artisanat et des industries créatives.
 
-L'option Coupe et couture forme des professionnels capables de concevoir, de couper et de confectionner des vêtements et des accessoires. Elle débouche sur la confection, le stylisme, le modélisme, l'entrepreneuriat et l'industrie textile. Ses matières principales sont la coupe, la couture, le modélisme, le dessin de mode, le français, les mathématiques et l'anglais.
+L'option Coupe et couture / Confection forme des professionnels capables de concevoir, de couper et de confectionner des vêtements et des accessoires.
+
+L'option Aide-soignante et Accoucheuse forme des auxiliaires de santé de premier niveau, dans le respect strict des habilitations légales et des limites de rôle définies par l'institution et la loi.
 
 ### 6.6 Conditions générales d'accès aux humanités
 
@@ -303,27 +311,31 @@ Comme au cycle d'orientation, chaque discipline reçoit un maximum de points par
 
 Le tronc commun des humanités générales comprend le français, à raison de quatre heures par semaine pour un maximum de cent points par période ; les mathématiques, quatre heures pour cent points ; l'anglais, trois heures pour soixante-quinze points ; l'histoire-géographie, trois heures pour cinquante points ; la philosophie, deux heures pour cinquante points ; l'éducation civique, une heure pour vingt-cinq points ; l'éducation physique, deux heures pour vingt-cinq points ; et l'informatique, une heure pour vingt-cinq points. Ce tronc commun représente vingt heures par semaine et quatre cent cinquante points par période.
 
-À ce tronc commun s'ajoutent les disciplines spécifiques de chaque option, pour un total hebdomadaire de vingt-neuf heures. Pour l'option Pédagogie générale : la pédagogie, quatre heures pour soixante-quinze points ; la psychologie, trois heures pour cinquante points ; la didactique, deux heures pour cinquante points. Pour l'option Sciences humaines littéraire : la littérature, quatre heures pour soixante-quinze points ; le latin, trois heures pour cinquante points ; la philosophie approfondie, deux heures pour cinquante points. Pour l'option Sciences Mathématiques-Physique : les mathématiques approfondies, quatre heures pour cent points ; la physique, trois heures pour soixante-quinze points ; la chimie, deux heures pour cinquante points. Pour l'option Sciences Biochimie : la biologie, quatre heures pour soixante-quinze points ; la chimie, trois heures pour cinquante points ; les mathématiques, deux heures pour cinquante points. Pour l'option Sciences commerciales : l'économie, quatre heures pour soixante-quinze points ; la comptabilité, trois heures pour cinquante points ; le droit commercial, deux heures pour cinquante points. Pour l'option Langues : la langue seconde approfondie, quatre heures pour soixante-quinze points ; la littérature comparée, trois heures pour cinquante points ; la linguistique, deux heures pour cinquante points.
+Les disciplines spécifiques des options Scientifique, Biochimie, Latin-Philosophie, Grec-Philosophie, Sciences commerciales et administratives, Pédagogie générale et Pédagogie spécialisée sont détaillées dans les chapitres 9 à 15.
 
-Ces maxima des disciplines spécifiques sont établis par analogie avec la hiérarchie déjà fixée pour les matières communes, et restent à confirmer terme à terme auprès du référentiel officiel.
+Les maxima des disciplines spécifiques doivent être paramétrés uniquement à partir du référentiel officiel validé pour chaque option. Tant que cette validation n’est pas documentée, aucun maximum spécifique ne peut être présenté comme définitif ni appliqué par la plateforme.
 
 ### 7.4 Grille horaire et maxima des humanités techniques
 
 Le tronc commun des humanités techniques comprend le français, trois heures par semaine pour soixante-quinze points par période ; les mathématiques, quatre heures pour cent points ; l'anglais, deux heures pour cinquante points ; la physique, trois heures pour soixante-quinze points ; la chimie, deux heures pour cinquante points ; l'histoire-géographie, deux heures pour cinquante points ; la philosophie, une heure pour vingt-cinq points ; et l'éducation physique, deux heures pour vingt-cinq points. Ce tronc commun représente environ vingt heures par semaine et quatre cent cinquante points par période.
 
-À ce tronc commun s'ajoutent douze heures de disciplines spécifiques selon l'option, pour un total hebdomadaire de trente-deux heures. Chaque discipline spécifique technique reçoit un maximum uniforme de soixante-quinze points par période, reprenant la pondération uniforme déjà fixée pour l'ensemble de ces matières. Pour l'option Construction : le dessin technique, quatre heures ; la résistance des matériaux, trois heures ; la technologie de la construction, trois heures ; la topographie, deux heures. Pour l'option Électricité-Électronique : l'électricité, quatre heures ; l'électronique, quatre heures ; le dessin technique, deux heures ; la technologie, deux heures. Pour l'option Mécanique générale : la mécanique générale, quatre heures ; le dessin technique, trois heures ; la résistance des matériaux, trois heures ; la technologie, deux heures. Pour l'option Maintenance industrielle : la maintenance, quatre heures ; la mécanique, trois heures ; l'électricité, trois heures ; la technologie, deux heures.
+Les disciplines spécifiques des options Mécanique générale, Électronique, Électricité et Informatique de gestion sont détaillées dans les chapitres 16 à 19.
+
+Les maxima des disciplines spécifiques doivent être paramétrés uniquement à partir du référentiel officiel validé pour chaque option. Tant que cette validation n’est pas documentée, aucun maximum spécifique ne peut être présenté comme définitif ni appliqué par la plateforme.
 
 ### 7.5 Grille horaire et maxima des humanités professionnelles
 
 Le tronc commun des humanités professionnelles comprend le français, trois heures par semaine pour soixante-quinze points par période ; les mathématiques, trois heures pour soixante-quinze points ; l'anglais, deux heures pour cinquante points ; l'éducation physique, deux heures pour vingt-cinq points ; et l'éducation civique, une heure pour vingt-cinq points. Ce tronc commun représente onze heures par semaine et deux cent cinquante points par période.
 
-À ce tronc commun s'ajoutent dix-huit heures de disciplines spécifiques selon l'option, pour un total hebdomadaire de vingt-neuf heures. Aucun poids relatif n'avait été fixé pour ces matières dans la rédaction initiale ; les maxima suivants sont proposés par analogie avec les matières techniques, à confirmer. Pour l'option Hôtellerie : les techniques hôtelières, six heures pour soixante-quinze points ; la cuisine, quatre heures pour soixante-quinze points ; le service, trois heures pour cinquante points ; la gestion, trois heures pour cinquante points ; la comptabilité, deux heures pour cinquante points. Pour l'option Arts et métiers : les arts plastiques, six heures pour soixante-quinze points ; le dessin, quatre heures pour soixante-quinze points ; les techniques artisanales, quatre heures pour cinquante points ; l'histoire de l'art, deux heures pour vingt-cinq points ; le design, deux heures pour vingt-cinq points. Pour l'option Coupe et couture : la coupe, six heures pour soixante-quinze points ; la couture, six heures pour soixante-quinze points ; le modélisme, trois heures pour cinquante points ; le dessin de mode, trois heures pour cinquante points.
+Les disciplines spécifiques des options Arts et métiers, Coupe et couture / Confection et Aide-soignante et Accoucheuse sont détaillées dans les chapitres 20 à 22.
+
+Les maxima des disciplines spécifiques doivent être paramétrés uniquement à partir du référentiel officiel validé pour chaque option. Tant que cette validation n’est pas documentée, aucun maximum spécifique ne peut être présenté comme définitif ni appliqué par la plateforme.
 
 ### 7.6 Règles de calcul des résultats
 
 Les règles de calcul des résultats dans les humanités sont identiques à celles définies pour le cycle d'orientation, appliquées avec les maxima propres à chaque option. Le résultat d'une discipline pour une période correspond à la somme des points obtenus. Le résultat général d'une période s'obtient en rapportant la somme des points obtenus dans toutes les disciplines à la somme de leurs maxima. Le résultat du semestre s'obtient par cumul des points et des maxima des deux périodes qui le composent, et le résultat annuel par cumul des points et des maxima des quatre périodes de l'année.
 
-Le passage en classe supérieure est conditionné par l'obtention d'un résultat général annuel supérieur ou égal à cinquante pour cent du total des maxima. Ces règles s'appliquent identiquement, que l'élève suive une option générale, technique ou professionnelle ; seuls les maxima et les volumes horaires diffèrent selon l'option choisie.
+Le passage en classe supérieure est examiné au regard d’un seuil général de 10 sur 20, exprimé comme 50 % lorsque le calcul repose sur des maxima de points. Les règles de délibération, de remédiation et d’assiduité s’appliquent à toutes les options ; seuls les référentiels officiellement validés peuvent fixer les maxima et volumes horaires propres à chaque option.
 
 ### 7.7 Adaptation des grilles horaires à la plateforme ELLYSIUM
 
@@ -338,67 +350,3 @@ Chaque discipline est paramétrée dans la plateforme avec son intitulé, son vo
 Les grilles horaires et le système de cotation définis dans ce chapitre constituent le cadre de référence pour l'organisation de l'enseignement dans les humanités au sein d'ELLYSIUM. Ils garantissent la conformité avec la pratique réelle congolaise, l'équilibre entre les disciplines générales et les disciplines spécifiques, la transparence et l'équité dans l'évaluation, et la préparation effective aux examens nationaux et à l'insertion professionnelle.
 
 ---
-
-## CHAPITRE 8 — PROGRAMMES DÉTAILLÉS DES MATIÈRES DU TRONC COMMUN ET DES OPTIONS
-
-### 8.1 Objet du chapitre
-
-Le présent chapitre définit les programmes détaillés des matières enseignées dans les humanités au sein d'ELLYSIUM. Il distingue le tronc commun, disciplines enseignées à tous les élèves quelle que soit leur option, et les programmes par option, disciplines spécifiques à chaque spécialisation. Pour chaque discipline, ce chapitre présente les objectifs, les compétences visées, la progression annuelle et les modalités d'évaluation.
-
-### 8.2 Principes généraux des programmes
-
-Les programmes présentés dans ce chapitre sont exclusivement ceux du Ministère de l'Éducation Nationale et Nouvelle Citoyenneté de la République Démocratique du Congo. Ils visent le développement de compétences réelles et mesurables, au-delà de la simple restitution de connaissances. Ils sont organisés de manière progressive, de la première à la quatrième année des humanités, et préparent à l'Examen d'État. Enfin, ils sont adaptés à l'enseignement à distance sans que leur contenu soit altéré.
-
-### 8.3 Programme du tronc commun des humanités générales
-
-En français, l'objectif général est de maîtriser la langue française dans ses dimensions orale et écrite et de développer la capacité d'analyse et de production de textes variés. La progression va de la révision des fondamentaux et de l'initiation à l'analyse de textes en première année, à l'approfondissement grammatical et à la production de textes argumentatifs en deuxième année, à l'étude des mouvements littéraires et à la dissertation en troisième année, jusqu'à la synthèse des acquis et la préparation à l'Examen d'État en quatrième année, à travers la dissertation, le commentaire composé et le résumé. L'évaluation repose sur des interrogations écrites et orales, des devoirs surveillés, des dissertations et des commentaires composés.
-
-En mathématiques, l'objectif général est de développer le raisonnement logique, la capacité d'abstraction et la résolution de problèmes. La progression va de l'algèbre, de la géométrie plane et des statistiques descriptives en première année, aux polynômes, aux fractions rationnelles, à la géométrie dans l'espace et aux probabilités en deuxième année, à l'analyse — fonctions, limites, dérivées — et à la géométrie analytique en troisième année, jusqu'à la synthèse et la préparation à l'Examen d'État en quatrième année. L'évaluation repose sur des interrogations écrites, des devoirs surveillés et des exercices pratiques.
-
-En anglais, l'objectif général est d'acquérir les compétences de communication à l'oral comme à l'écrit. La progression va de la révision des bases et de la compréhension de textes simples en première année, à l'approfondissement grammatical et à l'expression orale en deuxième année, à l'étude de textes littéraires et journalistiques et au débat en troisième année, jusqu'à la synthèse et la préparation à l'Examen d'État en quatrième année. L'évaluation repose sur des interrogations écrites et orales, des devoirs surveillés et des présentations.
-
-En histoire et géographie, l'objectif général est de connaître l'histoire de la République Démocratique du Congo et de l'Afrique, et de comprendre les enjeux géographiques et environnementaux. La progression va de l'histoire et de la géographie de la RDC en première année, à l'histoire et à la géographie de l'Afrique en deuxième année, à l'histoire mondiale des dix-neuvième et vingtième siècles et à la géographie mondiale en troisième année, jusqu'à la synthèse et la préparation à l'Examen d'État en quatrième année. L'évaluation repose sur des interrogations écrites, des devoirs surveillés et des analyses de documents.
-
-En philosophie, l'objectif général est de développer l'esprit critique et la capacité de réflexion sur les grandes questions humaines. La progression va d'une introduction à la philosophie — connaissance, morale, politique — en première année, à l'histoire de la philosophie de l'Antiquité au Moyen Âge en deuxième année, à la Renaissance, aux Lumières et à la modernité en troisième année, jusqu'à la synthèse et la préparation à l'Examen d'État à travers la dissertation philosophique en quatrième année. L'évaluation repose sur des interrogations écrites, des dissertations et des analyses de textes.
-
-En éducation physique et sportive, l'objectif général est de développer les capacités physiques et motrices et de promouvoir la santé et le bien-être, à travers des activités variées telles que l'athlétisme, les sports collectifs, la gymnastique et la natation. L'évaluation repose sur des évaluations pratiques et des tests physiques.
-
-En éducation civique et morale, l'objectif général est de former des citoyens responsables, conscients de leurs droits et devoirs, à travers l'étude des institutions de la RDC, des droits et devoirs du citoyen, des valeurs républicaines et de l'éthique. L'évaluation repose sur des interrogations écrites, des exposés et la participation.
-
-### 8.4 Programmes par option des humanités générales
-
-Pour l'option Pédagogie générale, la pédagogie générale vise à comprendre les fondements de l'éducation et de l'enseignement, à maîtriser les concepts pédagogiques fondamentaux, à concevoir des séquences d'enseignement et à évaluer les apprentissages. La psychologie de l'enfant vise à comprendre le développement psychologique de l'enfant et de l'adolescent, à analyser les stades de développement et à adapter les méthodes pédagogiques aux besoins des élèves. La didactique des disciplines vise à maîtriser les méthodes d'enseignement des différentes matières, à concevoir des activités d'apprentissage et à utiliser des ressources pédagogiques variées.
-
-Pour l'option Sciences humaines littéraire, la littérature vise à étudier les grandes œuvres de la littérature française et francophone, à analyser des textes littéraires, à comprendre les mouvements littéraires et à produire des commentaires et des dissertations. Le latin vise à acquérir les bases de la langue et à comprendre l'influence de la culture latine, à lire et traduire des textes simples et à comprendre l'étymologie des mots français. La philosophie approfondie vise à approfondir la réflexion philosophique, à analyser des concepts complexes et à construire une argumentation rigoureuse.
-
-Pour l'option Sciences Mathématiques-Physique, les mathématiques approfondies visent à maîtriser les concepts avancés et à résoudre des problèmes complexes en algèbre, analyse et géométrie. La physique vise à comprendre les lois fondamentales, à analyser des phénomènes physiques et à résoudre des problèmes de mécanique, d'électricité et d'optique. La chimie vise à comprendre les concepts fondamentaux, à analyser des réactions chimiques et à réaliser des expériences simples.
-
-Pour l'option Sciences Biochimie, la biologie vise à comprendre les êtres vivants et les écosystèmes, à analyser les structures et les fonctions des organismes vivants et à comprendre les enjeux environnementaux. La chimie vise les mêmes objectifs que pour l'option précédente. Les mathématiques visent à maîtriser les concepts nécessaires aux sciences, notamment en statistiques, probabilités et analyse.
-
-Pour l'option Sciences commerciales, l'économie générale vise à comprendre les principes fondamentaux de l'économie, à analyser les phénomènes économiques et à comprendre les politiques économiques. La comptabilité vise à maîtriser les techniques comptables de base, à tenir une comptabilité simple et à analyser des documents comptables. Le droit commercial vise à comprendre les principes du droit des affaires, à analyser des contrats commerciaux et à comprendre les obligations légales des entreprises.
-
-### 8.5 Programmes des humanités techniques
-
-Pour l'option Construction, le dessin technique vise à maîtriser les techniques de dessin et de lecture de plans, à réaliser des plans et des croquis, et à lire et interpréter des plans d'architecture et de construction. La résistance des matériaux vise à comprendre les principes de résistance des matériaux, à calculer les contraintes et les déformations, et à dimensionner des structures simples. La technologie de la construction vise à comprendre les techniques de construction, à connaître les matériaux et à maîtriser les techniques de mise en œuvre.
-
-Pour l'option Électricité-Électronique, l'électricité vise à comprendre ses principes, à analyser des circuits électriques et à réaliser des installations simples. L'électronique vise à comprendre ses principes, à analyser des circuits électroniques et à réaliser des montages simples. Le dessin technique vise à maîtriser les techniques appliquées à l'électricité et à l'électronique, à lire et réaliser des schémas.
-
-Pour l'option Mécanique générale, la mécanique générale vise à comprendre ses principes, à analyser des systèmes mécaniques et à calculer les efforts et les mouvements. Le dessin technique vise à maîtriser les techniques appliquées à la mécanique, à lire et réaliser des plans mécaniques. La résistance des matériaux vise à comprendre ses principes appliqués à la mécanique et à dimensionner des pièces mécaniques.
-
-### 8.6 Programmes des humanités professionnelles
-
-Pour l'option Hôtellerie, les techniques hôtelières visent à maîtriser l'accueil, la gestion et le service, à accueillir les clients, à gérer les réservations et à assurer le service en salle. La cuisine vise à maîtriser les techniques culinaires de base, à préparer des plats variés et à respecter les règles d'hygiène et de sécurité. Le service vise à maîtriser les techniques de service en restauration, à assurer le service à table et à connaître les règles de l'art de la table.
-
-Pour l'option Arts et métiers, les arts plastiques visent à développer la créativité et la maîtrise des techniques artistiques, à réaliser des œuvres — peinture, sculpture — et à analyser des œuvres d'art. Le dessin vise à maîtriser les techniques de dessin, d'observation et de création. Les techniques artisanales visent à maîtriser des savoir-faire tels que la poterie ou la vannerie, et à réaliser des objets artisanaux.
-
-### 8.7 Adaptation des programmes à la plateforme ELLYSIUM
-
-Les programmes définis dans ce chapitre sont adaptés à l'enseignement à distance dispensé par ELLYSIUM selon les mêmes principes que ceux définis au chapitre 4 : modularisation des contenus, ressources numériques variées, évaluation continue permettant de détecter précocement les difficultés, et accessibilité en mode hors-ligne.
-
-### 8.8 Intégration des programmes dans la plateforme ELLYSIUM
-
-Les programmes définis dans ce chapitre sont intégrés dans la plateforme ELLYSIUM selon une structure hiérarchique : le niveau (humanités), l'année, l'option choisie, la matière, le module, puis l'activité. Cette structure permet le suivi individuel de chaque élève, la génération automatique des parcours d'apprentissage, la gestion des bulletins et relevés de notes, ainsi que l'analyse des résultats et la détection des difficultés.
-
-### 8.9 Conclusion du chapitre
-
-Les programmes détaillés définis dans ce chapitre constituent le contenu effectif de l'enseignement dans les humanités au sein d'ELLYSIUM. Ils garantissent la conformité avec les programmes officiels du ministère, la préparation effective aux examens nationaux, et le développement des compétences nécessaires à la poursuite d'études supérieures ou à l'insertion professionnelle.7

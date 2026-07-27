@@ -2,18 +2,16 @@ TOME 4 — PROGRAMMES D'ÉTUDES (SECONDAIRE ET UNIVERSITÉ)
 
 ---
 
-CHAPITRE 23 — ARCHITECTURE GÉNÉRALE DE L'ENSEIGNEMENT UNIVERSITAIRE — SYSTÈME LMD, CRÉDITS ECTS, UE, SEMESTRES
+CHAPITRE 24 — ARCHITECTURE GÉNÉRALE DE L'ENSEIGNEMENT UNIVERSITAIRE — SYSTÈME LMD, CRÉDITS ECTS, UE, SEMESTRES
 
 ---
 
-23.1 Objet du chapitre
-
+24.1 Objet du chapitre
 Le présent chapitre définit l'architecture générale de l'enseignement universitaire au sein d'ELLYSIUM. Il précise l'organisation des études supérieures selon le système LMD (Licence-Master-Doctorat), le système de crédits ECTS, la structure des Unités d'Enseignement et des semestres, ainsi que les règles de capitalisation et de progression. Ce chapitre est conforme aux orientations du Ministère de l'Enseignement Supérieur et Universitaire de la République Démocratique du Congo et aux principes pédagogiques définis dans le Tome 3.
 
 ---
 
-23.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+24.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 L'architecture universitaire définie dans ce chapitre respecte les principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, protection des apprenants, traçabilité, amélioration continue.
@@ -28,8 +26,7 @@ Le Tome 3, chapitres 17 et 18, fournit les fondements pédagogiques sur lesquels
 
 ---
 
-23.3 Le système LMD — Présentation générale
-
+24.3 Le système LMD — Présentation générale
 Le système LMD est le cadre d'organisation des études supérieures adopté par la République Démocratique du Congo et par de nombreux pays dans le monde. Il repose sur trois cycles :
 
 Le cycle de Licence, d'une durée de trois ans, sanctionné par le grade de Licence (Bac+3). Il correspond à 180 crédits ECTS.
@@ -42,8 +39,7 @@ Au sein d'ELLYSIUM, l'enseignement universitaire est organisé selon ce système
 
 ---
 
-23.4 Le système de crédits ECTS
-
+24.4 Le système de crédits ECTS
 Le système ECTS (European Credit Transfer and Accumulation System) est le système de crédits utilisé pour mesurer et valider le travail de l'étudiant. Il repose sur les principes suivants :
 
 Un crédit ECTS correspond à une charge de travail de l'étudiant d'environ 25 à 30 heures, incluant les cours, les travaux personnels, les exercices, les travaux pratiques, les projets, les stages et les évaluations.
@@ -58,8 +54,7 @@ Au sein d'ELLYSIUM, chaque Unité d'Enseignement (UE) se voit attribuer un nombr
 
 ---
 
-23.5 Les Unités d'Enseignement (UE)
-
+24.5 Les Unités d'Enseignement (UE)
 L'Unité d'Enseignement (UE) est l'unité de base de l'organisation des études universitaires. Chaque UE est un ensemble cohérent d'enseignements et d'activités pédagogiques visant l'acquisition d'un ensemble de compétences ou de connaissances spécifiques.
 
 Chaque UE est caractérisée par les éléments suivants :
@@ -86,8 +81,7 @@ Les UE sont regroupées par semestre. Un semestre complet correspond à 30 créd
 
 ---
 
-23.6 Les Éléments Constitutifs d'Unité (ECU)
-
+24.6 Les Éléments Constitutifs d'Unité (ECU)
 Chaque UE peut être subdivisée en Éléments Constitutifs d'Unité (ECU). Un ECU est une composante pédagogique plus fine au sein d'une UE, correspondant à un enseignement spécifique, une matière ou un module.
 
 Un ECU est caractérisé par :
@@ -106,8 +100,7 @@ Les ECU permettent une granularité plus fine dans l'organisation des enseigneme
 
 ---
 
-23.7 Organisation semestrielle
-
+24.7 Organisation semestrielle
 L'année universitaire est divisée en deux semestres :
 
 Le premier semestre, généralement de septembre à janvier.
@@ -120,11 +113,10 @@ Le calendrier académique détaille les dates précises des cours, des évaluati
 
 ---
 
-23.8 Règles de capitalisation et de compensation
-
+24.8 Règles de capitalisation et de compensation
 La capitalisation est le principe selon lequel les crédits acquis dans une UE sont définitivement validés, même si l'étudiant échoue dans d'autres UE. Un étudiant conserve ses crédits acquis d'un semestre à l'autre, d'une année à l'autre.
 
-La compensation est le principe selon lequel les résultats d'une UE peuvent compenser les résultats d'une autre UE au sein d'un même semestre ou d'une même année. Concrètement :
+La compensation est le principe selon lequel les résultats d’une UE peuvent compenser ceux d’une autre UE au sein du même semestre, dans les limites définies par le règlement académique. Concrètement :
 
 Une UE validée ne peut pas être compensée par une UE échouée.
 
@@ -132,15 +124,14 @@ En revanche, les notes d'UE du même semestre peuvent se compenser mutuellement.
 
 Les UE échouées mais non compensées doivent être reprises lors des sessions de rattrapage ou, si elles sont bloquantes, l'année suivante.
 
-Les règles précises de compensation sont définies dans le Chapitre 24.
+Les règles précises de compensation sont définies dans le Chapitre 25.
 
 ---
 
-23.9 Progression dans les études
-
+24.9 Progression dans les études
 La progression de l'étudiant dans son parcours universitaire est conditionnée par :
 
-La validation des crédits : un étudiant ne peut accéder à une année supérieure que s'il a validé un nombre suffisant de crédits de l'année précédente. Le seuil minimum de validation pour passer en année supérieure est fixé à 60 crédits sur les 60 de l'année en cours. Cependant, des dérogations peuvent être accordées pour les étudiants ayant validé au moins 45 crédits, sous réserve d'un plan de rattrapage.
+La validation des crédits : le passage en année supérieure exige la validation des 60 crédits de l’année. Toute exception éventuelle relève d’une décision motivée du jury académique, prise selon un règlement académique formellement adopté ; la plateforme ne peut ni créer ni accorder de dérogation.
 
 Le respect des prérequis : certaines UE ont des prérequis obligatoires. Un étudiant ne peut s'inscrire à une UE que s'il a validé les prérequis correspondants.
 
@@ -148,8 +139,7 @@ Le suivi pédagogique : les étudiants bénéficient d'un suivi personnalisé, n
 
 ---
 
-23.10 Les sessions d'examen
-
+24.10 Les sessions d'examen
 Deux sessions d'examen sont organisées par semestre :
 
 La session principale, en fin de semestre.
@@ -160,8 +150,7 @@ Les étudiants qui n'ont pas validé certaines UE en session principale peuvent 
 
 ---
 
-23.11 Intégration dans la plateforme ELLYSIUM
-
+24.11 Intégration dans la plateforme ELLYSIUM
 L'architecture universitaire définie dans ce chapitre est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Paramétrage des UE et des ECU : chaque UE et chaque ECU est paramétré dans le système avec ses crédits, son volume horaire, ses prérequis et ses modalités d'évaluation.
@@ -178,24 +167,21 @@ Capitalisation : les crédits validés sont conservés et tracés dans le dossie
 
 ---
 
-23.12 Conclusion du chapitre
-
+24.12 Conclusion du chapitre
 L'architecture générale de l'enseignement universitaire au sein d'ELLYSIUM s'organise autour du système LMD, des crédits ECTS, des Unités d'Enseignement et des semestres. Ce cadre permet une organisation claire, structurée et flexible des études, conforme aux standards nationaux et internationaux. Il garantit la cohérence des parcours, la capitalisation des acquis et la mobilité académique, tout en s'adaptant aux contraintes de l'enseignement à distance.
 
 ---
 
-CHAPITRE 24 — RÈGLES COMMUNES À TOUTES LES FACULTÉS (COMPENSATION, CAPITALISATION)
+CHAPITRE 25 — RÈGLES COMMUNES À TOUTES LES FACULTÉS (COMPENSATION, CAPITALISATION)
 
 ---
 
-24.1 Objet du chapitre
-
+25.1 Objet du chapitre
 Le présent chapitre définit les règles communes applicables à l'ensemble des facultés d'ELLYSIUM en matière de compensation, de capitalisation, de validation des UE et de progression. Ces règles garantissent l'uniformité, la transparence et l'équité des évaluations et des parcours universitaires.
 
 ---
 
-24.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+25.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 Les règles définies dans ce chapitre respectent les principes constitutionnels suivants :
 
 Article 4 : protection des apprenants, traçabilité, équité.
@@ -210,8 +196,7 @@ Le Tome 3, chapitre 22, fournit les fondements pédagogiques de la validation ac
 
 ---
 
-24.3 Principes généraux de la compensation
-
+25.3 Principes généraux de la compensation
 La compensation est un mécanisme qui permet de valider un ensemble d'UE même si certaines notes sont insuffisantes, à condition que la moyenne pondérée générale atteigne le seuil requis.
 
 Principe de la compensation semestrielle : la compensation s'opère au niveau du semestre. Si la moyenne pondérée du semestre est supérieure ou égale à 10 sur 20, le semestre est validé, et toutes les UE du semestre sont considérées comme acquises, même celles dont la note individuelle est inférieure à 10.
@@ -222,8 +207,7 @@ Principe de non-report de la compensation : la compensation s'effectue uniquemen
 
 ---
 
-24.4 Règles de calcul de la moyenne pondérée du semestre
-
+25.4 Règles de calcul de la moyenne pondérée du semestre
 La moyenne pondérée du semestre est calculée en appliquant la formule suivante :
 
 Moyenne du semestre = (Somme des (note de l'UE × coefficient de l'UE)) ÷ (Somme des coefficients des UE)
@@ -234,8 +218,7 @@ Le seuil de validation du semestre est fixé à 10 sur 20.
 
 ---
 
-24.5 Principes généraux de la capitalisation
-
+25.5 Principes généraux de la capitalisation
 La capitalisation est le principe selon lequel les crédits obtenus dans une UE sont définitivement acquis et ne peuvent être perdus.
 
 Validation définitive des UE : une fois qu'une UE est validée (note supérieure ou égale à 10 sur 20, ou semestre compensé), les crédits correspondants sont capitalisés et ne peuvent pas être remis en cause.
@@ -246,8 +229,7 @@ Cumul des crédits : les crédits capitalisés s'accumulent au fil des semestres
 
 ---
 
-24.6 Conditions de validation d'une UE
-
+25.6 Conditions de validation d'une UE
 Une UE est validée dans les cas suivants :
 
 L'étudiant a obtenu une note supérieure ou égale à 10 sur 20 à l'UE.
@@ -260,32 +242,29 @@ Lorsqu'une UE n'est pas validée, l'étudiant doit la repasser en session de rat
 
 ---
 
-24.7 Règles de progression d'une année à l'autre
-
+25.7 Règles de progression d'une année à l'autre
 La progression d'une année à l'autre est conditionnée par le nombre de crédits capitalisés.
 
-Passage en année supérieure : pour passer en année supérieure, l'étudiant doit avoir capitalisé au moins 60 crédits ECTS sur les 60 de l'année en cours. Aucun écart n'est toléré.
+Passage en année supérieure : pour passer en année supérieure, l’étudiant doit avoir capitalisé les 60 crédits ECTS de l’année en cours.
 
-Passage en année supérieure avec des UE non validées : si l'étudiant n'a pas validé toutes les UE de l'année, mais a capitalisé au moins 60 crédits, il peut passer en année supérieure tout en reprenant les UE non validées en parallèle.
+Situation d’UE non validées : une UE non validée ne peut donner lieu à une progression avec dette que si un règlement académique formel, appliqué par le jury, le prévoit expressément. À défaut, l’étudiant reprend les UE non validées.
 
-Redoublement : si l'étudiant n'a pas capitalisé 60 crédits, il peut redoubler l'année, en ne reprenant que les UE non validées. Les UE déjà validées sont conservées.
+Redoublement : si l’étudiant n’a pas capitalisé les crédits requis, il reprend uniquement les UE non validées ; les UE déjà validées restent capitalisées.
 
 ---
 
-24.8 Gestion des UE non validées
-
+25.8 Gestion des UE non validées
 Les UE non validées font l'objet d'un suivi spécifique.
 
 Sessions de rattrapage : les étudiants ayant échoué à une ou plusieurs UE peuvent les repasser en session de rattrapage.
 
-Reprise en année supérieure : si l'étudiant a validé 60 crédits mais a des UE non validées, il peut les reprendre en même temps que les UE de l'année supérieure.
+Reprise d’UE : une UE non validée est reprise selon la décision du jury et le règlement académique applicable. Une progression avec dette n’est possible que lorsqu’elle est expressément autorisée par ce règlement.
 
 Abandon d'UE : un étudiant peut, sous certaines conditions, abandonner une UE et la remplacer par une autre, sous réserve de l'accord du jury pédagogique.
 
 ---
 
-24.9 Règles de délibération
-
+25.9 Règles de délibération
 Les délibérations sont organisées à la fin de chaque semestre et à la fin de chaque année universitaire.
 
 Composition du jury : le jury est composé d'enseignants de la faculté, présidé par le responsable pédagogique.
@@ -296,13 +275,12 @@ Procès-verbal : chaque délibération fait l'objet d'un procès-verbal signé p
 
 ---
 
-24.10 Intégration dans la plateforme ELLYSIUM
-
+25.10 Intégration dans la plateforme ELLYSIUM
 Les règles de compensation, de capitalisation et de progression sont intégrées dans la plateforme ELLYSIUM de la manière suivante :
 
 Paramétrage des règles : les règles de compensation et de capitalisation sont paramétrées dans le système pour chaque faculté et chaque filière.
 
-Calcul automatique des moyennes : la plateforme calcule automatiquement les moyennes semestrielles et annuelles, et applique les règles de compensation.
+Calcul assisté des moyennes : la plateforme calcule les moyennes semestrielles et annuelles et prépare l’application des règles de compensation. La validation des compensations et des crédits relève exclusivement du jury compétent.
 
 Gestion des crédits : les crédits sont capitalisés automatiquement dès validation des UE.
 
@@ -312,24 +290,21 @@ Génération des relevés : les relevés de notes intègrent les informations su
 
 ---
 
-24.11 Conclusion du chapitre
-
+25.11 Conclusion du chapitre
 Les règles communes de compensation, de capitalisation et de progression définies dans ce chapitre garantissent une gestion uniforme, transparente et équitable des parcours universitaires au sein de toutes les facultés d'ELLYSIUM. Elles permettent aux étudiants de bénéficier de la flexibilité du système LMD tout en assurant le maintien d'un niveau d'exigence académique élevé.
 
 ---
 
-CHAPITRE 25 — FACULTÉ 1 : INFORMATIQUE ET GÉNIE LOGICIEL — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 26 — FACULTÉ 1 : INFORMATIQUE ET GÉNIE LOGICIEL — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-25.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté d'Informatique et de Génie Logiciel, première faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 26.
+26.1 Objet du chapitre
+Le présent chapitre présente la Faculté d'Informatique et de Génie Logiciel, première faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 27.
 
 ---
 
-25.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+26.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté d'Informatique et de Génie Logiciel est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -342,18 +317,15 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-25.3 Présentation générale de la faculté
-
+26.3 Présentation générale de la faculté
 La Faculté d'Informatique et de Génie Logiciel est l'une des filières prioritaires d'ELLYSIUM, en phase avec les besoins croissants du marché de l'emploi en matière de compétences numériques. Elle forme des informaticiens capables de concevoir, développer, déployer et maintenir des systèmes informatiques et des applications logicielles répondant aux besoins des organisations et des utilisateurs.
 
 La formation couvre les domaines fondamentaux de l'informatique : programmation, algorithmique, bases de données, génie logiciel, réseaux, sécurité, intelligence artificielle, et développement web et mobile.
 
 ---
 
-25.4 Objectifs de la formation
-
-25.4.1 Objectifs généraux
-
+26.4 Objectifs de la formation
+26.4.1 Objectifs généraux
 Former des professionnels de l'informatique capables de maîtriser les concepts fondamentaux de l'informatique et du génie logiciel.
 
 Développer une expertise dans la conception, le développement et le déploiement de systèmes informatiques et d'applications logicielles.
@@ -362,8 +334,7 @@ Former des professionnels capables de s'adapter aux évolutions technologiques r
 
 Préparer les étudiants à la poursuite d'études en Master ou à l'insertion professionnelle immédiate.
 
-25.4.2 Objectifs spécifiques par domaine
-
+26.4.2 Objectifs spécifiques par domaine
 En programmation : maîtriser les langages de programmation (Python, Java, C#, JavaScript), les paradigmes de programmation (impératif, orienté objet, fonctionnel), et les bonnes pratiques de développement.
 
 En algorithmique et structures de données : concevoir des algorithmes efficaces, choisir et implémenter des structures de données adaptées, analyser la complexité des algorithmes.
@@ -380,8 +351,7 @@ En intelligence artificielle : comprendre les concepts de base de l'IA, du machi
 
 ---
 
-25.5 Compétences visées
-
+26.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté d'Informatique et de Génie Logiciel est capable de :
 
 Analyser les besoins d'un système informatique et formaliser un cahier des charges.
@@ -406,8 +376,7 @@ S'adapter aux évolutions technologiques et apprendre de manière autonome.
 
 ---
 
-25.6 Débouchés professionnels
-
+26.6 Débouchés professionnels
 Les diplômés de la Faculté d'Informatique et de Génie Logiciel peuvent exercer dans les secteurs suivants :
 
 Entreprises de services du numérique (ESN) et sociétés de conseil en informatique.
@@ -430,8 +399,7 @@ Les métiers visés incluent notamment : développeur d'applications, ingénieur
 
 ---
 
-25.7 Organisation générale de la formation
-
+26.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
 Structure de la Licence :
@@ -442,12 +410,11 @@ Deuxième année (L2) : semestres 3 et 4. Approfondissement en programmation, g�
 
 Troisième année (L3) : semestres 5 et 6. Spécialisation en développement mobile, sécurité, intelligence artificielle, projet de fin d'études et stage.
 
-La maquette semestrielle détaillée est présentée au Chapitre 26.
+La maquette semestrielle détaillée est présentée au Chapitre 27.
 
 ---
 
-25.8 Modalités d'évaluation
-
+26.8 Modalités d'évaluation
 L'évaluation combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, travaux pratiques, projets.
@@ -462,8 +429,7 @@ Soutenance : présentation et défense du projet de fin d'études.
 
 ---
 
-25.9 Intégration dans la plateforme ELLYSIUM
-
+26.9 Intégration dans la plateforme ELLYSIUM
 La Faculté d'Informatique et de Génie Logiciel est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Mise à disposition des cours et des ressources pédagogiques en ligne, accessibles à distance.
@@ -480,24 +446,21 @@ Suivi personnalisé de la progression par les enseignants et les tuteurs.
 
 ---
 
-25.10 Conclusion du chapitre
-
+26.10 Conclusion du chapitre
 La Faculté d'Informatique et de Génie Logiciel est une filière stratégique d'ELLYSIUM, répondant à une demande croissante de compétences numériques. Elle propose une formation complète, rigoureuse et professionnalisante, couvrant l'ensemble des domaines clés de l'informatique. L'adaptation à l'enseignement à distance permet de former des informaticiens compétents, capables de s'insérer rapidement sur le marché de l'emploi.
 
 ---
 
-CHAPITRE 26 — MAQUETTE SEMESTRIELLE — INFORMATIQUE ET GÉNIE LOGICIEL
+CHAPITRE 27 — MAQUETTE SEMESTRIELLE — INFORMATIQUE ET GÉNIE LOGICIEL
 
 ---
 
-26.1 Objet du chapitre
-
+27.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Informatique et Génie Logiciel d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement (UE) par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires et leurs coefficients.
 
 ---
 
-26.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+27.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, amélioration continue.
@@ -508,8 +471,7 @@ Le Tome 3, chapitres 17 et 18, définit l'architecture universitaire et les fili
 
 ---
 
-26.3 Structure générale de la Licence
-
+27.3 Structure générale de la Licence
 La Licence en Informatique et Génie Logiciel est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 Répartition des crédits :
@@ -522,8 +484,7 @@ Semestres 5 et 6 (L3) : 60 crédits. Spécialisation, projet et stage.
 
 ---
 
-26.4 Semestre 1 — Fondamentaux de l'informatique (30 crédits)
-
+27.4 Semestre 1 — Fondamentaux de l'informatique (30 crédits)
 UE 1.1 — Introduction à l'algorithmique et à la programmation (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -562,8 +523,7 @@ Contenu : réalisation d'un petit projet de programmation en groupe, appliquant 
 
 ---
 
-26.5 Semestre 2 — Approfondissement des fondamentaux (30 crédits)
-
+27.5 Semestre 2 — Approfondissement des fondamentaux (30 crédits)
 UE 2.1 — Algorithmique avancée et structures de données (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -602,8 +562,7 @@ Contenu : réalisation d'un projet intégrant bases de données, programmation o
 
 ---
 
-26.6 Semestre 3 — Génie logiciel et réseaux (30 crédits)
-
+27.6 Semestre 3 — Génie logiciel et réseaux (30 crédits)
 UE 3.1 — Génie logiciel et méthodologies (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -642,8 +601,7 @@ Contenu : architecture des applications web (MVC, API REST), serveurs, framework
 
 ---
 
-26.7 Semestre 4 — Développement et sécurité (30 crédits)
-
+27.7 Semestre 4 — Développement et sécurité (30 crédits)
 UE 4.1 — Sécurité informatique (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -682,8 +640,7 @@ Contenu : rédaction de rapports, présentations orales, communication technique
 
 ---
 
-26.8 Semestre 5 — Intelligence artificielle et spécialisation (30 crédits)
-
+27.8 Semestre 5 — Intelligence artificielle et spécialisation (30 crédits)
 UE 5.1 — Intelligence artificielle et machine learning (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -722,8 +679,7 @@ Contenu : participation à des séminaires, conférences, veille technologique, 
 
 ---
 
-26.9 Semestre 6 — Professionnalisation (30 crédits)
-
+27.9 Semestre 6 — Professionnalisation (30 crédits)
 UE 6.1 — Stage en entreprise (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -750,24 +706,21 @@ Contenu : préparation à des certifications reconnues (AWS, Microsoft, Cisco, e
 
 ---
 
-26.10 Conclusion du chapitre
-
+27.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Informatique et Génie Logiciel propose une formation progressive, équilibrée et professionnalisante. Elle couvre l'ensemble des domaines clés de l'informatique, de la programmation à l'intelligence artificielle, en passant par les bases de données, les réseaux et la sécurité. L'accent est mis sur les projets, les stages et les certifications, garantissant aux diplômés une insertion professionnelle rapide et de qualité.
 
 ---
 
-CHAPITRE 27 — FACULTÉ 2 : ÉCONOMIE ET GESTION D'ENTREPRISE — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 28 — FACULTÉ 2 : ÉCONOMIE ET GESTION D'ENTREPRISE — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-27.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté d'Économie et Gestion d'Entreprise, deuxième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 28.
+28.1 Objet du chapitre
+Le présent chapitre présente la Faculté d'Économie et Gestion d'Entreprise, deuxième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 29.
 
 ---
 
-27.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+28.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté d'Économie et Gestion d'Entreprise est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -780,16 +733,13 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-27.3 Présentation générale de la faculté
-
+28.3 Présentation générale de la faculté
 La Faculté d'Économie et Gestion d'Entreprise forme des professionnels capables de comprendre et d'analyser les phénomènes économiques, de gérer des organisations, de piloter des projets, de prendre des décisions stratégiques et de contribuer au développement économique et social. La formation couvre les domaines fondamentaux de l'économie, de la gestion, de la comptabilité, du marketing, des ressources humaines, de la finance et de la stratégie d'entreprise.
 
 ---
 
-27.4 Objectifs de la formation
-
-27.4.1 Objectifs généraux
-
+28.4 Objectifs de la formation
+28.4.1 Objectifs généraux
 Former des professionnels de l'économie et de la gestion capables de maîtriser les concepts fondamentaux de l'économie, de la finance et de la gestion d'entreprise.
 
 Développer une expertise dans l'analyse économique, la gestion financière, le marketing, les ressources humaines et la stratégie.
@@ -798,8 +748,7 @@ Former des professionnels capables de piloter des organisations, de prendre des 
 
 Préparer les étudiants à la poursuite d'études en Master ou à l'insertion professionnelle immédiate.
 
-27.4.2 Objectifs spécifiques par domaine
-
+28.4.2 Objectifs spécifiques par domaine
 En économie : comprendre les mécanismes macroéconomiques et microéconomiques, analyser les politiques économiques, interpréter les indicateurs économiques.
 
 En comptabilité et finance : maîtriser les techniques comptables, l'analyse financière, la gestion budgétaire, le contrôle de gestion.
@@ -812,8 +761,7 @@ En stratégie d'entreprise : analyser l'environnement concurrentiel, élaborer d
 
 ---
 
-27.5 Compétences visées
-
+28.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté d'Économie et Gestion d'Entreprise est capable de :
 
 Analyser et interpréter des données économiques et financières.
@@ -838,8 +786,7 @@ Communiquer de manière claire et synthétique avec des interlocuteurs variés.
 
 ---
 
-27.6 Débouchés professionnels
-
+28.6 Débouchés professionnels
 Les diplômés de la Faculté d'Économie et Gestion d'Entreprise peuvent exercer dans les secteurs suivants :
 
 Banques et assurances.
@@ -862,8 +809,7 @@ Les métiers visés incluent notamment : responsable financier, contrôleur de g
 
 ---
 
-27.7 Organisation générale de la formation
-
+28.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
 Structure de la Licence :
@@ -874,12 +820,11 @@ Deuxième année (L2) : semestres 3 et 4. Approfondissement en comptabilité, fi
 
 Troisième année (L3) : semestres 5 et 6. Spécialisation en stratégie, contrôle de gestion, audit, projet de fin d'études et stage.
 
-La maquette semestrielle détaillée est présentée au Chapitre 28.
+La maquette semestrielle détaillée est présentée au Chapitre 29.
 
 ---
 
-27.8 Modalités d'évaluation
-
+28.8 Modalités d'évaluation
 L'évaluation combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, études de cas, projets.
@@ -894,8 +839,7 @@ Soutenance : présentation et défense du projet de fin d'études.
 
 ---
 
-27.9 Intégration dans la plateforme ELLYSIUM
-
+28.9 Intégration dans la plateforme ELLYSIUM
 La Faculté d'Économie et Gestion d'Entreprise est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Mise à disposition des cours et des ressources pédagogiques en ligne, accessibles à distance.
@@ -912,24 +856,21 @@ Suivi personnalisé de la progression par les enseignants et les tuteurs.
 
 ---
 
-27.10 Conclusion du chapitre
-
+28.10 Conclusion du chapitre
 La Faculté d'Économie et Gestion d'Entreprise est une filière fondamentale d'ELLYSIUM, répondant à la demande de compétences en gestion et en économie. Elle propose une formation complète, rigoureuse et professionnalisante, couvrant l'ensemble des domaines clés de la gestion d'entreprise. L'adaptation à l'enseignement à distance permet de former des gestionnaires compétents, capables de contribuer au développement économique et social.
 
 ---
 
-CHAPITRE 28 — MAQUETTE SEMESTRIELLE — ÉCONOMIE ET GESTION D'ENTREPRISE
+CHAPITRE 29 — MAQUETTE SEMESTRIELLE — ÉCONOMIE ET GESTION D'ENTREPRISE
 
 ---
 
-28.1 Objet du chapitre
-
+29.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Économie et Gestion d'Entreprise d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement (UE) par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires, leurs coefficients, leurs objectifs pédagogiques, leurs contenus détaillés et leurs modalités d'évaluation. Cette maquette est conforme au système LMD, aux standards internationaux en sciences de gestion et aux orientations du Ministère de l'Enseignement Supérieur et Universitaire de la République Démocratique du Congo.
 
 ---
 
-28.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+29.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, amélioration continue, intégrité scientifique.
@@ -944,8 +885,7 @@ Le Tome 3, chapitres 17, 18 et 22, définit l'architecture universitaire, les fi
 
 ---
 
-28.3 Structure générale de la Licence
-
+29.3 Structure générale de la Licence
 La Licence en Économie et Gestion d'Entreprise est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 Répartition des crédits par année :
@@ -958,8 +898,7 @@ Troisième année (L3) : semestres 5 et 6. 60 crédits. Spécialisation en strat
 
 ---
 
-28.4 Semestre 1 — Fondamentaux de l'économie et de la gestion (30 crédits)
-
+29.4 Semestre 1 — Fondamentaux de l'économie et de la gestion (30 crédits)
 UE 1.1 — Introduction à la microéconomie (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -1100,8 +1039,7 @@ Modalités d'évaluation : contrôle continu (50 %), examen final (50 %).
 
 ---
 
-28.5 Semestre 2 — Approfondissement des fondamentaux (30 crédits)
-
+29.5 Semestre 2 — Approfondissement des fondamentaux (30 crédits)
 UE 2.1 — Microéconomie approfondie (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -1226,8 +1164,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance orale (50 %).
 
 ---
 
-28.6 Semestre 3 — Comptabilité, finance et marketing (30 crédits)
-
+29.6 Semestre 3 — Comptabilité, finance et marketing (30 crédits)
 UE 3.1 — Comptabilité analytique et contrôle de gestion (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -1356,8 +1293,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance orale (50 %).
 
 ---
 
-28.7 Semestre 4 — Spécialisation et approfondissement (30 crédits)
-
+29.7 Semestre 4 — Spécialisation et approfondissement (30 crédits)
 UE 4.1 — Stratégie d'entreprise (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -1496,8 +1432,7 @@ Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
 ---
 
-28.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+29.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Management avancé et leadership (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -1634,8 +1569,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-28.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
-
+29.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
 UE 6.1 — Stage en entreprise (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -1706,24 +1640,21 @@ Modalités d'évaluation : travaux pratiques et participation (100 %).
 
 ---
 
-28.10 Conclusion du chapitre
-
+29.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Économie et Gestion d'Entreprise propose une formation progressive, équilibrée, rigoureuse et professionnalisante. Elle couvre l'ensemble des domaines clés de l'économie, de la gestion, de la comptabilité, de la finance, du marketing, des ressources humaines et de la stratégie. L'accent est mis sur les projets, les études de cas, les simulations et le stage, garantissant aux diplômés une insertion professionnelle rapide et de qualité. La structure en six semestres permet une progression cohérente et une acquisition progressive des compétences.
 
 ---
 
-CHAPITRE 29 — FACULTÉ 3 : DROIT PRIVÉ ET PUBLIC — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 30 — FACULTÉ 3 : DROIT PRIVÉ ET PUBLIC — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-29.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté de Droit Privé et Public, troisième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 30.
+30.1 Objet du chapitre
+Le présent chapitre présente la Faculté de Droit Privé et Public, troisième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 31.
 
 ---
 
-29.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+30.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté de Droit Privé et Public est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -1738,28 +1669,24 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-29.3 Présentation générale de la faculté
-
+30.3 Présentation générale de la faculté
 La Faculté de Droit Privé et Public forme des juristes capables de comprendre, d'interpréter et d'appliquer les règles juridiques qui régissent la vie en société. Elle offre une formation complète couvrant les branches fondamentales du droit, tant privé que public, permettant aux diplômés d'exercer dans des domaines variés : judiciaire, administratif, des affaires, de l'entreprise, ou encore de la recherche et de l'enseignement.
 
 La formation couvre les matières fondamentales du droit : droit civil, droit des obligations, droit des contrats, droit de la famille, droit des biens, droit commercial, droit des sociétés, droit du travail, droit pénal, procédure pénale, droit administratif, droit constitutionnel, droit fiscal, droit international public et privé.
 
 ---
 
-29.4 Objectifs de la formation
-
-29.4.1 Objectifs généraux
-
+30.4 Objectifs de la formation
+30.4.1 Objectifs généraux
 Former des juristes capables de maîtriser les concepts fondamentaux du droit privé et du droit public.
 
-Développer une expertise dans l'analyse et l'interprétation des textes juridiques, la rédaction d'actes juridiques, le conseil juridique et la représentation en justice.
+Développer une expertise dans l'analyse et l'interprétation des textes juridiques, la rédaction d'actes juridiques, le conseil juridique et l’appui à la préparation des dossiers, dans les limites des qualifications et habilitations requises.
 
 Former des professionnels capables de s'adapter aux évolutions législatives et réglementaires.
 
-Préparer les étudiants à la poursuite d'études en Master (droit des affaires, droit public, droit international, etc.) ou à l'insertion professionnelle immédiate (avocat, magistrat, notaire, juriste d'entreprise, fonctionnaire).
+Préparer les étudiants à la poursuite d’études, aux concours et aux parcours complémentaires requis pour les professions réglementées, ainsi qu’à des fonctions autorisées de recherche, d’administration ou d’appui juridique.
 
-29.4.2 Objectifs spécifiques par domaine
-
+30.4.2 Objectifs spécifiques par domaine
 En droit privé : maîtriser le droit civil (personnes, biens, obligations, contrats, responsabilité), le droit des affaires (droit commercial, droit des sociétés, droit de la concurrence), le droit social (droit du travail, droit de la sécurité sociale).
 
 En droit public : maîtriser le droit constitutionnel, le droit administratif, le droit fiscal, le droit international public.
@@ -1770,8 +1697,7 @@ En méthodologie : maîtriser la recherche juridique, l'analyse de jurisprudence
 
 ---
 
-29.5 Compétences visées
-
+30.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté de Droit Privé et Public est capable de :
 
 Comprendre et interpréter les textes juridiques (lois, règlements, traités, jurisprudence).
@@ -1782,7 +1708,7 @@ Rédiger des actes juridiques (contrats, conventions, statuts, conclusions, requ
 
 Conseiller des clients ou des organisations sur leurs droits et obligations.
 
-Assurer la représentation en justice et la défense des intérêts des parties.
+Contribuer à la préparation de dossiers juridiques et à l’analyse des intérêts des parties, dans les limites de la qualification obtenue et des règles professionnelles applicables.
 
 Assurer la conformité juridique des activités des organisations.
 
@@ -1794,11 +1720,10 @@ Adapter ses connaissances aux évolutions législatives et réglementaires.
 
 ---
 
-29.6 Débouchés professionnels
-
+30.6 Débouchés professionnels
 Les diplômés de la Faculté de Droit Privé et Public peuvent exercer dans les secteurs suivants :
 
-Les professions judiciaires et juridiques réglementées (avocat, magistrat, notaire, huissier de justice, greffier).
+Les parcours menant aux professions judiciaires et juridiques réglementées, sous réserve des diplômes, concours, stages et habilitations exigés par la réglementation.
 
 Les entreprises (juriste d'entreprise, responsable juridique, conseil juridique).
 
@@ -1814,12 +1739,11 @@ Les cabinets de conseil.
 
 L'enseignement et la recherche.
 
-Les métiers visés incluent notamment : avocat, magistrat, notaire, juriste d'entreprise, responsable juridique, conseil juridique, fonctionnaire, attaché d'administration, chargé de conformité, expert juridique.
+Les perspectives incluent notamment les parcours réglementés d’avocat, magistrat ou notaire, ainsi que, selon les qualifications requises, des fonctions de juriste d’entreprise, chargé de conformité, recherche, administration ou appui juridique.
 
 ---
 
-29.7 Organisation générale de la formation
-
+30.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
 Structure de la Licence :
@@ -1830,12 +1754,11 @@ Deuxième année (L2) : semestres 3 et 4. Approfondissement en droit des obligat
 
 Troisième année (L3) : semestres 5 et 6. Spécialisation en droit des affaires, droit fiscal, droit international, droit de la famille, projet de fin d'études et stage.
 
-La maquette semestrielle détaillée est présentée au Chapitre 30.
+La maquette semestrielle détaillée est présentée au Chapitre 31.
 
 ---
 
-29.8 Modalités d'évaluation
-
+30.8 Modalités d'évaluation
 L'évaluation combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, cas pratiques, dissertations, commentaires de textes juridiques.
@@ -1850,8 +1773,7 @@ Soutenance : présentation et défense du mémoire ou du projet de fin d'études
 
 ---
 
-29.9 Intégration dans la plateforme ELLYSIUM
-
+30.9 Intégration dans la plateforme ELLYSIUM
 La Faculté de Droit Privé et Public est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Mise à disposition des cours et des ressources pédagogiques en ligne, accessibles à distance.
@@ -1870,24 +1792,21 @@ Suivi personnalisé de la progression par les enseignants et les tuteurs.
 
 ---
 
-29.10 Conclusion du chapitre
-
+30.10 Conclusion du chapitre
 La Faculté de Droit Privé et Public est une filière fondamentale d'ELLYSIUM, formant des juristes compétents, rigoureux et éthiques. Elle propose une formation complète couvrant l'ensemble des branches du droit, avec un accent sur la méthodologie juridique, la recherche, et la pratique professionnelle. L'adaptation à l'enseignement à distance permet de former des juristes capables de répondre aux besoins du monde contemporain.
 
 ---
 
-CHAPITRE 30 — MAQUETTE SEMESTRIELLE — DROIT PRIVÉ ET PUBLIC
+CHAPITRE 31 — MAQUETTE SEMESTRIELLE — DROIT PRIVÉ ET PUBLIC
 
 ---
 
-30.1 Objet du chapitre
-
+31.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Droit Privé et Public d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires, leurs coefficients, leurs objectifs pédagogiques, leurs contenus détaillés et leurs modalités d'évaluation. Cette maquette est conforme aux normes de l'enseignement juridique en RDC et aux standards internationaux.
 
 ---
 
-30.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+31.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -1902,8 +1821,7 @@ Le Tome 3, chapitres 17, 18 et 22, définit l'architecture universitaire, les fi
 
 ---
 
-30.3 Structure générale de la Licence
-
+31.3 Structure générale de la Licence
 La Licence en Droit Privé et Public est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 Répartition des crédits par année :
@@ -1916,8 +1834,7 @@ Troisième année (L3) : semestres 5 et 6. 60 crédits. Spécialisation, projet 
 
 ---
 
-30.4 Semestre 1 — Fondamentaux du droit (30 crédits)
-
+31.4 Semestre 1 — Fondamentaux du droit (30 crédits)
 UE 1.1 — Introduction générale au droit (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -2012,11 +1929,11 @@ Chapitre 6 : L'histoire du droit en RDC. Époque coloniale, indépendance, évol
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Droit des obligations (6 crédits)
+UE 1.5 — Droit des obligations (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre le droit des obligations, les sources des obligations (contrat, délit, quasi-contrat), les effets des obligations.
 
@@ -2062,8 +1979,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-30.5 Semestre 2 — Approfondissement des fondamentaux (30 crédits)
-
+31.5 Semestre 2 — Approfondissement des fondamentaux (30 crédits)
 UE 2.1 — Droit civil — Les biens et les droits réels (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -2160,11 +2076,11 @@ Chapitre 6 : Les sociétés particulières. SARL, SA, société en nom collectif
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Droit de la famille (6 crédits)
+UE 2.5 — Droit de la famille (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre le droit de la famille, le mariage, le divorce, la filiation, les successions.
 
@@ -2172,7 +2088,7 @@ Contenu détaillé :
 
 Chapitre 1 : Introduction au droit de la famille. Définition, évolution.
 
-Chapitre 2 : Le couple. Le mariage, le PACS, le concubinage.
+Chapitre 2 : Le couple. Le mariage, le formes d’union et de protection de la famille en droit congolais, le concubinage.
 
 Chapitre 3 : La filiation. Filiation légitime, naturelle, adoptive. Autorité parentale.
 
@@ -2208,8 +2124,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-30.6 Semestre 3 — Approfondissement en droit privé (30 crédits)
-
+31.6 Semestre 3 — Approfondissement en droit privé (30 crédits)
 UE 3.1 — Droit des contrats spéciaux (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -2308,11 +2223,11 @@ Chapitre 6 : La procédure d'exécution. Exécution forcée, saisies, distributi
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Droit du travail et de la sécurité sociale (6 crédits)
+UE 3.5 — Droit du travail et de la sécurité sociale (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre le droit du travail, les relations individuelles et collectives de travail, la sécurité sociale.
 
@@ -2346,8 +2261,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance orale (50 %).
 
 ---
 
-30.7 Semestre 4 — Approfondissement en droit public (30 crédits)
-
+31.7 Semestre 4 — Approfondissement en droit public (30 crédits)
 UE 4.1 — Droit constitutionnel approfondi (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -2444,11 +2358,11 @@ Chapitre 6 : Le droit international des droits de l'homme. Principes, institutio
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Droit international privé (6 crédits)
+UE 4.5 — Droit international privé (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre le droit international privé, les conflits de juridictions, les conflits de lois, la condition des étrangers.
 
@@ -2482,8 +2396,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance orale (50 %).
 
 ---
 
-30.8 Semestre 5 — Spécialisation (30 crédits)
-
+31.8 Semestre 5 — Spécialisation (30 crédits)
 UE 5.1 — Droit des affaires approfondi (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -2616,8 +2529,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-30.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
-
+31.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
 UE 6.1 — Stage en cabinet, en entreprise ou en administration (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -2686,24 +2598,21 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-30.10 Conclusion du chapitre
-
+31.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Droit Privé et Public propose une formation exhaustive, rigoureuse et professionnalisante. Elle couvre l'ensemble des branches du droit, avec une progression cohérente des concepts fondamentaux vers les spécialisations. L'accent est mis sur la méthodologie juridique, la recherche, les cas pratiques, les simulations et le stage, garantissant aux diplômés une insertion professionnelle réussie.
 
 ---
 
-CHAPITRE 31 — FACULTÉ 4 : SANTÉ PUBLIQUE ET COMMUNAUTAIRE — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 32 — FACULTÉ 4 : SANTÉ PUBLIQUE ET COMMUNAUTAIRE — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-31.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté de Santé Publique et Communautaire, quatrième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 32.
+32.1 Objet du chapitre
+Le présent chapitre présente la Faculté de Santé Publique et Communautaire, quatrième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 33.
 
 ---
 
-31.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+32.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté de Santé Publique et Communautaire est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -2718,18 +2627,15 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-31.3 Présentation générale de la faculté
-
+32.3 Présentation générale de la faculté
 La Faculté de Santé Publique et Communautaire forme des professionnels capables d'analyser, de planifier, de mettre en œuvre et d'évaluer des politiques, des programmes et des interventions de santé publique. Elle propose une approche pluridisciplinaire de la santé, combinant des compétences en épidémiologie, biostatistiques, promotion de la santé, gestion des systèmes de santé, santé environnementale et recherche.
 
 La formation couvre les domaines clés de la santé publique : épidémiologie et biostatistiques, promotion et éducation pour la santé, politiques de santé et systèmes de santé, gestion des programmes de santé, santé environnementale, nutrition, santé maternelle et infantile, lutte contre les maladies transmissibles et non transmissibles.
 
 ---
 
-31.4 Objectifs de la formation
-
-31.4.1 Objectifs généraux
-
+32.4 Objectifs de la formation
+32.4.1 Objectifs généraux
 Former des professionnels de la santé publique capables de maîtriser les concepts et méthodes de la santé publique.
 
 Développer une expertise dans l'analyse des problèmes de santé, la planification d'interventions, l'évaluation de programmes.
@@ -2738,8 +2644,7 @@ Former des professionnels capables de concevoir, mettre en œuvre et évaluer de
 
 Préparer les étudiants à la poursuite d'études en Master (santé publique, épidémiologie, gestion de la santé) ou à l'insertion professionnelle.
 
-31.4.2 Objectifs spécifiques par domaine
-
+32.4.2 Objectifs spécifiques par domaine
 En épidémiologie : maîtriser les méthodes épidémiologiques, analyser les données de santé, évaluer les facteurs de risque.
 
 En biostatistiques : maîtriser les outils statistiques, analyser des données de santé, interpréter les résultats.
@@ -2752,8 +2657,7 @@ En gestion des programmes : planifier, budgétiser, mettre en œuvre et évaluer
 
 ---
 
-31.5 Compétences visées
-
+32.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté de Santé Publique et Communautaire est capable de :
 
 Analyser des problèmes de santé publique et identifier leurs déterminants.
@@ -2774,8 +2678,7 @@ Travailler en collaboration avec les communautés, les organisations et les inst
 
 ---
 
-31.6 Débouchés professionnels
-
+32.6 Débouchés professionnels
 Les diplômés de la Faculté de Santé Publique et Communautaire peuvent exercer dans les secteurs suivants :
 
 Ministères de la santé et administrations publiques de santé.
@@ -2796,8 +2699,7 @@ Les métiers visés incluent notamment : épidémiologiste, biostatisticien, res
 
 ---
 
-31.7 Organisation générale de la formation
-
+32.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
 Structure de la Licence :
@@ -2808,12 +2710,11 @@ Deuxième année (L2) : semestres 3 et 4. Approfondissement en épidémiologie, 
 
 Troisième année (L3) : semestres 5 et 6. Spécialisation, stages, projet de fin d'études.
 
-La maquette semestrielle détaillée est présentée au Chapitre 32.
+La maquette semestrielle détaillée est présentée au Chapitre 33.
 
 ---
 
-31.8 Modalités d'évaluation
-
+32.8 Modalités d'évaluation
 L'évaluation combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, études de cas, présentations.
@@ -2828,8 +2729,7 @@ Soutenance : présentation et défense du projet de fin d'études.
 
 ---
 
-31.9 Intégration dans la plateforme ELLYSIUM
-
+32.9 Intégration dans la plateforme ELLYSIUM
 La Faculté de Santé Publique et Communautaire est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Mise à disposition des cours et des ressources pédagogiques en ligne, accessibles à distance.
@@ -2846,24 +2746,21 @@ Suivi personnalisé de la progression par les enseignants et les tuteurs.
 
 ---
 
-31.10 Conclusion du chapitre
-
+32.10 Conclusion du chapitre
 La Faculté de Santé Publique et Communautaire est une filière stratégique d'ELLYSIUM, répondant aux besoins urgents de renforcement des compétences en santé publique, en particulier dans les régions en développement. Elle forme des professionnels capables de contribuer à l'amélioration de la santé des populations et des systèmes de santé.
 
 ---
 
-CHAPITRE 32 — MAQUETTE SEMESTRIELLE — SANTÉ PUBLIQUE ET COMMUNAUTAIRE
+CHAPITRE 33 — MAQUETTE SEMESTRIELLE — SANTÉ PUBLIQUE ET COMMUNAUTAIRE
 
 ---
 
-32.1 Objet du chapitre
-
+33.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Santé Publique et Communautaire d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires, leurs coefficients, leurs objectifs pédagogiques, leurs contenus détaillés et leurs modalités d'évaluation.
 
 ---
 
-32.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+33.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -2878,14 +2775,12 @@ Le Tome 3, chapitres 17 et 18, définit l'architecture universitaire et les fili
 
 ---
 
-32.3 Structure générale de la Licence
-
+33.3 Structure générale de la Licence
 La Licence en Santé Publique et Communautaire est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-32.4 Semestre 1 — Fondamentaux de la santé publique (30 crédits)
-
+33.4 Semestre 1 — Fondamentaux de la santé publique (30 crédits)
 UE 1.1 — Introduction à la santé publique (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -2974,11 +2869,11 @@ Chapitre 5 : L'analyse de survie. Courbes de Kaplan-Meier, modèle de Cox.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Sciences sociales et comportementales (6 crédits)
+UE 1.5 — Sciences sociales et comportementales (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre les déterminants sociaux de la santé, les comportements de santé, les facteurs culturels.
 
@@ -3010,8 +2905,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-32.5 Semestre 2 — Méthodes de la santé publique (30 crédits)
-
+33.5 Semestre 2 — Méthodes de la santé publique (30 crédits)
 UE 2.1 — Épidémiologie clinique (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -3100,11 +2994,11 @@ Chapitre 5 : L'évaluation des systèmes de santé. Indicateurs, benchmarking, r
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Santé environnementale (6 crédits)
+UE 2.5 — Santé environnementale (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre les liens entre environnement et santé, les risques environnementaux, les politiques de santé environnementale.
 
@@ -3136,8 +3030,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-32.6 Semestre 3 — Spécialisation en santé publique (30 crédits)
-
+33.6 Semestre 3 — Spécialisation en santé publique (30 crédits)
 UE 3.1 — Épidémiologie des maladies infectieuses (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -3226,11 +3119,11 @@ Chapitre 5 : Les interventions en santé maternelle et infantile. Soins prénata
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Méthodes de recherche en santé publique (6 crédits)
+UE 3.5 — Méthodes de recherche en santé publique (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : maîtriser les méthodes de recherche en santé publique, la conception d'étude, la collecte et l'analyse de données.
 
@@ -3262,8 +3155,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-32.7 Semestre 4 — Gestion et intervention en santé publique (30 crédits)
-
+33.7 Semestre 4 — Gestion et intervention en santé publique (30 crédits)
 UE 4.1 — Gestion des programmes de santé (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -3352,11 +3244,11 @@ Chapitre 5 : Les systèmes de santé mentale. Organisation, accès, soins.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Communication et plaidoyer en santé publique (6 crédits)
+UE 4.5 — Communication et plaidoyer en santé publique (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : maîtriser la communication en santé publique, le plaidoyer, les relations avec les médias.
 
@@ -3388,8 +3280,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-32.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+33.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Santé mondiale et coopération internationale (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -3504,8 +3395,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-32.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
-
+33.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
 UE 6.1 — Stage en santé publique (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -3576,24 +3466,21 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-32.10 Conclusion du chapitre
-
+33.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Santé Publique et Communautaire propose une formation rigoureuse, interdisciplinaire et professionnalisante, couvrant l'ensemble des domaines clés de la santé publique. L'accent est mis sur les méthodes épidémiologiques, les interventions de santé publique, la gestion des programmes et le travail communautaire.
 
 ---
 
-CHAPITRE 33 — FACULTÉ 5 : SCIENCES DE L'ÉDUCATION — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 34 — FACULTÉ 5 : SCIENCES DE L'ÉDUCATION — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-33.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté des Sciences de l'Éducation, cinquième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 34.
+34.1 Objet du chapitre
+Le présent chapitre présente la Faculté des Sciences de l'Éducation, cinquième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 35.
 
 ---
 
-33.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+34.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté des Sciences de l'Éducation est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -3610,18 +3497,15 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-33.3 Présentation générale de la faculté
-
+34.3 Présentation générale de la faculté
 La Faculté des Sciences de l'Éducation forme des professionnels de l'éducation capables d'analyser, de concevoir, de mettre en œuvre et d'évaluer des politiques, des programmes et des pratiques éducatives. Elle propose une approche pluridisciplinaire de l'éducation, combinant des compétences en pédagogie, psychologie, sociologie, philosophie, didactique, évaluation et gestion des systèmes éducatifs.
 
 La formation couvre les domaines clés des sciences de l'éducation : fondements historiques et philosophiques de l'éducation, psychologie de l'apprentissage et du développement, sociologie de l'éducation, didactique des disciplines, ingénierie pédagogique, évaluation des apprentissages, politiques éducatives, gestion des établissements scolaires, éducation inclusive et technologies éducatives.
 
 ---
 
-33.4 Objectifs de la formation
-
-33.4.1 Objectifs généraux
-
+34.4 Objectifs de la formation
+34.4.1 Objectifs généraux
 Former des professionnels des sciences de l'éducation capables de maîtriser les concepts fondamentaux des sciences de l'éducation.
 
 Développer une expertise dans l'analyse des phénomènes éducatifs, la conception de dispositifs pédagogiques, l'évaluation des politiques et des pratiques éducatives.
@@ -3630,8 +3514,7 @@ Former des professionnels capables de contribuer à l'amélioration des système
 
 Préparer les étudiants à la poursuite d'études en Master (sciences de l'éducation, ingénierie pédagogique, management de l'éducation) ou à l'insertion professionnelle.
 
-33.4.2 Objectifs spécifiques par domaine
-
+34.4.2 Objectifs spécifiques par domaine
 En pédagogie et didactique : maîtriser les théories pédagogiques, les approches didactiques, l'ingénierie de formation.
 
 En psychologie de l'éducation : comprendre les processus d'apprentissage, le développement cognitif et socio-affectif, les troubles des apprentissages.
@@ -3644,8 +3527,7 @@ En gestion de l'éducation : comprendre la gestion des établissements scolaires
 
 ---
 
-33.5 Compétences visées
-
+34.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté des Sciences de l'Éducation est capable de :
 
 Analyser les problèmes éducatifs et identifier leurs déterminants.
@@ -3666,8 +3548,7 @@ Former et accompagner les enseignants dans leur développement professionnel.
 
 ---
 
-33.6 Débouchés professionnels
-
+34.6 Débouchés professionnels
 Les diplômés de la Faculté des Sciences de l'Éducation peuvent exercer dans les secteurs suivants :
 
 Ministères de l'éducation et administrations publiques de l'éducation.
@@ -3690,8 +3571,7 @@ Les métiers visés incluent notamment : enseignant, formateur d'enseignants, co
 
 ---
 
-33.7 Organisation générale de la formation
-
+34.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
 Structure de la Licence :
@@ -3702,12 +3582,11 @@ Deuxième année (L2) : semestres 3 et 4. Approfondissement en didactique, psych
 
 Troisième année (L3) : semestres 5 et 6. Spécialisation, stages, projet de fin d'études.
 
-La maquette semestrielle détaillée est présentée au Chapitre 34.
+La maquette semestrielle détaillée est présentée au Chapitre 35.
 
 ---
 
-33.8 Modalités d'évaluation
-
+34.8 Modalités d'évaluation
 L'évaluation combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, études de cas, présentations.
@@ -3722,8 +3601,7 @@ Soutenance : présentation et défense du projet de fin d'études.
 
 ---
 
-33.9 Intégration dans la plateforme ELLYSIUM
-
+34.9 Intégration dans la plateforme ELLYSIUM
 La Faculté des Sciences de l'Éducation est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Mise à disposition des cours et des ressources pédagogiques en ligne, accessibles à distance.
@@ -3740,24 +3618,21 @@ Suivi personnalisé de la progression par les enseignants et les tuteurs.
 
 ---
 
-33.10 Conclusion du chapitre
-
+34.10 Conclusion du chapitre
 La Faculté des Sciences de l'Éducation est une filière fondamentale d'ELLYSIUM, formant des professionnels capables de contribuer à l'amélioration des systèmes éducatifs et à la qualité de l'enseignement. Elle prépare les étudiants à des carrières variées dans l'éducation et la formation.
 
 ---
 
-CHAPITRE 34 — MAQUETTE SEMESTRIELLE — SCIENCES DE L'ÉDUCATION
+CHAPITRE 35 — MAQUETTE SEMESTRIELLE — SCIENCES DE L'ÉDUCATION
 
 ---
 
-34.1 Objet du chapitre
-
+35.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Sciences de l'Éducation d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires, leurs coefficients, leurs objectifs pédagogiques, leurs contenus détaillés et leurs modalités d'évaluation.
 
 ---
 
-34.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+35.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -3770,14 +3645,12 @@ Le Tome 3, chapitres 17 et 18, définit l'architecture universitaire et les fili
 
 ---
 
-34.3 Structure générale de la Licence
-
+35.3 Structure générale de la Licence
 La Licence en Sciences de l'Éducation est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-34.4 Semestre 1 — Fondements des sciences de l'éducation (30 crédits)
-
+35.4 Semestre 1 — Fondements des sciences de l'éducation (30 crédits)
 UE 1.1 — Introduction aux sciences de l'éducation (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -3866,11 +3739,11 @@ Chapitre 5 : Les processus d'apprentissage. Théories, facteurs, troubles des ap
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Sociologie de l'éducation (6 crédits)
+UE 1.5 — Sociologie de l'éducation (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre la sociologie de l'éducation, les inégalités scolaires, les systèmes éducatifs, les politiques éducatives.
 
@@ -3902,8 +3775,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-34.5 Semestre 2 — Pédagogie et didactique (30 crédits)
-
+35.5 Semestre 2 — Pédagogie et didactique (30 crédits)
 UE 2.1 — Théories de l'apprentissage (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -3992,11 +3864,11 @@ Chapitre 5 : L'interprétation des résultats. Analyse, feedback, remédiation.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Technologies éducatives (6 crédits)
+UE 2.5 — Technologies éducatives (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre les technologies éducatives, leur intégration en éducation, les enjeux du numérique.
 
@@ -4028,8 +3900,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-34.6 Semestre 3 — Spécialisation en éducation (30 crédits)
-
+35.6 Semestre 3 — Spécialisation en éducation (30 crédits)
 UE 3.1 — Psychologie de l'éducation (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -4118,11 +3989,11 @@ Chapitre 5 : La gestion de la qualité en éducation. Assurance qualité, évalu
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Méthodes de recherche en éducation (6 crédits)
+UE 3.5 — Méthodes de recherche en éducation (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : maîtriser les méthodes de recherche en éducation, la collecte et l'analyse de données.
 
@@ -4154,8 +4025,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-34.7 Semestre 4 — Formation et professionnalisation (30 crédits)
-
+35.7 Semestre 4 — Formation et professionnalisation (30 crédits)
 UE 4.1 — Ingénierie de formation (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -4244,11 +4114,11 @@ Chapitre 5 : L'éducation à la paix et à la tolérance.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Évaluation des politiques éducatives (6 crédits)
+UE 4.5 — Évaluation des politiques éducatives (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : maîtriser l'évaluation des politiques éducatives, les indicateurs, les démarches d'évaluation.
 
@@ -4280,8 +4150,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-34.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+35.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Éducation comparée (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -4396,8 +4265,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-34.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
-
+35.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
 UE 6.1 — Stage en milieu éducatif (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -4456,24 +4324,21 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-34.10 Conclusion du chapitre
-
+35.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Sciences de l'Éducation propose une formation rigoureuse, pluridisciplinaire et professionnalisante, couvrant l'ensemble des domaines des sciences de l'éducation.
 
 ---
 
-CHAPITRE 35 — FACULTÉ 6 : PSYCHOLOGIE — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 36 — FACULTÉ 6 : PSYCHOLOGIE — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-35.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté de Psychologie, sixième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 36.
+36.1 Objet du chapitre
+Le présent chapitre présente la Faculté de Psychologie, sixième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 37.
 
 ---
 
-35.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+36.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté de Psychologie est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -4488,18 +4353,15 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-35.3 Présentation générale de la faculté
-
+36.3 Présentation générale de la faculté
 La Faculté de Psychologie forme des psychologues capables de comprendre, d'analyser et d'intervenir sur les comportements humains, les processus mentaux et les relations sociales. Elle propose une formation solide couvrant les principales branches de la psychologie : psychologie cognitive, clinique, sociale, du développement, du travail, et des organisations.
 
 La formation couvre les domaines clés de la psychologie : méthodes de recherche en psychologie, statistiques, psychologie cognitive, psychologie clinique, psychologie sociale, psychologie du développement, psychologie du travail, psychopathologie, psychométrie, et éthique professionnelle.
 
 ---
 
-35.4 Objectifs de la formation
-
-35.4.1 Objectifs généraux
-
+36.4 Objectifs de la formation
+36.4.1 Objectifs généraux
 Former des psychologues capables de maîtriser les concepts et méthodes de la psychologie.
 
 Développer une expertise dans l'analyse des comportements, des processus cognitifs, des émotions, des relations sociales.
@@ -4508,8 +4370,7 @@ Former des professionnels capables d'intervenir en contexte clinique, éducatif,
 
 Préparer les étudiants à la poursuite d'études en Master (psychologie clinique, psychologie du travail, psychologie sociale) ou à l'insertion professionnelle.
 
-35.4.2 Objectifs spécifiques par domaine
-
+36.4.2 Objectifs spécifiques par domaine
 En psychologie cognitive : comprendre les processus cognitifs, la mémoire, l'attention, le langage, le raisonnement.
 
 En psychologie clinique : comprendre les troubles psychologiques, les approches thérapeutiques, l'évaluation clinique.
@@ -4522,8 +4383,7 @@ En psychologie du travail : comprendre les comportements au travail, la motivati
 
 ---
 
-35.5 Compétences visées
-
+36.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté de Psychologie est capable de :
 
 Analyser les comportements humains et les processus mentaux.
@@ -4544,8 +4404,7 @@ Respecter l'éthique professionnelle et la déontologie.
 
 ---
 
-35.6 Débouchés professionnels
-
+36.6 Débouchés professionnels
 Les diplômés de la Faculté de Psychologie peuvent exercer dans les secteurs suivants :
 
 Secteur clinique et de la santé (psychologue clinicien, psychothérapeute).
@@ -4562,56 +4421,48 @@ Secteur de la formation (formateur en psychologie).
 
 ---
 
-35.7 Organisation générale de la formation
-
+36.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
-La maquette semestrielle détaillée est présentée au Chapitre 36.
+La maquette semestrielle détaillée est présentée au Chapitre 37.
 
 ---
 
-35.8 Modalités d'évaluation
-
+36.8 Modalités d'évaluation
 L'évaluation combine contrôle continu, examens semestriels, projets, stages et soutenance.
 
 ---
 
-35.9 Intégration dans la plateforme ELLYSIUM
-
+36.9 Intégration dans la plateforme ELLYSIUM
 La Faculté de Psychologie est intégrée dans la plateforme ELLYSIUM avec des ressources adaptées : cours en ligne, bases de données psychologiques, simulateurs, études de cas.
 
 ---
 
-35.10 Conclusion du chapitre
-
+36.10 Conclusion du chapitre
 La Faculté de Psychologie forme des professionnels capables de comprendre et d'intervenir sur les comportements humains, les processus mentaux et les relations sociales.
 
 ---
 
-CHAPITRE 36 — MAQUETTE SEMESTRIELLE — PSYCHOLOGIE
+CHAPITRE 37 — MAQUETTE SEMESTRIELLE — PSYCHOLOGIE
 
 ---
 
-36.1 Objet du chapitre
-
+37.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Psychologie d'ELLYSIUM.
 
 ---
 
-36.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+37.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels.
 
 ---
 
-36.3 Structure générale de la Licence
-
+37.3 Structure générale de la Licence
 La Licence en Psychologie est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-36.4 Semestre 1 — Fondements de la psychologie (30 crédits)
-
+37.4 Semestre 1 — Fondements de la psychologie (30 crédits)
 UE 1.1 — Introduction à la psychologie (6 crédits)
 
 Volume horaire : 60 heures.
@@ -4660,11 +4511,11 @@ Contenu : perception sociale, attitudes, conformité, obéissance, préjugés, d
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Méthodes de recherche en psychologie (6 crédits)
+UE 1.5 — Méthodes de recherche en psychologie (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : maîtriser les méthodes de recherche en psychologie.
 
@@ -4684,8 +4535,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-36.5 Semestre 2 — Approfondissement en psychologie (30 crédits)
-
+37.5 Semestre 2 — Approfondissement en psychologie (30 crédits)
 UE 2.1 — Psychophysiologie et neurosciences (6 crédits)
 
 Volume horaire : 60 heures.
@@ -4734,11 +4584,11 @@ Contenu : conditionnement classique, conditionnement opérant, apprentissage soc
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Psychologie du travail et des organisations (6 crédits)
+UE 2.5 — Psychologie du travail et des organisations (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre les comportements au travail, les organisations.
 
@@ -4758,8 +4608,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-36.6 Semestre 3 — Spécialisation (30 crédits)
-
+37.6 Semestre 3 — Spécialisation (30 crédits)
 UE 3.1 — Psychopathologie (6 crédits)
 
 Volume horaire : 60 heures.
@@ -4808,11 +4657,11 @@ Contenu : culture, identité, acculturation, stéréotypes, pratiques culturelle
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Statistiques et analyse de données (6 crédits)
+UE 3.5 — Statistiques et analyse de données (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : approfondir les statistiques en psychologie.
 
@@ -4832,8 +4681,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-36.7 Semestre 4 — Applications (30 crédits)
-
+37.7 Semestre 4 — Applications (30 crédits)
 UE 4.1 — Psychologie de l'enfant et de l'adolescent (6 crédits)
 
 Volume horaire : 60 heures.
@@ -4882,11 +4730,11 @@ Contenu : approches communautaires, prévention, empowerment.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Éthique et déontologie en psychologie (6 crédits)
+UE 4.5 — Éthique et déontologie en psychologie (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre l'éthique professionnelle, le code de déontologie.
 
@@ -4906,8 +4754,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-36.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+37.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Psychologie des organisations (6 crédits)
 
 Volume horaire : 60 heures.
@@ -4982,8 +4829,7 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-36.9 Semestre 6 — Professionnalisation (30 crédits)
-
+37.9 Semestre 6 — Professionnalisation (30 crédits)
 UE 6.1 — Stage en psychologie (12 crédits)
 
 Volume horaire : 300 heures.
@@ -5026,24 +4872,21 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-36.10 Conclusion du chapitre
-
+37.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Psychologie propose une formation rigoureuse, complète et professionnalisante, couvrant l'ensemble des domaines de la psychologie.
 
 ---
 
-CHAPITRE 37 — FACULTÉ 7 : SCIENCES SOCIALES, POLITIQUES ET ADMINISTRATIVES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 38 — FACULTÉ 7 : SCIENCES SOCIALES, POLITIQUES ET ADMINISTRATIVES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-37.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté des Sciences Sociales, Politiques et Administratives, septième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 38.
+38.1 Objet du chapitre
+Le présent chapitre présente la Faculté des Sciences Sociales, Politiques et Administratives, septième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 39.
 
 ---
 
-37.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+38.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté des Sciences Sociales, Politiques et Administratives est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -5056,16 +4899,13 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-37.3 Présentation générale de la faculté
-
+38.3 Présentation générale de la faculté
 La Faculté des Sciences Sociales, Politiques et Administratives forme des professionnels capables d'analyser les phénomènes sociaux, politiques et administratifs, de concevoir et de mettre en œuvre des politiques publiques, et de gérer des organisations publiques et privées. La formation couvre la sociologie, la science politique, l'administration publique, les politiques publiques et les relations internationales.
 
 ---
 
-37.4 Objectifs de la formation
-
-37.4.1 Objectifs généraux
-
+38.4 Objectifs de la formation
+38.4.1 Objectifs généraux
 Former des spécialistes des sciences sociales, politiques et administratives.
 
 Développer une expertise dans l'analyse des phénomènes sociaux, politiques et administratifs.
@@ -5076,8 +4916,7 @@ Préparer les étudiants à la poursuite d'études en Master ou à l'insertion p
 
 ---
 
-37.5 Compétences visées
-
+38.5 Compétences visées
 Analyser les phénomènes sociaux et politiques.
 
 Concevoir et évaluer des politiques publiques.
@@ -5088,50 +4927,43 @@ Communiquer sur les enjeux sociaux et politiques.
 
 ---
 
-37.6 Débouchés professionnels
-
+38.6 Débouchés professionnels
 Administrations publiques, collectivités, organisations internationales, ONG, cabinets de conseil, entreprises.
 
 ---
 
-37.7 Organisation générale de la formation
-
+38.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
-La maquette semestrielle détaillée est présentée au Chapitre 38.
+La maquette semestrielle détaillée est présentée au Chapitre 39.
 
 ---
 
-37.8 Modalités d'évaluation
-
+38.8 Modalités d'évaluation
 Contrôle continu, examens semestriels, projets, stages.
 
 ---
 
-37.9 Intégration dans la plateforme ELLYSIUM
-
+38.9 Intégration dans la plateforme ELLYSIUM
 Cours en ligne, bases de données, simulateurs.
 
 ---
 
-37.10 Conclusion du chapitre
-
+38.10 Conclusion du chapitre
 La Faculté des Sciences Sociales, Politiques et Administratives forme des professionnels capables d'analyser et de gérer les phénomènes sociaux et politiques.
 
 ---
 
-CHAPITRE 38 — MAQUETTE SEMESTRIELLE — SCIENCES SOCIALES, POLITIQUES ET ADMINISTRATIVES
+CHAPITRE 39 — MAQUETTE SEMESTRIELLE — SCIENCES SOCIALES, POLITIQUES ET ADMINISTRATIVES
 
 ---
 
-38.1 Objet du chapitre
-
+39.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Sciences Sociales, Politiques et Administratives d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires, leurs coefficients, leurs objectifs pédagogiques, leurs contenus détaillés et leurs modalités d'évaluation. Cette maquette est conforme au système LMD et aux standards internationaux en sciences sociales et politiques.
 
 ---
 
-38.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+39.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -5146,8 +4978,7 @@ Le Tome 3, chapitres 17, 18 et 22, définit l'architecture universitaire, les fi
 
 ---
 
-38.3 Structure générale de la Licence
-
+39.3 Structure générale de la Licence
 La Licence en Sciences Sociales, Politiques et Administratives est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 Répartition des crédits par année :
@@ -5160,8 +4991,7 @@ Troisième année (L3) : semestres 5 et 6. 60 crédits. Spécialisation, projet 
 
 ---
 
-38.4 Semestre 1 — Fondements des sciences sociales (30 crédits)
-
+39.4 Semestre 1 — Fondements des sciences sociales (30 crédits)
 UE 1.1 — Introduction à la sociologie (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -5254,11 +5084,11 @@ Chapitre 6 : Les idéologies politiques. Libéralisme, socialisme, conservatisme
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Méthodes de recherche en sciences sociales (6 crédits)
+UE 1.5 — Méthodes de recherche en sciences sociales (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : maîtriser les méthodes de recherche en sciences sociales, la conception d'une enquête, l'analyse des données.
 
@@ -5292,8 +5122,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-38.5 Semestre 2 — Approfondissement en sciences sociales (30 crédits)
-
+39.5 Semestre 2 — Approfondissement en sciences sociales (30 crédits)
 UE 2.1 — Sociologie approfondie (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -5384,11 +5213,11 @@ Chapitre 5 : L'anthropologie appliquée. Développement, santé, éducation, env
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Économie politique et développement (6 crédits)
+UE 2.5 — Économie politique et développement (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre les liens entre économie, politique et développement, les théories du développement, les politiques économiques.
 
@@ -5420,8 +5249,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-38.6 Semestre 3 — Spécialisation en science politique et administration (30 crédits)
-
+39.6 Semestre 3 — Spécialisation en science politique et administration (30 crédits)
 UE 3.1 — Relations internationales et géopolitique (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -5512,11 +5340,11 @@ Chapitre 5 : Les élites politiques. Recrutement, profils, pouvoir.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Méthodes quantitatives et qualitatives avancées (6 crédits)
+UE 3.5 — Méthodes quantitatives et qualitatives avancées (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : approfondir les méthodes de recherche, les analyses statistiques, l'analyse de données qualitatives.
 
@@ -5548,8 +5376,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-38.7 Semestre 4 — Spécialisation en administration et politiques publiques (30 crédits)
-
+39.7 Semestre 4 — Spécialisation en administration et politiques publiques (30 crédits)
 UE 4.1 — Gestion des organisations publiques (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -5638,11 +5465,11 @@ Chapitre 5 : La justice administrative. Organisation, procédure, jurisprudence.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Questions sociales et politiques contemporaines (6 crédits)
+UE 4.5 — Questions sociales et politiques contemporaines (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : analyser les questions sociales et politiques contemporaines, les mutations, les enjeux.
 
@@ -5674,8 +5501,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-38.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+39.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Management stratégique et leadership (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -5790,8 +5616,7 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-38.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
-
+39.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
 UE 6.1 — Stage en administration ou organisation (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -5842,24 +5667,21 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-38.10 Conclusion du chapitre
-
+39.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Sciences Sociales, Politiques et Administratives propose une formation rigoureuse, pluridisciplinaire et professionnalisante, couvrant l'ensemble des domaines des sciences sociales, politiques et administratives.
 
 ---
 
-CHAPITRE 39 — FACULTÉ 8 : LETTRES ET SCIENCES HUMAINES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 40 — FACULTÉ 8 : LETTRES ET SCIENCES HUMAINES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-39.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté des Lettres et Sciences Humaines, huitième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 40.
+40.1 Objet du chapitre
+Le présent chapitre présente la Faculté des Lettres et Sciences Humaines, huitième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 41.
 
 ---
 
-39.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+40.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté des Lettres et Sciences Humaines est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -5874,18 +5696,15 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-39.3 Présentation générale de la faculté
-
+40.3 Présentation générale de la faculté
 La Faculté des Lettres et Sciences Humaines forme des spécialistes des langues, de la linguistique, de la littérature et des sciences humaines. Elle propose une formation solide couvrant les domaines fondamentaux des lettres et des sciences humaines : langues et littératures, linguistique, sciences du langage, analyse littéraire, critique, histoire des idées, civilisation, et méthodologie de la recherche.
 
 La formation couvre les domaines clés des lettres et sciences humaines : littératures française, francophone, anglaise et autres, linguistique générale, analyse de discours, stylistique, sémiotique, histoire des idées, critique littéraire, méthodologie de la recherche, traduction et interprétation.
 
 ---
 
-39.4 Objectifs de la formation
-
-39.4.1 Objectifs généraux
-
+40.4 Objectifs de la formation
+40.4.1 Objectifs généraux
 Former des spécialistes des lettres et sciences humaines capables de maîtriser les langues et les littératures.
 
 Développer une expertise dans l'analyse des textes, des discours, des civilisations.
@@ -5894,8 +5713,7 @@ Former des professionnels capables d'exercer dans les domaines de l'enseignement
 
 Préparer les étudiants à la poursuite d'études en Master (lettres, linguistique, langues appliquées) ou à l'insertion professionnelle.
 
-39.4.2 Objectifs spécifiques par domaine
-
+40.4.2 Objectifs spécifiques par domaine
 En littérature : analyser les œuvres littéraires, comprendre les mouvements et les courants, maîtriser les méthodes d'analyse.
 
 En linguistique : comprendre le fonctionnement des langues, les structures linguistiques, les théories du langage.
@@ -5906,8 +5724,7 @@ En sciences humaines : comprendre les courants de pensée, la philosophie, l'his
 
 ---
 
-39.5 Compétences visées
-
+40.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté des Lettres et Sciences Humaines est capable de :
 
 Analyser des textes littéraires et des discours.
@@ -5928,8 +5745,7 @@ Concevoir et réaliser des projets culturels et éditoriaux.
 
 ---
 
-39.6 Débouchés professionnels
-
+40.6 Débouchés professionnels
 Les diplômés de la Faculté des Lettres et Sciences Humaines peuvent exercer dans les secteurs suivants :
 
 Enseignement (lettres, langues, français, anglais).
@@ -5948,56 +5764,48 @@ Documentation et bibliothèques.
 
 ---
 
-39.7 Organisation générale de la formation
-
+40.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
-La maquette semestrielle détaillée est présentée au Chapitre 40.
+La maquette semestrielle détaillée est présentée au Chapitre 41.
 
 ---
 
-39.8 Modalités d'évaluation
-
+40.8 Modalités d'évaluation
 Contrôle continu, examens semestriels, projets, stages.
 
 ---
 
-39.9 Intégration dans la plateforme ELLYSIUM
-
+40.9 Intégration dans la plateforme ELLYSIUM
 Cours en ligne, bases de données littéraires et linguistiques, outils de traduction, bibliothèques numériques.
 
 ---
 
-39.10 Conclusion du chapitre
-
+40.10 Conclusion du chapitre
 La Faculté des Lettres et Sciences Humaines forme des spécialistes des langues, de la littérature et des sciences humaines, capables de contribuer à la culture, à l'éducation et à la recherche.
 
 ---
 
-CHAPITRE 40 — MAQUETTE SEMESTRIELLE — LETTRES ET SCIENCES HUMAINES
+CHAPITRE 41 — MAQUETTE SEMESTRIELLE — LETTRES ET SCIENCES HUMAINES
 
 ---
 
-40.1 Objet du chapitre
-
+41.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Lettres et Sciences Humaines d'ELLYSIUM.
 
 ---
 
-40.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+41.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels.
 
 ---
 
-40.3 Structure générale de la Licence
-
+41.3 Structure générale de la Licence
 La Licence en Lettres et Sciences Humaines est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-40.4 Semestre 1 — Fondements des lettres (30 crédits)
-
+41.4 Semestre 1 — Fondements des lettres (30 crédits)
 UE 1.1 — Introduction à la littérature (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6046,11 +5854,11 @@ Contenu : grammaire anglaise, vocabulaire, compréhension écrite, expression or
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Introduction aux civilisations (6 crédits)
+UE 1.5 — Introduction aux civilisations (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre les grandes civilisations, leur histoire, leur culture.
 
@@ -6070,8 +5878,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-40.5 Semestre 2 — Approfondissement en lettres (30 crédits)
-
+41.5 Semestre 2 — Approfondissement en lettres (30 crédits)
 UE 2.1 — Littérature française (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6120,11 +5927,11 @@ Contenu : littérature anglaise, américaine, auteurs, œuvres.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Histoire des idées et philosophie (6 crédits)
+UE 2.5 — Histoire des idées et philosophie (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre l'histoire des idées, la philosophie, les courants de pensée.
 
@@ -6144,8 +5951,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-40.6 Semestre 3 — Spécialisation en lettres (30 crédits)
-
+41.6 Semestre 3 — Spécialisation en lettres (30 crédits)
 UE 3.1 — Littérature francophone (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6194,11 +6000,11 @@ Contenu : histoire culturelle, arts, institutions, société.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Méthodes de recherche en lettres (6 crédits)
+UE 3.5 — Méthodes de recherche en lettres (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : maîtriser les méthodes de recherche en lettres.
 
@@ -6218,8 +6024,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-40.7 Semestre 4 — Approfondissement et spécialisation (30 crédits)
-
+41.7 Semestre 4 — Approfondissement et spécialisation (30 crédits)
 UE 4.1 — Littérature anglaise et américaine (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6268,11 +6073,11 @@ Contenu : littérature et politique, littérature et histoire, sociologie de la 
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Philosophie et esthétique (6 crédits)
+UE 4.5 — Philosophie et esthétique (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre la philosophie et l'esthétique.
 
@@ -6292,8 +6097,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-40.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+41.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Littérature et cultures du monde (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6368,8 +6172,7 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-40.9 Semestre 6 — Professionnalisation (30 crédits)
-
+41.9 Semestre 6 — Professionnalisation (30 crédits)
 UE 6.1 — Stage en milieu professionnel (12 crédits)
 
 Volume horaire : 300 heures.
@@ -6412,24 +6215,21 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-40.10 Conclusion du chapitre
-
+41.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Lettres et Sciences Humaines propose une formation rigoureuse et complète.
 
 ---
 
-CHAPITRE 41 — FACULTÉ 9 : SCIENCES DE L'INFORMATION ET DE LA COMMUNICATION — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 42 — FACULTÉ 9 : SCIENCES DE L'INFORMATION ET DE LA COMMUNICATION — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-41.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté des Sciences de l'Information et de la Communication, neuvième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 42.
+42.1 Objet du chapitre
+Le présent chapitre présente la Faculté des Sciences de l'Information et de la Communication, neuvième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 43.
 
 ---
 
-41.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+42.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté des Sciences de l'Information et de la Communication est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -6442,16 +6242,13 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-41.3 Présentation générale de la faculté
-
+42.3 Présentation générale de la faculté
 La Faculté des Sciences de l'Information et de la Communication forme des professionnels de la communication, des médias, du journalisme, des relations publiques, de la communication numérique et du marketing. La formation couvre les théories de la communication, les médias, le journalisme, la communication d'entreprise, le numérique et les stratégies de communication.
 
 ---
 
-41.4 Objectifs de la formation
-
-41.4.1 Objectifs généraux
-
+42.4 Objectifs de la formation
+42.4.1 Objectifs généraux
 Former des professionnels de la communication capables de comprendre les mécanismes de la communication.
 
 Développer une expertise dans les médias, le journalisme, les relations publiques, le numérique.
@@ -6462,8 +6259,7 @@ Préparer les étudiants à la poursuite d'études en Master ou à l'insertion p
 
 ---
 
-41.5 Compétences visées
-
+42.5 Compétences visées
 Analyser les phénomènes de communication.
 
 Concevoir des stratégies de communication.
@@ -6478,8 +6274,7 @@ Communiquer efficacement.
 
 ---
 
-41.6 Débouchés professionnels
-
+42.6 Débouchés professionnels
 Médias (journaliste, rédacteur, présentateur).
 
 Communication d'entreprise (responsable communication, attaché de presse).
@@ -6492,56 +6287,48 @@ Agences de communication et de publicité.
 
 ---
 
-41.7 Organisation générale de la formation
-
+42.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
-La maquette semestrielle détaillée est présentée au Chapitre 42.
+La maquette semestrielle détaillée est présentée au Chapitre 43.
 
 ---
 
-41.8 Modalités d'évaluation
-
+42.8 Modalités d'évaluation
 Contrôle continu, examens, projets, stages.
 
 ---
 
-41.9 Intégration dans la plateforme ELLYSIUM
-
+42.9 Intégration dans la plateforme ELLYSIUM
 Cours en ligne, outils de création, études de cas.
 
 ---
 
-41.10 Conclusion du chapitre
-
+42.10 Conclusion du chapitre
 La Faculté des Sciences de l'Information et de la Communication forme des professionnels de la communication et des médias.
 
 ---
 
-CHAPITRE 42 — MAQUETTE SEMESTRIELLE — SCIENCES DE L'INFORMATION ET DE LA COMMUNICATION
+CHAPITRE 43 — MAQUETTE SEMESTRIELLE — SCIENCES DE L'INFORMATION ET DE LA COMMUNICATION
 
 ---
 
-42.1 Objet du chapitre
-
+43.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Sciences de l'Information et de la Communication d'ELLYSIUM.
 
 ---
 
-42.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+43.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels.
 
 ---
 
-42.3 Structure générale de la Licence
-
+43.3 Structure générale de la Licence
 La Licence en Sciences de l'Information et de la Communication est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-42.4 Semestre 1 — Fondements de la communication (30 crédits)
-
+43.4 Semestre 1 — Fondements de la communication (30 crédits)
 UE 1.1 — Introduction aux sciences de l'information et de la communication (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6590,11 +6377,11 @@ Contenu : techniques d'écriture, genres journalistiques.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Sociologie de la communication (6 crédits)
+UE 1.5 — Sociologie de la communication (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre la sociologie de la communication.
 
@@ -6614,8 +6401,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-42.5 Semestre 2 — Pratiques de la communication (30 crédits)
-
+43.5 Semestre 2 — Pratiques de la communication (30 crédits)
 UE 2.1 — Journalisme et reportage (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6664,11 +6450,11 @@ Contenu : campagnes, discours, institutions.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Médias et numérique (6 crédits)
+UE 2.5 — Médias et numérique (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre les médias numériques.
 
@@ -6688,8 +6474,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-42.6 Semestre 3 — Spécialisation (30 crédits)
-
+43.6 Semestre 3 — Spécialisation (30 crédits)
 UE 3.1 — Communication digitale et stratégies (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6738,11 +6523,11 @@ Contenu : méthodes, outils, analyse.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Droit et éthique des médias (6 crédits)
+UE 3.5 — Droit et éthique des médias (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre le droit et l'éthique des médias.
 
@@ -6762,8 +6547,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-42.7 Semestre 4 — Approfondissement (30 crédits)
-
+43.7 Semestre 4 — Approfondissement (30 crédits)
 UE 4.1 — Stratégies de communication globale (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6812,11 +6596,11 @@ Contenu : prévention, gestion, réputation.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Sémiotique visuelle et design (6 crédits)
+UE 4.5 — Sémiotique visuelle et design (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre la sémiotique visuelle.
 
@@ -6836,8 +6620,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-42.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+43.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Communication des organisations internationales (6 crédits)
 
 Volume horaire : 60 heures.
@@ -6912,8 +6695,7 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-42.9 Semestre 6 — Professionnalisation (30 crédits)
-
+43.9 Semestre 6 — Professionnalisation (30 crédits)
 UE 6.1 — Stage en communication (12 crédits)
 
 Volume horaire : 300 heures.
@@ -6956,24 +6738,21 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-42.10 Conclusion du chapitre
-
+43.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Sciences de l'Information et de la Communication propose une formation complète et professionnalisante.
 
 ---
 
-CHAPITRE 43 — FACULTÉ 10 : RELATIONS INTERNATIONALES ET ÉTUDES DIPLOMATIQUES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 44 — FACULTÉ 10 : RELATIONS INTERNATIONALES ET ÉTUDES DIPLOMATIQUES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-43.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté des Relations Internationales et Études Diplomatiques, dixième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 44.
+44.1 Objet du chapitre
+Le présent chapitre présente la Faculté des Relations Internationales et Études Diplomatiques, dixième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 45.
 
 ---
 
-43.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+44.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté des Relations Internationales et Études Diplomatiques est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 de la Constitution : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -6988,18 +6767,15 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-43.3 Présentation générale de la faculté
-
+44.3 Présentation générale de la faculté
 La Faculté des Relations Internationales et Études Diplomatiques forme des spécialistes des relations internationales, de la diplomatie, de la géopolitique, du droit international et de la coopération internationale. Elle propose une formation pluridisciplinaire couvrant les domaines fondamentaux des relations internationales : théories des relations internationales, géopolitique, droit international, diplomatie, organisations internationales, résolution des conflits, négociation, commerce international, et coopération au développement.
 
 La formation couvre les domaines clés des relations internationales : histoire des relations internationales, théories des RI, géopolitique, droit international public et privé, diplomatie et négociation, organisations internationales, analyse des conflits, sécurité internationale, économie politique internationale, et questions régionales.
 
 ---
 
-43.4 Objectifs de la formation
-
-43.4.1 Objectifs généraux
-
+44.4 Objectifs de la formation
+44.4.1 Objectifs généraux
 Former des spécialistes des relations internationales capables de comprendre et d'analyser les dynamiques internationales contemporaines.
 
 Développer une expertise dans les domaines de la diplomatie, du droit international, de la géopolitique et de la coopération internationale.
@@ -7008,8 +6784,7 @@ Former des professionnels capables d'exercer dans les institutions international
 
 Préparer les étudiants à la poursuite d'études en Master (relations internationales, études diplomatiques, droit international) ou à l'insertion professionnelle.
 
-43.4.2 Objectifs spécifiques par domaine
-
+44.4.2 Objectifs spécifiques par domaine
 En théories des relations internationales : comprendre les grandes théories (réalisme, libéralisme, constructivisme, etc.), les approches critiques.
 
 En géopolitique : analyser les dynamiques géopolitiques, les conflits, les enjeux de puissance.
@@ -7022,8 +6797,7 @@ En organisations internationales : connaître les institutions (ONU, UE, UA, etc
 
 ---
 
-43.5 Compétences visées
-
+44.5 Compétences visées
 À l'issue de la formation, le diplômé de la Faculté des Relations Internationales et Études Diplomatiques est capable de :
 
 Analyser les dynamiques politiques, économiques et sociales internationales.
@@ -7044,8 +6818,7 @@ Adapter ses connaissances aux évolutions du système international.
 
 ---
 
-43.6 Débouchés professionnels
-
+44.6 Débouchés professionnels
 Les diplômés de la Faculté des Relations Internationales et Études Diplomatiques peuvent exercer dans les secteurs suivants :
 
 Institutions internationales (ONU, UE, UA, Banque mondiale, FMI, etc.).
@@ -7066,8 +6839,7 @@ Recherche et enseignement (universités, think tanks, instituts de recherche).
 
 ---
 
-43.7 Organisation générale de la formation
-
+44.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
 Structure de la Licence :
@@ -7078,12 +6850,11 @@ Deuxième année (L2) : semestres 3 et 4. Approfondissement en droit internation
 
 Troisième année (L3) : semestres 5 et 6. Spécialisation, projet de fin d'études et stage.
 
-La maquette semestrielle détaillée est présentée au Chapitre 44.
+La maquette semestrielle détaillée est présentée au Chapitre 45.
 
 ---
 
-43.8 Modalités d'évaluation
-
+44.8 Modalités d'évaluation
 L'évaluation combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, études de cas, présentations.
@@ -7098,8 +6869,7 @@ Soutenance : présentation et défense du projet de fin d'études.
 
 ---
 
-43.9 Intégration dans la plateforme ELLYSIUM
-
+44.9 Intégration dans la plateforme ELLYSIUM
 La Faculté des Relations Internationales et Études Diplomatiques est intégrée dans la plateforme ELLYSIUM de la manière suivante :
 
 Mise à disposition des cours et des ressources pédagogiques en ligne, accessibles à distance.
@@ -7116,24 +6886,21 @@ Suivi personnalisé de la progression par les enseignants et les tuteurs.
 
 ---
 
-43.10 Conclusion du chapitre
-
+44.10 Conclusion du chapitre
 La Faculté des Relations Internationales et Études Diplomatiques forme des spécialistes capables de comprendre, d'analyser et d'intervenir dans le système international contemporain, en contribuant à la paix, à la coopération et au développement.
 
 ---
 
-CHAPITRE 44 — MAQUETTE SEMESTRIELLE — RELATIONS INTERNATIONALES ET ÉTUDES DIPLOMATIQUES
+CHAPITRE 45 — MAQUETTE SEMESTRIELLE — RELATIONS INTERNATIONALES ET ÉTUDES DIPLOMATIQUES
 
 ---
 
-44.1 Objet du chapitre
-
+45.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Relations Internationales et Études Diplomatiques d'ELLYSIUM. Il précise l'organisation des Unités d'Enseignement par semestre, leurs intitulés, leurs crédits ECTS, leurs volumes horaires, leurs coefficients, leurs objectifs pédagogiques, leurs contenus détaillés et leurs modalités d'évaluation.
 
 ---
 
-44.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+45.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -7148,8 +6915,7 @@ Le Tome 3, chapitres 17, 18 et 22, définit l'architecture universitaire, les fi
 
 ---
 
-44.3 Structure générale de la Licence
-
+45.3 Structure générale de la Licence
 La Licence en Relations Internationales et Études Diplomatiques est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 Répartition des crédits par année :
@@ -7162,8 +6928,7 @@ Troisième année (L3) : semestres 5 et 6. 60 crédits. Spécialisation, projet 
 
 ---
 
-44.4 Semestre 1 — Fondements des relations internationales (30 crédits)
-
+45.4 Semestre 1 — Fondements des relations internationales (30 crédits)
 UE 1.1 — Introduction aux relations internationales (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -7252,11 +7017,11 @@ Chapitre 5 : Le droit international humanitaire. Principes, conventions de Genè
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Géopolitique fondamentale (6 crédits)
+UE 1.5 — Géopolitique fondamentale (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre les concepts de la géopolitique, les approches, les enjeux contemporains.
 
@@ -7288,8 +7053,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-44.5 Semestre 2 — Approfondissement en relations internationales (30 crédits)
-
+45.5 Semestre 2 — Approfondissement en relations internationales (30 crédits)
 UE 2.1 — Droit international public (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -7378,11 +7142,11 @@ Chapitre 5 : Les enjeux économiques contemporains. Dette, inégalités, transit
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Sécurité internationale et stratégie (6 crédits)
+UE 2.5 — Sécurité internationale et stratégie (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre la sécurité internationale, les théories, les acteurs, les enjeux.
 
@@ -7414,8 +7178,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-44.6 Semestre 3 — Spécialisation en relations internationales (30 crédits)
-
+45.6 Semestre 3 — Spécialisation en relations internationales (30 crédits)
 UE 3.1 — Géopolitique des conflits et de la paix (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -7504,11 +7267,11 @@ Chapitre 5 : La sécurité environnementale et les migrations.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Études régionales (6 crédits)
+UE 3.5 — Études régionales (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : approfondir une région du monde, ses dynamiques, ses enjeux.
 
@@ -7530,8 +7293,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-44.7 Semestre 4 — Approfondissement et professionnalisation (30 crédits)
-
+45.7 Semestre 4 — Approfondissement et professionnalisation (30 crédits)
 UE 4.1 — Diplomatie économique et commerciale (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -7620,11 +7382,11 @@ Chapitre 5 : Les politiques de sécurité nationale comparées.
 
 Modalités d'évaluation : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Intelligence économique et géopolitique (6 crédits)
+UE 4.5 — Intelligence économique et géopolitique (3 crédits)
 
-Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
+Volume horaire : 30 heures (30 heures de cours, 30 heures de TD/TP).
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs pédagogiques : comprendre l'intelligence économique, les outils, les enjeux.
 
@@ -7656,8 +7418,7 @@ Modalités d'évaluation : rapport écrit (50 %), soutenance (50 %).
 
 ---
 
-44.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+45.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Questions stratégiques contemporaines (6 crédits)
 
 Volume horaire : 60 heures (30 heures de cours, 30 heures de TD/TP).
@@ -7732,8 +7493,7 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-44.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
-
+45.9 Semestre 6 — Professionnalisation et insertion (30 crédits)
 UE 6.1 — Stage en institution internationale (12 crédits)
 
 Volume horaire : 300 heures (stage de 8 à 12 semaines).
@@ -7784,24 +7544,21 @@ Modalités d'évaluation : travaux pratiques (100 %).
 
 ---
 
-44.10 Conclusion du chapitre
-
+45.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Relations Internationales et Études Diplomatiques propose une formation rigoureuse, pluridisciplinaire et professionnalisante, couvrant l'ensemble des domaines des relations internationales.
 
 ---
 
-CHAPITRE 45 — FACULTÉ 11 : SOCIOLOGIE ET RELATIONS HUMAINES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 46 — FACULTÉ 11 : SOCIOLOGIE ET RELATIONS HUMAINES — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-45.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté de Sociologie et Relations Humaines, onzième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 46.
+46.1 Objet du chapitre
+Le présent chapitre présente la Faculté de Sociologie et Relations Humaines, onzième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 47.
 
 ---
 
-45.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+46.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté de Sociologie et Relations Humaines est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -7814,16 +7571,13 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-45.3 Présentation générale de la faculté
-
+46.3 Présentation générale de la faculté
 La Faculté de Sociologie et Relations Humaines forme des sociologues et des spécialistes des relations humaines capables d'analyser les phénomènes sociaux, les dynamiques collectives, les inégalités, les institutions, et d'intervenir dans le champ social. La formation couvre la sociologie générale, la sociologie des institutions, la sociologie du travail, la sociologie de la santé, l'anthropologie, les méthodes de recherche, et l'intervention sociale.
 
 ---
 
-45.4 Objectifs de la formation
-
-45.4.1 Objectifs généraux
-
+46.4 Objectifs de la formation
+46.4.1 Objectifs généraux
 Former des sociologues capables de maîtriser les concepts et méthodes de la sociologie.
 
 Développer une expertise dans l'analyse des phénomènes sociaux, des inégalités, des institutions.
@@ -7834,8 +7588,7 @@ Préparer les étudiants à la poursuite d'études en Master ou à l'insertion p
 
 ---
 
-45.5 Compétences visées
-
+46.5 Compétences visées
 Analyser les phénomènes sociaux et les dynamiques collectives.
 
 Mener des enquêtes sociologiques.
@@ -7846,62 +7599,53 @@ Communiquer sur les enjeux sociaux.
 
 ---
 
-45.6 Débouchés professionnels
-
+46.6 Débouchés professionnels
 Administrations publiques, collectivités, ONG, secteur social, enseignement, recherche.
 
 ---
 
-45.7 Organisation générale de la formation
-
+46.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
-La maquette semestrielle détaillée est présentée au Chapitre 46.
+La maquette semestrielle détaillée est présentée au Chapitre 47.
 
 ---
 
-45.8 Modalités d'évaluation
-
+46.8 Modalités d'évaluation
 Contrôle continu, examens, projets, stages.
 
 ---
 
-45.9 Intégration dans la plateforme ELLYSIUM
-
+46.9 Intégration dans la plateforme ELLYSIUM
 Cours en ligne, bases de données sociologiques, études de cas.
 
 ---
 
-45.10 Conclusion du chapitre
-
+46.10 Conclusion du chapitre
 La Faculté de Sociologie et Relations Humaines forme des sociologues capables d'analyser et d'intervenir sur les phénomènes sociaux.
 
 ---
 
-CHAPITRE 46 — MAQUETTE SEMESTRIELLE — SOCIOLOGIE ET RELATIONS HUMAINES
+CHAPITRE 47 — MAQUETTE SEMESTRIELLE — SOCIOLOGIE ET RELATIONS HUMAINES
 
 ---
 
-46.1 Objet du chapitre
-
+47.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Sociologie et Relations Humaines d'ELLYSIUM.
 
 ---
 
-46.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+47.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels.
 
 ---
 
-46.3 Structure générale de la Licence
-
+47.3 Structure générale de la Licence
 La Licence en Sociologie et Relations Humaines est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-46.4 Semestre 1 — Fondements de la sociologie (30 crédits)
-
+47.4 Semestre 1 — Fondements de la sociologie (30 crédits)
 UE 1.1 — Introduction à la sociologie (6 crédits)
 
 Volume horaire : 60 heures.
@@ -7950,11 +7694,11 @@ Contenu : structures familiales, socialisation.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Sociologie des inégalités (6 crédits)
+UE 1.5 — Sociologie des inégalités (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre les inégalités sociales.
 
@@ -7974,8 +7718,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-46.5 Semestre 2 — Approfondissement (30 crédits)
-
+47.5 Semestre 2 — Approfondissement (30 crédits)
 UE 2.1 — Sociologie de l'éducation (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8024,11 +7767,11 @@ Contenu : cultures, rites, symboles.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Démographie et études de population (6 crédits)
+UE 2.5 — Démographie et études de population (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre la démographie.
 
@@ -8048,8 +7791,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-46.6 Semestre 3 — Spécialisation (30 crédits)
-
+47.6 Semestre 3 — Spécialisation (30 crédits)
 UE 3.1 — Sociologie urbaine et des territoires (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8098,11 +7840,11 @@ Contenu : rapports sociaux de sexe, identités.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Sociologie des mobilisations sociales (6 crédits)
+UE 3.5 — Sociologie des mobilisations sociales (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre les mobilisations sociales.
 
@@ -8122,8 +7864,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-46.7 Semestre 4 — Approfondissement (30 crédits)
-
+47.7 Semestre 4 — Approfondissement (30 crédits)
 UE 4.1 — Sociologie des organisations (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8172,11 +7913,11 @@ Contenu : élaboration, mise en œuvre, évaluation.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Statistiques et analyse de données (6 crédits)
+UE 4.5 — Statistiques et analyse de données (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : maîtriser les statistiques.
 
@@ -8196,8 +7937,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-46.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+47.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Sociologie clinique et intervention (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8272,8 +8012,7 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-46.9 Semestre 6 — Professionnalisation (30 crédits)
-
+47.9 Semestre 6 — Professionnalisation (30 crédits)
 UE 6.1 — Stage en milieu social ou institutionnel (12 crédits)
 
 Volume horaire : 300 heures.
@@ -8316,24 +8055,21 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-46.10 Conclusion du chapitre
-
+47.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Sociologie et Relations Humaines propose une formation rigoureuse et professionnalisante.
 
 ---
 
-CHAPITRE 47 — FACULTÉ 12 : LANGUES APPLIQUÉES ET TRADUCTION — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
+CHAPITRE 48 — FACULTÉ 12 : LANGUES APPLIQUÉES ET TRADUCTION — OBJECTIFS, COMPÉTENCES, DÉBOUCHÉS
 
 ---
 
-47.1 Objet du chapitre
-
-Le présent chapitre présente la Faculté des Langues Appliquées et Traduction, douzième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 48.
+48.1 Objet du chapitre
+Le présent chapitre présente la Faculté des Langues Appliquées et Traduction, douzième faculté de l'enseignement universitaire d'ELLYSIUM. Il en définit les objectifs généraux et spécifiques, les compétences visées, les débouchés professionnels et l'organisation générale de la formation. La maquette semestrielle détaillée est présentée dans le Chapitre 49.
 
 ---
 
-47.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+48.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La Faculté des Langues Appliquées et Traduction est construite dans le respect des principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique.
@@ -8346,16 +8082,13 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-47.3 Présentation générale de la faculté
-
+48.3 Présentation générale de la faculté
 La Faculté des Langues Appliquées et Traduction forme des spécialistes des langues vivantes, de la traduction, de l'interprétation, de la communication multilingue et de la gestion de projets linguistiques. La formation couvre les langues (anglais, français, etc.), la traduction générale et spécialisée, l'interprétation, la linguistique appliquée, la terminologie, et les technologies de la traduction.
 
 ---
 
-47.4 Objectifs de la formation
-
-47.4.1 Objectifs généraux
-
+48.4 Objectifs de la formation
+48.4.1 Objectifs généraux
 Former des traducteurs et interprètes professionnels.
 
 Développer une expertise dans les langues, la traduction, l'interprétation.
@@ -8366,8 +8099,7 @@ Préparer les étudiants à la poursuite d'études en Master ou à l'insertion p
 
 ---
 
-47.5 Compétences visées
-
+48.5 Compétences visées
 Maîtriser plusieurs langues.
 
 Traduire des textes généraux et spécialisés.
@@ -8382,8 +8114,7 @@ Communiquer efficacement en contexte multilingue.
 
 ---
 
-47.6 Débouchés professionnels
-
+48.6 Débouchés professionnels
 Institutions internationales (ONU, UE, UA).
 
 Entreprises internationales.
@@ -8398,56 +8129,48 @@ Tourisme et hôtellerie.
 
 ---
 
-47.7 Organisation générale de la formation
-
+48.7 Organisation générale de la formation
 La formation est organisée sur trois ans (Licence), avec un total de 180 crédits ECTS, répartis en six semestres de 30 crédits chacun.
 
-La maquette semestrielle détaillée est présentée au Chapitre 48.
+La maquette semestrielle détaillée est présentée au Chapitre 49.
 
 ---
 
-47.8 Modalités d'évaluation
-
+48.8 Modalités d'évaluation
 Contrôle continu, examens, projets, stages.
 
 ---
 
-47.9 Intégration dans la plateforme ELLYSIUM
-
+48.9 Intégration dans la plateforme ELLYSIUM
 Cours en ligne, laboratoires de langues, outils de traduction.
 
 ---
 
-47.10 Conclusion du chapitre
-
+48.10 Conclusion du chapitre
 La Faculté des Langues Appliquées et Traduction forme des professionnels de la traduction et de l'interprétation.
 
 ---
 
-CHAPITRE 48 — MAQUETTE SEMESTRIELLE — LANGUES APPLIQUÉES ET TRADUCTION
+CHAPITRE 49 — MAQUETTE SEMESTRIELLE — LANGUES APPLIQUÉES ET TRADUCTION
 
 ---
 
-48.1 Objet du chapitre
-
+49.1 Objet du chapitre
 Le présent chapitre détaille la maquette semestrielle de la Licence en Langues Appliquées et Traduction d'ELLYSIUM.
 
 ---
 
-48.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+49.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La maquette semestrielle respecte les principes constitutionnels.
 
 ---
 
-48.3 Structure générale de la Licence
-
+49.3 Structure générale de la Licence
 La Licence en Langues Appliquées et Traduction est organisée sur six semestres, totalisant 180 crédits ECTS.
 
 ---
 
-48.4 Semestre 1 — Fondements linguistiques (30 crédits)
-
+49.4 Semestre 1 — Fondements linguistiques (30 crédits)
 UE 1.1 — Introduction à la linguistique (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8496,11 +8219,11 @@ Contenu : théories, méthodes, outils.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 1.5 — Civilisation et culture des pays anglophones et francophones (6 crédits)
+UE 1.5 — Civilisation et culture des pays anglophones et francophones (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : comprendre les civilisations des pays de langues étudiées.
 
@@ -8520,8 +8243,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-48.5 Semestre 2 — Approfondissement linguistique (30 crédits)
-
+49.5 Semestre 2 — Approfondissement linguistique (30 crédits)
 UE 2.1 — Traduction générale (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8570,11 +8292,11 @@ Contenu : concepts, méthodes, outils.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 2.5 — Langue espagnole ou allemande (6 crédits)
+UE 2.5 — Langue espagnole ou allemande (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : acquérir une troisième langue.
 
@@ -8594,8 +8316,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-48.6 Semestre 3 — Spécialisation en traduction (30 crédits)
-
+49.6 Semestre 3 — Spécialisation en traduction (30 crédits)
 UE 3.1 — Traduction spécialisée (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8644,11 +8365,11 @@ Contenu : TAO, outils, applications.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 3.5 — Communication multilingue (6 crédits)
+UE 3.5 — Communication multilingue (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : maîtriser la communication multilingue.
 
@@ -8668,8 +8389,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-48.7 Semestre 4 — Approfondissement professionnel (30 crédits)
-
+49.7 Semestre 4 — Approfondissement professionnel (30 crédits)
 UE 4.1 — Gestion de projets de traduction (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8718,11 +8438,11 @@ Contenu : techniques, exercices.
 
 Modalités : contrôle continu (40 %), examen final (60 %).
 
-UE 4.5 — Langue espagnole ou allemande approfondie (6 crédits)
+UE 4.5 — Langue espagnole ou allemande approfondie (3 crédits)
 
-Volume horaire : 60 heures.
+Volume horaire : 30 heures.
 
-Coefficient : 6.
+Coefficient : 3.
 
 Objectifs : approfondir la troisième langue.
 
@@ -8742,8 +8462,7 @@ Modalités : rapport (50 %), soutenance (50 %).
 
 ---
 
-48.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
-
+49.8 Semestre 5 — Spécialisation et préparation au stage (30 crédits)
 UE 5.1 — Traduction des institutions internationales (6 crédits)
 
 Volume horaire : 60 heures.
@@ -8818,8 +8537,7 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-48.9 Semestre 6 — Professionnalisation (30 crédits)
-
+49.9 Semestre 6 — Professionnalisation (30 crédits)
 UE 6.1 — Stage en traduction ou interprétation (12 crédits)
 
 Volume horaire : 300 heures.
@@ -8862,41 +8580,37 @@ Modalités : travaux pratiques (100 %).
 
 ---
 
-48.10 Conclusion du chapitre
-
+49.10 Conclusion du chapitre
 La maquette semestrielle de la Licence en Langues Appliquées et Traduction propose une formation rigoureuse, professionnalisante et tournée vers les métiers de la traduction et de l'interprétation.
 
 ---
 
-CHAPITRE 49 — CRITÈRES DE SÉLECTION DES FACULTÉS POUR L'IMPLÉMENTATION (ATTRACTIVITÉ, RESSOURCES PÉDAGOGIQUES, PERTINENCE ÉCONOMIQUE)
+CHAPITRE 50 — CRITÈRES DE SÉLECTION DES FACULTÉS POUR L'IMPLÉMENTATION (ATTRACTIVITÉ, RESSOURCES PÉDAGOGIQUES, PERTINENCE ÉCONOMIQUE)
 
 ---
 
-49.1 Objet du chapitre
-
-Le présent chapitre définit les critères stratégiques de sélection des facultés universitaires pour l'implémentation progressive au sein d'ELLYSIUM. Il ne s'agit pas d'un chapitre pédagogique mais d'un outil de pilotage et de décision qui permet de prioriser les facultés à déployer en fonction de plusieurs facteurs opérationnels et stratégiques. Ce chapitre est conforme à la Constitution d'ELLYSIUM (Tome 2) et aux principes de déploiement définis dans les Tomes 15 et 16.
+50.1 Objet du chapitre
+Le présent chapitre définit les critères stratégiques de sélection des facultés universitaires pour l'implémentation progressive au sein d'ELLYSIUM. Les chapitres 26 à 49 constituent un catalogue de référence : ils ne valent ni ouverture effective, ni admission, ni promesse de diplôme. Au lancement, ELLYSIUM n’active pas plus de quatre filières universitaires et n’active que celles dont les référentiels, ressources, partenariats et autorisations nécessaires sont documentés. Ce chapitre est conforme à la Constitution d'ELLYSIUM et à la feuille de route institutionnelle.
 
 ---
 
-49.2 Conformité avec la Constitution d'ELLYSIUM
-
+50.2 Conformité avec la Constitution d'ELLYSIUM
 Ce chapitre s'inscrit dans le respect de plusieurs articles de la Constitution d'ELLYSIUM (Tome 2) :
 
-Article 3 : Gratuité de l'accompagnement individuel — la sélection des facultés doit privilégier celles qui offrent le meilleur rapport coût-efficacité pour garantir la soutenabilité du modèle gratuit.
+Article 3 : valeurs fondamentales, notamment l’égalité des chances, la responsabilité et la solidarité — la sélection doit préserver l’accessibilité et la soutenabilité du modèle.
 
-Article 4 : Accessibilité et inclusion — la sélection doit tenir compte des besoins des populations les plus vulnérables et des zones les plus reculées.
+Article 4 : principes non négociables, notamment la qualité pédagogique, la protection des apprenants, l’accessibilité, la traçabilité et l’intégrité scientifique.
 
-Article 5 : Solidarité et engagement communautaire — la sélection doit favoriser les facultés qui répondent aux besoins concrets des communautés et aux opportunités économiques locales.
+Article 5 : philosophie pédagogique — la sélection doit préserver l’apprenant comme acteur principal et favoriser des compétences réelles, l’autonomie et la responsabilité.
 
-Article 9 : Responsabilité et rigueur — la sélection doit être basée sur des critères objectifs, mesurables et transparents.
+Article 14 : principes de prise de décision — la sélection doit être fondée sur des critères objectifs, mesurables et transparents.
 
 Article 12 : Neutralité et programmes — les facultés sélectionnées doivent reposer sur des contenus scientifiques vérifiables.
 
 ---
 
-49.3 Objectifs du col stratégique universitaire
-
-Le col stratégique universitaire poursuit plusieurs objectifs :
+50.3 Objectifs du cadre stratégique universitaire
+Le cadre stratégique universitaire poursuit plusieurs objectifs :
 
 Prioriser les facultés en fonction de leur faisabilité opérationnelle et de leur coût logistique.
 
@@ -8910,9 +8624,8 @@ Assurer une couverture équilibrée des disciplines (sciences, lettres, droit, s
 
 ---
 
-49.4 Les quatre critères de sélection
-
-Quatre critères principaux sont utilisés pour évaluer et prioriser les douze facultés :
+50.4 Les quatre critères de sélection
+Quatre critères principaux sont utilisés pour évaluer et prioriser le catalogue de douze facultés :
 
 Critère 1 : Attractivité et demande étudiante.
 
@@ -8922,32 +8635,28 @@ Critère 3 : Pertinence économique et débouchés.
 
 Critère 4 : Faisabilité distancielle et coût logistique.
 
-49.4.1 Critère 1 — Attractivité et demande étudiante
-
+50.4.1 Critère 1 — Attractivité et demande étudiante
 Ce critère évalue dans quelle mesure une faculté attire les étudiants potentiels, répond à leurs aspirations et aux besoins exprimés par les communautés.
 
 Indicateurs : nombre de demandes d'inscription potentielles, enquêtes auprès des lycéens, popularité des filières, tendances nationales et régionales, réputation sociale des métiers visés.
 
 Pondération : 25 % du score final.
 
-49.4.2 Critère 2 — Disponibilité des ressources pédagogiques
-
+50.4.2 Critère 2 — Disponibilité des ressources pédagogiques
 Ce critère évalue la capacité d'ELLYSIUM à offrir une formation de qualité dans la faculté considérée. Il prend en compte l'existence de contenus pédagogiques numérisés, la disponibilité d'enseignants qualifiés, l'accès aux ressources bibliographiques et documentaires, et la capacité à produire des ressources adaptées à l'enseignement à distance.
 
 Indicateurs : taux de numérisation des contenus, nombre d'enseignants disponibles, accès aux bases de données, capacité de production de ressources.
 
 Pondération : 25 % du score final.
 
-49.4.3 Critère 3 — Pertinence économique et débouchés
-
+50.4.3 Critère 3 — Pertinence économique et débouchés
 Ce critère évalue la capacité d'une faculté à offrir des débouchés professionnels aux diplômés, que ce soit par l'insertion directe dans la vie active ou par la poursuite d'études. Il prend en compte le marché de l'emploi, les secteurs porteurs, les perspectives de carrière, l'employabilité des diplômés et le potentiel entrepreneurial.
 
 Indicateurs : taux d'insertion professionnelle, débouchés dans les secteurs porteurs, potentiel entrepreneurial, poursuite d'études en Master.
 
 Pondération : 25 % du score final.
 
-49.4.4 Critère 4 — Faisabilité distancielle et coût logistique
-
+50.4.4 Critère 4 — Faisabilité distancielle et coût logistique
 Ce critère évalue le coût de déploiement et de maintien d'une faculté, en termes de ressources humaines, d'infrastructure technique, de logistique et d'adaptation à l'enseignement à distance. Il prend en compte la formation des enseignants, le développement des contenus, l'équipement nécessaire, et les coûts de fonctionnement.
 
 Indicateurs : coût de développement des contenus, coût de formation des enseignants, équipement requis par étudiant, coût de maintenance, adaptation au faible débit et au hors-ligne.
@@ -8956,10 +8665,8 @@ Pondération : 25 % du score final.
 
 ---
 
-49.5 Analyse multicritères des douze facultés
-
-49.5.1 Faculté 1 — Informatique et Génie Logiciel
-
+50.5 Analyse multicritères du catalogue de douze facultés
+50.5.1 Faculté 1 — Informatique et Génie Logiciel
 Attractivité : très élevée. Filière très prisée, forte demande étudiante, croissance rapide.
 
 Ressources pédagogiques : bonne. De nombreux contenus existent, mais nécessitent une adaptation à la RDC.
@@ -8970,8 +8677,7 @@ Faisabilité distancielle : excellente. Contenus entièrement numérisables, env
 
 Score global : 95/100. Priorité : ÉLEVÉE.
 
-49.5.2 Faculté 2 — Économie et Gestion d'Entreprise
-
+50.5.2 Faculté 2 — Économie et Gestion d'Entreprise
 Attractivité : très élevée. Filière très prisée, forte demande étudiante, large public.
 
 Ressources pédagogiques : bonne. Nombreux contenus disponibles, adaptation nécessaire.
@@ -8982,8 +8688,7 @@ Faisabilité distancielle : excellente. Contenus théoriques et pratiques numér
 
 Score global : 92/100. Priorité : ÉLEVÉE.
 
-49.5.3 Faculté 3 — Droit Privé et Public
-
+50.5.3 Faculté 3 — Droit Privé et Public
 Attractivité : élevée. Filière traditionnellement prisée, forte demande étudiante.
 
 Ressources pédagogiques : bonne. Nombreux contenus juridiques disponibles, adaptation nécessaire au droit congolais.
@@ -8994,8 +8699,7 @@ Faisabilité distancielle : bonne. Contenus théoriques, pas de travaux pratique
 
 Score global : 85/100. Priorité : ÉLEVÉE.
 
-49.5.4 Faculté 4 — Santé Publique et Communautaire
-
+50.5.4 Faculté 4 — Santé Publique et Communautaire
 Attractivité : élevée. Demande croissante pour les métiers de la santé publique.
 
 Ressources pédagogiques : moyenne. Des contenus existent, mais nécessitent une adaptation importante.
@@ -9006,8 +8710,7 @@ Faisabilité distancielle : bonne. Contenus théoriques, stages pratiques en pr�
 
 Score global : 78/100. Priorité : MOYENNE.
 
-49.5.5 Faculté 5 — Sciences de l'Éducation
-
+50.5.5 Faculté 5 — Sciences de l'Éducation
 Attractivité : moyenne. Filière importante mais moins prisée que les filières professionnelles.
 
 Ressources pédagogiques : bonne. Nombreux contenus disponibles.
@@ -9018,8 +8721,7 @@ Faisabilité distancielle : excellente. Contenus théoriques, stages pratiques e
 
 Score global : 75/100. Priorité : MOYENNE.
 
-49.5.6 Faculté 6 — Psychologie
-
+50.5.6 Faculté 6 — Psychologie
 Attractivité : moyenne. Filière en croissance, demande modérée.
 
 Ressources pédagogiques : moyenne. Des contenus existent, adaptation nécessaire.
@@ -9030,8 +8732,7 @@ Faisabilité distancielle : bonne. Contenus théoriques, stages pratiques requis
 
 Score global : 70/100. Priorité : MOYENNE.
 
-49.5.7 Faculté 7 — Sciences Sociales, Politiques et Administratives
-
+50.5.7 Faculté 7 — Sciences Sociales, Politiques et Administratives
 Attractivité : moyenne. Filière importante pour les carrières administratives et politiques.
 
 Ressources pédagogiques : bonne. Nombreux contenus disponibles.
@@ -9042,8 +8743,7 @@ Faisabilité distancielle : excellente. Contenus théoriques. Coût logistique f
 
 Score global : 72/100. Priorité : MOYENNE.
 
-49.5.8 Faculté 8 — Lettres et Sciences Humaines
-
+50.5.8 Faculté 8 — Lettres et Sciences Humaines
 Attractivité : moyenne. Filière traditionnelle, demande stable.
 
 Ressources pédagogiques : bonne. Nombreux contenus disponibles.
@@ -9054,8 +8754,7 @@ Faisabilité distancielle : excellente. Contenus théoriques. Coût logistique f
 
 Score global : 68/100. Priorité : MOYENNE.
 
-49.5.9 Faculté 9 — Sciences de l'Information et de la Communication
-
+50.5.9 Faculté 9 — Sciences de l'Information et de la Communication
 Attractivité : élevée. Filière en croissance, demande étudiante forte.
 
 Ressources pédagogiques : bonne. Contenus disponibles, adaptation nécessaire aux médias africains.
@@ -9066,8 +8765,7 @@ Faisabilité distancielle : bonne. Contenus théoriques et pratiques, outils num
 
 Score global : 80/100. Priorité : MOYENNE.
 
-49.5.10 Faculté 10 — Relations Internationales et Études Diplomatiques
-
+50.5.10 Faculté 10 — Relations Internationales et Études Diplomatiques
 Attractivité : moyenne. Filière de niche, demande modérée mais qualitative.
 
 Ressources pédagogiques : moyenne. Contenus disponibles, adaptation nécessaire.
@@ -9078,8 +8776,7 @@ Faisabilité distancielle : excellente. Contenus théoriques. Coût logistique f
 
 Score global : 65/100. Priorité : FAIBLE.
 
-49.5.11 Faculté 11 — Sociologie et Relations Humaines
-
+50.5.11 Faculté 11 — Sociologie et Relations Humaines
 Attractivité : moyenne. Filière importante pour le secteur social, demande modérée.
 
 Ressources pédagogiques : bonne. Contenus disponibles.
@@ -9090,8 +8787,7 @@ Faisabilité distancielle : excellente. Contenus théoriques, enquêtes de terra
 
 Score global : 62/100. Priorité : FAIBLE.
 
-49.5.12 Faculté 12 — Langues Appliquées et Traduction
-
+50.5.12 Faculté 12 — Langues Appliquées et Traduction
 Attractivité : moyenne. Filière de niche, demande modérée.
 
 Ressources pédagogiques : bonne. Contenus disponibles, laboratoires de langues à distance.
@@ -9104,9 +8800,8 @@ Score global : 60/100. Priorité : FAIBLE.
 
 ---
 
-49.6 Synthèse de l'analyse multicritères
-
-Priorité élevée (déploiement immédiat) :
+50.6 Synthèse de l'analyse multicritères
+Priorité élevée (candidates au lancement, dans la limite de quatre filières activées) :
 
 Informatique et Génie Logiciel (95/100).
 
@@ -9144,13 +8839,12 @@ Ces facultés sont soit très spécialisées, soit à faible demande, soit néce
 
 ---
 
-49.7 Recommandations stratégiques pour l'implémentation
+50.7 Recommandations stratégiques pour l'implémentation
+Phase 1 (déploiement initial) : activer en priorité la filière Informatique, conformément à l’objectif triennal de la feuille de route. Toute activation complémentaire reste conditionnée par l’évaluation documentée prévue dans ce chapitre, sans dépasser quatre filières universitaires au lancement.
 
-Phase 1 (déploiement initial) : déployer les trois facultés à priorité élevée (Informatique, Économie-Gestion, Droit) dans les établissements pilotes.
+Phase 2 (extension progressive) : examiner l’activation éventuelle des filières du catalogue selon les demandes locales, les capacités d’ELLYSIUM, les partenariats et les autorisations applicables.
 
-Phase 2 (extension progressive) : intégrer les facultés à priorité moyenne (Communication, Santé Publique, Sciences de l'Éducation, Sciences Sociales, Psychologie, Lettres) en fonction des demandes locales et des capacités d'ELLYSIUM.
-
-Phase 3 (déploiement conditionnel) : proposer les facultés à priorité faible (Relations Internationales, Sociologie, Langues Appliquées) uniquement sur demande spécifique ou lorsque les ressources le permettent.
+Phase 3 (déploiement conditionnel) : n’envisager les filières spécialisées qu’après validation institutionnelle complète et lorsqu’elles respectent les mêmes conditions de qualité, de faisabilité et d’autorisation.
 
 Dispositif d'accompagnement : pour les facultés nécessitant des stages ou des travaux pratiques en présentiel, mettre en place des partenariats avec des institutions locales.
 
@@ -9158,24 +8852,21 @@ Dispositif d'accompagnement : pour les facultés nécessitant des stages ou des 
 
 ---
 
-49.8 Conclusion du chapitre
-
-Le col stratégique universitaire définit un cadre objectif et transparent pour la sélection et le déploiement des facultés au sein d'ELLYSIUM. En combinant les critères d'attractivité, de disponibilité des ressources pédagogiques, de pertinence économique et de faisabilité distancielle, il permet de prioriser les facultés les plus pertinentes et de garantir un déploiement progressif et maîtrisé.
-
----
-
-CHAPITRE 50 — STRUCTURE COMMUNE DES MASTERS ELLYSIUM
+50.8 Conclusion du chapitre
+Le cadre stratégique universitaire définit un cadre objectif et transparent pour la sélection et le déploiement des facultés au sein d'ELLYSIUM. En combinant les critères d'attractivité, de disponibilité des ressources pédagogiques, de pertinence économique et de faisabilité distancielle, il permet de prioriser les facultés les plus pertinentes et de garantir un déploiement progressif et maîtrisé.
 
 ---
 
-50.1 Objet du chapitre
-
-Le présent chapitre définit la structure commune des Masters proposés au sein d'ELLYSIUM, dans le prolongement des Licences décrites aux chapitres précédents. Il précise l'architecture générale du deuxième cycle universitaire, les conditions d'admission, la durée, la structure des semestres, les crédits ECTS, et les modalités d'évaluation. Ce chapitre est conforme au système LMD et aux principes pédagogiques définis dans le Tome 3.
+CHAPITRE 51 — STRUCTURE COMMUNE DES MASTERS ELLYSIUM
 
 ---
 
-50.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
+51.1 Objet du chapitre
+Le présent chapitre consigne un cadre de référence pour d’éventuels Masters futurs. Aucun Master n’est ouvert au lancement ; toute ouverture exige une décision institutionnelle, la disponibilité des ressources, les partenariats et les autorisations applicables. Ce chapitre ne confère ni admission, ni diplôme, ni reconnaissance académique avant la réunion de ces conditions.
 
+---
+
+51.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La structure commune des Masters respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, intégrité scientifique, amélioration continue.
@@ -9190,9 +8881,8 @@ Le Tome 3, chapitres 17 et 18, définit l'architecture universitaire et les fili
 
 ---
 
-50.3 Principes généraux des Masters ELLYSIUM
-
-Le Master est le deuxième cycle de l'enseignement supérieur. Il fait suite à la Licence et permet aux étudiants d'acquérir une spécialisation approfondie dans un domaine. Les Masters ELLYSIUM sont conçus selon les principes suivants :
+51.3 Principes généraux des Masters ELLYSIUM
+Le Master est le deuxième cycle de l'enseignement supérieur. Le cadre ci-dessous pourra guider une offre future autorisée ; il ne constitue pas une offre active d’ELLYSIUM au lancement.
 
 Approfondissement disciplinaire : les Masters permettent d'approfondir les connaissances et compétences acquises en Licence.
 
@@ -9204,9 +8894,8 @@ Internationalisation : les Masters intègrent des dimensions internationales et 
 
 ---
 
-50.4 Conditions d'admission en Master
-
-Pour être admis en Master à ELLYSIUM, le candidat doit remplir les conditions suivantes :
+51.4 Conditions d'admission en Master
+Si un Master est ultérieurement autorisé, ses conditions d’admission devront être adoptées par l’instance académique compétente et publiées avant toute admission. Les critères ci-dessous sont indicatifs et ne valent pas règlement d’admission actuel :
 
 Être titulaire d'une Licence (Bac+3) ou d'un diplôme équivalent dans une discipline compatible avec le Master visé. La compatibilité est appréciée par le responsable pédagogique de la filière.
 
@@ -9220,8 +8909,7 @@ Justifier d'un niveau de langue suffisant dans la langue d'enseignement du Maste
 
 ---
 
-50.5 Durée et structure des Masters
-
+51.5 Durée et structure des Masters
 La durée d'un Master est de deux ans, répartis en quatre semestres, totalisant 120 crédits ECTS.
 
 Structure de la formation :
@@ -9238,8 +8926,7 @@ Master 2 (M2) : semestres 3 et 4. 60 crédits. Spécialisation, mémoire, stage,
 
 ---
 
-50.6 Structure des Unités d'Enseignement en Master
-
+51.6 Structure des Unités d'Enseignement en Master
 Les Masters sont organisés en Unités d'Enseignement (UE) comme pour les Licences, avec les caractéristiques suivantes :
 
 UE fondamentales : elles couvrent les concepts et méthodes essentiels de la discipline. Elles représentent environ 50 % des crédits.
@@ -9252,8 +8939,7 @@ UE transversales : elles peuvent inclure des enseignements en gestion de projet,
 
 ---
 
-50.7 Le mémoire de Master
-
+51.7 Le mémoire de Master
 Le mémoire est un élément central du Master. Il s'agit d'un travail de recherche ou d'application professionnelle qui démontre la capacité de l'étudiant à mener une réflexion approfondie et à produire un travail structuré.
 
 Caractéristiques du mémoire :
@@ -9280,8 +8966,7 @@ Soutenance devant un jury.
 
 ---
 
-50.8 Stages en Master
-
+51.8 Stages en Master
 Les Masters ELLYSIUM peuvent inclure des stages obligatoires ou optionnels, en fonction des filières.
 
 Stages professionnels : immersion en entreprise, administration, ONG, institution internationale. Durée : 2 à 6 mois. Objectif : mettre en pratique les connaissances acquises et développer des compétences professionnelles.
@@ -9292,8 +8977,7 @@ Les stages font l'objet de conventions, d'un suivi par un tuteur en entreprise e
 
 ---
 
-50.9 Modalités d'évaluation en Master
-
+51.9 Modalités d'évaluation en Master
 L'évaluation en Master combine différentes modalités :
 
 Contrôle continu : devoirs, exercices, présentations, études de cas, articles critiques.
@@ -9320,9 +9004,8 @@ L'autonomie et l'esprit critique.
 
 ---
 
-50.10 Spécialités de Masters proposées
-
-ELLYSIUM propose des Masters dans les domaines suivants, correspondant aux Licences déjà décrites :
+51.10 Domaines de référence pour des Masters futurs
+Les domaines ci-dessous constituent un catalogue de référence. Ils ne correspondent à aucune offre active et ne préjugent ni d’une ouverture, ni d’une accréditation, ni de la délivrance d’un diplôme par ELLYSIUM :
 
 Master en Informatique et Génie Logiciel.
 
@@ -9348,13 +9031,12 @@ Master en Sociologie et Relations Humaines.
 
 Master en Langues Appliquées et Traduction.
 
-Chaque Master est développé progressivement, en fonction des priorités définies au Chapitre 49.
+Chaque Master est développé progressivement, en fonction des priorités définies au Chapitre 50.
 
 ---
 
-50.11 Conditions de validation du Master
-
-Pour obtenir le diplôme de Master, l'étudiant doit :
+51.11 Conditions de validation du Master
+Dans le cas d’un Master ultérieurement autorisé et, le cas échéant, délivré par un partenaire habilité, la validation académique devrait notamment porter sur :
 
 Valider l'ensemble des UE des quatre semestres, soit 120 crédits ECTS.
 
@@ -9368,30 +9050,26 @@ Une session de rattrapage est organisée pour les étudiants qui n'auraient pas 
 
 ---
 
-50.12 Poursuite en Doctorat
-
-Les diplômés du Master peuvent poursuivre en Doctorat (troisième cycle), sous réserve de remplir les conditions d'admission des institutions d'accueil. ELLYSIUM peut accompagner les étudiants dans leurs démarches d'inscription en Doctorat, notamment par des partenariats avec des universités accréditées (voir Tome 15).
-
----
-
-50.13 Conclusion du chapitre
-
-La structure commune des Masters ELLYSIUM définit un cadre clair, rigoureux et flexible pour le deuxième cycle universitaire. Elle permet aux étudiants d'acquérir une spécialisation approfondie tout en bénéficiant des principes d'accessibilité et de qualité qui caractérisent ELLYSIUM.
+51.12 Poursuite en Doctorat
+Les personnes ayant obtenu un Master délivré par une institution habilitée peuvent solliciter une admission en Doctorat auprès des institutions d’accueil, selon leurs propres conditions. ELLYSIUM peut les accompagner dans leurs démarches lorsqu’une convention formelle le permet.
 
 ---
 
-CHAPITRE 51 — PASSERELLES, ÉQUIVALENCES ET MOBILITÉ ACADÉMIQUE
+51.13 Conclusion du chapitre
+Le présent chapitre conserve un cadre de conception pour des Masters futurs. Il ne peut être activé qu’après une décision institutionnelle, la vérification des conditions de qualité et la formalisation des autorisations ou partenariats requis.
 
 ---
 
-51.1 Objet du chapitre
+CHAPITRE 52 — PASSERELLES, ÉQUIVALENCES ET MOBILITÉ ACADÉMIQUE
 
+---
+
+52.1 Objet du chapitre
 Le présent chapitre définit les règles et procédures relatives aux passerelles entre les filières, aux équivalences de crédits et à la mobilité académique au sein d'ELLYSIUM et avec des institutions extérieures. Il vise à garantir la flexibilité des parcours, la reconnaissance des acquis et l'ouverture internationale des étudiants. Ce chapitre est conforme au système LMD et aux principes de la mobilité académique.
 
 ---
 
-51.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+52.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 Les règles définies dans ce chapitre respectent les principes constitutionnels suivants :
 
 Article 4 : traçabilité, équité, qualité pédagogique.
@@ -9406,8 +9084,7 @@ Le Tome 3, chapitre 22, définit les règles de validation académique.
 
 ---
 
-51.3 Principes généraux des passerelles
-
+52.3 Principes généraux des passerelles
 Les passerelles permettent à un étudiant de changer de filière ou de parcours au cours de ses études, sous certaines conditions. Elles sont conçues pour offrir une flexibilité maximale tout en garantissant la cohérence du parcours et le respect des prérequis.
 
 Principe de reconnaissance des crédits : les crédits ECTS validés dans une filière peuvent être reconnus dans une autre filière, sous réserve de compatibilité des contenus.
@@ -9420,8 +9097,7 @@ Principe d'évaluation individuelle : chaque demande de passerelle est évaluée
 
 ---
 
-51.4 Types de passerelles
-
+52.4 Types de passerelles
 Plusieurs types de passerelles sont possibles :
 
 Passerelle au sein d'une même faculté : changement d'option ou de parcours au sein d'une même faculté (ex. : passer de Sciences de l'Éducation à Psychologie au sein de la même faculté, ou de Droit des Affaires à Droit Public).
@@ -9432,8 +9108,7 @@ Passerelle entre ELLYSIUM et une institution extérieure : admission d'étudiant
 
 ---
 
-51.5 Conditions d'une passerelle
-
+52.5 Conditions d'une passerelle
 Les conditions d'une passerelle sont les suivantes :
 
 L'étudiant doit avoir validé un nombre minimum de crédits dans sa filière d'origine (généralement 60 crédits, soit une année complète).
@@ -9448,11 +9123,10 @@ La passerelle est soumise à l'accord du responsable pédagogique de la filière
 
 ---
 
-51.6 Équivalences de crédits
-
+52.6 Équivalences de crédits
 Les équivalences de crédits permettent de reconnaître les UE validées dans une filière comme équivalentes à des UE d'une autre filière.
 
-Équivalences internes (au sein d'ELLYSIUM) : les UE validées dans une filière sont comparées aux UE de la filière d'accueil. Les UE jugées équivalentes sont reconnues automatiquement. Les UE non équivalentes doivent être reprises par l'étudiant.
+Équivalences internes (au sein d'ELLYSIUM) : la plateforme peut comparer les UE validées avec celles de la filière d’accueil et préparer une proposition d’équivalence. Les équivalences sont reconnues uniquement après décision motivée du jury pédagogique ; les UE non reconnues doivent être reprises par l’étudiant.
 
 Équivalences externes (entre ELLYSIUM et d'autres institutions) : les crédits obtenus dans une autre institution peuvent être reconnus à ELLYSIUM, sous réserve de la validation par le jury pédagogique. L'étudiant doit fournir les relevés de notes, les programmes des UE et les descriptifs des contenus.
 
@@ -9462,8 +9136,7 @@ Les équivalences de crédits permettent de reconnaître les UE validées dans u
 
 ---
 
-51.7 Procédure de demande de passerelle
-
+52.7 Procédure de demande de passerelle
 La procédure de demande de passerelle comprend les étapes suivantes :
 
 Dépôt d'un dossier de demande (formulaire de demande de passerelle, relevés de notes, programme des UE validées, lettre de motivation).
@@ -9480,11 +9153,10 @@ Si refus : l'étudiant peut faire appel de la décision auprès du responsable p
 
 ---
 
-51.8 Mobilité académique internationale
-
+52.8 Mobilité académique internationale
 ELLYSIUM encourage la mobilité académique des étudiants et des enseignants, en conformité avec les principes du système LMD.
 
-Mobilité entrante (students incoming) : ELLYSIUM accueille des étudiants d'autres universités (étrangères ou nationales) pour des périodes d'études ou de stage. Les crédits obtenus à ELLYSIUM sont reconnus par l'université d'origine.
+Mobilité entrante : ELLYSIUM peut accueillir des étudiants d'autres institutions dans le cadre de conventions formelles. La reconnaissance des crédits obtenus reste soumise à la décision de l’institution d’origine et aux termes de la convention applicable.
 
 Mobilité sortante (students outgoing) : ELLYSIUM encourage ses étudiants à effectuer des séjours d'études ou de stage à l'étranger, dans le cadre de programmes d'échange ou de conventions de partenariat.
 
@@ -9496,8 +9168,7 @@ Accompagnement : ELLYSIUM accompagne les étudiants dans leurs démarches (choix
 
 ---
 
-51.9 Reconnaissance des acquis professionnels (VAE)
-
+52.9 Reconnaissance des acquis professionnels (VAE)
 ELLYSIUM peut, sous certaines conditions, reconnaître des acquis professionnels pour la validation de crédits ou l'admission en formation.
 
 Principe : les compétences et connaissances acquises par l'expérience professionnelle peuvent être validées pour l'obtention de crédits ECTS, sous réserve de leur adéquation avec les contenus des UE.
@@ -9508,8 +9179,7 @@ Décision : le jury peut accorder des équivalences de crédits, des dispenses d
 
 ---
 
-51.10 Suivi et traçabilité des parcours
-
+52.10 Suivi et traçabilité des parcours
 ELLYSIUM assure un suivi individualisé des parcours des étudiants, notamment pour ceux qui bénéficient de passerelles ou d'équivalences.
 
 Dossier numérique : chaque étudiant dispose d'un dossier numérique qui retrace l'ensemble de son parcours (UE validées, crédits acquis, équivalences accordées, etc.).
@@ -9520,24 +9190,21 @@ Traçabilité : toutes les décisions relatives aux passerelles et aux équivale
 
 ---
 
-51.11 Conclusion du chapitre
-
+52.11 Conclusion du chapitre
 Les passerelles, les équivalences et la mobilité académique sont des éléments clés de la flexibilité et de l'ouverture d'ELLYSIUM. Elles permettent aux étudiants de construire des parcours personnalisés, de valoriser leurs acquis et de s'ouvrir à l'international, tout en garantissant la cohérence et la qualité de leurs formations.
 
 ---
 
-CHAPITRE 52 — PROCÉDURE D'OUVERTURE DE NOUVELLES FILIÈRES OU OPTIONS
+CHAPITRE 53 — PROCÉDURE D'OUVERTURE DE NOUVELLES FILIÈRES OU OPTIONS
 
 ---
 
-52.1 Objet du chapitre
-
+53.1 Objet du chapitre
 Le présent chapitre définit la procédure d'ouverture de nouvelles filières (facultés, spécialités, options) au sein d'ELLYSIUM, que ce soit pour l'enseignement secondaire ou universitaire. Il précise les conditions, les étapes, les acteurs impliqués et les critères d'évaluation. Cette procédure garantit que toute nouvelle offre de formation est conforme à la Constitution, au Tome 3 et aux orientations stratégiques de l'institution.
 
 ---
 
-52.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
-
+53.2 Conformité avec la Constitution d'ELLYSIUM et le Tome 3
 La procédure d'ouverture de nouvelles filières respecte les principes constitutionnels suivants :
 
 Article 4 : qualité pédagogique, amélioration continue, intégrité scientifique.
@@ -9550,8 +9217,7 @@ Le Tome 3, chapitre 18, définit le cadre général des filières universitaires
 
 ---
 
-52.3 Principes généraux de l'ouverture de nouvelles filières
-
+53.3 Principes généraux de l'ouverture de nouvelles filières
 Toute nouvelle filière doit respecter les principes suivants :
 
 Conformité aux programmes officiels (pour le secondaire) ou aux référentiels académiques retenus par l'institution (pour l'universitaire).
@@ -9566,8 +9232,7 @@ Soutenance économique, en cohérence avec le modèle économique d'ELLYSIUM (To
 
 ---
 
-52.4 Acteurs impliqués dans la procédure
-
+53.4 Acteurs impliqués dans la procédure
 Plusieurs acteurs sont impliqués dans la procédure d'ouverture d'une nouvelle filière :
 
 Le responsable pédagogique de la faculté ou du département concerné (initiateur du projet).
@@ -9582,8 +9247,7 @@ Les partenaires institutionnels (ministères, organismes d'accréditation) le ca
 
 ---
 
-52.5 Étapes de la procédure d'ouverture
-
+53.5 Étapes de la procédure d'ouverture
 La procédure d'ouverture d'une nouvelle filière comprend plusieurs étapes.
 
 Étape 1 — Proposition initiale : le responsable pédagogique de la faculté ou du département concerné élabore une proposition de nouvelle filière. Cette proposition comprend une note d'intention précisant les objectifs, la justification, les besoins identifiés, et les grandes lignes de la formation envisagée.
@@ -9592,7 +9256,7 @@ La procédure d'ouverture d'une nouvelle filière comprend plusieurs étapes.
 
 Étape 3 — Élaboration du dossier de validation : le responsable pédagogique élabore un dossier de validation complet comprenant le projet pédagogique, la maquette semestrielle détaillée, la présentation des ressources pédagogiques nécessaires, l'analyse des débouchés et de l'employabilité, l'étude de faisabilité et le plan de déploiement.
 
-Étape 4 — Examen par le comité pédagogique : le dossier est soumis au comité pédagogique d'ELLYSIUM. Le comité évalue la proposition selon les critères définis au Chapitre 49 (attractivité, ressources pédagogiques, pertinence économique, faisabilité distancielle). Le comité peut demander des modifications ou des compléments.
+Étape 4 — Examen par le comité pédagogique : le dossier est soumis au comité pédagogique d'ELLYSIUM. Le comité évalue la proposition selon les critères définis au Chapitre 50 (attractivité, ressources pédagogiques, pertinence économique, faisabilité distancielle). Le comité peut demander des modifications ou des compléments.
 
 Étape 5 — Validation par le conseil d'administration : après avis favorable du comité pédagogique, le dossier est soumis au conseil d'administration d'ELLYSIUM pour validation définitive. Le conseil d'administration statue sur l'opportunité de l'ouverture, le calendrier de déploiement, et les ressources allouées.
 
@@ -9602,9 +9266,8 @@ La procédure d'ouverture d'une nouvelle filière comprend plusieurs étapes.
 
 ---
 
-52.6 Critères d'évaluation d'une nouvelle filière
-
-Les critères d'évaluation d'une nouvelle filière sont les mêmes que ceux définis au Chapitre 49 :
+53.6 Critères d'évaluation d'une nouvelle filière
+Les critères d'évaluation d'une nouvelle filière sont les mêmes que ceux définis au Chapitre 50 :
 
 Attractivité et demande étudiante.
 
@@ -9618,23 +9281,21 @@ Chaque critère est évalué selon une grille de notation prédéfinie. Une fili
 
 ---
 
-52.7 Cas particulier : nouvelles options secondaires
-
+53.7 Cas particulier : nouvelles options secondaires
 Pour les nouvelles options de l'enseignement secondaire, la procédure est similaire mais plus simple. Les options secondaires sont déjà définies par les programmes officiels du Ministère de l'EPST. L'ouverture d'une option secondaire au sein d'ELLYSIUM consiste donc à adapter les contenus officiels à la plateforme. La procédure comprend :
 
 Une vérification de la conformité avec les programmes officiels.
 
-Une analyse de la faisabilité distancielle et du coût logistique (cf. Chapitre 22).
+Une analyse de la faisabilité distancielle et du coût logistique (cf. Chapitre 23).
 
 Une validation par le comité pédagogique et le conseil d'administration.
 
 ---
 
-52.8 Cas particulier : nouvelles facultés
+53.8 Cas particulier : nouvelles facultés
+Pour les nouvelles facultés de l'enseignement universitaire, la procédure est plus complexe. Elle inclut les mêmes étapes que celles décrites au 53.5, mais avec des exigences supplémentaires :
 
-Pour les nouvelles facultés de l'enseignement universitaire, la procédure est plus complexe. Elle inclut les mêmes étapes que celles décrites au 52.5, mais avec des exigences supplémentaires :
-
-Élaboration d'une maquette semestrielle complète (cf. chapitres 23 à 48).
+Élaboration d'une maquette semestrielle complète (cf. chapitres 24 à 49).
 
 Démonstration de la compatibilité avec le système LMD.
 
@@ -9644,8 +9305,7 @@ Démonstration de la compatibilité avec le système LMD.
 
 ---
 
-52.9 Calendrier indicatif
-
+53.9 Calendrier indicatif
 Le calendrier indicatif d'ouverture d'une nouvelle filière est le suivant :
 
 Proposition initiale : J0 à J30.
@@ -9664,30 +9324,26 @@ Mise en œuvre et déploiement : J240 à J450 (9 mois).
 
 ---
 
-52.10 Conclusion du chapitre
-
+53.10 Conclusion du chapitre
 La procédure d'ouverture de nouvelles filières garantit que toute nouvelle offre de formation à ELLYSIUM est conforme aux principes fondateurs de l'institution, répond à des besoins réels, est pédagogiquement et techniquement faisable, et est économiquement soutenable. Elle assure ainsi la qualité et la pérennité des formations proposées.
 
 ---
 
-CHAPITRE 53 — DÉPENDANCES ET INTÉGRATIONS — AVEC LES TOMES 3, 5, 10 ET 14
+CHAPITRE 54 — DÉPENDANCES ET INTÉGRATIONS — AVEC LES TOMES 3, 5, 10 ET 14
 
 ---
 
-53.1 Objet du chapitre
-
+54.1 Objet du chapitre
 Le présent chapitre identifie et explicite les dépendances du Tome 4 avec les autres tomes du cahier des charges d'ELLYSIUM, en particulier les Tomes 3, 5, 10 et 14. Il précise la nature des dépendances, les interfaces entre les tomes, et les règles de cohérence à respecter. Ce chapitre garantit que le Tome 4 s'intègre harmonieusement dans l'ensemble du projet.
 
 ---
 
-53.2 Conformité avec la Constitution d'ELLYSIUM
-
+54.2 Conformité avec la Constitution d'ELLYSIUM
 Ce chapitre s'inscrit dans le respect de l'Article 21 de la Constitution : la primauté de la Constitution sur l'ensemble du projet. Tous les tomes doivent être conformes à la Constitution et cohérents entre eux.
 
 ---
 
-53.3 Dépendance avec le Tome 3 — Architecture pédagogique et ingénierie de l'enseignement
-
+54.3 Dépendance avec le Tome 3 — Architecture pédagogique et ingénierie de l'enseignement
 Le Tome 4 dépend fondamentalement du Tome 3. Le Tome 3 définit les fondements pédagogiques, les méthodes d'enseignement, et les règles de validation académique que le Tome 4 applique.
 
 Interface entre les tomes :
@@ -9706,8 +9362,7 @@ Règle de cohérence : toute modification du Tome 3 doit être répercutée dans
 
 ---
 
-53.4 Dépendance avec le Tome 5 — Architecture fonctionnelle
-
+54.4 Dépendance avec le Tome 5 — Architecture fonctionnelle
 Le Tome 5 définit les modules fonctionnels qui mettent en œuvre les programmes et les règles définis dans le Tome 4.
 
 Interface entre les tomes :
@@ -9728,9 +9383,8 @@ Règle de cohérence : toute modification du Tome 4 concernant les programmes, l
 
 ---
 
-53.5 Dépendance avec le Tome 10 — Examens, certifications, bulletins et diplômes
-
-Le Tome 10 définit le système d'évaluation, de certification et de délivrance des diplômes qui met en œuvre les règles définies dans le Tome 4.
+54.5 Dépendance avec le Tome 10 — Examens, certifications, bulletins et diplômes
+Le Tome 10 définit le système d’évaluation, de bulletins, d’attestations internes et, uniquement après habilitation ou dans le cadre d’un partenariat formel, des certifications autorisées qui met en œuvre les règles définies dans le Tome 4.
 
 Interface entre les tomes :
 
@@ -9742,16 +9396,15 @@ Tome 10, Correction et notation : le Tome 4 définit les coefficients, les pond�
 
 Tome 10, Génération des bulletins scolaires et relevés de notes : le Tome 4 définit la structure des bulletins (secondaire) et des relevés de notes (universitaire) que le Tome 10 doit générer.
 
-Tome 10, Attestations, certificats et diplômes institutionnels : le Tome 4 définit les conditions d'obtention des diplômes (Licence, Master) que le Tome 10 doit mettre en œuvre.
+Tome 10, Attestations et certificats institutionnels : le Tome 4 définit les conditions académiques des documents internes. Aucun document ELLYSIUM ne peut être présenté comme un diplôme national ou accrédité sans habilitation formelle documentée.
 
 Tome 10, Accompagnement aux examens nationaux (TENASOSP, EXETAT) : le Tome 4 définit la préparation à ces examens que le Tome 10 doit intégrer dans ses dispositifs.
 
-Règle de cohérence : toute modification du Tome 4 concernant les modalités d'évaluation, les coefficients ou les conditions d'obtention des diplômes doit être répercutée dans le Tome 10. Les diplômes délivrés par ELLYSIUM (Tome 10) doivent correspondre aux formations définies dans le Tome 4.
+Règle de cohérence : toute modification du Tome 4 concernant les modalités d’évaluation, les coefficients ou les conditions de délivrance des documents internes doit être répercutée dans le Tome 10. Toute certification ou tout diplôme reconnu suppose une habilitation ou un partenariat formel documenté.
 
 ---
 
-53.6 Dépendance avec le Tome 14 — Organisation, gouvernance opérationnelle, RH et production des contenus
-
+54.6 Dépendance avec le Tome 14 — Organisation, gouvernance opérationnelle, RH et production des contenus
 Le Tome 14 définit l'organisation humaine et les processus de production des contenus qui rendent possibles les formations définies dans le Tome 4.
 
 Interface entre les tomes :
@@ -9768,8 +9421,7 @@ Règle de cohérence : toute modification du Tome 4 concernant les programmes ou
 
 ---
 
-53.7 Autres dépendances (Tomes 1, 2, 6, 8, 9, 11, 12, 15, 16, 17, 18, 19)
-
+54.7 Autres dépendances (Tomes 1, 2, 6, 8, 9, 11, 12, 15, 16, 17, 18, 19)
 Le Tome 4 dépend également, de manière moins directe mais tout aussi importante, des autres tomes :
 
 Tome 1 (Vision, Philosophie et Mission) : le Tome 4 décline la vision et la mission en offres de formation concrètes.
@@ -9798,8 +9450,7 @@ Tome 19 (Juridique, Conformité et ASBL) : le Tome 4 définit les formations qui
 
 ---
 
-53.8 Matrice des dépendances
-
+54.8 Matrice des dépendances
 Tome Nature de la dépendance Direction
 Tome 3 Fondements pédagogiques, méthodes, règles de validation Tome 4 dépend de Tome 3
 Tome 5 Mise en œuvre fonctionnelle des programmes, maquettes, règles Tome 5 dépend de Tome 4
@@ -9820,8 +9471,7 @@ Tome 19 Juridique, conformité Tome 19 dépend de Tome 4
 
 ---
 
-53.9 Conclusion du chapitre
-
+54.9 Conclusion du chapitre
 Le Tome 4 est le cœur de l'offre académique d'ELLYSIUM. Il est étroitement dépendant des Tomes 3 (fondements pédagogiques), 5 (mise en œuvre fonctionnelle), 10 (évaluation et certification) et 14 (production des contenus et RH), et en interaction avec l'ensemble des autres tomes. La cohérence entre ces tomes est essentielle au succès du projet. Toute évolution du Tome 4 doit être coordonnée avec les tomes concernés pour garantir la cohérence et la qualité de l'ensemble.
 
 ---

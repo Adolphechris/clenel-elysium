@@ -103,9 +103,9 @@ Irrévocabilité : Une fois validé et intégré, le programme est verrouillé. 
 
 Le Tome 4 est organisé en trois grandes parties :
 
-· Partie I : L'enseignement secondaire (Chapitres 4 à 12)
-· Partie II : L'enseignement universitaire (Chapitres 13 à 34)
-· Partie III : Règles communes et intégration (Chapitres 35 à 38)
+· Partie I : L'enseignement secondaire (Chapitres 4 à 7)
+· Partie II : Les options des humanités et leur pilotage (Chapitres 8 à 23)
+· Partie III : L'enseignement universitaire et l'intégration inter-tomes (Chapitres 24 à 54)
 
 ---
 
@@ -465,7 +465,7 @@ Conformément à la nomenclature officielle congolaise, elles comprennent :
 
 3ème Année des Humanités (7ème Année du Secondaire) : Spécialisation avancée.
 
-4ème Année des Humanités (8ème Année du Secondaire / Terminale) : Année de finalisation, de préparation aux épreuves d'État (EXETAT) et d'obtention du Diplôme d'État.
+4ème Année des Humanités (8ème Année du Secondaire / Terminale) : année de finalisation et de préparation aux épreuves nationales de l’EXETAT. ELLYSIUM ne délivre pas le Diplôme d’État ; l’élève reçoit de l’institution un bulletin et, le cas échéant, une attestation de fin de préparation distincte du diplôme national.
 
 Durée totale du cycle des humanités : 4 années.
 

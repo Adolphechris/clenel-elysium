@@ -42,7 +42,7 @@ En chimie, la première année couvre les atomes, les molécules, les ions, le t
 
 En biologie, la première année couvre l'organisation du vivant, la nutrition, la digestion, la respiration et la circulation sanguine. La deuxième année aborde la génétique, l'écologie et l'évolution des espèces. La troisième année approfondit la reproduction, la microbiologie, l'immunologie et la santé publique. La quatrième année couvre les neurosciences, les biotechnologies, la génétique des populations et la biologie moléculaire.
 
-Le français, l'anglais, l'histoire-géographie, l'éducation civique et l'éducation physique suivent les progressions nationales décrites au Chapitre 8.
+Le français, l'anglais, l'histoire-géographie, l'éducation civique et l'éducation physique suivent les référentiels nationaux applicables et la grille générale des humanités définie au Chapitre 7.
 
 9.6 Compétences visées
 
@@ -50,7 +50,7 @@ Le français, l'anglais, l'histoire-géographie, l'éducation civique et l'éduc
 
 9.7 Évaluations et préparation à l'EXETAT
 
-L'évaluation combine évaluation formative et sommative, à travers des devoirs, des interrogations écrites et orales, des travaux pratiques et des exposés, ainsi que des examens de fin de période et de fin de semestre organisés conformément au calendrier scolaire, selon les règles définies au Chapitre 5, paragraphe 5.6. Les résultats sont calculés sur la base des notes obtenues sur vingt dans chaque discipline, le seuil de passage étant fixé à dix sur vingt de moyenne générale.
+L'évaluation combine évaluation formative et sommative, à travers des devoirs, des interrogations écrites et orales, des travaux pratiques et des exposés, ainsi que des examens de fin de période et de fin de semestre organisés conformément au calendrier scolaire. Le calcul des résultats, les seuils de passage et les décisions de délibération suivent les règles communes des humanités définies aux chapitres 7 et 8.
 
 La préparation à l'Examen d'État est intégrée dès la troisième année, avec des exercices types, des annales et des simulations. Les épreuves comprennent les épreuves obligatoires — français, anglais, mathématiques, histoire, géographie — et les épreuves spécifiques de physique, chimie et biologie.
 
@@ -106,7 +106,7 @@ Le français, l'anglais, l'histoire-géographie, l'éducation civique et l'éduc
 
 10.7 Évaluations et préparation à l'EXETAT
 
-L'évaluation combine contrôle continu — devoirs, interrogations, travaux pratiques de laboratoire, comptes rendus d'expériences, exposés — et examens périodiques, selon les règles définies au Chapitre 5, paragraphe 5.6. La préparation à l'Examen d'État est intégrée dès la troisième année, avec les épreuves obligatoires et les épreuves spécifiques de chimie et de biologie, l'accent étant mis sur la maîtrise des manipulations expérimentales et l'analyse de résultats.
+L'évaluation combine contrôle continu — devoirs, interrogations, travaux pratiques de laboratoire, comptes rendus d'expériences, exposés — et examens périodiques, selon les règles communes des humanités définies aux chapitres 7 et 8. La préparation à l'Examen d'État est intégrée dès la troisième année, avec les épreuves obligatoires et les épreuves spécifiques de chimie et de biologie, l'accent étant mis sur la maîtrise des manipulations expérimentales et l'analyse de résultats.
 
 10.8 Adaptation à la plateforme ELLYSIUM
 
@@ -336,31 +336,31 @@ Le présent chapitre définit l'Option Pédagogie Spécialisée, dans les mêmes
 
 15.2 Présentation générale de l'option
 
-Cette option est une filière des humanités qui prépare les élèves aux métiers de l'enseignement et de l'accompagnement des personnes à besoins spécifiques, associant une formation générale solide à une spécialisation dans l'éducation inclusive, la prise en charge des handicaps et des troubles d'apprentissage.
+Cette option est une filière des humanités qui prépare les élèves à l’éducation inclusive et à l’accompagnement scolaire des apprenants à besoins spécifiques, associant une formation générale solide à la connaissance des obstacles à l’apprentissage et aux pratiques pédagogiques adaptées.
 
 Elle s'adresse aux élèves manifestant un intérêt pour l'accompagnement des personnes vulnérables, une sensibilité aux questions d'inclusion, une aptitude à la communication et à l'écoute, un sens de l'observation, et un désir de contribuer à l'éducation de tous les enfants sans exclusion.
 
-Les débouchés couvrent la pédagogie spécialisée, l'éducation inclusive, la psychologie clinique, l'orthophonie, la psychomotricité, l'éducation des enfants handicapés, l'animation socio-éducative et le travail social.
+Les perspectives concernent l’éducation inclusive, l’animation socio-éducative, le travail social et la poursuite d’études qualifiantes en sciences de l’éducation ou dans d’autres domaines réglementés. Elles n’incluent ni pratique clinique, ni orthophonie, ni psychomotricité sans qualification légalement requise.
 
 15.3 Objectifs de l'option
 
 Cette option vise à former des élèves capables de comprendre les différents types de handicap et de difficultés d'apprentissage, de maîtriser les techniques d'accompagnement adaptées, de développer des compétences relationnelles et d'écoute, de concevoir des projets éducatifs inclusifs, et de se préparer aux métiers de l'éducation spécialisée.
 
-En pédagogie spécialisée, l'élève doit comprendre les classifications des handicaps et les approches éducatives adaptées. En psychologie clinique, il doit comprendre les troubles du développement et du comportement. En éducation inclusive, il doit maîtriser les principes de l'inclusion scolaire et l'adaptation des contenus.
+En pédagogie spécialisée, l’élève doit comprendre les besoins éducatifs et les approches scolaires adaptées. Les contenus relatifs au développement et au comportement servent au repérage et à l’orientation vers les professionnels compétents, jamais au diagnostic. En éducation inclusive, il doit maîtriser les principes de l'inclusion scolaire et l'adaptation des contenus.
 
 15.4 Matières enseignées et grille horaire
 
-Les matières sont la pédagogie spécialisée et l'éducation inclusive, la psychologie clinique et pathologique, l'orthophonie et la rééducation, le français, l'anglais, les mathématiques, l'histoire-géographie, l'éducation civique, l'éducation physique et les techniques d'expression et de communication.
+Les matières sont la pédagogie spécialisée et l'éducation inclusive, le développement de l’enfant et les difficultés d’apprentissage, la communication adaptée et l’orientation vers les professionnels compétents, le français, l'anglais, les mathématiques, l'histoire-géographie, l'éducation civique, l'éducation physique et les techniques d'expression et de communication.
 
-En première et deuxième années, la pédagogie spécialisée bénéficie de quatre heures, la psychologie clinique de trois heures, l'orthophonie de deux heures, le français de cinq heures, l'anglais et les mathématiques de trois heures chacune, l'histoire-géographie de trois heures, les techniques d'expression de deux heures, pour un total de vingt-sept heures. En troisième et quatrième années, la psychologie clinique passe à quatre heures et le français à quatre heures, l'histoire-géographie à deux heures, pour un total de vingt-six heures.
+Les volumes horaires sont arrêtés uniquement sur la base du référentiel officiel validé pour cette option. La plateforme ne peut paramétrer aucun volume définitif avant cette validation documentaire.
 
 15.5 Programmes par discipline
 
 En pédagogie spécialisée et éducation inclusive, la première année introduit les concepts fondamentaux et la classification des handicaps. La deuxième année couvre l'éducation inclusive et l'adaptation des méthodes. La troisième année aborde la pédagogie différenciée et les projets personnalisés. La quatrième année couvre l'éducation des enfants à besoins multiples et les politiques éducatives liées au handicap.
 
-En psychologie clinique et pathologique, la première année introduit la discipline et la psychopathologie de l'enfant. La deuxième année aborde la psychopathologie de l'adolescent. La troisième année couvre les troubles du spectre autistique, les troubles de l'attention et les troubles des apprentissages. La quatrième année aborde l'évaluation clinique et l'entretien psychologique.
+Les contenus relatifs au développement et aux difficultés d’apprentissage permettent de repérer des besoins éducatifs, d’adapter l’accompagnement scolaire et d’orienter les familles vers des professionnels compétents. Ils ne constituent ni une formation clinique, ni une habilitation au diagnostic ou à la prise en charge thérapeutique.
 
-En orthophonie et rééducation, la première année introduit le développement du langage et ses troubles. La deuxième année aborde les troubles du langage écrit et de la communication. La troisième année couvre les troubles de la voix et de l'articulation. La quatrième année aborde la rééducation cognitive et motrice.
+La communication adaptée aborde le développement du langage, les obstacles à la communication et les moyens de favoriser la participation de l’apprenant. Toute orthophonie, rééducation ou intervention thérapeutique relève exclusivement de professionnels légalement habilités.
 
 Les techniques d'expression et de communication incluent, en troisième année, la communication avec les personnes handicapées, notamment la langue des signes et la communication alternative.
 
@@ -370,15 +370,15 @@ Les techniques d'expression et de communication incluent, en troisième année, 
 
 15.7 Évaluations et préparation à l'EXETAT
 
-L'évaluation combine devoirs, interrogations, exposés, études de cas, simulations d'accompagnement, stages et dossiers. La préparation à l'Examen d'État est intégrée dès la troisième année, avec les épreuves obligatoires et les épreuves spécifiques de pédagogie spécialisée et de psychologie clinique.
+L'évaluation combine devoirs, interrogations, exposés, études de cas, simulations d’accompagnement éducatif et dossiers. Elle n’inclut aucun acte clinique, thérapeutique ou de soin. La préparation à l'Examen d'État suit les référentiels officiels applicables.
 
 15.8 Adaptation à la plateforme ELLYSIUM
 
-L'adaptation suit les principes généraux du paragraphe 9.8, complétés par des simulations d'accompagnement, des études de cas cliniques, des vidéos de pratiques inclusives et des forums spécialisés.
+L'adaptation suit les principes généraux du paragraphe 9.8, complétés par des simulations d'accompagnement éducatif, des études de cas non cliniques, des vidéos de pratiques inclusives et des forums spécialisés.
 
 15.9 Conclusion du chapitre
 
-L'Option Pédagogie Spécialisée offre une formation en éducation inclusive, psychologie clinique et accompagnement des personnes à besoins spécifiques, préparant aux métiers de l'éducation spécialisée et du travail social, tout en restant accessible grâce à l'adaptation numérique d'ELLYSIUM.
+L'Option Pédagogie Spécialisée offre une formation en éducation inclusive et accompagnement scolaire des personnes à besoins spécifiques, préparant à la poursuite d’études et aux activités éducatives ou sociales autorisées, sans se substituer aux professions cliniques réglementées.
 
 ---
 
@@ -386,7 +386,7 @@ CHAPITRE 16 — OPTION MÉCANIQUE GÉNÉRALE
 
 16.1 Objet du chapitre
 
-Le présent chapitre définit l'Option Mécanique Générale, dans les mêmes conditions de conformité que les chapitres précédents. Elle fait partie des quatre options techniques retenues pour le lancement.
+Le présent chapitre définit l'Option Mécanique Générale, dans les mêmes conditions de conformité que les chapitres précédents. Elle appartient au catalogue officiel des quatorze options retenues par ELLYSIUM ; son activation au lancement dépend des priorités et des conditions définies au Chapitre 23.
 
 16.2 Présentation générale de l'option
 
@@ -442,7 +442,7 @@ CHAPITRE 17 — OPTION ÉLECTRONIQUE
 
 17.1 Objet du chapitre
 
-Le présent chapitre définit l'Option Électronique, deuxième des quatre options techniques retenues pour le lancement.
+Le présent chapitre définit l'Option Électronique, deuxième option technique présentée dans le catalogue officiel des quatorze options ; son activation dépend des conditions définies au Chapitre 23.
 
 17.2 Présentation générale de l'option
 
@@ -498,7 +498,7 @@ CHAPITRE 18 — OPTION ÉLECTRICITÉ
 
 18.1 Objet du chapitre
 
-Le présent chapitre définit l'Option Électricité, troisième des quatre options techniques retenues pour le lancement.
+Le présent chapitre définit l'Option Électricité, troisième option technique présentée dans le catalogue officiel des quatorze options ; son activation dépend des conditions définies au Chapitre 23.
 
 18.2 Présentation générale de l'option
 
@@ -610,11 +610,11 @@ CHAPITRE 20 — OPTION ARTS ET MÉTIERS
 
 20.1 Objet du chapitre
 
-Le présent chapitre définit l'Option Arts et Métiers, première des trois options professionnelles retenues pour le lancement, conformément à la table des matières arbitrée du Tome 4.
+Le présent chapitre définit l'Option Arts et Métiers, première des trois options professionnelles du catalogue officiel des quatorze options, conformément à la table des matières arbitrée du Tome 4.
 
 20.2 Présentation générale de l'option
 
-Cette option est une filière professionnelle des humanités, d'une durée de trois années, qui prépare les élèves aux métiers de l'artisanat, du design et des industries créatives, en associant une formation générale allégée à une spécialisation pratique intensive dans les techniques artistiques et artisanales.
+Cette option est une filière professionnelle des humanités, organisée sur les quatre années du cycle des humanités, qui prépare les élèves aux métiers de l'artisanat, du design et des industries créatives, en associant une formation générale à une spécialisation pratique progressive dans les techniques artistiques et artisanales.
 
 Elle s'adresse aux élèves manifestant un intérêt pour la création manuelle et artistique, une sensibilité esthétique, une habileté manuelle et une aptitude au travail minutieux, et un désir de s'insérer rapidement dans l'artisanat ou de créer leur propre activité.
 
@@ -668,7 +668,7 @@ Le présent chapitre définit l'Option Coupe et Couture / Confection, deuxième 
 
 21.2 Présentation générale de l'option
 
-Cette option est une filière professionnelle des humanités, d'une durée de trois années, qui prépare les élèves aux métiers de la confection, de la mode, de la couture et de l'industrie textile.
+Cette option est une filière professionnelle des humanités, organisée sur les quatre années du cycle des humanités, qui prépare les élèves aux métiers de la confection, de la mode, de la couture et de l'industrie textile.
 
 Elle s'adresse aux élèves manifestant un intérêt pour la mode, la création et les métiers manuels, une aptitude au travail précis, une sensibilité esthétique, et un désir de s'insérer rapidement dans la confection ou de créer leur propre activité.
 
@@ -720,21 +720,21 @@ CHAPITRE 22 — OPTION AIDE-SOIGNANTE ET ACCOUCHEUSE
 
 22.1 Objet du chapitre
 
-Le présent chapitre définit l'Option Aide-Soignante et Accoucheuse, troisième et dernière des options professionnelles retenues pour le lancement, conformément à la table des matières arbitrée du Tome 4.
+Le présent chapitre définit l'Option Aide-Soignante et Accoucheuse, troisième option professionnelle du catalogue officiel des quatorze options, conformément à la table des matières arbitrée du Tome 4.
 
 22.2 Présentation générale de l'option
 
-Cette option est une filière professionnelle des humanités, d'une durée de trois années, qui prépare les élèves aux métiers de l'assistance sanitaire de première ligne, notamment l'aide-soignant et l'auxiliaire d'accouchement, en milieu hospitalier, en centre de santé ou en dispensaire communautaire.
+Cette option est une filière professionnelle des humanités, organisée sur les quatre années du cycle des humanités, qui prépare aux savoirs de base de l'assistance sanitaire et à la poursuite d'une formation de santé qualifiante. Elle ne confère aucune habilitation professionnelle de soin ou d’accouchement.
 
 Elle s'adresse aux élèves manifestant un intérêt pour le soin, l'accompagnement des personnes malades ou en situation d'accouchement, une résistance physique et émotionnelle, un sens de l'hygiène et du protocole, et un désir de s'insérer rapidement dans le secteur sanitaire.
 
-Les débouchés couvrent les postes d'aide-soignant en hôpital ou en centre de santé, d'auxiliaire d'accouchement, d'agent de santé communautaire, ainsi que la poursuite d'études courtes en soins infirmiers ou en santé publique, cette dernière déjà identifiée comme filière universitaire prioritaire d'ELLYSIUM.
+Les perspectives concernent l’orientation vers des formations qualifiantes en soins infirmiers, santé communautaire ou santé publique, ainsi que des activités autorisées par la réglementation applicable après obtention des qualifications requises.
 
 22.3 Objectifs de l'option
 
-Cette option vise à former des élèves capables de comprendre l'anatomie et la physiologie de base, de maîtriser les gestes de soins courants et les règles d'hygiène et d'asepsie, d'accompagner une parturiente dans les gestes de premier niveau sous supervision d'une sage-femme ou d'un médecin, et de comprendre l'organisation d'une structure sanitaire.
+Cette option vise à former des élèves capables de comprendre l'anatomie et la physiologie de base, les règles d'hygiène, de prévention et d’asepsie, les signes d’alerte et les parcours d’orientation vers le personnel qualifié, ainsi que l’organisation d’une structure sanitaire.
 
-En soins de base, l'élève doit maîtriser les gestes d'hygiène, de confort et de surveillance du patient. En santé maternelle et infantile, il doit comprendre le suivi de la grossesse et les signes d'alerte, dans les limites strictes de son rôle d'auxiliaire, tout acte médical ou d'accouchement proprement dit relevant exclusivement d'un personnel médical qualifié et habilité. En hygiène et prévention, il doit maîtriser l'asepsie, la stérilisation et la prévention des infections.
+En soins de base, l’élève étudie l’hygiène, le confort, l’observation et la prévention. En santé maternelle et infantile, il étudie les parcours de suivi de la grossesse et les signes d’alerte nécessitant l’orientation immédiate vers un personnel qualifié. Tout acte médical, de soin réservé ou d’accouchement relève exclusivement d’un professionnel légalement habilité. En hygiène et prévention, l’élève étudie l’asepsie, la stérilisation et la prévention des infections.
 
 Avertissement de portée : cette option forme des auxiliaires de santé de premier niveau, non des sages-femmes ni des infirmières diplômées. Toute pratique effective d'actes de soins reste, en République Démocratique du Congo comme partout ailleurs, soumise aux habilitations légales propres à la profession de santé concernée. ELLYSIUM prépare aux savoirs de base et à l'entrée dans une formation professionnelle ou universitaire de santé qualifiante ; elle ne délivre aucune habilitation à pratiquer.
 
@@ -742,31 +742,31 @@ Avertissement de portée : cette option forme des auxiliaires de santé de premi
 
 Les matières sont les soins de base et l'hygiène hospitalière, l'anatomie et la physiologie, la santé maternelle et infantile, la nutrition et la diététique, l'éthique et la déontologie du soin, le français, les mathématiques, l'anglais, l'éducation civique et l'éducation physique.
 
-Sur les trois années, les soins de base bénéficient de cinq heures par semaine, l'anatomie et la physiologie de quatre heures, la santé maternelle et infantile de trois heures, la nutrition et la diététique de deux heures, l'éthique et la déontologie de deux heures, le français de trois heures, les mathématiques de deux heures, l'anglais de deux heures, et l'éducation civique et l'éducation physique d'une heure chacune, pour un total de vingt-sept heures.
+Sur les quatre années du cycle, la répartition horaire est arrêtée uniquement sur la base du référentiel officiel validé pour cette option. La plateforme ne peut paramétrer aucun volume définitif avant cette validation documentaire.
 
 22.5 Programmes par discipline
 
-En soins de base et hygiène hospitalière, la première année introduit les gestes d'hygiène et de confort du patient. La deuxième année aborde la surveillance des paramètres vitaux et les soins courants. La troisième année couvre la prise en charge de situations d'urgence de premier niveau, en attente d'un personnel qualifié.
+En soins de base et hygiène hospitalière, la première année introduit l’hygiène, le confort, la prévention et l’observation du patient. La deuxième année aborde l’identification des signes d’alerte et l’orientation vers le personnel qualifié. La troisième année traite des conduites à tenir en situation d’urgence : alerter, sécuriser et assister le personnel habilité sans réaliser d’acte réservé.
 
 En anatomie et physiologie, la première année couvre l'organisation générale du corps humain. La deuxième année aborde les grands systèmes — circulatoire, respiratoire, digestif. La troisième année couvre le système reproducteur et les bases de la physiologie de la grossesse.
 
-En santé maternelle et infantile, la première année introduit le suivi de la grossesse et les consultations prénatales. La deuxième année aborde les signes d'alerte et les motifs d'orientation vers un personnel médical qualifié. La troisième année couvre les soins du nouveau-né et le suivi post-natal de premier niveau, toujours sous supervision.
+En santé maternelle et infantile, la première année introduit la prévention, l’information et les parcours de suivi de la grossesse. La deuxième année aborde les signes d'alerte et les motifs d'orientation vers un personnel médical qualifié. La troisième année couvre la prévention, l’observation du nouveau-né et le repérage des situations qui nécessitent une orientation immédiate vers un personnel habilité.
 
 En nutrition et diététique, la progression couvre les besoins nutritionnels de l'enfant, de la femme enceinte et du malade. En éthique et déontologie du soin, la progression couvre le secret professionnel, le consentement du patient et les limites du rôle de l'auxiliaire de santé.
 
 22.6 Compétences visées
 
-À l'issue de cette option, l'élève est capable de comprendre l'anatomie et la physiologie de base, de maîtriser les gestes de soins courants et les règles d'hygiène, d'accompagner un patient ou une parturiente dans les gestes de premier niveau sous supervision, de comprendre l'organisation d'une structure sanitaire, et de respecter l'éthique et les limites de son rôle.
+À l'issue de cette option, l'élève est capable de comprendre l'anatomie et la physiologie de base, les règles d'hygiène et de prévention, les signes d’alerte et les voies d’orientation vers le personnel habilité, de comprendre l'organisation d'une structure sanitaire, et de respecter l'éthique ainsi que les limites strictes de son rôle.
 
 22.7 Évaluations et préparation à l'EXETAT
 
-L'évaluation combine devoirs, interrogations, mises en situation pratiques encadrées, stages en structure sanitaire partenaire, et dossiers de suivi. La préparation à l'Examen d'État est intégrée dès la deuxième année, avec les épreuves obligatoires et les épreuves spécifiques de soins de base et d'anatomie-physiologie.
+L'évaluation combine devoirs, interrogations, études de cas, simulations de prévention et d’orientation, ainsi que dossiers de suivi. Toute immersion en structure sanitaire est limitée à l’observation encadrée, régie par une convention formelle et ne donne lieu à aucun acte réservé. La préparation à l'Examen d'État suit les référentiels officiels applicables.
 
-Les stages pratiques en structure sanitaire, indispensables à cette option, ne peuvent être réalisés à distance ; ils supposent un partenariat avec des centres de santé ou des hôpitaux locaux, dont les modalités relèvent du Tome 15 consacré aux partenariats.
+Les stages pratiques en structure sanitaire, indispensables à cette option, ne peuvent être réalisés à distance ; ils supposent un partenariat avec des centres de santé ou des hôpitaux locaux, dont les modalités sont définies par des conventions formelles avec les structures concernées.
 
 22.8 Adaptation à la plateforme ELLYSIUM
 
-L'adaptation suit les principes généraux du paragraphe 9.8, complétés par des vidéos de gestes techniques, des simulations anatomiques interactives, des études de cas cliniques encadrées, et une coordination renforcée avec les structures de stage partenaires, cette dernière n'ayant pas d'équivalent dans les autres options professionnelles compte tenu de la nature du métier visé.
+L'adaptation suit les principes généraux du paragraphe 9.8, complétés par des vidéos de prévention et d’observation, des simulations anatomiques interactives, des études de cas encadrées, et une coordination renforcée avec les structures de stage partenaires, cette dernière n'ayant pas d'équivalent dans les autres options professionnelles compte tenu de la nature du métier visé.
 
 22.9 Conclusion du chapitre
 
@@ -774,15 +774,15 @@ L'Option Aide-Soignante et Accoucheuse offre une formation d'auxiliaire de sant�
 
 ---
 
-CHAPITRE 23 — LE COL STRATÉGIQUE : CRITÈRES DE SÉLECTION DES OPTIONS SECONDAIRES POUR L'IMPLÉMENTATION
+CHAPITRE 23 — CADRE STRATÉGIQUE : CRITÈRES DE SÉLECTION DES OPTIONS SECONDAIRES POUR L'IMPLÉMENTATION
 
 23.1 Objet du chapitre
 
-Le présent chapitre définit les critères stratégiques de priorisation du déploiement des quatorze options secondaires au sein d'ELLYSIUM. Il ne s'agit pas d'un chapitre pédagogique mais d'un outil de pilotage, conforme à la Constitution d'ELLYSIUM et aux principes de déploiement des Tomes 15 et 16. Cette version corrige la précédente sur deux points : elle retire l'option Maintenance, non conforme à la liste fermée des quatorze options, et elle intègre les deux options ajoutées, Arts et métiers et Aide-soignante/Accoucheuse.
+Le présent chapitre définit les critères stratégiques de priorisation du déploiement des quatorze options secondaires au sein d'ELLYSIUM. Il ne s'agit pas d'un chapitre pédagogique mais d'un outil de pilotage, conforme à la Constitution d'ELLYSIUM et aux principes de déploiement progressif définis dans la feuille de route institutionnelle. Cette version corrige la précédente sur deux points : elle retire l'option Maintenance, non conforme à la liste fermée des quatorze options, et elle intègre les deux options ajoutées, Arts et métiers et Aide-soignante/Accoucheuse.
 
-23.2 Objectifs du col stratégique
+23.2 Objectifs du cadre stratégique
 
-Le col stratégique poursuit plusieurs objectifs : prioriser les options en fonction de leur faisabilité opérationnelle et de leur coût logistique, identifier celles qui répondent le mieux à la demande locale et aux besoins du marché de l'emploi, garantir un déploiement progressif et maîtrisé, optimiser l'utilisation des ressources pédagogiques et financières, et assurer une couverture équilibrée des trois familles d'options — générales, techniques et professionnelles.
+Le cadre stratégique poursuit plusieurs objectifs : prioriser les options en fonction de leur faisabilité opérationnelle et de leur coût logistique, identifier celles qui répondent le mieux à la demande locale et aux besoins du marché de l'emploi, garantir un déploiement progressif et maîtrisé, optimiser l'utilisation des ressources pédagogiques et financières, et assurer une couverture équilibrée des trois familles d'options — générales, techniques et professionnelles.
 
 23.3 Les quatre critères de sélection
 
@@ -802,14 +802,14 @@ Les options techniques Mécanique générale, Électronique et Électricité né
 
 L'option Arts et métiers présente une demande moyenne, un coût logistique modéré — l'essentiel du matériel pouvant être local et artisanal — et une faisabilité distancielle bonne pour la partie théorique, limitée pour la pratique : elle est à priorité moyenne, avec un déploiement facilité par des partenariats avec des artisans locaux.
 
-L'option Aide-soignante et Accoucheuse présente une forte pertinence sociale et une employabilité réelle, mais une faisabilité distancielle faible du fait des stages obligatoires en structure sanitaire, et un déploiement conditionné à l'existence de partenariats avec des centres de santé : elle est à priorité conditionnelle, réservée aux zones où de tels partenariats peuvent être conclus, en cohérence avec le Tome 15.
+L'option Aide-soignante et Accoucheuse présente une forte pertinence sociale et une employabilité réelle, mais une faisabilité distancielle faible du fait des stages obligatoires en structure sanitaire, et un déploiement conditionné à l'existence de partenariats avec des centres de santé : elle est à priorité conditionnelle, réservée aux zones où de tels partenariats peuvent être conclus, sous réserve de conventions et d’autorisations applicables.
 
 23.5 Recommandations stratégiques pour l'implémentation
 
 La phase de déploiement initial retient les quatre options à priorité élevée : Scientifique, Biochimie, Sciences commerciales et administratives, Informatique de gestion. La phase d'extension progressive intègre les options à priorité moyenne : Latin-Philosophie, Pédagogie générale, Coupe et couture, Arts et métiers, en fonction des demandes locales. La phase de déploiement conditionnel réserve les options nécessitant des infrastructures lourdes ou des partenariats spécifiques — Mécanique générale, Électronique, Électricité, Aide-soignante et Accoucheuse — aux établissements ou zones disposant des conditions requises. L'option Grec-Philosophie, très spécialisée, est déployée sur demande explicite d'un établissement.
 
-Pour les options nécessitant des travaux pratiques en présentiel, des partenariats sont mis en place avec des centres techniques, des ateliers communautaires, des artisans locaux ou des structures sanitaires, conformément au Tome 15. Les priorités sont réévaluées régulièrement en fonction des retours du terrain, de l'évolution du marché de l'emploi et de la conclusion effective des partenariats nécessaires.
+Pour les options nécessitant des travaux pratiques en présentiel, des partenariats sont mis en place avec des centres techniques, des ateliers communautaires, des artisans locaux ou des structures sanitaires, dans le respect des conventions et autorisations applicables. Les priorités sont réévaluées régulièrement en fonction des retours du terrain, de l'évolution du marché de l'emploi et de la conclusion effective des partenariats nécessaires.
 
 23.6 Conclusion du chapitre
 
-Le col stratégique définit un cadre objectif et transparent pour la sélection et le déploiement des quatorze options secondaires au sein d'ELLYSIUM. En combinant la demande locale, la faisabilité distancielle, le coût logistique et l'employabilité, il permet de prioriser les options les plus pertinentes tout en respectant la liste fermée déjà arbitrée, et de garantir un déploiement progressif et maîtrisé, dans le respect de la soutenabilité du modèle et des besoins réels des élèves et des communautés.
+Le cadre stratégique définit un cadre objectif et transparent pour la sélection et le déploiement des quatorze options secondaires au sein d'ELLYSIUM. En combinant la demande locale, la faisabilité distancielle, le coût logistique et l'employabilité, il permet de prioriser les options les plus pertinentes tout en respectant la liste fermée déjà arbitrée, et de garantir un déploiement progressif et maîtrisé, dans le respect de la soutenabilité du modèle et des besoins réels des élèves et des communautés.
