@@ -8,6 +8,19 @@ Il constitue le référentiel officiel utilisé par les enseignants, les respons
 
 Ce document ne crée pas les programmes d'études. Il décrit la manière dont ELLYSIUM organise, dispense, accompagne, évalue et améliore l'enseignement des programmes officiellement retenus.
 
+## Organisation des fichiers du Tome 3
+
+- [3.1.md](./3.1.md) — Partie I : Fondements de l'architecture pédagogique (Chapitres 1 à 3)
+- [3.2.md](./3.2.md) — Partie II : Architecture des parcours de formation (Chapitres 4 à 6)
+- [3.3.md](./3.3.md) — Partie III : Ingénierie des contenus pédagogiques (Chapitres 7 à 10)
+- [3.4.md](./3.4.md) — Partie IV : Méthodes d'enseignement (Chapitres 11 à 13)
+- [3.5.md](./3.5.md) — Partie V : Enseignement secondaire (Chapitres 14 à 16)
+- [3.6.md](./3.6.md) — Partie VI : Enseignement universitaire (Chapitres 17 à 19)
+- [3.7.md](./3.7.md) — Partie VII : Évaluation des apprentissages (Chapitres 20 à 22)
+- [3.8.md](./3.8.md) — Partie VIII : Suivi pédagogique et learning analytics (Chapitres 23 à 25)
+- [3.9.md](./3.9.md) — Partie IX : Assurance qualité pédagogique (Chapitres 26 à 28)
+- [3.10.md](./3.10.md) — Partie X : Règles métiers pédagogiques (Chapitres 29 à 30)
+- [annexes.md](./annexes.md) — Annexes normatives A à J (Glossaire, référentiels RDC/LMD/UNISA, modèles)
 
 ---
 

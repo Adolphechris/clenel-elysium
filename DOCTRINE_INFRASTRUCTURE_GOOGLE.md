@@ -1,0 +1,265 @@
+# 🔱 DOCTRINE D'INFRASTRUCTURE IMMUABLE — ELLYSIUM / CNEL
+## Acte Fondateur — Décret d'Architecture Souveraine
+
+---
+
+> **INSCRIT EN MARBRE — INTANGIBLE — OPPOSABLE À TOUT INTERVENANT**
+>
+> Ce document constitue la **loi suprême technique** du projet ELLYSIUM / CNEL.
+> Aucune décision d'architecture, aucun choix d'outil, aucune ligne de code,
+> aucune configuration d'infrastructure ne peut contredire les présentes dispositions.
+> Tout intervenant — développeur, architecte, DevOps, consultant, IA — est tenu de
+> lire, comprendre et respecter scrupuleusement ce document avant toute contribution.
+
+---
+
+## ARTICLE 1 — DÉCLARATION SOLENNELLE D'INFRASTRUCTURE EXCLUSIVE GOOGLE
+
+**Le projet ELLYSIUM / CNEL est, a toujours été, et restera EXCLUSIVEMENT déployé
+sur l'écosystème Google Cloud Platform (GCP) dans sa totalité.**
+
+Il n'y a pas de dérogation. Il n'y a pas d'exception. Il n'y a pas de "cas particulier".
+
+> *"Ce chantier est et restera et sera déployé et mis en production
+> EXCLUSIVEMENT dans un environnement GOOGLE."*
+> — **Directive fondatrice du Promoteur, inscrite en marbre le 17 septembre 2026**
+
+Toute référence à une infrastructure concurrente (AWS, Azure, Hetzner, OVH, Scaleway,
+K3s bare-metal, MinIO auto-hébergé, NATS self-hosted, ou tout autre cloud tiers)
+est **nulle et non avenue** dans ce projet.
+
+---
+
+## ARTICLE 2 — CARTOGRAPHIE DES SERVICES GOOGLE AUTORISÉS
+
+### 2.1 Compute & Orchestration
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Google Kubernetes Engine (GKE Autopilot)** | Orchestration microservices production | K3s bare-metal |
+| **Cloud Run** | Microservices serverless, APIs | Pods manuels |
+| **Cloud Functions (Gen 2)** | Webhooks, triggers événementiels | Lambda-style auto-hébergé |
+| **Compute Engine** | VMs spéciales (HSM, batch lourd) | Bare-metal |
+
+### 2.2 Données & Stockage
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Cloud SQL (PostgreSQL 16)** | Base de données principale managée | PostgreSQL auto-hébergé |
+| **Cloud Spanner** | Transactions globales si nécessaire | CockroachDB |
+| **Cloud Storage (GCS)** | Fichiers, médias, backups, artefacts | MinIO |
+| **Firestore** | Données temps réel, mobile-first | MongoDB auto-hébergé |
+| **Memorystore for Redis** | Cache L2 distribué | Redis auto-hébergé |
+| **BigQuery** | Analytics, rapports, BI éducative | ClickHouse auto-hébergé |
+
+### 2.3 Intelligence Artificielle & Machine Learning
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Vertex AI** | Hébergement souverain des modèles LLM | vLLM auto-hébergé |
+| **Vertex AI Model Garden** | Mistral, Llama 3.1, Gemma — fine-tuning | GPU bare-metal |
+| **Firebase AI Logic (Gemini API)** | Tuteur IA côté frontend, mobile | Appels LLM directs |
+| **Vertex AI Vector Search** | Recherche sémantique RAG | Qdrant auto-hébergé |
+| **Vertex AI Pipelines** | Fine-tuning LoRA, DPO automatisé | Kubeflow self-hosted |
+| **Document AI** | Traitement documents officiels | Tesseract OCR local |
+
+### 2.4 Réseau, CDN & Sécurité
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Cloud CDN** | Distribution de contenu mondiale | Varnish / Nginx cache |
+| **Cloud Load Balancing** | Répartition de charge globale | HAProxy bare-metal |
+| **Cloud Armor** | WAF, protection DDoS, OWASP | ModSecurity self-hosted |
+| **Cloud DNS** | Résolution DNS managée | BIND auto-hébergé |
+| **VPC & Private Service Connect** | Réseau isolé, sécurisé | Réseau bare-metal |
+| **Certificate Manager** | TLS 1.3 automatique | Let's Encrypt manuel |
+| **Cloud KMS** | Gestion des clés de chiffrement | HSM logiciel local |
+| **Secret Manager** | Secrets, tokens, mots de passe | HashiCorp Vault |
+
+### 2.5 Frontend & Applications Web
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Firebase Hosting** | Landing pages + PWA publique | Nginx statique |
+| **Firebase App Hosting** | Backend Next.js / Angular si applicable | Vercel / Netlify |
+| **Firebase Authentication** | Auth souveraine (JWT, MFA, RBAC) | Auth0 / Keycloak |
+| **Firebase Cloud Messaging (FCM)** | Push notifications mobile + web | FCM self-hosted |
+| **Firebase Remote Config** | Feature flags, A/B testing | LaunchDarkly |
+| **Firebase Analytics** | Mesure d'usage respectueuse | Mixpanel / Amplitude |
+
+### 2.6 Messaging & Événements
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Cloud Pub/Sub** | Bus d'événements asynchrone | NATS JetStream |
+| **Eventarc** | Routage d'événements inter-services | Kafka self-hosted |
+| **Cloud Tasks** | Files de tâches différées | Celery / BullMQ |
+| **Cloud Scheduler** | CRON jobs managés | Crontab système |
+
+### 2.7 DevOps & Observabilité
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Cloud Build** | CI/CD pipelines | Jenkins / GitLab CI |
+| **Artifact Registry** | Docker images, paquets | DockerHub / Nexus |
+| **Cloud Deploy** | Déploiement Canary / Blue-Green | Argo CD self-hosted |
+| **Cloud Monitoring** | Métriques, SLO, alertes | Prometheus / Grafana |
+| **Cloud Logging** | Centralisation des logs | ELK Stack self-hosted |
+| **Cloud Trace** | Distributed tracing | Jaeger self-hosted |
+| **Error Reporting** | Détection erreurs automatique | Sentry self-hosted |
+
+### 2.8 Workspace & Collaboration
+
+| Service Google | Rôle dans ELLYSIUM | Remplace |
+|---|---|---|
+| **Google Workspace for Education** | Email institutionnel, Drive, Meet | Nextcloud / Zimbra |
+| **Google Meet API** | Classes virtuelles intégrées | Jitsi self-hosted |
+| **Google Classroom API** | Interopérabilité LMS (optionnel) | N/A |
+
+---
+
+## ARTICLE 3 — ARCHITECTURE DU SITE PUBLIC (LANDING PAGES)
+
+**Le site public d'ELLYSIUM est hébergé exclusivement sur Firebase Hosting.**
+
+Il est composé de **multiples landing pages belles les unes que les autres**, chacune
+ciblant un public précis, avec une expérience visuelle de premier plan.
+
+### 3.1 Pages obligatoires (minimum)
+
+| URL | Audience cible | Objectif |
+|---|---|---|
+| `/` | Grand public, parents | Page d'accueil principale, hero animé |
+| `/apprenant` | Apprenants indépendants | Inscription, bénéfices, gratuité |
+| `/ecole` | Directeurs, Promoteurs | Onboarding établissement |
+| `/enseignant` | Enseignants | Rejoindre comme professeur |
+| `/universite` | Étudiants LMD | ECTS, TFE, portail universitaire |
+| `/partenaires` | Institutionnels, ONG, bailleurs | Partenariat et convention |
+| `/entreprise` | Employeurs, recruteurs | Vérification diplômes, alternance |
+| `/tarifsMineral` | Tous | Transparence minerval / gratuité AIS |
+| `/mission` | Tous | Mission, valeurs, Constitution |
+| `/presse` | Journalistes, médias | Kit presse, communiqués |
+| `/contact` | Tous | Formulaire de contact multilingue |
+| `/mentions-legales` | Tous | Mentions légales RDC |
+
+### 3.2 Standards de qualité des landing pages
+
+- **Performance** : Score Lighthouse ≥ 95 sur mobile
+- **Accessibilité** : WCAG 2.2 AA minimum (AAA visé)
+- **Responsive** : Mobile-first, 360px → 1440px+
+- **Multilingue** : Français (principal), Lingala, Swahili, Kikongo, Tshiluba, Anglais
+- **Technologies** : Astro / Next.js statique, Tailwind CSS, animations Framer Motion
+- **CDN** : Cloud CDN + Firebase Hosting (PoP mondial + présence Africa)
+- **Analytics** : Firebase Analytics + Google Analytics 4 (RGPD-conforme)
+- **SEO** : SSG (Static Site Generation), balises OG, schema.org, sitemap XML
+- **Design** : Bleu Souverain `#0B2545`, Or Académique `#D4AF37`, blanc cassé `#F5F5F0`
+
+### 3.3 Principe de beauté non négociable
+
+> Chaque landing page doit être un chef-d'œuvre visuel digne d'une institution
+> nationale de premier rang. Les images, typographies, animations et interactions
+> doivent refléter l'excellence et la fierté congolaise.
+> **La médiocrité visuelle est prohibée.**
+
+---
+
+## ARTICLE 4 — RÉGIONS GOOGLE CLOUD AUTORISÉES
+
+Pour des raisons de souveraineté des données (Art. 1 Constitution ELLYSIUM)
+et de performance réseau (latence Afrique centrale) :
+
+| Priorité | Région GCP | Usage |
+|---|---|---|
+| **Primaire** | `africa-south1` (Johannesburg) | Données sensibles, production principale |
+| **Secondaire** | `europe-west1` (Belgique) | Réplication, backup, Edge |
+| **Tertiaire** | `us-central1` (Iowa) | Vertex AI si africa-south1 indisponible |
+
+> **Règle absolue** : Les données personnelles des citoyens congolais ne peuvent
+> pas quitter le territoire africain sauf nécessité technique documentée et approuvée.
+> Toute réplication hors-Afrique est chiffrée AES-256 + clé gérée par Cloud KMS
+> en région africaine.
+
+---
+
+## ARTICLE 5 — CE QUI EST STRICTEMENT INTERDIT
+
+Les éléments suivants sont **formellement et définitivement proscrits** du projet :
+
+```
+❌ AWS (Amazon Web Services) — toute forme
+❌ Microsoft Azure — toute forme
+❌ Hetzner, OVH, Scaleway, DigitalOcean, Linode
+❌ K3s, K0s, MicroK8s, RKE2 ou tout Kubernetes self-hosted
+❌ MinIO (remplacé par Cloud Storage / GCS)
+❌ NATS JetStream self-hosted (remplacé par Cloud Pub/Sub)
+❌ HashiCorp Vault (remplacé par Secret Manager + Cloud KMS)
+❌ Prometheus + Grafana self-hosted (remplacé par Cloud Monitoring)
+❌ Elastic Stack / ELK self-hosted (remplacé par Cloud Logging)
+❌ Jaeger self-hosted (remplacé par Cloud Trace)
+❌ Keycloak / Auth0 (remplacé par Firebase Authentication)
+❌ Jitsi / BigBlueButton (remplacé par Google Meet API)
+❌ Vercel, Netlify, Cloudflare Pages (remplacé par Firebase Hosting)
+❌ DockerHub comme registry final (remplacé par Artifact Registry)
+```
+
+---
+
+## ARTICLE 6 — DISPOSITIONS POUR LES INTERVENANTS
+
+### 6.1 Pour les développeurs
+
+- Tout code infrastructure (Terraform, Pulumi) doit cibler **uniquement les providers Google**
+- Les variables d'environnement pointent vers **GCP services** uniquement
+- Les URLs de services sont des URLs GCP (`.googleapis.com`, `.firebaseapp.com`, `.run.app`)
+- Les SDK utilisés sont les SDK officiels Google (`google-cloud-*`, `firebase-admin`, `@google-cloud/*`)
+
+### 6.2 Pour les agents IA (dont Antigravity / Gemini)
+
+- Toute suggestion d'outil ou service doit être **validée contre cette doctrine**
+- En cas de doute sur un service, **préférer le service Google équivalent**
+- Les modules Tome 7, Tome 8 et Tome 9 doivent être lus à la lumière de ce document
+- Si un sous-tome mentionne K3s, MinIO, NATS ou un service non-Google, le **corriger**
+
+### 6.3 Pour les architectes
+
+- Les diagrammes d'architecture utilisent **exclusivement des icônes GCP**
+- Les appels d'offres techniques citent exclusivement des services GCP
+- Les estimations de coûts sont établies sur le **Google Cloud Pricing Calculator**
+
+---
+
+## ARTICLE 7 — ENGAGEMENT DE CONTINUITÉ
+
+Cette doctrine est **permanente et irrévocable** sauf décision formelle écrite du
+Promoteur / Fondateur du projet ELLYSIUM, cosignée par le Directeur Technique.
+
+Elle s'applique :
+- ✅ En développement local (émulateurs Firebase, Cloud Code, LocalStack interdit)
+- ✅ En staging (projet GCP dédié `ellysium-staging`)
+- ✅ En production (projet GCP dédié `ellysium-prod`)
+- ✅ Pour les tests d'intégration (Firebase Test Lab, Cloud Build)
+- ✅ Pour les sauvegardes (Cloud Storage, Cloud SQL automated backups)
+- ✅ Pour les outils ML (Vertex AI Workbench, Colab Enterprise)
+
+---
+
+## ARTICLE 8 — RÉFÉRENCE AUX TOMES CONCERNÉS
+
+| Tome | Impact de cette doctrine |
+|---|---|
+| **Tome 7** — Architecture Technique | Modules 109, 110, 118, 119, 122, 124, 126, 128 à relire avec GCP |
+| **Tome 8** — Intelligence Artificielle | Modules 132, 133, 134, 148 → Vertex AI Model Garden |
+| **Tome 9** — Données & Sécurité | Modules 158, 161, 162 → Cloud KMS, Cloud Armor |
+| **Tome 11** — Administration | Module 204 → FCM, Workspace for Education |
+| **Tome 15** — Déploiement | Intégralité → GKE Autopilot, Cloud Run, Firebase Hosting |
+
+---
+
+*Document fondateur rédigé par l'agent ELLYSIUM selon directive du Promoteur.*
+*Valeur : CONSTITUTIONNELLE — Opposable à tout intervenant humain ou IA.*
+*Version 1.0 — Inscrit en marbre le 17 septembre 2026.*
+*Toute modification requiert l'accord écrit explicite du Fondateur.*
+
+---
+
+**🔱 GOOGLE ET GOOGLE. UNIQUEMENT GOOGLE. TOUJOURS GOOGLE. 🔱**

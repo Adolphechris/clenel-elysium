@@ -6,11 +6,20 @@ Ce document définit la feuille de route initiale pour les tomes 3.3 à 3.10. Il
 
 ## 2. Situation actuelle
 
-À ce stade, les sous-tomes suivants sont disponibles :
-- Tome 3.1 : Fondements de l’architecture pédagogique ;
-- Tome 3.2 : Architecture des parcours de formation.
+À ce stade, l'ensemble de la suite pédagogique du Tome 3 est intégralement rédigée, assainie et disponible :
+- Tome 3.1 : Fondements de l’architecture pédagogique (Partie I) ;
+- Tome 3.2 : Architecture des parcours de formation (Partie II) ;
+- Tome 3.3 : Ingénierie des contenus pédagogiques (Partie III) ;
+- Tome 3.4 : Méthodes d’enseignement et accompagnement (Partie IV) ;
+- Tome 3.5 : Enseignement secondaire (Partie V) ;
+- Tome 3.6 : Enseignement universitaire (Partie VI) ;
+- Tome 3.7 : Évaluation des apprentissages (Partie VII) ;
+- Tome 3.8 : Suivi pédagogique et learning analytics (Partie VIII) ;
+- Tome 3.9 : Assurance qualité pédagogique (Partie IX) ;
+- Tome 3.10 : Règles métiers pédagogiques (Partie X) ;
+- Annexes A à J : Référentiels normatifs, glossaire, guides d'étude et syllabus.
 
-Ces deux sous-tomes sont désormais intégrés dans le socle de référence et doivent servir de base à la rédaction des sous-tomes suivants.
+L'ensemble de ces sous-tomes forme le socle pédagogique permanent et définitif de référence d'ELLYSIUM, servant de socle direct à l'ingénierie fonctionnelle du Tome 5.
 
 ## 3. Liste proposée des tomes 3.3 à 3.10
 
