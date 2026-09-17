@@ -84,6 +84,11 @@ Pour les postes administratifs d'école (Préfet, Direction, Secrétariat, Ensei
 ---
 
 ## 7. Verrous Fonctionnels de Navigation
+| **`VF-096-01`** | **Menu de navigation constant et persistant** | Barre de navigation prévisible sur toutes les vues de l'application. |
+| **`VF-096-02`** | **Fil d'Ariane (Breadcrumbs) systématique** | Localisation exacte de l'usager dans l'arborescence pédagogique à tout moment. |
+| **`VF-096-03`** | **Barre de recherche universelle avec autocomplétion** | Recherche instantanée de cours, professeurs, devoirs et ressources. |
+| **`VF-096-04`** | **Bouton de retour d'urgence à la page d'accueil** | Accès direct au cockpit principal en une seule interaction. |
+| **`VF-096-05`** | **Persistance de la position de lecture dans les cours** | Reprise automatique à la dernière phrase lue après fermeture de l'application. |
 
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|

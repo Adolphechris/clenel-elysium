@@ -91,3 +91,17 @@ Pour révoquer immédiatement l'accès d'un compte compromis ou d'un appareil vo
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/117/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-117-03`** | **Sondages anonymes de satisfaction parentale semestriels** | Formulaires courts (< 5 questions) pour évaluer la plateforme et l'école. |
+| **`VF-117-04`** | **Résultats des sondages retransmis au COPIL** | Synthèse des NPS parents présentée au comité de pilotage chaque trimestre. |
+| **`VF-117-05`** | **Droit de retrait sans pénalité des sondages** | La non-participation aux sondages n'impacte aucun service accordé à l'élève. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

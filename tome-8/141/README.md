@@ -76,3 +76,17 @@ Lorsqu'un message est bloqué pour motif critique (menace physique, incitation �
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/141/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-141-03`** | **Calcul instantané du rang de l'élève après délibération** | Classement intra-classe et inter-classes accessible uniquement aux enseignants. |
+| **`VF-141-04`** | **Détection des cas d'ex-aequo avec règle de départage documentée** | Règle de priorité (cotes des matières éliminatoires) appliquée de façon transparente. |
+| **`VF-141-05`** | **Export des résultats vers le système EPST en format XML standardisé** | Interface d'export vers les systèmes ministériels de collecte des données scolaires. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

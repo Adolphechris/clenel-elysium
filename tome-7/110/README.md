@@ -95,6 +95,9 @@ graph TD
 | **VF-110-01** | Indépendance physique de la caisse | Le service de caisse (BC6) est hébergé sur une instance de base de données séparée. Aucune indisponibilité financière ne peut bloquer l'accès pédagogique. |
 | **VF-110-02** | Contrat d'interface strict (Schema Registry) | Tout événement transitant sur le bus NATS doit être validé par un schéma Protocol Buffers (Protobuf) versionné. Tout message non conforme est rejeté en Dead-Letter Queue. |
 
+| **`VF-110-03`** | **Push critique pour convocations officielles** | Les convocations disciplinaires ou d'examen sont transmises par SMS et push simultanément. |
+| **`VF-110-04`** | **Accusé de réception obligatoire pour actes importants** | Le parent confirme explicitement réception des bulletins et décisions de jury. |
+| **`VF-110-05`** | **Archivage des communications parent-école** | Tous les échanges sont conservés 3 ans pour preuves éventuelles. |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

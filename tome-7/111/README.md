@@ -87,3 +87,17 @@ Lorsqu'un processus métier traverse plusieurs services (ex. *Inscription d'un �
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/111/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-111-03`** | **Accès à l'historique complet de présences sur 12 mois** | Vue chronologique de tous les appels depuis la rentrée avec taux cumulé. |
+| **`VF-111-04`** | **Demande en ligne de justificatif d'absence** | Formulaire de transmission de justificatif médical ou administratif avec pièce jointe. |
+| **`VF-111-05`** | **Notification de risque de non-validation pour absences cumulées** | Alerte automatique à 20%, 30% et 40% d'absences cumulées. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -63,6 +63,9 @@ Pour garantir la gratuité constitutionnelle des apprenants indépendants (Tome 
 | **VF-107-01** | Interdiction des dépendances cloud exclusives | Aucun composant du système ne peut s'appuyer sur une API propriétaire fermée (AWS DynamoDB, Firebase propriétaire, etc.) sans alternative open source immédiate. |
 | **VF-107-02** | Plafond de consommation réseau par écran | Aucun écran applicatif de consultation ne doit télécharger plus de **200 Ko** de données brutes pour son affichage initial. |
 
+| **`VF-107-03`** | **Portail parent consultable hors authentification renforcée** | Toute consultation de données d'élèves exige un cookie de session valide MFA. |
+| **`VF-107-04`** | **Tableaux de bord multilingues (Lingala, Swahili, Français)** | Le portail parent est disponible dans les 4 langues nationales congolaises. |
+| **`VF-107-05`** | **Clôture solennelle Tome 7 — Espace Parents** | Validation de l'intégralité des parcours parents et tuteurs légaux. |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

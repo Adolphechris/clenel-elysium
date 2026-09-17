@@ -336,3 +336,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/87/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-087-01`** | **Onboarding autonome sans assistance physique** | L'apprenant indépendant peut s'inscrire et débuter son cursus sans intervention humaine préalable. |
+| **`VF-087-02`** | **Mise en avant immédiate de la gratuité** | Le tableau de bord de l'apprenant autonome rappelle le statut gratuit du parcours de base. |
+| **`VF-087-03`** | **Visualisation claire de la progression dans le syllabus** | Jauge d'avancement explicite par unité d'enseignement et par chapitre. |
+| **`VF-087-04`** | **Planificateur d'étude auto-rythmé** | Possibilité de définir un rythme hebdomadaire avec rappels non intrusifs. |
+| **`VF-087-05`** | **Accès direct au tuteur IA d'assistance** | Bouton d'aide contextuelle présent sur chaque leçon pour déclencher le tuteur auxiliaire. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

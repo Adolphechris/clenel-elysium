@@ -118,3 +118,19 @@ erDiagram
 - **Règle 65.1 (Verrouillage temporel de l'appel)** : Une feuille d'appel ne peut être modifiée par l'enseignant que dans un délai maximal de 24 heures après la fin du créneau horaire. Au-delà, seule la préfecture de discipline est habilitée à régulariser une absence sur présentation d'un justificatif officiel.
 - **Règle 65.2 (Report automatique dans le Bulletin scolaire)** : Le cumul des absences (justifiées et non justifiées) et des retards de chaque période est calculé automatiquement et imprimé obligatoirement sur le bulletin officiel scellé (Module 68).
 - **Règle 65.3 (Liaison obligatoire Absence - Note ABI)** : Si un élève est marqué `ABSENCE_INJUSTIFIEE` lors d'un créneau où une interrogation sommative a été administrée, le Module 66 lui affecte automatiquement la mention `ABI` (note équivalente à 0 pointée dans le calcul).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-065-01`** | **Verrouillage des épreuves jusqu'à l'heure H** | Chiffrement des sujets d'examen avec déverrouillage automatisé synchronisé. |
+| **`VF-065-02`** | **Anonymat irréversible durant la correction** | Tables de correspondance anonymat chiffrées avec levée sous contrôle de jury uniquement. |
+| **`VF-065-03`** | **Double correction pour écarts significatifs** | Un différentiel de note > 20% entre deux correcteurs déclenche un troisième arbitrage. |
+| **`VF-065-04`** | **Procès-verbal de session inaltérable** | Le PV de déroulement de session est signé par tous les surveillants de salle. |
+| **`VF-065-05`** | **Gestion des incidents de triche réglementée** | Tout constat de fraude suspend la copie sans violence et saisit la commission de discipline. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

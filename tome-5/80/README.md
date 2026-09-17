@@ -131,3 +131,19 @@ erDiagram
 - **Règle 80.1 (Interdiction du partage d'identifiants)** : Le système détecte les connexions simultanées depuis des adresses IP ou terminaux géographiquement incompatibles pour un même compte et déclenche la déconnexion de sécurité avec alerte SMS.
 - **Règle 80.2 (Principe de séparation des rôles incompatibles)** : Le moteur de règles interdit techniquement d'affecter simultanément à un même utilisateur le rôle de `Caissier` et le rôle de `Préfet des études` ou d'`Enseignant titulaire` au sein du même établissement scolaire.
 - **Règle 80.3 (Immutabilité des droits de super-administrateur)** : Les droits d'administration centrale (Super-Admin) sont soumis à un mécanisme d'approbation collégiale (quorums de sécurité) pour toute opération touchant à la structure des bases de données ou aux règles constitutionnelles du système.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-080-01`** | **Principe du moindre privilège appliqué** | Chaque utilisateur ne dispose que des droits strictement indispensables à sa fonction. |
+| **`VF-080-02`** | **Interdiction de partage de compte** | Déconnexion automatique de toute session concurrente détectée sur deux adresses distantes. |
+| **`VF-080-03`** | **Révocation immédiate des droits lors du départ** | La désactivation d'un compte personnel coupe l'accès à toutes les ressources en temps réel. |
+| **`VF-080-04`** | **Revue semestrielle obligatoire des privilèges** | Le préfet numérique et le DPO doivent signer un rapport de validation des comptes à privilèges. |
+| **`VF-080-05`** | **Isolation des environnements d'administration** | Les interfaces d'administration avancée exigent une authentification forte MFA systématique. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -66,3 +66,19 @@ En cas de contestation par un apprenant ou un enseignant sur une prédiction ou 
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/149/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-149-01`** | **Dépendance structurelle avec le Tome 5 (Modules 66-68)** | Les workflows du Tome 8 implémentent les règles de délibération définies au Tome 5. |
+| **`VF-149-02`** | **Application stricte de la formule officielle RDC de délibération** | Taux = (ΣPoints / ΣMaxima) * 100 sans exception ni substitution. |
+| **`VF-149-03`** | **Alignement avec le Tome 9 (Données) pour l'archivage des diplômes** | Les diplômes générés transitent vers le système d'archivage pérenne du Tome 9. |
+| **`VF-149-04`** | **Compatibilité avec les systèmes EPST/ESU via API standardisée** | Exportation des données académiques dans les formats requis par les Ministères. |
+| **`VF-149-05`** | **Clôture solennelle du Tome 8 — Évaluations et Diplômes** | Validation de l'intégralité du cycle de vie de l'évaluation jusqu'au diplôme scellé. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

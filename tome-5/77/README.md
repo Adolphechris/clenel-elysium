@@ -134,3 +134,19 @@ erDiagram
 - **Règle 77.1 (Anonymisation stricte des statistiques publiques)** : Tout rapport statistique exporté à destination d'auditeurs externes ou de partenaires est totalement purgé de données nominatives, conformément à l'Article 15 de la Constitution.
 - **Règle 77.2 (Calcul asynchrone non bloquant)** : Les calculs d'agrégation statistique lourds (courbes de dispersion, moyennes provinciales) sont exécutés de manière asynchrone en arrière-plan, interdisant tout ralentissement des fonctions quotidiennes de saisie de notes ou d'appel.
 - **Règle 77.3 (Intégrité des données sources)** : Les tableaux de bord ne constituent qu'une vue de restitution en lecture seule (`READ-ONLY`). Aucune modification de cote ou de statut ne peut être opérée directement depuis un écran statistique.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-077-01`** | **Agrégation anonymisée des indicateurs sensibles** | Les taux de réussite et de décrochage sont consolidés sans exposer l'identité nominative. |
+| **`VF-077-02`** | **Actualisation quotidienne des statistiques** | Les calculs de cohortes et taux d'assiduité sont recalculés chaque nuit par batch. |
+| **`VF-077-03`** | **Export aux formats ouverts d'analyse** | Possibilité d'exporter les jeux de données d'établissement en CSV/Parquet pour audit. |
+| **`VF-077-04`** | **Contrôle d'accès aux tableaux stratégiques** | Les données financières consolidées sont réservées aux membres du conseil d'administration. |
+| **`VF-077-05`** | **Transmission sécurisée des statistiques ministérielles** | Génération automatique du rapport annuel destiné aux services statistiques de l'EPST. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

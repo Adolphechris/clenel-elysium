@@ -49,3 +49,19 @@ Le périmètre du Tome 6 couvre :
 - **Zéro Dark Patterns (Pièges ergonomiques)** : Aucun bouton trompeur, aucun consentement forcé, aucune navigation labyrinthique destinée à dissimuler une information légale.
 - **Zéro surcharge publicitaire ou marchande** : Aucun espace publicitaire, aucune sollicitation d'achat de services payants dans les espaces apprenants.
 - **Zéro dépendance aux connexions à haut débit** : Aucune fonctionnalité critique ne doit exiger le chargement obligatoire d'une vidéo en streaming HD ou de scripts volumineux non mis en cache.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-084-01`** | **Frugalité cognitive absolue** | Les interfaces ne doivent comporter aucun élément décoratif surchargeant l'attention de l'apprenant. |
+| **`VF-084-02`** | **Poids d'écran initial < 150 Ko** | Toute page d'accueil ou tableau de bord doit charger en moins de 150 Ko hors médias. |
+| **`VF-084-03`** | **Affichage instantané du texte** | Utilisation de polices système de secours avec font-display: swap sans blocage d'affichage. |
+| **`VF-084-04`** | **Indicateur permanent de connectivité** | L'interface signale sans ambiguïté si l'utilisateur opère en ligne ou hors-ligne. |
+| **`VF-084-05`** | **Navigation universelle à 3 clics** | Toute ressource pédagogique fondamentale doit être accessible en 3 interactions au maximum. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

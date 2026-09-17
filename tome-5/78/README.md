@@ -138,3 +138,19 @@ erDiagram
 - **Règle 78.1 (Interdiction d'accès direct aux bases de données sources)** : Aucun partenaire extérieur, bancaire ou ministériel, ne dispose d'un accès direct en lecture/écriture à la base de données centrale. Tous les flux passent exclusivement par la couche d'API contrôlée.
 - **Règle 78.2 (Protection des données personnelles dans les flux d'export)** : Les exports statistiques ministériels ou de recherche ne transmettent aucune donnée confidentielle non anonymisée sans réquisition ou accord formel de la Direction Générale.
 - **Règle 78.3 (Continuité des flux en mode asynchrone)** : En cas de coupure temporaire de la connectivité avec un opérateur de Mobile Money, le système stocke les requêtes dans une file d'attente sécurisée avec politique de réessais automatique dès rétablissement du lien.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-078-01`** | **Rapprochement bancaire automatisé à 100%** | Chaque transaction Mobile Money est lettrée avec sa référence opérateur dans les 60 secondes. |
+| **`VF-078-02`** | **Interdiction de stockage des codes PIN ou secrets** | La plateforme ne manipule aucun mot de passe ou code secret de portefeuille électronique. |
+| **`VF-078-03`** | **Tolérance aux doubles notifications de passerelle (Idempotence)** | Une notification de paiement reçue plusieurs fois ne génère qu'une seule écriture de reçu. |
+| **`VF-078-04`** | **Alerte de divergence financière immédiate** | Tout écart entre le solde déclaré par l'opérateur et le grand livre déclenche une alerte au trésorier. |
+| **`VF-078-05`** | **Support des quatre opérateurs majeurs de RDC** | Interfaçage natif avec M-Pesa, Orange Money, Airtel Money et Afrimoney. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

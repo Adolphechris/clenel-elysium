@@ -87,3 +87,17 @@ graph TD
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/158/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-158-03`** | **Gestion des clés CMEK dans Cloud KMS région africa-south1** | Les clés maîtresses de chiffrement ne peuvent pas être créées hors de la région africaine. |
+| **`VF-158-04`** | **Rotation annuelle automatique des clés de chiffrement** | Cloud KMS renouvelle automatiquement les clés selon la politique de rotation configurée. |
+| **`VF-158-05`** | **Audit de l'utilisation des clés de chiffrement** | Chaque opération de chiffrement/déchiffrement est consignée dans Cloud Audit Logs. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

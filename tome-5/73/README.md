@@ -128,3 +128,19 @@ erDiagram
 - **Règle 73.1 (Contrôle d'homologation des manuels du secondaire)** : Aucun manuel scolaire de tronc commun ou des humanités ne peut être marqué comme *« Manuel Officiel Référentiel »* sans visa formel de conformité émis par le Comité Pédagogique après vérification de l'agrément ministériel congolais.
 - **Règle 73.2 (Gratuité perpétuelle de consultation)** : Le téléchargement et la lecture de l'ensemble des ressources de la bibliothèque numérique sont gratuits et illimités pour tous les utilisateurs authentifiés (élèves affiliés, apprenants indépendants, enseignants, parents).
 - **Règle 73.3 (Intégrité du document par empreinte SHA-256)** : Tout fichier téléchargé en local sur l'application mobile est vérifié par comparaison de son empreinte cryptographique SHA-256 avec la valeur officielle stockée sur le registre central, empêchant l'exécution de fichiers corrompus ou modifiés.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-073-01`** | **Respect des droits d'auteur et licences OER** | Seules les ressources libres de droits ou sous licence conventionnée ELLYSIUM sont hébergées. |
+| **`VF-073-02`** | **Téléchargement pour consultation hors-ligne (PWA)** | Les manuels scolaires peuvent être mis en cache local pour une lecture sans connexion. |
+| **`VF-073-03`** | **Compatibilité liseuse basse consommation** | Les formats sont optimisés (EPUB, PDF compressé) pour affichage sur écrans modestes. |
+| **`VF-073-04`** | **Indexation sémantique par niveau et programme** | Tout livre est balisé selon la discipline, la filière et la classe officielle. |
+| **`VF-073-05`** | **Interdiction de DRM intrusifs limitant l'apprentissage** | L'accès aux manuels de base est libre et non bridé par des verrous logiciels payants. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

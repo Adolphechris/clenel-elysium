@@ -129,3 +129,19 @@ Le moteur calcule et soumet au Jury de fin d'année les propositions suivantes :
 - **Règle 67.1 (Déterminisme et Reproductibilité Absolue)** : Le calcul des moyennes est un processus pur : soumis aux mêmes données de notes brutes, l'algorithme produit obligatoirement le même résultat au bit près, sans aucun facteur aléatoire.
 - **Règle 67.2 (Précision des Arrondis Réglementaires)** : Les calculs intermédiaires conservent une précision à 4 décimales. L'arrondi final affiché sur le bulletin est tronqué ou arrondi au deuxième chiffre après la virgule conformément aux normes du Ministère (ex. $54,375\% \rightarrow 54,38\%$).
 - **Règle 67.3 (Interdiction de modification post-scellement)** : Dès que le procès-verbal de délibération est validé et signé par le Président du Jury, les résultats calculés sont gelés et deviennent la référence immuable injectée dans le Module 68 (Bulletins).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-067-01`** | **Application stricte de la formule officielle RDC** | Taux = (Somme des points obtenus / Somme des maxima) * 100, interdiction de moyenne de pourcentages. |
+| **`VF-067-02`** | **Application des coefficients officiels ministériels** | Aucun établissement ne peut modifier les coefficients fixés par les programmes nationaux. |
+| **`VF-067-03`** | **Règle de compensation LMD souveraine** | Application des seuils de compensation entre UE conformément aux normes de l'ESU. |
+| **`VF-067-04`** | **Gestion automatique des dispenses et reports** | Les dispenses légales sont neutralisées sans pénaliser le total des maxima. |
+| **`VF-067-05`** | **Détection des cas d'échec critique** | Alerte automatique sur les matières éliminatoires définies par les règlements pédagogiques. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

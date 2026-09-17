@@ -67,3 +67,17 @@ Lors de toute inscription d'un élève (Tome 5, Module 59) :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/156/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-156-03`** | **Algorithme de détection des IUNE fictifs ou erronés** | Validation algorithmique du format et de la cohérence des identifiants nationaux. |
+| **`VF-156-04`** | **Processus de fusion des doublons avec validation manuelle obligatoire** | Aucune fusion de dossiers ne peut s'effectuer sans approbation d'un administrateur. |
+| **`VF-156-05`** | **Rapport mensuel de qualité des données au DPO** | Indicateurs de complétude, d'exactitude et de cohérence des données clés. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -67,3 +67,17 @@ graph TD
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/138/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-138-03`** | **Délibération systématique par le jury humain souverain** | Aucun algorithme ne peut proclamer les résultats officiels sans délibération du jury. |
+| **`VF-138-04`** | **Conservation des procès-verbaux de jury pendant 50 ans** | Archivage long terme des délibérations dans le Cloud Storage avec scellement KMS. |
+| **`VF-138-05`** | **Appel des résultats encadré par des délais légaux** | Le recours contre une délibération doit être introduit dans les 15 jours suivant la publication. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

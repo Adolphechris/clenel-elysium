@@ -95,3 +95,17 @@ $$\text{Score Pertinence} = \text{ReRankerScore}(\text{Question}, \text{Fragment
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/133/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-133-03`** | **Principe du moindre privilège sur tous les comptes IAM** | Revue trimestrielle des permissions et suppression des droits inutilisés. |
+| **`VF-133-04`** | **Authentification multi-facteurs obligatoire pour tous les comptes admin** | Clés FIDO2/YubiKey requises pour les Super Admins GCP. |
+| **`VF-133-05`** | **Pas de clé de service à longue durée de vie pour les applications** | Usage exclusif de Workload Identity Federation pour les services Cloud. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

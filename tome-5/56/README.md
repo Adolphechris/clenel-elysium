@@ -161,3 +161,19 @@ Toute tentative par un utilisateur ou un script de contourner un verrou constitu
 1. **Blocage transactionnel immédiat** : L'opération est avortée au niveau du contrôleur métier.
 2. **Notification d'alerte haute priorité** : Envoi immédiat d'une alerte au délégué à la protection des données et au Responsable Académique Central.
 3. **Gel conservatoire des privilèges** : En cas de tentative répétée de falsification de notes ou de contournement de délibération, le compte auteur est automatiquement suspendu à titre préventif dans l'attente d'une enquête humaine.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-056-01`** | **Conformité constitutionnelle Art. 3** | L'accès aux contenus fondamentaux pour l'apprenant indépendant est garanti sans frais. |
+| **`VF-056-02`** | **Conformité constitutionnelle Art. 5** | Le non-paiement de frais scolaires n'entraîne jamais la suspension de l'accès aux cours ou aux examens. |
+| **`VF-056-03`** | **Conformité constitutionnelle Art. 6** | L'IA est cantonnée à un rôle d'assistance et ne peut attribuer une sanction. |
+| **`VF-056-04`** | **Protection absolue des données d'élèves mineurs** | Interdiction de partage des données à des tiers publicitaires ou commerciaux. |
+| **`VF-056-05`** | **Sanctuarisation de la formule de délibération RDC** | La formule officielle Taux = (Points / Maxima) * 100 est inviolable. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

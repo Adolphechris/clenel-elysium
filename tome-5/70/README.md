@@ -136,3 +136,19 @@ erDiagram
 - **Règle 70.1 (Heures de silence et droit à la déconnexion)** : Sauf alerte sécuritaire d'extrême urgence, le système bloque la diffusion de notifications push et SMS vers les apprenants et enseignants entre 21h00 et 06h30 le matin.
 - **Règle 70.2 (Signature institutionnelle des annonces)** : Toute annonce générale diffusée à l'échelle de l'école doit porter le visa électronique du Chef d'établissement ou du Préfet des études.
 - **Règle 70.3 (Archivage probant des SMS d'alerte)** : Chaque envoi de SMS d'absence parentale conserve l'accusé de réception délivré par la passerelle de télécommunication (M-Pesa/Vodacom, Orange, Airtel) pour servir de preuve légale de l'information transmise à la famille.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-070-01`** | **Détection mathématique des conflits de salle** | Impossibilité physique d'affecter deux cours simultanément dans le même local. |
+| **`VF-070-02`** | **Respect du volume horaire légal des enseignants** | Alerte bloquante en cas de dépassement du maximum légal d'heures hebdomadaires. |
+| **`VF-070-03`** | **Optimisation des temps de trajet inter-sites** | Prise en compte des temps de transition pour les campus multi-sites à Kinshasa. |
+| **`VF-070-04`** | **Publication transparente aux familles** | Tout changement d'emploi du temps est notifié au moins 24h à l'avance. |
+| **`VF-070-05`** | **Historisation des remplacements** | Les absences de professeurs et affectations de remplaçants sont consignées dans le registre. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

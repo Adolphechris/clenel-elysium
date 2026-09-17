@@ -100,3 +100,19 @@ Le Tome 12 étant **intégralement achevé, validé et scellé**, le chantier EL
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*
 *Tome 12 — APPLICATIONS NUMÉRIQUES — COMPLET ✅*
 *17 modules rédigés : M211 → M227*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-227-01`** | **Dépendances structurelles avec les tomes amont** | Toute spécification de clôture est alignée avec les tomes référencés. |
+| **`VF-227-02`** | **Cohérence de la numérotation des verrous dans ce tome** | La séquence VF est continue et sans doublon. |
+| **`VF-227-03`** | **Validation formelle par le Comité d'Architecture** | Ce module de clôture requiert signature du Directeur Technique. |
+| **`VF-227-04`** | **Publication du rapport de conformité documentaire** | Rapport d'état du tome transmis au COPIL avant passage en phase de code. |
+| **`VF-227-05`** | **Clôture solennelle du TOME-12** | Validation de l'intégralité des sous-tomes de ce volume architectural. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

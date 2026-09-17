@@ -107,3 +107,19 @@ Le Tome 10 étant **intégralement rédigé, scellé et validé**, le chantier E
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*
 *Tome 10 — EXAMENS, CERTIFICATIONS, BULLETINS ET DIPLÔMES — COMPLET ✅*
 *21 modules rédigés : M171 → M191*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-191-01`** | **Dépendances structurelles avec les tomes amont** | Toute spécification de clôture est alignée avec les tomes référencés. |
+| **`VF-191-02`** | **Cohérence de la numérotation des verrous dans ce tome** | La séquence VF est continue et sans doublon. |
+| **`VF-191-03`** | **Validation formelle par le Comité d'Architecture** | Ce module de clôture requiert signature du Directeur Technique. |
+| **`VF-191-04`** | **Publication du rapport de conformité documentaire** | Rapport d'état du tome transmis au COPIL avant passage en phase de code. |
+| **`VF-191-05`** | **Clôture solennelle du TOME-10** | Validation de l'intégralité des sous-tomes de ce volume architectural. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

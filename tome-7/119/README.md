@@ -86,3 +86,17 @@ Pour les complexes scolaires partenaires regroupant plus de 500 élèves dans un
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/119/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-119-03`** | **Interface de réclamation des bulletins non reçus** | Formulaire de demande de réédition avec traçabilité de la demande. |
+| **`VF-119-04`** | **Archivage personnel des bulletins dans l'espace parent** | Coffre-fort numérique personnel pour conserver les bulletins de chaque enfant. |
+| **`VF-119-05`** | **Vérification d'authenticité du bulletin par QR code** | Scan du code permettant la vérification institutionnelle immédiate. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

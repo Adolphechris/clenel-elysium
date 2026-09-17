@@ -89,3 +89,19 @@ Avec la rédaction intégrale des 29 sous-tomes de la série 55 à 83 :
 1. **L'Architecture Fonctionnelle d'ELLYSIUM est déclarée 100 % achevée et stabilisée**.
 2. **Le système dispose désormais d'un cahier des charges fonctionnel d'ingénierie complet**, prêt pour la formalisation du Design System (Tome 6) et de l'Architecture Technique (Tome 7).
 3. **La Phase 2 du Plan Général d'Implémentation (PGI) est close avec succès**.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-083-01`** | **Compatibilité amont obligatoire avec le Tome 4** | Tout module du Tome 5 doit respecter la nomenclature des filières et cours du Tome 4. |
+| **`VF-083-02`** | **Compatibilité aval obligatoire avec le Tome 7** | Les flux décrits au Tome 5 doivent trouver leur implémentation technique stricte dans le Tome 7. |
+| **`VF-083-03`** | **Audibilité des dépendances inter-tomes** | Toute évolution du Tome 5 impactant le Tome 11 (Exploitation) doit faire l'objet d'une note d'impact. |
+| **`VF-083-04`** | **Sanctuarisation des interfaces du PGI** | Les contrats d'échange entre le PGI et les modules externes sont versionnés et immuables. |
+| **`VF-083-05`** | **Clôture solennelle du Tome 5** | Le présent module valide l'intégralité fonctionnelle des 29 sous-tomes du Système de Gestion Scolaire. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

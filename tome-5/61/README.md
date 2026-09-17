@@ -159,3 +159,19 @@ erDiagram
         boolean est_actif
     }
 ```
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-061-01`** | **Conformité à l'organigramme officiel EPST/ESU** | Toute classe créée doit correspondre à une filière et une option reconnue par l'État. |
+| **`VF-061-02`** | **Validation des volumes horaires minimaux** | Le système alerte si la grille horaire d'une classe est inférieure aux normes ministérielles. |
+| **`VF-061-03`** | **Verrouillage de la structure après rentrée** | La création ou suppression d'une section après J+30 exige l'accord de l'Inspection Générale. |
+| **`VF-061-04`** | **Cohérence des crédits ECTS en LMD** | Chaque semestre universitaire doit totaliser rigoureusement 30 crédits ECTS. |
+| **`VF-061-05`** | **Traçabilité des transferts d'option** | Tout changement de filière fait l'objet d'un procès-verbal numérique signé. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

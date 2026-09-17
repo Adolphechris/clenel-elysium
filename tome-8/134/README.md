@@ -80,3 +80,17 @@ Le tuteur intègre un classifieur de détection d'urgence :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/134/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-134-03`** | **Sauvegarde 3-2-1 appliquée strictement** | 3 copies, 2 supports différents, 1 copie hors site (région GCP secondaire). |
+| **`VF-134-04`** | **Test de restauration mensuel obligatoire** | La restauration d'une base de données depuis backup est testée et documentée chaque mois. |
+| **`VF-134-05`** | **RPO < 1h et RTO < 4h pour les données critiques** | Objectifs contractuels de reprise définis et mesurés lors des DR Tests annuels. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

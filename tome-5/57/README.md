@@ -152,3 +152,19 @@ Pour garantir l'intégrité institutionnelle et se conformer aux meilleures prat
    La validation du passage, du redoublement ou de la délivrance d'un titre universitaire n'est pas le fait d'une seule personne, mais d'une session de délibération collégiale enregistrant la présence et la signature des membres du jury.
 4. **Règle SoD 57.4 (Auditabilité des Super-Administrateurs)** :
    Toute intervention technique exécutée par un `Administrateur Central` sur les tables de données en production est obligatoirement soumise à un enregistrement d'audit tiers, interdisant toute modification furtive sans trace.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-057-01`** | **Cloisonnement hermétique des personas** | Un compte élève ne peut sous aucun prétexte accéder aux interfaces d'administration ou de saisie de cotes. |
+| **`VF-057-02`** | **Validation des statuts institutionnels** | L'attribution du rôle Préfet ou Chef d'établissement exige une double validation administrative. |
+| **`VF-057-03`** | **Ségrégation des tâches financières et pédagogiques** | L'enseignant ne dispose d'aucun droit de consultation sur le solde financier des familles. |
+| **`VF-057-04`** | **Délégation de pouvoir temporaire bornée** | Toute délégation d'autorité est horodatée avec date de fin obligatoire et trace d'audit. |
+| **`VF-057-05`** | **Vérification d'identité tuteur/parent** | L'association d'un parent à un élève requiert la présentation d'une pièce d'état civil vérifiée. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

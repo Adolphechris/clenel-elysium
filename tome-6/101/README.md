@@ -82,3 +82,16 @@ Les tableaux de notes scolaires constituent le défi d'accessibilité le plus co
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/101/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-101-04`** | **Navigation intégrale au clavier sans souris** | Focus visuel visible sur chaque élément interactif pour les utilisateurs au clavier. |
+| **`VF-101-05`** | **Attributs ARIA complets pour lecteurs d'écran** | Balisage sémantique systématique pour l'inclusion des déficients visuels. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

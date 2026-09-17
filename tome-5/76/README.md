@@ -122,3 +122,19 @@ erDiagram
 - **Règle 76.1 (Condition absolue de complétude des crédits)** : Le système interdit formellement la génération d'un diplôme de Licence si la somme des crédits ECTS capitalisés dans le dossier numérique (Module 60) est strictement inférieure à **180 crédits**, ou inférieure à **120 crédits** pour un Master.
 - **Règle 76.2 (Procédure exceptionnelle de révocation d'un diplôme)** : Conformément à l'Article 16 de la Constitution, un diplôme ne peut être révoqué qu'en cas de fraude avérée constatée par décision de justice ou arrêté ministériel. La révocation n'efface pas l'enregistrement : elle met à jour son statut à `RÉVOQUÉ_POUR_FRAUDE` sur le portail public, rendant le titre inutilisable.
 - **Règle 76.3 (Gratuité de la délivrance numérique initiale)** : Le parchemin numérique certifié et le supplément au diplôme sont mis à la disposition de l'apprenant gratuitement dans son coffre-fort numérique personnel dès sa proclamation.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-076-01`** | **Numérotation nationale séquentielle unique** | Chaque certificat délivré porte un numéro de série unique relié au registre d'État. |
+| **`VF-076-02`** | **Génération automatique sous conditions vérifiées** | L'attestation de scolarité n'est émise que si l'apprenant a son inscription validée. |
+| **`VF-076-03`** | **Signature numérique de l'autorité habilitée** | Application du cachet numérique et de la signature électronique du chef d'établissement. |
+| **`VF-076-04`** | **Horodatage et durée de validité mentionnée** | Chaque attestation comporte sa date d'émission et sa durée de validité juridique. |
+| **`VF-076-05`** | **Révocation possible avec journalisation** | En cas d'erreur matérielle, l'attestation peut être révoquée publiquement sur le portail. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

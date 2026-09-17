@@ -68,3 +68,19 @@ De ces profils sociologiques découlent **cinq impératifs de design non négoci
    Tout formulaire commencé est sauvé en temps réel en mémoire locale. Même si la batterie du téléphone s'éteint brutalement ou que le réseau coupe, l'utilisateur retrouve sa saisie intacte au redémarrage.
 4. **Vocabulaire familier et contextualisé** :
    Utilisation de termes conformes aux usages scolaires et administratifs congolais (ex. *« Période »*, *« Travaux Journaliers »*, *« Minerval »*, *« Préfet »*, *« Cotes »*, *« EXETAT »*).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-086-01`** | **Optimisation pour terminaux Android entrée de gamme** | Les interfaces doivent rester parfaitement fluides sur des appareils à 1 Go de mémoire vive. |
+| **`VF-086-02`** | **Résistance aux déconnexions intempestives** | Tout formulaire conserve localement sa saisie en cas de perte subite d'Internet. |
+| **`VF-086-03`** | **Prise en compte des contextes de partage familial** | Mécanisme de déconnexion rapide et sécurisée sur les smartphones partagés par plusieurs enfants. |
+| **`VF-086-04`** | **Alternatives audio pour consignes clés** | Possibilité d'écouter la consigne d'un devoir ou d'un examen pour les élèves peu lecteurs. |
+| **`VF-086-05`** | **Support des résolutions d'écran étroites (320px)** | Aucun débordement horizontal autorisé sur les écrans de 320 pixels de large. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

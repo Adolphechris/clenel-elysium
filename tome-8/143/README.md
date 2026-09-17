@@ -84,3 +84,17 @@ graph TD
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/143/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-143-03`** | **Publication différée des résultats selon décision du jury** | Le directeur contrôle l'heure exacte de publication des résultats en ligne. |
+| **`VF-143-04`** | **SMS de résultat envoyé automatiquement à la liste des parents** | Envoi groupé via les passerelles télécoms congolaises dès la publication. |
+| **`VF-143-05`** | **Accès aux résultats sans inscription pour les familles** | Consultation des résultats par code-élève public sans création de compte. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

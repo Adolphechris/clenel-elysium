@@ -174,3 +174,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/91/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-091-01`** | **Vue consolidée multi-enfants sur un seul compte** | Le parent visualise l'ensemble de ses enfants scolarisés sans changer d'identifiant. |
+| **`VF-091-02`** | **Alerte absence en temps réel** | Bannière d'alerte rouge dès constat d'absence injustifiée le matin ou l'après-midi. |
+| **`VF-091-03`** | **Consultation sécurisée des bulletins scellés** | Téléchargement immédiat des bulletins au format PDF avec signature cryptographique. |
+| **`VF-091-04`** | **Paiement direct des frais par Mobile Money** | Bouton de paiement intégré initiant le push USSD M-Pesa / Orange / Airtel Money. |
+| **`VF-091-05`** | **Prise de rendez-vous avec les enseignants** | Module de sollicitation d'audience pédagogique avec les professeurs. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -161,3 +161,19 @@ erDiagram
         string qr_verification_url
     }
 ```
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-060-01`** | **Immutabilité du livret scolaire numérique** | Les mentions et appréciations validées ne peuvent être écrasées sans avenant rectificatif tracé. |
+| **`VF-060-02`** | **Portabilité du dossier académique** | En cas de mutation scolaire, le dossier numérique est transféré sans perte d'antériorité. |
+| **`VF-060-03`** | **Conservation séculaire des relevés officiels** | Les documents de fin d'année sont archivés pour une durée minimale de 100 ans. |
+| **`VF-060-04`** | **Confidentialité médicale et sociale** | Les notes médicales ou d'assistance sociale sont isolées et réservées au personnel soignant/social habilité. |
+| **`VF-060-05`** | **Droit d'accès et de rectification garanti** | L'élève ou son représentant légal peut consulter l'historique complet de son dossier. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

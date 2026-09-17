@@ -82,3 +82,17 @@ Le fichier `manifest.webmanifest` transforme le site en application installable 
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/112/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-112-03`** | **Paiement fractionné des minervals autorisé** | Le système enregistre les paiements partiels et calcule automatiquement le solde restant. |
+| **`VF-112-04`** | **Reçu PDF immédiat après chaque paiement** | Le reçu est généré et envoyé par e-mail/WhatsApp en moins de 60 secondes. |
+| **`VF-112-05`** | **Interdiction de relance agressive pour impayés** | Les communications de relance respectent un délai de grâce et un ton bienveillant. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

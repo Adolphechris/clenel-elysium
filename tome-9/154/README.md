@@ -72,3 +72,17 @@ stateDiagram-v2
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/154/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-154-03`** | **Purge automatique des données temporaires de session** | Les tokens de session et données de navigation sont détruits à la fermeture. |
+| **`VF-154-04`** | **Politique de rétention différenciée par catégorie de donnée** | Les délibérations sont conservées 100 ans, les logs réseau 12 mois. |
+| **`VF-154-05`** | **Gel légal des données en cas de procédure judiciaire** | Suspension de la purge automatique pour les dossiers sous injonction judiciaire. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

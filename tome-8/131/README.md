@@ -82,3 +82,17 @@ sequenceDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/131/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-131-03`** | **Surveillance 24/7 par le Security Operations Center (SOC)** | Tableaux de bord Cloud Security Command Center actifs en permanence. |
+| **`VF-131-04`** | **Détection et blocage des attaques DDoS via Cloud Armor** | Règles WAF personnalisées avec protection contre les OWASP Top 10. |
+| **`VF-131-05`** | **Rapport mensuel des menaces et incidents de sécurité** | Synthèse des incidents et remèdes transmise au CA de l'ASBL. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

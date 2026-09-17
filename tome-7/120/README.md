@@ -82,3 +82,17 @@ Lorsqu'un conflit ne peut être résolu mathématiquement de manière triviale (
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/120/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-120-03`** | **Vue consolidée multi-établissements pour famille dispersée** | Un parent dont des enfants sont dans différentes écoles voit tout sur un seul tableau de bord. |
+| **`VF-120-04`** | **Alertes de rentrée et inscription anticipée** | Rappels de dates d'inscription aux examens et de renouvellement d'année scolaire. |
+| **`VF-120-05`** | **Clôture solennelle de l'espace parents ELLYSIUM** | Validation de l'intégralité des 14 modules de l'Espace Parents et Tuteurs. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

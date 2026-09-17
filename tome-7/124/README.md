@@ -77,3 +77,17 @@ Pour les opérations lourdes d'écriture (ex. 50 000 enseignants validant leurs 
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/124/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-124-03`** | **Gestion des secrets via Google Secret Manager** | Interdiction absolue de stocker des clés API ou mots de passe en dur dans le code source. |
+| **`VF-124-04`** | **Rotation automatique des clés cryptographiques** | Clés Cloud KMS renouvelées automatiquement selon les politiques de rotation annuelle. |
+| **`VF-124-05`** | **Audit de sécurité Cloud armé par Cloud Security Command Center** | Tableau de bord unifié de vulnérabilités scanné en continu. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -54,3 +54,17 @@ Aucune autorité, pas même le Ministre en exercice, ne peut effacer ou modifier
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/151/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-151-03`** | **Interdiction absolue de profilage commercial des apprenants** | Les données éducatives ne peuvent jamais être cédées à des régies publicitaires. |
+| **`VF-151-04`** | **Droit à la portabilité des données académiques** | L'apprenant peut exporter son dossier complet en format JSON/PDF à tout moment. |
+| **`VF-151-05`** | **Suppression certifiée via crypto-shredding** | La suppression de données personnelles est réalisée par destruction de clé cryptographique. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

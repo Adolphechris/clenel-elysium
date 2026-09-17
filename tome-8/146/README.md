@@ -71,3 +71,17 @@ Aucun administrateur de base de données ne peut modifier ou supprimer une infé
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/146/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-146-03`** | **Archivage à 100 ans des diplômes avec redondance géographique** | Deux copies dans deux régions GCP différentes avec politique de rétention illimitée. |
+| **`VF-146-04`** | **Lien de vérification permanente accessible par les employeurs** | URL pérenne et non modifiable permettant la vérification à vie d'un diplôme. |
+| **`VF-146-05`** | **Emission de transcriptions académiques officielles** | Relevé de notes certifié généré à la demande de l'étudiant avec QR Code. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

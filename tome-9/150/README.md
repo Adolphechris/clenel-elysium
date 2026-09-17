@@ -45,6 +45,9 @@ graph TD
 | **VF-150-01** | Interdiction de transfert transfrontalier non souverain | L'hébergement de données personnelles identifiantes d'élèves congolais hors des serveurs souverains agréés par l'État est passible de poursuites pénales pour atteinte à la sécurité nationale. |
 | **VF-150-02** | Obligation de veto du DPO | Tout traitement de données jugé attentatoire aux droits fondamentaux des élèves par le DPO Souverain est suspendu de plein droit sans recours administratif préalable. |
 
+| **`VF-150-03`** | **Registre des traitements de données conforme à la Loi 15-023** | Inventaire complet de tous les traitements avec finalité, durée et base légale. |
+| **`VF-150-04`** | **Nomination formelle du Délégué à la Protection des Données (DPO)** | Le DPO est désigné par le CA et son identité publiée sur ellysium.cd. |
+| **`VF-150-05`** | **Procédure de notification de violation dans les 72h** | Tout incident de violation de données est signalé à l'autorité compétente et aux victimes. |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

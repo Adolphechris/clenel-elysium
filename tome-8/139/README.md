@@ -79,3 +79,17 @@ Lorsqu'un élève réussit son parcours de remédiation :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/139/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-139-03`** | **Banque d'items d'évaluation alignée sur les programmes EPST/ESU** | Toute question est balisée selon le niveau, la filière et l'objectif pédagogique national. |
+| **`VF-139-04`** | **Validation des items par des enseignants certifiés avant publication** | Aucune question d'examen n'est publiée sans validation scientifique d'un pair. |
+| **`VF-139-05`** | **Protection des sujets d'examen jusqu'à l'heure H par chiffrement** | Les sujets sont déchiffrés automatiquement au signal horaire officiel de démarrage. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

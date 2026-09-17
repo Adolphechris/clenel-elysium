@@ -162,3 +162,19 @@ erDiagram
 - **Règle 71.1 (Clôture et Arrêté Journalier de Caisse)** : Chaque jour à 16h00, le caissier procède à l'arrêté de caisse informatique. Le système calcule le solde théorique en espèces et exige la saisie du comptage physique. Tout écart de caisse est consigné dans un rapport d'écart transmis automatiquement au Chef d'établissement.
 - **Règle 71.2 (Immutabilité des Reçus)** : Un reçu de caisse validé ne peut être ni modifié ni supprimé. Si une erreur de saisie est constatée, elle doit obligatoirement faire l'objet d'une opération d'annulation avec émission d'un reçu d'avoir motivé, contresigné par le promoteur.
 - **Règle 71.3 (Gratuité absolue du Campus Indépendant)** : Tout module de paiement est totalement désactivé pour les comptes relevant de la catégorie *Apprenant Indépendant*, matérialisant dans l'architecture le principe constitutionnel de gratuité intégrale de l'accompagnement éducatif individuel.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-071-01`** | **Séparation absolue caisse / scolarité (Art. 5)** | Le module financier ne peut en aucun cas bloquer les droits pédagogiques d'un élève. |
+| **`VF-071-02`** | **Reçu numéroté immédiat pour tout paiement** | Tout encaissement émet un reçu électronique infalsifiable avec référence unique. |
+| **`VF-071-03`** | **Clôture de caisse quotidienne obligatoire** | Le caissier ne peut ouvrir une session sans validation contradictoire du solde précédent. |
+| **`VF-071-04`** | **Interdiction d'annulation sans visa de la direction** | Toute annulation d'écriture financière requiert l'approbation conjointe du gestionnaire et du préfet. |
+| **`VF-071-05`** | **Audit comptable continu** | Le grand livre des écritures est exportable selon le plan comptable OHADA en vigueur en RDC. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

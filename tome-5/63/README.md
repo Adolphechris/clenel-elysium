@@ -135,3 +135,19 @@ erDiagram
         decimal poids_ponderation
     }
 ```
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-063-01`** | **Alignement strict sur le calendrier officiel** | Chaque chapitre renseigné doit être relié au référentiel curriculaire national. |
+| **`VF-063-02`** | **Visibilité parentale et inspectorale** | Le cahier de textes est consultable en temps réel par l'inspecteur et les familles. |
+| **`VF-063-03`** | **Alerte de retard de programme** | Un différentiel > 15% entre le prévisionnel et le réalisé déclenche un rapport d'alerte pédagogique. |
+| **`VF-063-04`** | **Enrichissement par ressources OER libres** | Toute ressource pédagogique liée doit respecter les licences ouvertes non commerciales. |
+| **`VF-063-05`** | **Signature hebdomadaire par la direction** | Le préfet des études doit viser et valider électroniquement le cahier de textes chaque semaine. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -80,3 +80,17 @@ BQ	MPESA	ECR-002	20250917	411100	Clients Usagers	CD-EL-0142	REC-2025-01	20250917
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/123/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-123-03`** | **Basculement transparent entre régions GCP** | Aucune interruption visible pour l'utilisateur lors d'un failover régional. |
+| **`VF-123-04`** | **Politique de rétention des snapshots de base de données** | Conservation de 30 snapshots journaliers et 12 snapshots mensuels. |
+| **`VF-123-05`** | **Test de reprise après sinistre (DR Test) annuel** | Simulation de perte totale de la région primaire avec objectif RTO < 4h. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

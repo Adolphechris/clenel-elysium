@@ -105,3 +105,19 @@ Le module prend en charge deux modes de mise à disposition :
 - **Règle 68.1 (Génération conditionnée à la signature du PV de délibération)** : Aucun bulletin officiel de fin d'année ne peut être généré tant que le Procès-Verbal de Délibération du Jury n'a pas été formellement clôturé et signé par le Préfet des études dans le Module 67.
 - **Règle 68.2 (Interdiction des bulletins provisoires non marqués)** : Tout bulletin généré avant la fin de l'année scolaire porte en filigrane diagonal obligatoire la mention officielle : **« BULLETIN DE PÉRIODE — DOCUMENT PROVISOIRE NON DIPLÔMANT »**.
 - **Règle 68.3 (Archivage automatique au coffre-fort IUNE)** : Dès son émission, le bulletin scellé est automatiquement indexé dans le Module 60 (Dossier numérique unifié) de l'apprenant, garantissant sa disponibilité à vie sans risque de perte.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-068-01`** | **Scellement cryptographique du bulletin (Cloud KMS)** | Chaque bulletin généré comporte un QR code dynamique et une signature ECDSA infalsifiable. |
+| **`VF-068-02`** | **Génération au format PDF/A pérenne** | Les documents produits respectent le standard d'archivage à long terme ISO 19005. |
+| **`VF-068-03`** | **Indépendance vis-à-vis du statut financier** | Conformément à l'Art. 5, le bulletin est généré même en cas de dette scolaire. |
+| **`VF-068-04`** | **Vérification publique d'authenticité** | Toute personne munie du lien ou du QR code peut vérifier l'authenticité du bulletin sur ellysium.cd/verify. |
+| **`VF-068-05`** | **Duplicata numéroté et tracé** | Toute réédition porte la mention légale de duplicata avec date d'impression et identifiant de l'opérateur. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

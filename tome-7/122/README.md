@@ -90,3 +90,17 @@ Conformément à la réglementation de la Banque Centrale du Congo (BCC) :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/122/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-122-03`** | **Test de charge trimestriel obligatoire** | Simulation d'usage concurrent de 10 000 utilisateurs chaque trimestre. |
+| **`VF-122-04`** | **Pré-chauffe des instances avant les examens nationaux** | Mise en alerte maximale de Cloud Run 48h avant les sessions d'examens. |
+| **`VF-122-05`** | **Rapport de performance transmis au COPIL** | Indicateurs de temps de réponse et taux d'erreur mensuels publiés. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

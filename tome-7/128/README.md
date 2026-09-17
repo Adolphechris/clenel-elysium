@@ -89,3 +89,17 @@ Les versions logicielles de la plateforme suivent le schéma formel `MAJOR.MINOR
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/128/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-128-03`** | **Formation obligatoire RGPD/Loi 15-023 pour tous les développeurs** | Attestation de formation data privacy requise avant accès aux environnements de production. |
+| **`VF-128-04`** | **Interdiction des accès direct à la base de production** | Toute requête manuelle de correction doit passer par un pipeline approuvé et audité. |
+| **`VF-128-05`** | **Rapport mensuel de conformité technique au DPO** | Synthèse des accès aux données personnelles transmise au Délégué à la Protection des Données. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

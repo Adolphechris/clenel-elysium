@@ -150,3 +150,19 @@ Pour qu'un sous-tome de la série 55 à 83 soit déclaré conforme et prêt pour
 - Il doit formuler sous forme d'algorithmes clairs toutes les règles de calcul et conditions d'alerte.
 - Il doit spécifier le comportement nominal, les comportements en cas d'erreur ou d'interruption réseau, et la règle de journalisation d'audit associée.
 - Il doit être validé au regard de la checklist d'assurance qualité du Tome 3 (Partie IX).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-055-01`** | **Dualité stricte des parcours** | Interdiction d'orienter un apprenant indépendant vers des contraintes d'établissement sans son consentement exprès. |
+| **`VF-055-02`** | **Primauté de la décision humaine** | Rejet absolu de toute décision académique ou disciplinaire prise de manière automatisée sans validation d'un humain. |
+| **`VF-055-03`** | **Auditabilité totale des opérations** | Toute transaction ou modification fonctionnelle génère un log immuable avec auteur, horodatage et état avant/après. |
+| **`VF-055-04`** | **Séparation stricte des couches fonctionnelles** | Aucune dépendance technique ou schéma DDL ne peut être injecté dans les spécifications fonctionnelles. |
+| **`VF-055-05`** | **Résilience hors-ligne obligatoire** | Tout composant fonctionnel interactif doit prévoir son mode dégradé en cas de coupure de connectivité. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

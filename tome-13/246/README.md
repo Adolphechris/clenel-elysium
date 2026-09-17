@@ -98,3 +98,19 @@ Le Tome 13 étant **intégralement achevé, validé et scellé**, le chantier EL
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*
 *Tome 13 — INFRASTRUCTURE, EXPLOITATION ET ASSURANCE QUALITÉ TECHNIQUE — COMPLET ✅*
 *19 modules rédigés : M228 → M246*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-246-01`** | **Dépendances structurelles avec les tomes amont** | Toute spécification de clôture est alignée avec les tomes référencés. |
+| **`VF-246-02`** | **Cohérence de la numérotation des verrous dans ce tome** | La séquence VF est continue et sans doublon. |
+| **`VF-246-03`** | **Validation formelle par le Comité d'Architecture** | Ce module de clôture requiert signature du Directeur Technique. |
+| **`VF-246-04`** | **Publication du rapport de conformité documentaire** | Rapport d'état du tome transmis au COPIL avant passage en phase de code. |
+| **`VF-246-05`** | **Clôture solennelle du TOME-13** | Validation de l'intégralité des sous-tomes de ce volume architectural. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -138,3 +138,17 @@ Pour assurer des temps de réponse inférieurs à 10 ms lors de la consultation 
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/152/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-152-03`** | **Normalisation des identifiants selon le référentiel national IUNE** | Aucun doublon de dossier académique ne peut exister dans le système. |
+| **`VF-152-04`** | **Versionnement des schémas de données avec migration sans interruption** | Toute modification de schéma est déployée sans perte de données ni coupure de service. |
+| **`VF-152-05`** | **Validation de l'intégrité référentielle à chaque transaction** | Les contraintes de clé étrangère sont maintenues et auditées en continu. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

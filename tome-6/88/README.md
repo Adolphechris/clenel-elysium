@@ -199,3 +199,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/88/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-088-01`** | **Tableau de bord scolaire unifié** | L'élève affilié visualise sur un seul écran son emploi du temps, ses devoirs et ses dernières cotes. |
+| **`VF-088-02`** | **Notification des devoirs imminents** | Rappels visuels 48h et 24h avant l'échéance d'un travail à rendre. |
+| **`VF-088-03`** | **Isolement strict vis-à-vis des autres classes** | L'élève ne peut voir les flux ou travaux des classes dans lesquelles il n'est pas inscrit. |
+| **`VF-088-04`** | **Reçu numérique de consultation des bulletins** | L'ouverture d'un bulletin officiel horodate la consultation pour les registres de l'école. |
+| **`VF-088-05`** | **Accès instantané au cahier de textes de classe** | Historique exhaustif de tous les chapitres dispensés depuis le début de l'année. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

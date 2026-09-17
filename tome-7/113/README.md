@@ -85,3 +85,17 @@ Pour permettre aux élèves de soumettre leurs devoirs manuscrits sans saturer l
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/113/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-113-03`** | **Commentaires parentaux soumis à modération** | Aucun commentaire n'est publié sans validation d'un modérateur humain. |
+| **`VF-113-04`** | **Anonymisation des avis sur les enseignants** | Les évaluations pédagogiques des parents sont agrégées sans attribution nominale. |
+| **`VF-113-05`** | **Calendrier collaboratif parent-école** | Synchronisation des dates importantes dans le calendrier du smartphone du parent. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

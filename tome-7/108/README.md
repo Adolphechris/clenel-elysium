@@ -66,6 +66,9 @@ Toute altération a posteriori d'un enregistrement brise la chaîne cryptographi
 | **VF-108-01** | Interdiction formelle de backdoor | Aucun compte administrateur « maître » universel ne peut exister dans le code. Toute intervention requiert un consensus cryptographique à double clé. |
 | **VF-108-02** | Cloisonnement pédagogie / finance en base | Tout code source tentant une requête liant la table `bulletin_notes` à la table `facturation_statut` est rejeté dès la phase d'analyse statique de code CI/CD. |
 
+| **`VF-108-03`** | **Audit de toutes les consultations des dossiers enfants** | Chaque consultation parentale est tracée avec horodatage. |
+| **`VF-108-04`** | **Restriction d'accès par plage horaire configurable** | Les parents peuvent restreindre l'accès à la plateforme de leur enfant le soir. |
+| **`VF-108-05`** | **Mise à jour automatique des coordonnées de contact** | Synchronisation des numéros de téléphone avec les opérateurs OTP en cas de changement. |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

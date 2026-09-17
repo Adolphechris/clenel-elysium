@@ -138,3 +138,19 @@ erDiagram
 - **Règle 75.1 (Interdiction de jury incomplet)** : Une séance de délibération de fin d'année ne peut être valablement ouverte dans le système si le quorum de présence légal (au moins deux tiers des enseignants de la promotion) n'est pas réuni et validé par émargement.
 - **Règle 75.2 (Condition d'assiduité pour convocation)** : Le système refuse d'émettre une convocation aux examens semestriels pour un candidat dont le taux d'absences injustifiées dans la matière dépasse le seuil critique de 25 % (Module 65), sauf dérogation médicale dûment enregistrée.
 - **Règle 75.3 (Procédure de constat d'incident et flagrant délit)** : Tout acte de triche constaté en salle d'examen fait l'objet d'un procès-verbal d'incident électronique rédigé sur le champ par les deux surveillants de salle, consignant les pièces matérielles saisies. La copie est transmise sous scellé au jury qui statue sur la sanction applicable.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-075-01`** | **Priorité aux urgences sécuritaires et sanitaires** | Canal de diffusion prioritaire pour alertes météo, épidémiques ou sécuritaires. |
+| **`VF-075-02`** | **Opt-out garanti pour communications non académiques** | Les parents peuvent refuser les messages informatifs sans perdre les alertes de scolarité. |
+| **`VF-075-03`** | **Traductions en 4 langues nationales congolaises** | Les annonces institutionnelles majeures sont disponibles en Lingala, Swahili, Kikongo et Tshiluba. |
+| **`VF-075-04`** | **Consignation de la preuve de distribution** | Horodatage de la remise du SMS ou de la notification push par l'opérateur télécom. |
+| **`VF-075-05`** | **Interdiction d'usage commercial ou partisan** | Le canal de notification ne peut être utilisé pour de la publicité ou des messages politiques. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

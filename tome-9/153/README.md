@@ -70,3 +70,17 @@ graph LR
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/153/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-153-03`** | **Données minimales collectées selon le principe de minimisation** | Aucun champ de données non strictement nécessaire n'est collecté. |
+| **`VF-153-04`** | **Consentement granulaire pour chaque catégorie de données** | L'utilisateur contrôle individuellement chaque type de donnée collectée. |
+| **`VF-153-05`** | **Interdiction de corrélation des données entre apprenants sans anonymisation** | Les analyses croisées inter-apprenants utilisent exclusivement des données agrégées. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

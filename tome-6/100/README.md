@@ -76,3 +76,17 @@ L'échelle typographique assure une hiérarchie visuelle claire sans écraser le
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/100/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-100-03`** | **Lisibilité des formules scientifiques KaTeX** | Rendu optimisé des équations mathématiques et chimiques sans débordement d'écran. |
+| **`VF-100-04`** | **Ajustement dynamique de la taille de police** | L'apprenant peut agrandir le texte d'au moins 200% sans casser la mise en page. |
+| **`VF-100-05`** | **Rendu fluide des diacritiques des langues nationales** | Support natif des caractères accentués et tons du Lingala et du Swahili. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

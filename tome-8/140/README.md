@@ -70,3 +70,17 @@ Avant toute clôture de période ou scellement officiel :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/140/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-140-03`** | **Surveillance d'examen hors-ligne opérationnelle sans réseau** | Le module de surveillance fonctionne intégralement en mode PWA hors connexion. |
+| **`VF-140-04`** | **Détection automatique des comportements suspects** | Flagging des changements d'application, captures d'écran et changements d'onglet. |
+| **`VF-140-05`** | **Enregistrement vidéo horodaté des sessions de proctoring** | Sessions vidéo archivées 90 jours avec chiffrement pour audit en cas de contestation. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

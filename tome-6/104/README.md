@@ -87,3 +87,17 @@ Exemple de message d'alerte absence parent :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/104/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-104-03`** | **Vocabulaire pédagogique rigoureux et standardisé** | Utilisation stricte des termes officiels du système éducatif de la RDC. |
+| **`VF-104-04`** | **Tonalité bienveillante et non punitive** | Les messages d'erreur orientent vers la progression sans culpabiliser l'élève. |
+| **`VF-104-05`** | **Clarté des notifications d'urgence** | Phrases courtes et directives pour toute alerte de sécurité ou convocation d'examen. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -77,3 +77,17 @@ En cas de catastrophe majeure (sinistre sur le datacenter de Kinshasa, coupure g
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/118/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-118-03`** | **Signalement d'urgence sécurité accessible en 1 clic** | Bouton SOS visible sur la page d'accueil parent pour alerter la direction en cas de danger. |
+| **`VF-118-04`** | **Procédure de crise partagée avec les parents** | En cas d'incident grave, le plan d'urgence est distribué en push immédiat. |
+| **`VF-118-05`** | **Contact de l'assistante sociale de l'école dans l'application** | Accès direct aux coordonnées du conseiller scolaire pour problèmes familiaux. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

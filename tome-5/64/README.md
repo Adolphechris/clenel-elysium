@@ -114,3 +114,19 @@ erDiagram
 - **Règle 64.1 (Plafond de charge hebdomadaire de l'enseignant)** : Le système alerte le Préfet si la charge hebdomadaire programmée d'un enseignant dépasse le maximum légal conventionnel (ex. 24 heures de cours par semaine au secondaire).
 - **Règle 64.2 (Consommation hors-ligne de l'agenda)** : L'emploi du temps de l'élève et de l'enseignant est synchronisé et stocké en local sur l'appareil mobile. Tout changement de salle ou d'horaire est mis à jour dès la reconnexion.
 - **Règle 64.3 (Liaison obligatoire au Cahier de Présence)** : La grille d'emploi du temps génère automatiquement les feuilles d'appel quotidiennes dans le Module 65 (Cahier de présence). Aucun appel de présence ne peut être validé s'il ne correspond pas à un créneau officiellement planifié.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-064-01`** | **Dépôt horodaté avec preuve d'antériorité** | Chaque devoir soumis reçoit un reçu numérique scellé avec hash du fichier. |
+| **`VF-064-02`** | **Tolérance aux coupures de connexion lors du dépôt** | Mécanisme de reprise automatique de téléversement en cas d'interruption 2G/3G. |
+| **`VF-064-03`** | **Grille d'évaluation critériée obligatoire** | Aucune note de devoir ne peut être attribuée sans grille barémée transparente. |
+| **`VF-064-04`** | **Anonymisation optionnelle des copies** | Possibilité d'anonymisation des copies pour les évaluations sommatives d'établissement. |
+| **`VF-064-05`** | **Feedback pédagogique obligatoire** | L'attribution d'une note inférieure à 50% requiert un commentaire d'orientation pour remédiation. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

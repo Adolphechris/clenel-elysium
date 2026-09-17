@@ -55,3 +55,17 @@ graph TD
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/130/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-130-03`** | **Audit continu des 6 piliers CIS Google Cloud** | Revue automatisée hebdomadaire contre le CIS Benchmark GCP Level 2. |
+| **`VF-130-04`** | **Isolation réseau par Virtual Private Cloud (VPC) dédié** | Séparation stricte des sous-réseaux production, staging et outils. |
+| **`VF-130-05`** | **Certification ISO 27001 et SOC 2 Type II obligatoire pour sous-traitants** | Aucun fournisseur tiers ne peut traiter des données ELLYSIUM sans certification auditée. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

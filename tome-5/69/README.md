@@ -135,3 +135,19 @@ erDiagram
 - **Règle 69.1 (Verrouillage à l'échéance)** : Dès que l'heure limite de remise est dépassée, le bouton de dépôt est bloqué. Si l'enseignant a coché l'option *« Tolérance de retard »*, la copie est marquée `REMISE_TARDIVE` et subit la pénalité de points programmée (ex. -1 point par tranche de 24h de retard).
 - **Règle 69.2 (Délai maximal de correction)** : Les tuteurs et enseignants disposent d'un délai contractuel de **cinq (5) jours ouvrés** pour corriger les copies. Les copies non corrigées au-delà de ce délai sont automatiquement remontées sur le tableau de bord du Préfet des études.
 - **Règle 69.3 (Versement automatique au Cahier des Cotes)** : Dès que l'enseignant valide son paquet de corrections, les notes validées sont injectées directement dans le Module 66 (Cahier des cotes) sans ressaisie manuelle.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-069-01`** | **Respect des droits de la défense** | Aucune sanction disciplinaire n'est inscrite sans convocation et audition préalable de l'apprenant. |
+| **`VF-069-02`** | **Échelle des peines conforme au règlement intérieur** | Le système interdit l'application d'une sanction non prévue dans le barème officiel de l'école. |
+| **`VF-069-03`** | **Notification obligatoire sous 24h aux tuteurs légaux** | Tout blâme ou exclusion temporaire génère une notification certifiée au parent. |
+| **`VF-069-04`** | **Effacement des sanctions légères après délai** | Les avertissements de conduite sont amnistiés à l'issue de l'année scolaire si assiduité parfaite. |
+| **`VF-069-05`** | **Interdiction des châtiments corporels et vexatoires** | Rejet et signalement administratif de toute mention violant l'intégrité physique de l'élève. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

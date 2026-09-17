@@ -77,3 +77,17 @@ graph LR
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/105/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-105-03`** | **Protocole de test utilisateur périodique à Kinshasa** | Tests en situation réelle tous les 3 mois auprès d'une cohorte d'élèves et d'enseignants. |
+| **`VF-105-04`** | **Collecte anonymisée du score d'utilisabilité (SUS)** | Indice de facilité d'usage mesuré et devant rester supérieur à 80/100. |
+| **`VF-105-05`** | **Prise en compte des retours dans les cycles de release** | Chaque correctif ergonomique majeur est testé sur terrain avant déploiement général. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

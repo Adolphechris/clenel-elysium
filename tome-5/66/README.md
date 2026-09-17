@@ -130,3 +130,19 @@ erDiagram
 - **Règle 66.1 (Quota minimal d'évaluations par période)** : Pour valider son cahier de cotes de période, l'enseignant doit obligatoirement avoir administré au minimum **deux interrogations écrites et un devoir** pour les matières à fort coefficient, et au moins **une interrogation** pour les matières secondaires. Le système refuse la soumission d'une période ne respectant pas ce quota.
 - **Règle 66.2 (Délai maximal de publication des cotes - Article 11)** : L'enseignant dispose d'un délai impératif de **cinq (5) jours ouvrés** après la date de passation de l'épreuve pour saisir l'ensemble des notes dans le système. Tout dépassement génère une alerte administrative de retard au préfet des études.
 - **Règle 66.3 (Audit trail de chaque modification)** : Toute rectification de note saisie après enregistrement initial conserve l'historique complet (valeur antérieure, nouvelle valeur, utilisateur, date, heure, motif de rectification).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-066-01`** | **Saisie sous borne temporelle stricte** | La saisie des notes est automatiquement verrouillée à la date limite fixée par la direction. |
+| **`VF-066-02`** | **Historisation complète de toute modification de cote** | Toute rectification de note enregistre l'ancienne cote, la nouvelle cote, l'auteur et la raison. |
+| **`VF-066-03`** | **Contrôle des maxima autorisés** | Impossibilité de saisir une cote supérieure au maximum fixé pour l'épreuve. |
+| **`VF-066-04`** | **Signature cryptographique de l'enseignant** | L'enseignant valide l'intégralité de son cahier de cotes par signature électronique. |
+| **`VF-066-05`** | **Disponibilité hors-ligne intégrale** | Saisie possible en classe sur tablette/PC hors réseau avec scellement lors de la synchronisation. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

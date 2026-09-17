@@ -72,3 +72,17 @@ En bas de chaque échange avec le tuteur :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/145/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-145-03`** | **Accès individuel aux copies corrigées après délibération** | L'élève peut consulter sa copie scannée avec les corrections de l'enseignant. |
+| **`VF-145-04`** | **Délai légal de contestation affiché sur le relevé** | Rappel explicite des dates limites de recours sur chaque document de résultat. |
+| **`VF-145-05`** | **Commission d'appel numérique avec traçabilité** | Dossier d'appel déposé en ligne avec réponse motivée dans les délais légaux. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

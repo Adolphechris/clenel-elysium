@@ -164,3 +164,19 @@ Le Tome 9 étant **complet et clos**, le chantier ELLYSIUM continue avec :
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*
 *Tome 9 — GOUVERNANCE DES DONNÉES & CYBERSÉCURITÉ — COMPLET ✅*
 *21 modules rédigés : M150 → M170*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-170-01`** | **Dépendance obligatoire avec le Tome 5 pour les flux de données** | Toute donnée manipulée au Tome 9 correspond à un besoin fonctionnel du Tome 5. |
+| **`VF-170-02`** | **Alignement avec la Doctrine d'Infrastructure (CMEK, EKM)** | Le schéma de chiffrement du Tome 9 applique exactement la doctrine GCP de souveraineté. |
+| **`VF-170-03`** | **Compatibilité avec le Tome 8 pour les exigences de sécurité** | Les contrôles IAM et les politiques de rétention du Tome 9 respectent les normes du Tome 8. |
+| **`VF-170-04`** | **Interface de reporting vers le Tome 11 (Analytique)** | Les données anonymisées du Tome 9 alimentent les tableaux BigQuery du Tome 11. |
+| **`VF-170-05`** | **Clôture solennelle du Tome 9 — Données et Sécurité** | Validation de l'intégralité du cadre de gouvernance des données et de protection souveraine. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

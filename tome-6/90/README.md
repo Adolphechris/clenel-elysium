@@ -169,3 +169,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/90/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-090-01`** | **Saisie matricielle rapide des notes** | Interface de saisie de cotes optimisée pour le clavier avec validation par touche Entrée. |
+| **`VF-090-02`** | **Alerte visuelle immédiate en cas de cote hors maxima** | Champ de saisie surligné en rouge avec blocage d'enregistrement si cote > maximum. |
+| **`VF-090-03`** | **Cahier d'appel à un clic** | Pointage des présences par toggle Présent / Absent / Retard en moins de 60 secondes par classe. |
+| **`VF-090-04`** | **Sécurité de session enseignant renforcée** | Verrouillage automatique de l'écran de saisie après 10 minutes d'inactivité. |
+| **`VF-090-05`** | **Génération en un clic des relevés statistiques de classe** | Courbes de répartition des notes et moyennes automatiques instantanées. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

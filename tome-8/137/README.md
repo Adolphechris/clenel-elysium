@@ -67,3 +67,17 @@ L'écran de correction de l'enseignant (Tome 6, Module 90) présente côte à c�
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/137/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-137-03`** | **Plan de communication de crise testé annuellement** | Simulation d'incident majeur avec activation du plan de communication. |
+| **`VF-137-04`** | **Porte-parole désigné pour les incidents de sécurité publics** | Communication officielle centralisée pour éviter les déclarations contradictoires. |
+| **`VF-137-05`** | **Clôture solennelle du Tome 8** | Validation de l'intégralité de l'architecture d'infrastructure, de sécurité et de résilience. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

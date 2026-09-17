@@ -90,6 +90,11 @@ Les cartes structurent les tableaux de bord des élèves et étudiants :
 ---
 
 ## 7. Verrous Fonctionnels des Composants UI
+| **`VF-098-01`** | **Boutons à zone de frappe minimale 48x48px** | Toutes les cibles tactiles respectent la dimension ergonomique pour doigts sur mobile. |
+| **`VF-098-02`** | **Formulaires avec validation côté client instantanée** | Messages d'erreur explicites sous les champs avant toute soumission. |
+| **`VF-098-03`** | **Cartes didactiques modulaires et légères** | Les cartes de cours s'affichent avec squelettes de chargement progressifs. |
+| **`VF-098-04`** | **Tableaux de données avec tri et filtres locaux** | Tri des colonnes exécuté en mémoire sans requête réseau superflue. |
+| **`VF-098-05`** | **Modales de confirmation pour toute action destructrice** | Double validation explicite requise pour suppressions ou désinscriptions. |
 
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|

@@ -59,3 +59,19 @@ Conformément à l'Article 19 de la Constitution (Responsabilité sociétale) :
 
 - **Règle 85.1 (Clarté des boutons d'engagement formel)** : Tout bouton déclenchant une action juridique ou académique irréversible (ex. *« Soumettre définitivement ma copie d'examen »* ou *« Valider l'inscription »*) doit utiliser un libellé sans équivoque, une couleur d'avertissement contrastée et une fenêtre de confirmation obligatoire récapitulant les conséquences de l'action.
 - **Règle 85.2 (Affichage permanent du statut hors-ligne)** : Lorsque le terminal bascule en mode déconnecté, une bannière discrète mais explicite s'affiche en haut de l'écran : **« Mode hors-ligne actif — Vos devoirs et notes sont sauvegardés sur votre appareil »**, rassurant immédiatement l'élève.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-085-01`** | **Neutralité éthique et absence de dark patterns** | Interdiction formelle de tout mécanisme incitatif trompeur ou addictif pour les mineurs. |
+| **`VF-085-02`** | **Protection visuelle des mineurs** | Absence totale de bannières publicitaires, liens commerciaux ou sponsors sur les portails élèves. |
+| **`VF-085-03`** | **Sobriété énergétique logicielle** | Mode sombre natif disponible sur toutes les applications pour préserver les batteries. |
+| **`VF-085-04`** | **Droit à l'effacement visuel direct** | L'apprenant peut masquer son historique d'activité de l'affichage en un clic. |
+| **`VF-085-05`** | **Conformité du langage institutionnel** | Les mentions légales et consentements sont rédigés en français simple accessible aux collégiens. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

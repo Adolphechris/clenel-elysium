@@ -108,3 +108,17 @@ Chaque requête transitant par le système doit comporter les en-têtes suivants
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/115/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-115-03`** | **Forum de parents modéré et non commercial** | Espace d'échange entre parents excluant toute prospection commerciale. |
+| **`VF-115-04`** | **Accès aux résultats des conseils de classe résumés** | Compte-rendu anonymisé du conseil de classe transmis aux parents. |
+| **`VF-115-05`** | **Signalement direct au DPO pour data privacy** | Formulaire de plainte data personnalisé accessible depuis l'espace parent. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

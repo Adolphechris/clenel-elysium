@@ -87,3 +87,17 @@ Entre **00h30 et 05h30** (heures creuses où le trafic scolaire chute de plus de
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/148/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-148-03`** | **Tableau de bord de suivi de la cohorte par le directeur** | Statistiques de réussite, d'échec et d'abandon par niveau et filière. |
+| **`VF-148-04`** | **Alertes précoces de risque de décrochage académique** | Signal automatique si l'assiduité combinée aux résultats prédit un échec probable. |
+| **`VF-148-05`** | **Rapport annuel de performance académique pour l'EPST** | Synthèse statistique exportable pour la collecte nationale des données éducatives. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

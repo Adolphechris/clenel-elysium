@@ -110,3 +110,19 @@ erDiagram
 - **Règle 81.1 (Plafond de redoublement dans le cycle de base)** : Conformément aux règlements du Ministère de l'Éducation Nationale en RDC, un élève ne peut redoubler qu'une seule fois dans le Cycle Terminal de l'Éducation de Base (7e-8e années). Un second échec entraîne une réorientation obligatoire vers les filières professionnelles courtes ou de métiers.
 - **Règle 81.2 (Interdiction de rétention du dossier pour motif financier)** : En cas de transfert d'un élève vers une autre école, l'école de départ **ne peut en aucun cas bloquer électroniquement la transmission du dossier scolaire numérique IUNE**. Les éventuels impayés font l'objet d'une procédure de recouvrement civil séparée sans séquestration du droit à l'instruction de l'enfant.
 - **Règle 81.3 (Droit de recours sur exclusion disciplinaire)** : Toute décision d'exclusion définitive peut faire l'objet d'un recours suspensif sous 8 jours auprès de la Sous-Division provinciale de tutelle ou de la Direction Générale d'ELLYSIUM.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-081-01`** | **Formalisme strict des dossiers de transfert** | Le transfert d'un élève vers un autre établissement exige le quitus numérique des deux directeurs. |
+| **`VF-081-02`** | **Gel du dossier en cas de contentieux disciplinaire** | Un apprenant sous le coup d'une procédure d'exclusion ne peut s'auto-radier du système. |
+| **`VF-081-03`** | **Conservation intégrale des traces académiques en cas d'abandon** | L'abandon scolaire ne supprime aucune des notes ou présences acquises antérieurement. |
+| **`VF-081-04`** | **Enregistrement des causes de décrochage pour remédiation** | Les motifs d'abandon sont qualifiés (économique, santé, déménagement) pour analyse sociologique. |
+| **`VF-081-05`** | **Procédure simplifiée de réintégration** | L'élève réintégré retrouve son IUNE et son dossier sans création d'un doublon d'identité. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

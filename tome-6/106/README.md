@@ -68,3 +68,19 @@ Lorsqu'une règle métier du Tome 5 est modifiée (ex. décret ministériel rév
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/106/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-106-01`** | **Adhérence parfaite avec l'architecture fonctionnelle du Tome 5** | Chaque écran UI correspond à une capacité métier formellement spécifiée au Tome 5. |
+| **`VF-106-02`** | **Compatibilité technique stricte avec le Tome 7** | Les composants du Design System doivent s'intégrer sans surcharge dans le frontend Angular/PWA. |
+| **`VF-106-03`** | **Garantie d'opérabilité sur les applications du Tome 12** | Le Design System est la référence unique pour les applications Web, Android et Offline. |
+| **`VF-106-04`** | **Mise à jour synchronisée des maquettes et du code** | Toute évolution d'un token de design est propagée dans le dépôt UI partagé. |
+| **`VF-106-05`** | **Clôture solennelle du Tome 6** | Le présent module valide l'intégralité ergonomique et visuelle des 23 sous-tomes d'ELLYSIUM. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

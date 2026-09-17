@@ -66,3 +66,19 @@ En cas de divergence apparente entre un impératif technique (ex. limitation de 
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/129/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-129-01`** | **Dépendance amont obligatoire avec le Tome 5 (Fonctionnel)** | Toute composante technique du Tome 7 doit trouver son besoin fonctionnel défini au Tome 5. |
+| **`VF-129-02`** | **Dépendance amont obligatoire avec le Tome 6 (UX)** | Le frontend technique implémente strictement les spécifications ergonomiques du Tome 6. |
+| **`VF-129-03`** | **Dépendance aval avec le Tome 8 (Infrastructure et Sécurité)** | Les services applicatifs s'appuient exclusivement sur l'infrastructure sécurisée du Tome 8. |
+| **`VF-129-04`** | **Compatibilité bidirectionnelle avec le Tome 12 (Applications)** | Le Tome 7 fournit les APIs consommées par les applications web, Android et offline. |
+| **`VF-129-05`** | **Clôture solennelle du Tome 7** | Validation de l'intégralité de l'architecture technique de la plateforme ELLYSIUM. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -74,3 +74,17 @@ graph TD
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/109/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-109-03`** | **Validation de la relation parent-enfant par l'établissement** | Le directeur d'école doit approuver tout lien parent-enfant nouvellement créé. |
+| **`VF-109-04`** | **Révocation immédiate en cas de jugement de garde** | Suppression de l'accès du parent non-gardien sur décision judiciaire vérifiée. |
+| **`VF-109-05`** | **Protection contre la manipulation parentale des notes** | Aucun parent ne peut initier une modification de cote directement depuis son espace. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

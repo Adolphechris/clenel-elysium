@@ -169,3 +169,19 @@ Le module consigne obligatoirement dans l'audit log :
 - `AUTH_PASSWORD_RESET_REQUESTED` (Demande de réinitialisation avec envoi d'OTP).
 - `ETABLISSEMENT_ENROLLED` (Création d'un dossier école en attente de vérification).
 - `APPRENANT_AFFILIATED` (Rattachement d'un élève à une école partenaire).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-058-01`** | **Attribution unique de l'IUNE** | Chaque apprenant se voit attribuer un Identifiant Unique National ELLYSIUM non réassignable. |
+| **`VF-058-02`** | **Dédoublonnage biométrique/alphanumérique** | Détection et blocage de toute tentative de création de compte double. |
+| **`VF-058-03`** | **Vérification des numéros de téléphone locaux** | Validation OTP obligatoire sur les réseaux télécoms congolais (Vodacom, Airtel, Orange, Africell). |
+| **`VF-058-04`** | **Protection du mot de passe et MFA pour personnels** | MFA obligatoire pour tout personnel enseignant et administratif. |
+| **`VF-058-05`** | **Gestion sécurisée de la perte d'accès** | Procédure de récupération d'accès sans divulgation de questions de sécurité vulnérables. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

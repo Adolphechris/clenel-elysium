@@ -88,3 +88,17 @@ Tout acte important (paiement, scellement de note, remise de copie, validation d
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/103/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-103-03`** | **Gestion bienveillante des formulaires expirés** | Reconnexion transparente sans perte des données saisies dans les champs. |
+| **`VF-103-04`** | **Écrans d'état vide motivants (Empty States)** | Présentation d'orientations concrètes lorsque le tableau de bord ne contient pas de données. |
+| **`VF-103-05`** | **Message d'erreur humain et constructif** | Rejet des codes d'erreur machine incompréhensibles au profit d'explications guidées. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

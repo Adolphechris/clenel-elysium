@@ -170,3 +170,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/92/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-092-01`** | **Supervision académique en temps réel** | Tableau de bord du préfet affichant le taux de saisie des cotes par matière et classe. |
+| **`VF-092-02`** | **Verrouillage d'autorité des périodes de cotes** | Bouton de clôture définitive de période interdisant toute modification ultérieure. |
+| **`VF-092-03`** | **Détection des anomalies didactiques** | Signalement automatique des classes présentant des retards de programme significatifs. |
+| **`VF-092-04`** | **Validation formelle des PV de délibération** | Signature électronique du préfet apposée sur les délibérations avant publication. |
+| **`VF-092-05`** | **Gestion des remplacements d'urgence** | Réaffectation d'une classe à un professeur suppléant en moins de 2 minutes. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

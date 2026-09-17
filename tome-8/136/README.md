@@ -86,3 +86,17 @@ sequenceDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/136/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-136-03`** | **Scans de vulnérabilité hebdomadaires des conteneurs** | Artifact Registry Analysis bloque le déploiement d'images avec CVE critiques. |
+| **`VF-136-04`** | **Processus de patch management sous 24h pour CVE critiques** | Toute vulnérabilité CVSS >= 9.0 est patchée dans les 24h suivant sa publication. |
+| **`VF-136-05`** | **Programme de bug bounty ouvert aux chercheurs congolais et africains** | Programme de récompense pour découverte de vulnérabilités responsable. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

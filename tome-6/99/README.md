@@ -78,3 +78,19 @@ Pour éviter les confusions d'usage observées sur le terrain :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/99/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-099-01`** | **Icônes SVG vectorielles compressées** | Poids de chaque pictogramme inférieur à 2 Ko, rendu net à toute résolution. |
+| **`VF-099-02`** | **Signification sémantique universelle des symboles** | Les icônes courantes (accueil, recherche, paramètres) respectent les conventions mondiales. |
+| **`VF-099-03`** | **Association texte + icône pour clarté cognitive** | Les boutons critiques associent systématiquement une icône et son libellé textuel. |
+| **`VF-099-04`** | **Codes couleurs d'état sans ambiguïté** | Vert (Succès / Validé), Orange (En attente), Rouge (Erreur / Bloqué), Bleu (Information). |
+| **`VF-099-05`** | **Non-dépendance à la couleur pour daltoniens** | Chaque signal d'état combine une couleur et un motif ou pictogramme distinct. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

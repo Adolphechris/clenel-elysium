@@ -139,3 +139,19 @@ erDiagram
 - **Règle 72.1 (Interdiction de décompte horaire non adossé à un cours)** : Une heure supplémentaire d'enseignement ne peut être validée pour le paiement que si le créneau correspondant dispose d'une feuille d'appel de présence élève formellement scellée dans le Module 65.
 - **Règle 72.2 (Confidentialité absolue des salaires)** : Les fiches de paie et données de rémunération sont classées **Niveau 3 (Données confidentielles)**. Seuls le Chef d'établissement, le Responsable RH et le titulaire du compte y ont accès.
 - **Règle 72.3 (Historisation des affectations)** : Aucune suppression d'affectation passée n'est autorisée. L'historique des matières et classes prises en charge par un enseignant demeure conservé indéfiniment dans son dossier numérique (Module 60).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-072-01`** | **Accès exclusif aux données de ses propres classes** | L'enseignant ne peut consulter les dossiers d'élèves ne faisant pas partie de ses cohortes. |
+| **`VF-072-02`** | **Messagerie pédagogique sécurisée** | Les échanges entre enseignants et élèves sont tracés et exempts de tout canal privé non modéré. |
+| **`VF-072-03`** | **Suivi en direct de la soumission des travaux** | Tableau de bord indiquant en temps réel les devoirs rendus, en attente et corrigés. |
+| **`VF-072-04`** | **Outils d'émargement des séances de cours** | Validation de la tenue de cours avec résumé pédagogique de séance sous 2h. |
+| **`VF-072-05`** | **Protection des données personnelles de l'enseignant** | Le numéro de téléphone personnel de l'enseignant n'est jamais divulgué aux apprenants. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

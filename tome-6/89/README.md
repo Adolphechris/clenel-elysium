@@ -205,3 +205,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/89/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-089-01`** | **Affichage standardisé LMD (Semestres & Crédits)** | Présentation des résultats académiques en crédits ECTS acquis, compensés et validés. |
+| **`VF-089-02`** | **Gestion des unités capitalisables** | L'étudiant conserve la vue permanente sur les UE définitivement acquises. |
+| **`VF-089-03`** | **Dépôt des mémoires et TFE avec contrôle anti-plagiat** | Interface de soumission de travaux de fin d'études avec reçu certifié. |
+| **`VF-089-04`** | **Inscription aux sessions de rattrapage en ligne** | Formulaire simplifié d'inscription aux épreuves de seconde session. |
+| **`VF-089-05`** | **Espace d'échange avec le directeur de mémoire** | Fil de discussion asynchrone avec partage de versions de manuscrits annotés. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

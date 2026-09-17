@@ -85,3 +85,17 @@ Les corps d'inspection de l'État disposent d'un outil de voyage temporel :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T9/155/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-155-03`** | **Append-only Event Store pour l'historique académique** | Aucune ligne du journal académique ne peut être modifiée ou supprimée. |
+| **`VF-155-04`** | **Hash cryptographique de chaque événement** | Chaque événement académique est lié au précédent par hash SHA-256 (structure Merkle). |
+| **`VF-155-05`** | **Vérification périodique de l'intégrité de la chaîne** | Audit automatisé mensuel détectant toute rupture dans la chaîne d'événements. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -70,3 +70,17 @@ graph LR
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/127/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-127-03`** | **Scan de vulnérabilité de toutes les images Docker** | Artifact Registry bloque le déploiement de toute image avec CVE critique non patchée. |
+| **`VF-127-04`** | **Revue de code obligatoire par deux développeurs seniors** | Fusion de toute PR impactant le moteur de délibération bloquée sans double approbation. |
+| **`VF-127-05`** | **Traçabilité Git complète de chaque ligne de code déployée** | Lien biunivoque entre chaque commit et son ticket de feature ou de bug. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

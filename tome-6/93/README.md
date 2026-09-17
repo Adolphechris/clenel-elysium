@@ -89,6 +89,11 @@ Le système compile en fin de trimestre ou d'année les états statistiques exig
 ---
 
 ## 7. Verrous Fonctionnels et Règles Métier
+| **`VF-093-01`** | **Cockpit global de l'établissement** | Indicateurs macro : effectif total, assiduité globale, taux d'encaissement minerval. |
+| **`VF-093-02`** | **Respect du cloisonnement étanche de l'Art. 5** | Impossibilité pour le promoteur de croiser la liste des débiteurs avec le logiciel d'examen. |
+| **`VF-093-03`** | **Clôture d'exercice comptable** | Génération des états financiers certifiés pour l'administration fiscale. |
+| **`VF-093-04`** | **Gestion des accréditations du personnel** | Activation, suspension ou révocation des comptes d'enseignants et surveillants. |
+| **`VF-093-05`** | **Canal de communication institutionnelle d'urgence** | Diffusion d'un message général à l'ensemble de la communauté de l'école. |
 
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|

@@ -112,3 +112,19 @@ erDiagram
         integer effectif_max
     }
 ```
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-062-01`** | **Horodatage non falsifiable des présences** | L'enregistrement de présence par QR code intègre un jeton cryptographique à validité de 60 secondes. |
+| **`VF-062-02`** | **Notification automatique aux parents sous 30 minutes** | Toute absence non justifiée déclenche une alerte SMS/Push vers le tuteur légal. |
+| **`VF-062-03`** | **Seuil d'exclusion pour absences encadré par la loi** | L'alerte de non-validation d'année pour défaut d'assiduité requiert un avis du conseil des maîtres. |
+| **`VF-062-04`** | **Saisie hors-ligne des présences avec synchronisation** | L'enseignant peut pointer les élèves hors connexion, synchronisation automatique dès retour réseau. |
+| **`VF-062-05`** | **Interdiction d'altération rétroactive des registres** | Le registre d'appel de la veille ne peut être corrigé que par le Préfet avec motif justificatif. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

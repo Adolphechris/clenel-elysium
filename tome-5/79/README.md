@@ -119,3 +119,19 @@ stateDiagram-v2
 - **Règle 79.1 (Verrou de transition pré-requis)** : Aucun élève ne peut être engagé dans une étape aval d'un workflow si l'étape amont obligatoire n'a pas été formellement validée (ex. impossible d'éditer un bulletin si le calcul académique du Module 67 n'est pas scellé).
 - **Règle 79.2 (Tolérance aux coupures et reprises transactionnelles)** : Tout workflow initié sur terminal mobile hors-ligne conserve son état d'étape en mémoire locale sécurisée. Dès rétablissement du réseau, le moteur d'orchestration reprend exactement là où l'action avait été interrompue, sans doublon ni perte de contexte.
 - **Règle 79.3 (Traçabilité des bifurcations de parcours)** : Toute déviation par rapport au flux nominal (transfert d'école, abandon, réintégration tardive) produit un événement d'orchestration consigné dans le Module 82.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-079-01`** | **Plafond horaire d'enseignement respecté** | Le système bloque l'attribution d'heures excédentaires non autorisées par l'inspection. |
+| **`VF-079-02`** | **Conformité avec les qualifications requises** | Un enseignant ne peut être affecté à un cours sans diplôme certifié pour la discipline. |
+| **`VF-079-03`** | **Registre des suppléances et remplacements** | Toute heure de remplacement est enregistrée avec nom du suppléant et date. |
+| **`VF-079-04`** | **Protection de la vie privée du personnel** | Les dossiers administratifs des enseignants sont protégés par des habilitations de niveau DRH. |
+| **`VF-079-05`** | **Calcul automatisé des états de prestation** | Génération mensuelle des décomptes d'heures prestées pour justification de traitement. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -137,3 +137,19 @@ erDiagram
    Le système propose la reconduction de l'inscription dans la même classe et la même filière, en conservant l'historique intégral des résultats antérieurs.
 3. **Élève orienté vers une autre filière** :
    Le système initie un workflow de transfert interne vers la filière recommandée par le conseil d'orientation.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-059-01`** | **Gratuité de l'inscription pour les apprenants isolés** | Aucune commission ou frais de dossier n'est exigible pour le compte AIS/AIU. |
+| **`VF-059-02`** | **Validation légale des pièces justificatives** | Les bulletins scolaires antérieurs sont validés par un agent avant affectation de niveau. |
+| **`VF-059-03`** | **Affectation univoque à un établissement** | Un élève sous parcours établissement ne peut être inscrit simultanément dans deux écoles actives. |
+| **`VF-059-04`** | **Enregistrement probant de la date d'admission** | L'ancienneté académique prend effet à la date exacte de scellement du dossier. |
+| **`VF-059-05`** | **Quota d'admission par classe respecté** | Alerte bloquante en cas de dépassement des effectifs réglementaires fixés par l'EPST. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

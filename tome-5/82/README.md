@@ -120,3 +120,19 @@ erDiagram
 - **Règle 82.1 (Purge interdite des journaux d'audit)** : La durée de rétention légale des événements classés *Haut* et *Critique* est fixée à **cinquante (50) ans**, garantissant la vérifiabilité des parcours scolaires tout au long de la vie active des citoyens.
 - **Règle 82.2 (Compression des flux de synchronisation mobile)** : Les paquets d'échange entre le smartphone et le serveur utilisent une compression binaire optimisée (Protocol Buffers / GZIP), réduisant la consommation de data internet à quelques kilo-octets par session de synchronisation.
 - **Règle 82.3 (Intégrité des files transactionnelles)** : Si un événement de calcul échoue suite à une anomalie logicielle, l'événement est placé dans une file d'erreurs d'audit (Dead Letter Queue) et une alerte immédiate est transmise à l'équipe de supervision technique (Tome 13).
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-082-01`** | **Stockage local chiffré des données de session** | La base SQLite locale sur le terminal de l'enseignant est chiffrée avec clé dérivée du mot de passe. |
+| **`VF-082-02`** | **Algorithme déterministe de résolution des conflits** | En cas de conflit de synchronisation, la version signée avec horodatage le plus ancien certifié fait foi. |
+| **`VF-082-03`** | **Queue de requêtes hors-ligne persistante** | Toutes les cotes saisies sans réseau sont empilées dans une file FIFO persistante sans perte de données. |
+| **`VF-082-04`** | **Notification claire de l'état de synchronisation** | L'interface affiche en permanence un voyant d'état : Vert (synchronisé), Orange (en attente), Rouge (erreur). |
+| **`VF-082-05`** | **Capacité opérationnelle d'au moins 72 heures sans réseau** | Le logiciel local permet de fonctionner 3 jours complets sans connexion Internet sans bloquer l'école. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

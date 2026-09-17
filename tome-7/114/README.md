@@ -110,3 +110,17 @@ Redis n'est jamais utilisé pour stocker l'état souverain définitif d'un élè
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/114/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-114-03`** | **Agenda partagé visible par les parents des activités parascolaires** | Toutes les sorties scolaires figurent avec localisation GPS et liste d'autorisation. |
+| **`VF-114-04`** | **Formulaire de consentement électronique pour activités extrascolaires** | Remplacement du carnet papier d'autorisation parentale par un formulaire numérique signé. |
+| **`VF-114-05`** | **Suivi en direct des activités terrain hors enceinte scolaire** | Localisation GPS des groupes scolaires visible par les parents pendant les sorties. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -62,3 +62,17 @@ Pour éradiquer les réponses arrogantes, trop verbeuses ou fournissant des corr
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/147/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-147-03`** | **Simulation d'examen blanc avec feedback immédiat** | L'apprenant peut s'entraîner sur des épreuves types avec correction automatique. |
+| **`VF-147-04`** | **Statistiques de performance individuelle sur les examens blancs** | Courbes d'évolution personnalisées par matière et par type d'épreuve. |
+| **`VF-147-05`** | **Recommandation IA de révision ciblée (purement consultative)** | Le tuteur IA suggère les chapitres à réviser en priorité sans décider de la note finale. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

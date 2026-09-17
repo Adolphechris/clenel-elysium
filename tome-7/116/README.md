@@ -97,3 +97,17 @@ Les partenaires institutionnels disposent d'une interface de supervision techniq
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/116/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-116-03`** | **Formation numérique guidée pour les parents peu alphabétisés** | Tutoriels audio-visuels en langues nationales pour utiliser la plateforme. |
+| **`VF-116-04`** | **Version simplifiée de l'interface pour les non-initiés** | Mode débutant avec 4 boutons principaux uniquement. |
+| **`VF-116-05`** | **Assistance téléphonique référencée dans l'application** | Numéro de support clairement affiché sur toutes les pages d'accueil parent. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

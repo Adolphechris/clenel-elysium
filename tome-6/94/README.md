@@ -89,6 +89,11 @@ L'inspecteur dispose d'un tableau de bord de Business Intelligence (Tome 5, Modu
 ---
 
 ## 7. Verrous Fonctionnels et Règles Métier
+| **`VF-094-01`** | **Accès en lecture seule pour corps d'inspection** | L'inspecteur d'État dispose d'un accès de contrôle sans droit d'écriture. |
+| **`VF-094-02`** | **Audit des conformités de programmes** | Tableau comparatif entre les syllabus nationaux et les leçons réellement dispensées. |
+| **`VF-094-03`** | **Extraction de données statistiques anonymisées** | Rapports agrégés exportables par province éducationnelle pour le Ministère. |
+| **`VF-094-04`** | **Traçabilité des visites d'inspection** | Consignation du rapport de visite d'inspection numérique dans le dossier de l'école. |
+| **`VF-094-05`** | **Vérification des diplômes pour employeurs** | Interface publique de contrôle d'authenticité des titres académiques délivrés. |
 
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|

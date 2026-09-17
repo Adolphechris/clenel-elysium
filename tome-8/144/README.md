@@ -70,3 +70,17 @@ Avant d'émettre une réponse complexe en sciences (Physique, Chimie, Mathémati
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/144/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-144-03`** | **Attestation de réussite générée automatiquement sous 5 minutes** | Le document est disponible le jour même de la délibération officielle. |
+| **`VF-144-04`** | **Numéro de série national unique sur chaque attestation** | Format standardisé par le Ministère pour garantir l'interopérabilité nationale. |
+| **`VF-144-05`** | **Revocation publique possible avec journalisation** | Les attestations annulées sont marquées invalides dans le registre public d'authenticité. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

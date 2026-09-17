@@ -108,3 +108,19 @@ spacing-2xl : 48px  (Espacements institutionnels des en-têtes)
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/97/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-097-01`** | **Palette chromatique officielle respectée** | Usage exclusif du Bleu Souverain #0B2545, Or Académique #D4AF37 et Blanc Cassé #F5F5F0. |
+| **`VF-097-02`** | **Ratios de contraste conformes WCAG 2.2 AA** | Contraste texte/fond minimal de 4.5:1 sur l'ensemble des textes courants. |
+| **`VF-097-03`** | **Variables CSS standardisées (Design Tokens)** | Interdiction de styles inline ou couleurs brutes hors tokens de la charte. |
+| **`VF-097-04`** | **Hiérarchie typographique stricte** | Plafonnement à deux familles typographiques optimisées pour l'écran. |
+| **`VF-097-05`** | **Intégrité du logo officiel ELLYSIUM** | Le logo institutionnel est sanctuarisé sans déformation ni altération de proportions. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

@@ -124,3 +124,19 @@ erDiagram
 - **Règle 74.1 (Transparence de l'identité artificielle)** : Le système rappelle à l'apprenant, de façon permanente et visible sur l'interface, qu'il interagit avec un agent d'intelligence artificielle et non avec un être humain.
 - **Règle 74.2 (Audit continu des conversations par la Direction Pédagogique)** : Les inspecteurs et responsables pédagogiques disposent d'un tableau de bord anonymisé permettant de visualiser les incompréhensions les plus récurrentes des élèves, servant de base directe à l'amélioration continue des cours (Tome 3, Chapitre 28).
 - **Règle 74.3 (Plafond d'usage équitable)** : Afin de préserver la bande passante et les coûts d'infrastructure, un quota d'interactions quotidiennes raisonnable (ex. 50 questions/jour) est alloué à chaque apprenant, largement suffisant pour ses études mais empêchant tout détournement automatisé ou surcharge serveur.
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-074-01`** | **Auxiliarité stricte de l'IA (Art. 6)** | Le tuteur IA ne peut en aucun cas noter un examen ou sanctionner un élève. |
+| **`VF-074-02`** | **Périmètre de connaissances borné au programme national** | L'IA refuse de répondre aux questions hors-programme ou contraires à la déontologie. |
+| **`VF-074-03`** | **Transparence de la nature artificielle** | L'interface rappelle continuellement à l'apprenant qu'il converse avec un assistant artificiel. |
+| **`VF-074-04`** | **Enregistrement intégral des échanges pour modération** | Toutes les conversations sont auditées pour prévenir toute dérive ou hallucination. |
+| **`VF-074-05`** | **Droit d'escalade vers un tuteur humain** | L'apprenant peut à tout moment solliciter l'intervention d'un enseignant ou tuteur référent. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

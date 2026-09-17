@@ -81,3 +81,17 @@ Chaque mémoire soutenu avec succès en RDC sur ELLYSIUM est automatiquement hac
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T8/142/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-142-03`** | **Génération simultanée des bulletins de toute une classe en un clic** | Traitement par lot avec notification de fin de génération au préfet. |
+| **`VF-142-04`** | **Vérification préalable de la complétude des données avant génération** | Alerte bloquante si des cotes manquantes sont détectées dans le bulletin. |
+| **`VF-142-05`** | **QR Code dynamique liant le bulletin au registre d'authenticité public** | Vérification en ligne de l'authenticité accessible par tout tiers sans inscription. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

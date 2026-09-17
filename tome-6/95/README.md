@@ -132,3 +132,19 @@ erDiagram
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T6/95/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-095-01`** | **Modération préventive par IA et superviseurs humains** | Filtrage automatique des propos haineux, diffamatoires ou non académiques sur les forums. |
+| **`VF-095-02`** | **Interdiction d'échanges privés d'argent entre usagers** | Rejet et bannissement de toute annonce ou sollicitation financière non institutionnelle. |
+| **`VF-095-03`** | **Encadrement du mentorat pair-à-pair** | Les mentors étudiants sont certifiés et soumis à une charte de déontologie. |
+| **`VF-095-04`** | **Sanctuarisation de l'espace alumni** | Réseau d'anciens diplômés dédié à l'insertion professionnelle et au partage d'offres de stages. |
+| **`VF-095-05`** | **Signalement à un clic de tout contenu abusif** | Bouton d'alerte directe transmettant le message suspect à l'équipe juridique ELLYSIUM. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*

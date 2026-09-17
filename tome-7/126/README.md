@@ -101,3 +101,17 @@ Lorsqu'un circuit breaker passe à l'état **OUVERT** :
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  
 *Version 1.0 — Référence : ELLYSIUM/T7/126/v1.0*
+
+---
+
+## 7. Verrous Fonctionnels Critiques
+
+| Réf. Verrou | Description Fonctionnelle et Technique | Conséquence en Cas de Violation |
+| :--- | :--- | :--- |
+| **`VF-126-03`** | **Pipeline CI/CD signé avec vérification d'intégrité** | Chaque build Cloud Build est signé avec une attestation Binary Authorization. |
+| **`VF-126-04`** | **Rollback automatique en cas d'augmentation du taux d'erreur** | Retour à la version précédente déclenché si le taux d'erreur dépasse 5% en 5 minutes. |
+| **`VF-126-05`** | **Environnement de staging miroir de la production** | Promotion impossible de staging vers prod sans validation du RSSI et du CTO. |
+
+---
+
+*Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*
