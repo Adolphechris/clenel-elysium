@@ -32,24 +32,24 @@ Conformément à la **DOCTRINE INFRASTRUCTURE IMMUABLE DU 17 SEPTEMBRE 2026**, l
 | Module | Titre Officiel | Statut |
 |---|---|---|
 | [228](./228/README.md) | Périmètre du Tome 13 – politique d'exploitation et SLAs (99,5 %) | ⏳ En cours |
-| [229](./229/README.md) | Conformité avec la Constitution (continuité de service, protection) | ⏳ En attente |
-| [230](./230/README.md) | Stratégie d'hébergement – 100% Google Cloud (GKE, Cloud Run, dimensionnement) | ⏳ En attente |
-| [231](./231/README.md) | Conteneurisation et orchestration – GKE Autopilot & Cloud Run | ⏳ En attente |
-| [232](./232/README.md) | Gestion des environnements (Dev, Test, Staging, Production GCP isolés) | ⏳ En attente |
-| [233](./233/README.md) | Stratégie de déploiement – CI/CD Google Cloud Build & Cloud Deploy (Canary) | ⏳ En attente |
-| [234](./234/README.md) | Surveillance (monitoring) – Cloud Monitoring, Cloud Trace, SecOps, alertes | ⏳ En attente |
-| [235](./235/README.md) | Gestion des incidents techniques – détection MTTD, escalade, astreinte | ⏳ En attente |
-| [236](./236/README.md) | Plan de continuité de service (PCA) et reprise après sinistre (PRA / DRP) | ⏳ En attente |
-| [237](./237/README.md) | Sauvegardes techniques – Cloud SQL Automated, Cloud Storage WORM 3-2-1 | ⏳ En attente |
-| [238](./238/README.md) | Haute disponibilité des bases de données – Cloud SQL PostgreSQL HA & Read Replicas | ⏳ En attente |
-| [239](./239/README.md) | Tests unitaires, d'intégration et de non-régression | ⏳ En attente |
-| [240](./240/README.md) | Tests de charge, de performance et de stress (Mode Haute Tempête 65k req/s) | ⏳ En attente |
-| [241](./241/README.md) | Assurance qualité du code (SonarQube, static analysis, dette technique) | ⏳ En attente |
-| [242](./242/README.md) | Procédure d'audit de panne et revue post-incident (Post-Mortem sans blâme) | ⏳ En attente |
-| [243](./243/README.md) | Gestion des coûts d'infrastructure et optimisation (FinOps Google Cloud) | ⏳ En attente |
-| [244](./244/README.md) | Maintenance préventive et corrective (Zéro interruption de service) | ⏳ En attente |
-| [245](./245/README.md) | Gouvernance DevOps & SRE – métriques DORA (SLA, SLO, SLI, MTTR) | ⏳ En attente |
-| [246](./246/README.md) | Matrice des dépendances – avec les Tomes 7, 9, 17 | ⏳ En attente |
+| [229](./229/README.md) | Conformité avec la Constitution (continuité de service, protection) | ✅ COMPLET |
+| [230](./230/README.md) | Stratégie d'hébergement – 100% Google Cloud (GKE, Cloud Run, dimensionnement) | ✅ COMPLET |
+| [231](./231/README.md) | Conteneurisation et orchestration – GKE Autopilot & Cloud Run | ✅ COMPLET |
+| [232](./232/README.md) | Gestion des environnements (Dev, Test, Staging, Production GCP isolés) | ✅ COMPLET |
+| [233](./233/README.md) | Stratégie de déploiement – CI/CD Google Cloud Build & Cloud Deploy (Canary) | ✅ COMPLET |
+| [234](./234/README.md) | Surveillance (monitoring) – Cloud Monitoring, Cloud Trace, SecOps, alertes | ✅ COMPLET |
+| [235](./235/README.md) | Gestion des incidents techniques – détection MTTD, escalade, astreinte | ✅ COMPLET |
+| [236](./236/README.md) | Plan de continuité de service (PCA) et reprise après sinistre (PRA / DRP) | ✅ COMPLET |
+| [237](./237/README.md) | Sauvegardes techniques – Cloud SQL Automated, Cloud Storage WORM 3-2-1 | ✅ COMPLET |
+| [238](./238/README.md) | Haute disponibilité des bases de données – Cloud SQL PostgreSQL HA & Read Replicas | ✅ COMPLET |
+| [239](./239/README.md) | Tests unitaires, d'intégration et de non-régression | ✅ COMPLET |
+| [240](./240/README.md) | Tests de charge, de performance et de stress (Mode Haute Tempête 65k req/s) | ✅ COMPLET |
+| [241](./241/README.md) | Assurance qualité du code (SonarQube, static analysis, dette technique) | ✅ COMPLET |
+| [242](./242/README.md) | Procédure d'audit de panne et revue post-incident (Post-Mortem sans blâme) | ✅ COMPLET |
+| [243](./243/README.md) | Gestion des coûts d'infrastructure et optimisation (FinOps Google Cloud) | ✅ COMPLET |
+| [244](./244/README.md) | Maintenance préventive et corrective (Zéro interruption de service) | ✅ COMPLET |
+| [245](./245/README.md) | Gouvernance DevOps & SRE – métriques DORA (SLA, SLO, SLI, MTTR) | ✅ COMPLET |
+| [246](./246/README.md) | Matrice des dépendances – avec les Tomes 7, 9, 17 | ✅ COMPLET |
 
 ---
 

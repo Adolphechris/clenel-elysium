@@ -16,7 +16,7 @@ Les données éducatives, académiques et biométriques des enfants et des citoy
 graph TD
     SEC["DOCTRINE DE SÉCURITÉ ELLYSIUM"]
     
-    SEC --> P1["1. SOUVERAINETÉ TERRITORIALE ET JURIDIQUE\nLes bases de données résident sous juridiction exclusive de la RDC.\nRefus de tout hébergement non chiffré soumis à des législations extraterritoriales (Cloud Act)."]
+    SEC --> P1["1. SOUVERAINETÉ TERRITORIALE ET JURIDIQUE\nLes bases de données résident sous juridiction exclusive de la RDC.\nHébergement exclusif sur Google Cloud Platform avec souveraineté cryptographique (CMEK/EKM). Les données sont chiffrées au repos et en transit avec des clés souveraines dont Google n'a pas la possession, neutralisant tout risque d'extraterritorialité (Cloud Act)."]
     
     SEC --> P2["2. MINIMALISME ET FINALITÉ STRICTE\nNe collecter que la donnée strictement nécessaire à l'instruction.\nInterdiction formelle de profilage commercial ou revente de données."]
     

@@ -181,6 +181,24 @@ et de performance réseau (latence Afrique centrale) :
 
 ---
 
+## ARTICLE 4 BIS — SOUVERAINETÉ CRYPTOGRAPHIQUE ET IMMUNITÉ CLOUD ACT SUR GOOGLE CLOUD
+
+Afin de concilier le choix irrévocable de l'infrastructure 100% Google Cloud Platform (GCP) avec l'exigence constitutionnelle de souveraineté des données de la République Démocratique du Congo (Tome 9, Art. 1), ELLYSIUM applique le cadre de **Souveraineté Cryptographique Google Cloud** :
+
+1. **Chiffrement Systématique par Clés Gérées par le Client (CMEK / Cloud EKM)** :
+   - L'intégralité des données au repos (Cloud SQL, Firestore, Cloud Storage, BigQuery) est chiffrée en AES-256 via Cloud KMS.
+   - Les clés maîtresses de chiffrement (Root Keys) sont contrôlées exclusivement par l'ASBL ELLYSIUM et son autorité de tutelle congolaise via Cloud External Key Manager (Cloud EKM) ou HSM certifiés FIPS 140-2/3.
+2. **Neutralisation Technique et Juridique du US Cloud Act** :
+   - Google n'a jamais accès aux clés de déchiffrement en clair.
+   - En conséquence technique prouvée, toute réquisition judiciaire ou administrative étrangère (notamment au titre du US Cloud Act) adressée à Google est matériellement inopérante : Google est dans l'impossibilité cryptographique de fournir des données intelligibles sans la clé détenue sous juridiction congolaise.
+3. **Chiffrement Côté Client (Client-Side Encryption - CSE)** :
+   - Les données hautement sensibles (identifiants uniques IUNE, dossiers médicaux scolaires, délibérations de jurys) sont chiffrées sur le terminal de l'utilisateur avant tout transit vers les serveurs GCP.
+4. **Conclusion Souveraine** :
+   - L'infrastructure matérielle, réseau et applicative demeure **100% Google Cloud**.
+   - La propriété, le contrôle et l'accès souverain aux données demeurent **100% congolais**.
+
+---
+
 ## ARTICLE 5 — CE QUI EST STRICTEMENT INTERDIT
 
 Les éléments suivants sont **formellement et définitivement proscrits** du projet :

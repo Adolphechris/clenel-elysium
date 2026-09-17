@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Simple helper to commit all local changes and push to GitHub.
-# Usage:
-#   ./sync-to-github.sh "My commit message"
-# If no message is provided, a default message is used.
-
+# Script de synchronisation sécurisé vers GitHub pour ELLYSIUM
 cd "$(git rev-parse --show-toplevel)"
 
 if git diff --quiet --ignore-submodules --cached && git diff --quiet --ignore-submodules; then
-  echo "Nothing to commit."
+  echo "Aucune modification à commiter."
   if [ -n "${GITHUB_TOKEN:-}" ]; then
-    git push "https://x-access-token:${GITHUB_TOKEN}@github.com/Adolphechris/clenel-elysium.git" HEAD
+    AUTH_HEADER="AUTHORIZATION: basic $(printf "x-access-token:%s" "$GITHUB_TOKEN" | base64 -w 0)"
+    git -c "http.extraHeader=$AUTH_HEADER" push origin HEAD
   else
     git push origin HEAD
   fi
@@ -23,13 +20,14 @@ MESSAGE=${1:-"Auto-sync changes"}
 git add -A
 
 if git diff --quiet --ignore-submodules --cached; then
-  echo "No changes to commit after staging."
+  echo "Aucune modification à commiter après staging."
 else
   git commit -m "$MESSAGE"
 fi
 
 if [ -n "${GITHUB_TOKEN:-}" ]; then
-  git push "https://x-access-token:${GITHUB_TOKEN}@github.com/Adolphechris/clenel-elysium.git" HEAD
+  AUTH_HEADER="AUTHORIZATION: basic $(printf "x-access-token:%s" "$GITHUB_TOKEN" | base64 -w 0)"
+  git -c "http.extraHeader=$AUTH_HEADER" push origin HEAD
 else
   git push origin HEAD
 fi
