@@ -83,7 +83,7 @@ broken = 0
 for f in glob.glob('apps/web-portal/dist/*.html'):
     p = pathlib.Path(f)
     for m in re.findall(r'href="([^"#?]+)"', p.read_text(encoding='utf-8')):
-        if m.startswith(('http', 'mailto')) or m.endswith('.css'):
+        if m.startswith(('http', 'mailto', 'data:')) or m.endswith('.css'):
             continue
         if not (p.parent / m).exists():
             broken += 1; print(f"  ✗ {f} -> {m}", file=os.sys.stderr)
