@@ -19,7 +19,7 @@ Les systèmes scolaires et universitaires présentent une courbe de charge atypi
 
 ```mermaid
 graph LR
-    P1["RÉGIME NOMINAL\n150 000 usagers actifs/jour\n~ 1 200 req/sec\nConsommation 8 nœuds K3s"]
+    P1["RÉGIME NOMINAL\n150 000 usagers actifs/jour\n~ 1 200 req/sec\nConsommation 8 nœuds GKE Autopilot"]
     
     P2["PICS DE TRIMESTRE\n800 000 usagers simultanés\n~ 15 000 req/sec\nAutoscaling vers 32 nœuds"]
     
@@ -30,9 +30,9 @@ graph LR
 
 ---
 
-## 3. Stratégie d'Autoscaling Horizontal (K3s HPA)
+## 3. Stratégie d'Autoscaling Horizontal (GKE Autopilot HPA)
 
-Le cluster K3s déploie un **Horizontal Pod Autoscaler (HPA)** couplé à des métriques personnalisées exposées par Prometheus :
+Le cluster GKE Autopilot déploie un **Horizontal Pod Autoscaler (HPA)** couplé à des métriques personnalisées exposées par Cloud Monitoring :
 - **Seuil de déclenchement CPU** : Déclenchement d'un nouveau réplica dès que l'utilisation CPU moyenne dépasse **$65\%$**.
 - **Seuil de latence HTTP** : Déclenchement immédiat dès que le temps de réponse moyen au reverse-proxy dépasse **$80\text{ ms}$**.
 - **Vitesse de montée (Scale-Up)** : Capacité à quadrupler le nombre d'instances de conteneurs en moins de **90 secondes**.
@@ -50,7 +50,7 @@ graph TD
     
     STORM --> OFF["FONCTIONS NON ESSENTIELLES DÉSACTIVÉES\n• Forums et commentaires communautaires coupés\n• Tuteur IA mis en pause temporaire\n• Recherche plein texte désactivée (remplacée par recherche exacte par IUNE)"]
     
-    STORM --> SHIELD["BOUCLIER STATIQUE SUR LES BULLETINS\n• Tous les résultats proclamés sont servis depuis des fichiers HTML/JSON\nstatiques pré-générés en mémoire Redis ou Edge CDN\n• AUCUNE REQUÊTE SQL N'ATTEINT LA BASE CENTRALE"]
+    STORM --> SHIELD["BOUCLIER STATIQUE SUR LES BULLETINS\n• Tous les résultats proclamés sont servis depuis des fichiers HTML/JSON\nstatiques pré-générés en mémoire Cloud Memorystore ou Edge CDN\n• AUCUNE REQUÊTE SQL N'ATTEINT LA BASE CENTRALE"]
     
     STORM --> PRIO["CHEMIN CRITIQUE PRÉSERVÉ À 100%\n• Consultation du résultat d'examen par IUNE (< 10 ms)\n• Vérification d'authenticité du diplôme"]
 ```
@@ -61,7 +61,7 @@ graph TD
 
 Pour les opérations lourdes d'écriture (ex. 50 000 enseignants validant leurs cotes au dernier jour du trimestre) :
 - La requête de l'enseignant est immédiatement acquittée avec un accusé de réception local (`HTTP 202 Accepted`).
-- La charge de calcul mathématique de la formule RDC est insérée dans une file de messages persistante NATS JetStream.
+- La charge de calcul mathématique de la formule RDC est insérée dans une file de messages persistante Cloud Pub/Sub.
 - Des workers Go d'arrière-plan dépilent les calculs de manière constante et régulée, sans saturer les verrous de la base PostgreSQL.
 
 ---

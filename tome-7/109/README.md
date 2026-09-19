@@ -27,7 +27,7 @@ graph TD
     
     STACK --> MOB["APPLICATIONS MOBILES\n• Client Android Flutter / Kotlin Multiplatform (KMP)\n• Optimisation extrême pour terminaux 1 Go RAM (Android Go)"]
     
-    STACK --> DATA["PERSISTANCE & DONNÉES\n• PostgreSQL 16+ (Base relationnelle ACID stricte)\n• SQLite 3 (Base locale embarquée sur le terminal usager)\n• Redis 7+ (Cache haute vitesse et files de messages Pub/Sub)"]
+    STACK --> DATA["PERSISTANCE & DONNÉES\n• PostgreSQL 16+ (Base relationnelle ACID stricte)\n• SQLite 3 (Base locale embarquée sur le terminal usager)\n• Cloud Memorystore (cache haute vitesse et files de messages Pub/Sub)"]
 ```
 
 ---
@@ -58,8 +58,8 @@ graph TD
 |---|---|---|---|
 | **Base Centrale** | **PostgreSQL 16** | Registre d'État des inscriptions, cotes, bulletins et diplômes | Respect strict ACID, fonctionnalités RLS (Row-Level Security) pour le cloisonnement des écoles, support JSONB natif |
 | **Base Locale Client** | **SQLite 3** | Persistance Local-First sur smartphone et PC d'école | Moteur SQL embarqué le plus testé au monde, zéro configuration, supporte des millions d'écritures fiables |
-| **Cache & File** | **Redis 7** | Sessions utilisateurs, limitation de débit (Rate Limiting), cache | Latence sub-milliseconde, structures de données natives (Streams, Sets) |
-| **Stockage Fichiers** | **MinIO (S3 compatible)** | Syllabus PDF/A, copies de devoirs scannées, reçus | Souveraineté totale, auto-hébergeable sur disques locaux en RDC |
+| **Cache & File** | **Cloud Memorystore** | Sessions utilisateurs, limitation de débit (Rate Limiting), cache | Latence sub-milliseconde, structures de données natives (Streams, Sets) |
+| **Stockage Fichiers** | **Cloud Storage (GCS)** | Syllabus PDF/A, copies de devoirs scannées, reçus | Souveraineté cryptographique CMEK/EKM, stockage managé Google |
 
 ---
 

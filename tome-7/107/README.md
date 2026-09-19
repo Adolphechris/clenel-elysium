@@ -50,9 +50,9 @@ Le système technique s'engage sur des métriques de qualité de service mesurab
 ## 4. Architecture de Dimensionnement Économique (Frugalité)
 
 Pour garantir la gratuité constitutionnelle des apprenants indépendants (Tome 2, Art. 4), l'architecture technique interdit l'usage de services cloud managés propriétaires surfacturés :
-- **Serveurs Bare-Metal ou VPS souverains** : Déploiement sur machines virtuelles Linux standards avec K3s (distribution Kubernetes allégée).
+- **Cloud Run / GKE Autopilot (Google Cloud)** : Déploiement entièrement managé sur l'écosystème Google exclusif (Constitution, Article 1 bis).
 - **Compilation binaire native** : Services cœur développés en Go (Golang) et Rust, générant des binaires statiques sans interpréteur lourd.
-- **Cache agressif en mémoire vive** : Redis en cluster avec politique d'éviction LRU, absorbant $85\%$ des requêtes en lecture.
+- **Cache agressif en mémoire vive** : Cloud Memorystore en cluster avec politique d'éviction LRU, absorbant $85\%$ des requêtes en lecture.
 
 ---
 
@@ -60,7 +60,7 @@ Pour garantir la gratuité constitutionnelle des apprenants indépendants (Tome 
 
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|
-| **VF-107-01** | Interdiction des dépendances cloud exclusives | Aucun composant du système ne peut s'appuyer sur une API propriétaire fermée (AWS DynamoDB, Firebase propriétaire, etc.) sans alternative open source immédiate. |
+| **VF-107-01** | Exclusivité de l'écosystème Google | Tout composant du système s'appuie exclusivement sur l'écosystème Google (GCP / Firebase) conformément à l'Article 1 bis de la Constitution ; toute dépendance à une infrastructure tierce (AWS, Azure, auto-hébergé) est interdite. |
 | **VF-107-02** | Plafond de consommation réseau par écran | Aucun écran applicatif de consultation ne doit télécharger plus de **200 Ko** de données brutes pour son affichage initial. |
 
 | **`VF-107-03`** | **Portail parent consultable hors authentification renforcée** | Toute consultation de données d'élèves exige un cookie de session valide MFA. |

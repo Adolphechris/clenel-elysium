@@ -9,7 +9,8 @@ Ce document fixe les règles de travail et d’organisation internes du dépôt 
 1. La cohérence prime sur la vitesse.
 2. Les tomes doivent être rédigés dans une logique progressive et cohérente avec les tomes 1 à 3.
 3. Aucun nouveau document ne doit contredire la Constitution ni la philosophie pédagogique d’ELLYSIUM.
-4. Chaque document doit être traçable, compréhensible et réutilisable par les personnes qui viendront après.
+4. Aucun document ne peut prescrire une infrastructure autre que Google : la Constitution (Article 1 bis) et la Doctrine d’Infrastructure imposent l’écosystème « Google et Google uniquement » ; toute mention d’un service tiers non autorisé est nulle et doit être transposée selon la Table de Transposition Normative de la Doctrine.
+5. Chaque document doit être traçable, compréhensible et réutilisable par les personnes qui viendront après.
 
 ## 3. Structure recommandée du dépôt
 
@@ -73,6 +74,7 @@ Les tomes futurs doivent :
 Avant de considérer un document comme prêt pour la suite, vérifier :
 - qu’il est cohérent avec les tomes 1 à 3 ;
 - qu’il ne contredit pas la Constitution ;
+- qu’il respecte l’écosystème Google exclusif et la Table de Transposition Normative de la Doctrine d’Infrastructure ;
 - qu’il est compréhensible sans contexte externe ;
 - qu’il définit clairement les acteurs, les règles et les livrables ;
 - qu’il peut servir directement de base à la suite du travail.
@@ -80,3 +82,10 @@ Avant de considérer un document comme prêt pour la suite, vérifier :
 ## 8. Utilisation pratique
 
 Ce document n’est pas un document de production technique. Il est un document de discipline de travail. Il sert à éviter que le projet s’éparpille et que les tomes se contredisent.
+
+## 9. Canon des verrous fonctionnels et contrôle automatique
+
+- Chaque module numéroté (plage 55–336) porte au minimum cinq verrous fonctionnels `VF-XXX-01` à `VF-XXX-05`. Les modules critiques (notamment en cybersécurité, Tomes 9 et 10) peuvent en porter six ou sept : cette exception est documentée et acceptée.
+- Les modules M001–M054 (tomes 1 à 4) sont rédigés en documents continus ; leur balisage `VF-` est requis dès leur découpage en modules unitaires.
+- Le contrôle automatique est assuré par le script `tools/verify-corpus.sh` : complétude des modules, balisage `VF-`, absence de liens internes cassés et conformité de l’écosystème (aucune infrastructure non-Google, selon la Table de Transposition Normative de la Doctrine).
+- Tout contributeur exécute ce script avant toute publication.

@@ -27,7 +27,7 @@ graph TD
     end
 
     subgraph "Traitement & Rapprochement (Cloud Run caisse-service)"
-        IDEMP["⚡ Vérification d'Idempotence (Redis)"]
+        IDEMP["⚡ Vérification d'Idempotence (Cloud Memorystore)"]
         TX["🔐 Enregistrement Transactionnel (Cloud SQL)"]
         RECU["📄 Génération Reçu PDF Signé (Cloud KMS)"]
         NOTIF["📢 Notification SMS & Email Immédiate"]

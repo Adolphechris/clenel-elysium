@@ -55,7 +55,7 @@ graph LR
 ## 5. Gestion des Secrets et Chiffrement des Configurations
 
 - **Zéro secret dans le code Git** : Aucun mot de passe, jeton d'API ou clé privée ne peut être commité dans les dépôts de code (contrôlé par l'outil d'analyse statique *git-secrets*).
-- **Injection dynamique des secrets** : En production, les clés d'API Mobile Money et certificats d'État sont injectés dynamiquement en mémoire vive au démarrage des conteneurs via **HashiCorp Vault** ou des **Sealed Secrets Kubernetes** chiffrés asymétriquement.
+- **Injection dynamique des secrets** : En production, les clés d'API Mobile Money et certificats d'État sont injectés dynamiquement en mémoire vive au démarrage des conteneurs via **Google Secret Manager** (couplé à **Cloud KMS**), avec rotation automatique des versions et audit d'accès complet.
 
 ---
 

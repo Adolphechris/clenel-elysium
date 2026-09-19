@@ -22,7 +22,7 @@ sequenceDiagram
     participant U as Usager (Élève / Prof)
     participant APP as Client (PWA / Mobile)
     participant IAM as Service IAM Souverain (Go)
-    participant REDIS as Cache Révocations (Redis)
+    participant MEMSTORE as Cache Révocations (Cloud Memorystore)
 
     U->>APP: Saisie IUNE + Mot de passe / PIN
     APP->>IAM: POST /api/v1/auth/login
@@ -34,7 +34,7 @@ sequenceDiagram
     
     APP->>IAM: Requête avec Bearer Access Token
     IAM->>IAM: Validation cryptographique locale de la signature Ed25519
-    IAM->>REDIS: Vérifie non-révocation de session (< 1 ms)
+    IAM->>MEMSTORE: Vérifie non-révocation de session (< 1 ms)
     IAM-->>APP: Réponse autorisée
 ```
 
@@ -75,7 +75,7 @@ sequenceDiagram
 ## 5. Révocation Immédiate de Session (Token Blacklist)
 
 Pour révoquer immédiatement l'accès d'un compte compromis ou d'un appareil volé sans attendre l'expiration naturelle du jeton :
-- Le `jti` (JWT ID unique) de la session révoquée est injecté dans un jeu de données Redis (*Redis Set*) avec un TTL égal à la durée résiduelle du jeton.
+- Le `jti` (JWT ID unique) de la session révoquée est injecté dans un jeu de données Cloud Memorystore (*Cloud Memorystore Set*) avec un TTL égal à la durée résiduelle du jeton.
 - L'API Gateway consulte ce cache en mémoire vive en moins de **0.4 ms** à chaque requête entrante.
 
 ---

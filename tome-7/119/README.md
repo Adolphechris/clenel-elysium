@@ -11,11 +11,11 @@
 
 ## 1. Objet et Portée du Sous-Tome
 
-Les fichiers pédagogiques (syllabus denses, résumés audio de cours, copies de devoirs manuscrites numérisées, reçus de caisse et diplômes certifiés) représentent le volume de données le plus lourd du système. Si ces fichiers sont mal compressés ou servis depuis des serveurs situés à l'autre bout du monde, la bande passante des familles est gaspillée et l'expérience s'effondre. Ce sous-tome formalise l'infrastructure de stockage objet MinIO et le réseau de distribution de contenu (CDN) local d'ELLYSIUM.
+Les fichiers pédagogiques (syllabus denses, résumés audio de cours, copies de devoirs manuscrites numérisées, reçus de caisse et diplômes certifiés) représentent le volume de données le plus lourd du système. Si ces fichiers sont mal compressés ou servis depuis des serveurs situés à l'autre bout du monde, la bande passante des familles est gaspillée et l'expérience s'effondre. Ce sous-tome formalise l'infrastructure de stockage objet Cloud Storage (GCS) et le réseau de distribution de contenu (CDN) local d'ELLYSIUM.
 
 ---
 
-## 2. Architecture du Stockage Objet Distribué (Cluster MinIO)
+## 2. Architecture du Stockage Objet Distribué (Cluster Cloud Storage (GCS))
 
 ```mermaid
 graph TD
@@ -25,7 +25,7 @@ graph TD
         EDGE_CACHE["Serveurs de Cache Nginx / Varnish en bordure de réseau"]
     end
     
-    subgraph S3_STORAGE["CLUSTER MINIO SOUVERAIN (Haute Disponibilité)"]
+    subgraph GCS_STORAGE["CLOUD STORAGE GCS SOUVERAIN (Haute Disponibilité)"]
         B_PEDAGOGIE[("Bucket : pedagogie-cours\n(Syllabus PDF/A, audios, exercices publics)")]
         B_COPIES[("Bucket : copies-devoirs\n(Copies numérisées chiffrées AES-256)")]
         B_DIPLOMES[("Bucket : diplomes-scelles\n(PDF/A avec hash SHA-256 et QR Code)")]

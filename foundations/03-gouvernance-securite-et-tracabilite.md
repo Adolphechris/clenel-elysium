@@ -65,6 +65,15 @@ Le système doit prévoir :
 - une politique claire de continuité de service ;
 - une procédure de gestion d’incident.
 
+### 4.4 Gouvernance de l'infrastructure — écosystème Google exclusif
+L'infrastructure d'ELLYSIUM relève exclusivement de l'écosystème Google (Constitution, Article 1 bis ; Doctrine d'Infrastructure). Les règles de gouvernance suivantes s'appliquent :
+
+- aucun fournisseur tiers (cloud, hébergement, stockage, messagerie, supervision) ne peut être introduit, ni en production, ni en staging, ni en test ;
+- toute mention d'une technologie auto-hébergée héritée (Redis, MinIO, NATS, K3s, Prometheus, Grafana, Loki, ArgoCD, SonarQube, etc.) est réputée nulle et doit être transposée vers son équivalent Google selon la Table de Transposition Normative de la Doctrine ;
+- toute proposition d'outil doit être validée contre la Doctrine avant acceptation ; en cas de doute, le service Google équivalent prévaut ;
+- l'exception « dépôt des sources sur GitHub » demeure un simple miroir de code : aucune exécution, aucun déploiement, aucune donnée d'usager n'y transite ;
+- le non-respect de cette règle constitue une non-conformité majeure à traiter en priorité par la revue de conformité (section 7).
+
 ## 5. Traçabilité
 
 Toute action importante doit produire une trace exploitable. Les zones prioritaires sont :

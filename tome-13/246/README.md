@@ -77,7 +77,7 @@ graph TB
 | Module 238 | Haute disponibilité des bases de données – Cloud SQL PostgreSQL HA | ✅ COMPLET |
 | Module 239 | Tests unitaires, d'intégration et de non-régression | ✅ COMPLET |
 | Module 240 | Tests de charge, de performance et de stress (Haute Tempête 65k req/s) | ✅ COMPLET |
-| Module 241 | Assurance qualité du code (SonarQube, static analysis, dette technique) | ✅ COMPLET |
+| Module 241 | Assurance qualité du code (Gemini Code Assist, static analysis, dette technique) | ✅ COMPLET |
 | Module 242 | Procédure d'audit de panne et revue post-incident (sans blâme) | ✅ COMPLET |
 | Module 243 | Gestion des coûts d'infrastructure et optimisation (FinOps Google Cloud) | ✅ COMPLET |
 | Module 244 | Maintenance préventive et corrective (Zéro interruption de service) | ✅ COMPLET |

@@ -1,4 +1,4 @@
-# Module 241 — Assurance Qualité du Code (SonarQube, Analyse Statique, Dette Technique)
+# Module 241 — Assurance Qualité du Code (Gemini Code Assist, Analyse Statique, Dette Technique)
 
 > **Positionnement :** Tome 13 — Infrastructure, Exploitation & Qualité · Module 241 sur 246
 > **Autorité :** Lead Software Quality Engineer / Architecte Code ELLYSIUM
@@ -14,7 +14,7 @@ Ce module régit la gouvernance de la qualité logicielle, les règles d'analyse
 
 ## 2. Barrière de Qualité Déclarative (*Quality Gate Strict*)
 
-Aucune contribution de code (Pull Request) ne peut être intégrée dans les branches de release si elle ne satisfait pas l'ensemble des critères suivants audités par **SonarQube / SonarCloud** :
+Aucune contribution de code (Pull Request) ne peut être intégrée dans les branches de release si elle ne satisfait pas l'ensemble des critères suivants audités par **Gemini Code Assist / SonarCloud** :
 
 ```mermaid
 graph LR

@@ -54,7 +54,7 @@ RÈGLES IMPÉRATIVES NON NÉGOCIABLES :
 
 **Règle TECH-134-01** : Pour éviter l'addiction aux écrans et responsabiliser l'élève :
 - Chaque apprenant dispose d'un crédit strict de **50 interactions par tranche de 24 heures glissantes**.
-- Le compteur est géré de manière atomique dans Redis.
+- Le compteur est géré de manière atomique dans Cloud Memorystore.
 - Dès la 45e requête, un message préventif discret s'affiche (*« Il vous reste 5 questions aujourd'hui »*).
 - À la 50e requête, le système verrouille le tuteur jusqu'au lendemain matin avec le message :  
   *« Vous avez atteint votre quota d'étude assistée du jour. Prenez le temps de relire vos cours et vos notes personnelles. Le tuteur sera de nouveau disponible demain dès 06h00. »*

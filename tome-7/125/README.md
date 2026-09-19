@@ -23,7 +23,7 @@ graph TD
     
     REQ --> L1["CACHE L1 : MÉMOIRE PROCESSUS GO (BigCache / Ristretto)\n• Latence : < 1 microseconde (en RAM directe)\n• Contenu : Barèmes officiels, coefficients DIPROMAT, calendrier scolaire"]
     
-    L1 -->|Cache Miss| L2["CACHE L2 : REDIS 7 DISTRIBUÉ HAUTE VITESSE\n• Latence : < 1 milliseconde (réseau local cluster)\n• Contenu : Sessions actives, bulletins scellés, quotas tuteur IA"]
+    L1 -->|Cache Miss| L2["CACHE L2 : CLOUD MEMORSTORE DISTRIBUÉ HAUTE VITESSE\n• Latence : < 1 milliseconde (réseau local cluster)\n• Contenu : Sessions actives, bulletins scellés, quotas tuteur IA"]
     
     L2 -->|Cache Miss| L3["CACHE L3 / BASE DE DONNÉES POSTGRESQL 16\n• Latence : 5 à 15 millisecondes\n• Exécution de la requête SQL indexée + Alimentation des caches L1 et L2"]
 ```
@@ -39,18 +39,18 @@ Pour empêcher que 5 000 requêtes simultanées ne se ruent sur la base de donn�
 ```go
 // Patron de verrouillage distribué pour éviter le Cache Stampede
 func GetBulletin(ctx context.Context, classID string) (*Bulletin, error) {
-    // 1. Lecture Redis L2
-    if data, err := redis.Get(ctx, "bulletin:"+classID); err == nil {
+    // 1. Lecture Cloud Memorystore L2
+    if data, err := memorystore.Get(ctx, "bulletin:"+classID); err == nil {
         return deserialize(data), nil
     }
     
     // 2. Acquisition d'un mutex distribué (Redlock)
-    lock := redis.AcquireLock("lock:bulletin:"+classID, 5*time.Second)
+    lock := memorystore.AcquireLock("lock:bulletin:"+classID, 5*time.Second)
     if lock.Acquired() {
         defer lock.Release()
         // Requête PostgreSQL
         bulletin := db.QueryBulletinFromPostgres(classID)
-        redis.SetWithTTL("bulletin:"+classID, serialize(bulletin), 1*time.Hour)
+        memorystore.SetWithTTL("bulletin:"+classID, serialize(bulletin), 1*time.Hour)
         return bulletin, nil
     }
     
@@ -98,8 +98,8 @@ WHERE statut = 'ACTIF' AND deleted_at IS NULL;
 
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|
-| **VF-125-01** | Invalidation événementielle obligatoire | Toute mise à jour ou scellement de cote doit obligatoirement émettre un ordre d'invalidation explicite de la clé de cache correspondante sur le bus Redis. |
-| **VF-125-02** | TTL obligatoire sur toute clé de cache | Aucune clé ne peut être insérée dans Redis sans durée de vie (TTL) définie. L'insertion d'une clé sans TTL est bloquée par l'adaptateur de persistance. |
+| **VF-125-01** | Invalidation événementielle obligatoire | Toute mise à jour ou scellement de cote doit obligatoirement émettre un ordre d'invalidation explicite de la clé de cache correspondante sur le bus Cloud Memorystore. |
+| **VF-125-02** | TTL obligatoire sur toute clé de cache | Aucune clé ne peut être insérée dans Cloud Memorystore sans durée de vie (TTL) définie. L'insertion d'une clé sans TTL est bloquée par l'adaptateur de persistance. |
 
 ---
 

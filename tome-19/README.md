@@ -34,14 +34,16 @@ Ce tome sanctuarise les droits des usagers (CGU/CGS), la protection renforcée d
 
 ---
 
-## 3. Grand Récapitulatif Final de l'Œuvre Documentaire ELLYSIUM
+## 3. Grand Récapitulatif de l'Œuvre Documentaire ELLYSIUM (audit vérifié du 17/09/2026)
 
-Avec l'achèvement de ce Tome 19, l'intégralité des **19 Tomes** et des **336 Modules** composant l'architecture nationale de la plateforme ELLYSIUM est **100% rédigée, vérifiée et conforme**.
+L'architecture documentaire d'ELLYSIUM se présente, à la date du 17 septembre 2026, comme suit :
 
-- **Total Tomes** : 19 / 19 (100%)
-- **Total Modules** : 336 / 336 (100%)
-- **Plateforme Technologique** : Google Cloud Platform (GCP) & Firebase exclusif
-- **Cadre Éthique et Souverain** : Constitution d'ELLYSIUM, Articles 1 à 8 inviolés
+- **Total Tomes** : 19 / 19 rédigés (100%)
+- **Modules numérotés** : 282 / 282 présents et balisés (plage physique 55–336) ; les modules M001–M054 (tomes 1 à 4) sont matérialisés par des documents continus
+- **Verrous fonctionnels `VF-`** : 1 422 balisés et vérifiés (271 modules à 5 verrous ; 11 modules critiques à 6–7 verrous)
+- **Statuts par tome** : T5–T10 et T15–T19 rédigés/complets ✅ ; T11–T14 consolidation de statut en cours 🚀
+- **Plateforme Technologique** : Google et Google uniquement — GCP & Firebase exclusif (Constitution, Article 1 bis)
+- **Cadre Éthique et Souverain** : Constitution d'ELLYSIUM, Articles 1 à 21 (dont l'Article 1 bis) inviolés
 - **Devise Cardinal** : *"Rigueur, sérieux et honnêteté sont nos devises"*
 
 ---

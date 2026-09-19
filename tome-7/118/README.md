@@ -1,5 +1,5 @@
 # TOME 7 — ARCHITECTURE TECHNIQUE ET INTEROPÉRABILITÉ
-## 118. Infrastructure Cloud et Hébergement Souverain Multi-Cloud
+## 118. Infrastructure Cloud et Hébergement Souverain sur Google Cloud
 
 ---
 
@@ -11,7 +11,7 @@
 
 ## 1. Objet et Portée du Sous-Tome
 
-L'infrastructure d'hébergement d'ELLYSIUM doit garantir que les données éducatives de la République Démocratique du Congo demeurent sous la juridiction exclusive de la nation tout en bénéficiant de la résilience d'une architecture distribuée moderne. Ce sous-tome définit la topologie multi-nœuds, le déploiement sur serveurs physiques et clouds souverains, l'orchestration par conteneurs K3s et le Plan de Reprise d'Activité (PRA).
+L'infrastructure d'hébergement d'ELLYSIUM doit garantir que les données éducatives de la République Démocratique du Congo demeurent sous la juridiction exclusive de la nation tout en bénéficiant de la résilience d'une architecture distribuée moderne. Ce sous-tome définit la topologie multi-nœuds, le déploiement sur serveurs physiques et clouds souverains, l'orchestration par conteneurs GKE Autopilot et le Plan de Reprise d'Activité (PRA).
 
 ---
 
@@ -19,7 +19,7 @@ L'infrastructure d'hébergement d'ELLYSIUM doit garantir que les données éduca
 
 ```mermaid
 graph TD
-    NATIONAL["NŒUD CENTRAL MAÎTRE (KINSHASA - DATACENTER NATIONAL)\n• PostgreSQL Primaire (Écritures)\n• NATS JetStream Cluster\n• Registre Central d'État des IUNE & Diplômes"]
+    NATIONAL["NŒUD CENTRAL MAÎTRE (KINSHASA - DATACENTER NATIONAL)\n• PostgreSQL Primaire (Écritures)\n• Cloud Pub/Sub Cluster\n• Registre Central d'État des IUNE & Diplômes"]
     
     REG_1["NŒUD RÉGIONAL KATANGA (LUBUMBASHI)\n• Cache CDN Local\n• Réplicas PostgreSQL en lecture\n• Relais de synchronisation provinciale"]
     
@@ -37,9 +37,9 @@ graph TD
 
 ---
 
-## 3. Orchestration par Conteneurs Allégés (Distribution K3s)
+## 3. Orchestration par Conteneurs Allégés (Distribution GKE Autopilot)
 
-Au lieu de déployer un cluster Kubernetes lourd consommant plusieurs gigaoctets de mémoire vive rien que pour le plan de contrôle, ELLYSIUM utilise **K3s (distribution Kubernetes certifiée CNCF optimisée pour la frugalité)** :
+Au lieu de déployer un cluster Kubernetes lourd consommant plusieurs gigaoctets de mémoire vive rien que pour le plan de contrôle, ELLYSIUM utilise **GKE Autopilot (distribution Kubernetes certifiée CNCF optimisée pour la frugalité)** :
 - Binaire unique de moins de 100 Mo.
 - Consommation mémoire du control-plane inférieure à **512 Mo de RAM**.
 - Capacité à fonctionner aussi bien sur de grands serveurs dédiés de datacenter que sur des micro-serveurs locaux installés au sein d'un complexe scolaire provincial.
@@ -49,8 +49,8 @@ Au lieu de déployer un cluster Kubernetes lourd consommant plusieurs gigaoctets
 ## 4. Infrastructure as Code (IaC) et Déploiement Reproductible
 
 **Règle TECH-118-01** : Aucune configuration manuelle de serveur n'est tolérée en production (*Zero Click-Ops*).
-- **Provisioning d'infrastructure** : Réalisé par des manifestes déclaratifs **OpenTofu / Terraform**.
-- **Configuration des systèmes d'exploitation** : Automatisée par des playbooks **Ansible** versionnés sous Git.
+- **Provisioning d'infrastructure** : Réalisé par des manifestes déclaratifs **Terraform (provider Google Cloud)**.
+- **Configuration des systèmes d'exploitation** : Automatisée par les politiques **OS Config (Google Cloud)** versionnées sous Git.
 - Tout nouveau nœud régional peut être instancié, configuré et rattaché au cluster national en moins de **45 minutes**.
 
 ---

@@ -41,7 +41,7 @@ graph TD
 
 ## 3. Banc d'Essai Distribué (k6 & Google Cloud Distributed Load Testing)
 
-Les tirs de charge sont exécutés par le moteur open-source **Grafana k6** conteneurisé et orchestré sur Google Kubernetes Engine pour générer un trafic virtuel réaliste depuis plusieurs nœuds géographiques :
+Les tirs de charge sont exécutés par le moteur open-source **tableaux de bord Cloud Monitoring k6** conteneurisé et orchestré sur Google Kubernetes Engine pour générer un trafic virtuel réaliste depuis plusieurs nœuds géographiques :
 
 ```javascript
 // Scénario de test k6 : Publication des Bulletins Haute Tempête

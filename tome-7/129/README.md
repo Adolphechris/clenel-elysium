@@ -25,7 +25,7 @@ graph TD
     
     T9["TOME 9 — SÉCURITÉ, CRYPTOGRAPHIE & AUDIT\n(Gestion des clés HSM, Signature Ed25519, Audit Merkle Tree)"]
     
-    T13["TOME 13 — EXPLOITATION & SUPERVISION\n(Monitoring Prometheus, Traces OpenTelemetry, Logs Loki, SLA 99.9%)"]
+    T13["TOME 13 — EXPLOITATION & SUPERVISION\n(Supervision Cloud Monitoring, Traces Cloud Trace, Logs Cloud Logging, SLA 99.9%)"]
 
     T5 -->|Contrats de données & Cas d'usage| T7
     T7 -->|Contraintes de modélisation & RLS| T5
@@ -44,14 +44,14 @@ graph TD
 | **108. Conformité Constitution** | Mod. 56 (Constitution) | Mod. 152 (HSM d'État) | Mod. 220 (Audit légal) | Zéro décision automatique d'IA sur les cotes, étanchéité pédagogie/finances absolue. |
 | **111. Clean Architecture** | Mod. 67 (Moteur déterministe) | Mod. 154 (Immutabilité) | Mod. 222 (Tests unitaires) | Isolation pure du domaine de calcul de la formule officielle RDC (zéro dépendance SQL). |
 | **114. Base de données PostgreSQL** | Mod. 60 (Dossier IUNE) | Mod. 155 (Chiffrement RLS) | Mod. 224 (Archivage WAL) | Cloisonnement strict des écoles partenaires par Row-Level Security, partitionnement provincial. |
-| **117. Authentification JWT/mTLS** | Mod. 58 (Entonnoir d'accès) | Mod. 156 (Signatures Ed25519)| Mod. 225 (Traçabilité IAM) | Validité hors-ligne jusqu'à 30 jours, révocation sub-milliseconde via Redis Blacklist. |
-| **119. Stockage MinIO & CDN** | Mod. 73 (Bibliothèque OER) | Mod. 158 (Chiffrement at-rest)| Mod. 227 (SLA Bande passante)| Compression WebP < 280 Ko, formats pérennes PDF/A signés pour diplômes et reçus. |
+| **117. Authentification JWT/mTLS** | Mod. 58 (Entonnoir d'accès) | Mod. 156 (Signatures Ed25519)| Mod. 225 (Traçabilité IAM) | Validité hors-ligne jusqu'à 30 jours, révocation sub-milliseconde via Cloud Memorystore Blacklist. |
+| **119. Stockage Cloud Storage (GCS) & CDN** | Mod. 73 (Bibliothèque OER) | Mod. 158 (Chiffrement at-rest)| Mod. 227 (SLA Bande passante)| Compression WebP < 280 Ko, formats pérennes PDF/A signés pour diplômes et reçus. |
 | **120. Synchronisation CRDT** | Mod. 82 (Sync Event-Driven) | Mod. 160 (Anti-falsification) | Mod. 229 (Métriques sync) | Fonctionnement local-first intégral, résolution mathématique des conflits sans écrasement. |
 | **121. Interopérabilité Ministères** | Mod. 78 (Passerelles) | Mod. 162 (Certificats X.509) | Mod. 231 (Bordereaux SIGE) | Fichiers EXETAT/TENASOSP conformes aux schémas XML officiels de l'Inspection Générale. |
 | **122. Passerelles Mobile Money** | Mod. 71 (Caisse d'école) | Mod. 163 (HMAC Webhooks) | Mod. 232 (Rapprochement auto)| Idempotence absolue, support bimonétaire USD/CDF selon taux officiel BCC. |
-| **124. Gestion de la Charge** | Mod. 75 (Examens) | Mod. 165 (Anti-DDoS WAF) | Mod. 234 (Autoscaling K3s) | Mode "Haute Tempête" pour absorber 65 000 req/sec lors des proclamations EXETAT. |
+| **124. Gestion de la Charge** | Mod. 75 (Examens) | Mod. 165 (Anti-DDoS WAF) | Mod. 234 (Autoscaling GKE Autopilot) | Mode "Haute Tempête" pour absorber 65 000 req/sec lors des proclamations EXETAT. |
 | **126. Résilience & Circuit Breaker**| Mod. 81 (Exceptions) | Mod. 167 (Fail-Safe Modes) | Mod. 236 (Alerting Pager) | Timeouts stricts à tous les étages, bascule automatique sur données locales en cache. |
-| **128. Usine CI/CD** | Mod. 83 (Matrice globale) | Mod. 169 (Scan SAST/DAST) | Mod. 238 (GitOps ArgoCD) | Déploiement Canary sans interruption de service, rollback automatisé en < 10 sec. |
+| **128. Usine CI/CD** | Mod. 83 (Matrice globale) | Mod. 169 (Scan SAST/DAST) | Mod. 238 (GitOps Cloud Deploy) | Déploiement Canary sans interruption de service, rollback automatisé en < 10 sec. |
 
 ---
 

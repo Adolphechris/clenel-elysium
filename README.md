@@ -3,7 +3,7 @@
 
 > **Mise à jour :** 17 Septembre 2026  
 > **Dépôt officiel :** `https://github.com/Adolphechris/clenel-elysium.git`  
-> **Infrastructure Cible :** 100% Google Cloud Platform (GCP) & Firebase Hosting exclusif  
+> **Infrastructure Cible :** 100% Google Cloud Platform (GCP) & Firebase Hosting exclusif — **Google et Google uniquement** (Constitution, Article 1 bis)  
 > **Devise Fondatrice :** *"Rigueur, sérieux et honnêteté sont nos devises"*
 
 ---
@@ -21,32 +21,34 @@ ELLYSIUM est la plateforme nationale souveraine de l'éducation en République D
 
 | Tome | Intitulé Fondateur | Modules Inclus | Statut Documentaire |
 | :---: | :--- | :---: | :---: |
-| **[Tome 01](./tome-1/README.md)** | Architecture Générale et Vision Stratégique | M001–M018 | **100% Rédigé** ✅ |
-| **[Tome 02](./tome-2/README.md)** | Constitution de l'Institution ELLYSIUM (Articles 1 à 8) | M019–M036 | **100% Rédigé** ✅ |
-| **[Tome 03](./tome-3/README.md)** | Parcours Apprenant et Socle Pédagogique (10 chapitres + annexes) | M037–M054 | **100% Rédigé** ✅ |
-| **[Tome 04](./tome-4/README.md)** | Programmes d'Études et Filières (Secondaire & Supérieur) | M055–M073 | **100% Rédigé** ✅ |
-| **[Tome 05](./tome-5/README.md)** | Architecture Fonctionnelle du PGI / SGS (29 sous-tomes) | M074–M091 (55–83) | **100% Rédigé** ✅ |
-| **[Tome 06](./tome-6/README.md)** | Rôles, Gouvernance Interne et Espaces Dédiés | M092–M106 | **100% Rédigé** ✅ |
-| **[Tome 07](./tome-7/README.md)** | Espace Parents, Tuteurs et Communautés | M107–M120 | **100% Rédigé** ✅ |
-| **[Tome 08](./tome-8/README.md)** | Infrastructure Système, Sécurité et Résilience GCP | M121–M137 | **100% Rédigé** ✅ |
-| **[Tome 09](./tome-9/README.md)** | Évaluations, Examens, Jurys et Diplômes | M138–M153 | **100% Rédigé** ✅ |
-| **[Tome 10](./tome-10/README.md)** | Intelligence Artificielle Éducative et Moteurs Tuteurs (Vertex AI) | M154–M172 | **100% Rédigé** ✅ |
-| **[Tome 11](./tome-11/README.md)** | Données, Analytique et Aide à la Décision (BigQuery) | M173–M192 | **100% Rédigé** ✅ |
-| **[Tome 12](./tome-12/README.md)** | Accessibilité Universelle, Inclusion et Mode Bas Débit (Offline First) | M193–M210 | **100% Rédigé** ✅ |
-| **[Tome 13](./tome-13/README.md)** | Exploitation, SRE, DevOps et Assurance Qualité GCP | M211–M227 | **100% Rédigé** ✅ |
-| **[Tome 14](./tome-14/README.md)** | Écosystème Développeurs, API et Extensibilité | M228–M262 | **100% Rédigé** ✅ |
-| **[Tome 15](./tome-15/README.md)** | Partenariats, Accréditation et Reconnaissance Institutionnelle | M263–M277 | **100% Rédigé** ✅ |
-| **[Tome 16](./tome-16/README.md)** | Feuille de Route de Lancement et Conduite du Changement | M278–M293 | **100% Rédigé** ✅ |
-| **[Tome 17](./tome-17/README.md)** | Modèle Économique et Pérennité Financière (ASBL d'Utilité Publique) | M294–M308 | **100% Rédigé** ✅ |
-| **[Tome 18](./tome-18/README.md)** | Communication, Image de Marque et Multi-Landing Pages | M309–M319 | **100% Rédigé** ✅ |
-| **[Tome 19](./tome-19/README.md)** | Cadre Juridique, Statuts ASBL, CGU/CGS et Droit Congolais | M320–M336 | **100% Rédigé** ✅ |
+| **[Tome 01](./tome-1/README.md)** | Vision, Philosophie et Mission (document fondateur continu) | M001–M018 (unités conceptuelles) | Rédigé ✅ |
+| **[Tome 02](./tome-2/README.md)** | Constitution de l'Institution (22 articles, dont l'Article 1 bis) | M019–M036 (unités conceptuelles) | Rédigé ✅ |
+| **[Tome 03](./tome-3/README.md)** | Architecture Pédagogique et Ingénierie de l'Enseignement (10 chapitres + annexes) | M037–M046 (unités conceptuelles) | Rédigé ✅ |
+| **[Tome 04](./tome-4/README.md)** | Programmes d'Études — Secondaire & Supérieur (5 dossiers, dont archives) | M047–M054 (unités conceptuelles) | Rédigé ✅ |
+| **[Tome 05](./tome-5/README.md)** | Architecture Fonctionnelle | 55–83 (29 modules) | Rédigé ✅ |
+| **[Tome 06](./tome-6/README.md)** | Expérience Utilisateur et Design System | 84–106 (23 modules) | Rédigé ✅ |
+| **[Tome 07](./tome-7/README.md)** | Architecture Technique et Interopérabilité | 107–129 (23 modules) | Rédigé ✅ (écosystème transposé Google) |
+| **[Tome 08](./tome-8/README.md)** | Cadre Souverain, Éthique et Ingénierie de l'Intelligence Artificielle | 130–149 (20 modules) | Rédigé ✅ |
+| **[Tome 09](./tome-9/README.md)** | Gouvernance des Données, Cybersécurité et Souveraineté Numérique | 150–170 (21 modules) | Rédigé ✅ |
+| **[Tome 10](./tome-10/README.md)** | Examens, Certifications, Bulletins et Diplômes | 171–191 (21 modules) | COMPLET ✅ |
+| **[Tome 11](./tome-11/README.md)** | Administration et Communication Interne | 192–210 (19 modules) | Rédaction à consolider 🚀 |
+| **[Tome 12](./tome-12/README.md)** | Applications Numériques | 211–227 (17 modules) | Rédaction à consolider 🚀 |
+| **[Tome 13](./tome-13/README.md)** | Infrastructure, Exploitation et Assurance Qualité Technique | 228–246 (19 modules) | Rédaction à consolider 🚀 (module 228 en cours) |
+| **[Tome 14](./tome-14/README.md)** | Organisation, Gouvernance Opérationnelle, RH et Production des Contenus | 247–262 (16 modules) | Rédaction à consolider 🚀 |
+| **[Tome 15](./tome-15/README.md)** | Partenariats, Accréditation et Reconnaissance Institutionnelle | 263–277 (15 modules) | COMPLET ✅ |
+| **[Tome 16](./tome-16/README.md)** | Feuille de Route de Lancement et Conduite du Changement | 278–293 (16 modules) | COMPLET ✅ |
+| **[Tome 17](./tome-17/README.md)** | Modèle Économique et Pérennité Financière | 294–308 (15 modules) | COMPLET ✅ |
+| **[Tome 18](./tome-18/README.md)** | Communication et Marketing | 309–319 (11 modules) | COMPLET ✅ |
+| **[Tome 19](./tome-19/README.md)** | Juridique, Conformité et ASBL | 320–336 (17 modules) | COMPLET ✅ |
+
+> **Convention de numérotation :** les modules M001–M054 (tomes 1 à 4) sont matérialisés par des documents continus et non par des dossiers unitaires ; la numérotation physique des modules débute au **module 55 (Tome 5)** et s'achève au **module 336 (Tome 19)** — soit **282 modules unitaires**, tous balisés `VF-`.
 
 ---
 
 ## 3. État d'Avancement Réel du Projet (Audit Vérifié)
 
 Conformément à la feuille de route du **Tome 16 (Module 281 & 290)** :
-- **Phase 0 — Volet Spécifications & Conception (BLOC A)** : **100% Achevé**. L'ensemble des 19 tomes et des 336 modules conceptuels est rédigé. 990 verrous fonctionnels `VF-` sont formellement balisés.
+- **Phase 0 — Volet Spécifications & Conception (BLOC A)** : rédaction réalisée sur l'ensemble des 19 tomes. **1 422 verrous fonctionnels `VF-`** formellement balisés sur les 282 modules numérotés (55–336) — 271 modules à 5 verrous, 11 modules critiques (cybersécurité) à 6–7 verrous ; les modules M001–M054 (tomes 1–4) sont rédigés en documents continus. Consolidation de statut en cours sur les tomes 11 à 14.
 - **Phase 0 — Volet Implémentation Logicielle & Banc d'Essai Labo (BLOC B)** : **À Démarrer**. Développement des services Cloud Run, des bases Firestore et de la PWA hors-ligne, suivi du test sur la cohorte de 50 testeurs internes à Kinshasa.
 - **Phase 1 — Pilote en Production Réelle (J0 à J+180)** : Déploiement fermé sur 10 écoles partenaires de Kinshasa (2 600 élèves, 100 enseignants).
 
@@ -54,7 +56,7 @@ Conformément à la feuille de route du **Tome 16 (Module 281 & 290)** :
 
 ## 4. Règles et Principes Inviolables
 
-1. **Infrastructure Exclusif Google** : Firebase Hosting, Cloud Run, Cloud SQL / Firestore, Vertex AI, Cloud KMS, BigQuery ([Doctrine d'Infrastructure](./DOCTRINE_INFRASTRUCTURE_GOOGLE.md)).
+1. **Écosystème EXCLUSIVEMENT GOOGLE — « Google et Google uniquement »** (Constitution, Article 1 bis ; [Doctrine d'Infrastructure](./DOCTRINE_INFRASTRUCTURE_GOOGLE.md)) : GKE Autopilot, Cloud Run, Cloud SQL, Firestore, Cloud Storage, Memorystore, BigQuery, Vertex AI, Gemini, Firebase, Cloud KMS/EKM, Cloud Armor, Cloud Build, Cloud Deploy, Workspace, Maps. Toute infrastructure tierce est nulle et transposée selon la Table de Transposition Normative.
 2. **Article 5 (Constitution)** : Séparation étanche entre la caisse financière et la scolarité. Aucun élève ne peut être bloqué académiquement pour des raisons pécuniaires.
 3. **Article 6 (Constitution)** : L'IA est un outil auxiliaire d'assistance. Aucune décision académique ou disciplinaire définitive n'est déléguée à un algorithme sans arbitrage humain.
 4. **Calcul Officiel des Notes RDC** : $\text{Taux} = \left(\frac{\sum \text{PointsObtenus}}{\sum \text{Maxima}}\right) \times 100$.

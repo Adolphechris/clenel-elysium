@@ -73,7 +73,7 @@ graph TB
 
 ```go
 // Clé d'idempotence : hash SHA-256(eleveID + montant + operateur + timestamp_minute)
-// Stockée dans Cloud Memorystore (Redis) avec TTL 24h
+// Stockée dans Cloud Memorystore avec TTL 24h
 
 func (s *CaisseService) EncaisserMinerval(ctx context.Context, req *EncaissementRequest) (*Recu, error) {
     idempotencyKey := sha256.Sum256([]byte(
@@ -81,7 +81,7 @@ func (s *CaisseService) EncaisserMinerval(ctx context.Context, req *Encaissement
     ))
 
     // Vérifier si la transaction existe déjà
-    existing, err := s.redis.Get(ctx, hex.EncodeToString(idempotencyKey[:]))
+    existing, err := s.memorystore.Get(ctx, hex.EncodeToString(idempotencyKey[:]))
     if err == nil {
         // Transaction déjà traitée → retourner le reçu existant
         return s.getRecuExistant(ctx, existing)
@@ -94,7 +94,7 @@ func (s *CaisseService) EncaisserMinerval(ctx context.Context, req *Encaissement
     }
 
     // Marquer comme traitée (TTL 24h)
-    s.redis.Set(ctx, hex.EncodeToString(idempotencyKey[:]), recu.ID, 24*time.Hour)
+    s.memorystore.Set(ctx, hex.EncodeToString(idempotencyKey[:]), recu.ID, 24*time.Hour)
     return recu, nil
 }
 ```

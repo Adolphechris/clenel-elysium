@@ -22,7 +22,7 @@ Pour empêcher toute dérive budgétaire, ELLYSIUM implémente un système de fi
 
 ```mermaid
 flowchart TD
-    REQ["Requête de l'Apprenant\n(Ex: 'Explique-moi le théorème de Pythagore')"] --> CACHE_SEM["1. Cache Sémantique Local & Redis Memorystore\n(Requête similaire déjà répondue ?)\n-> Coût : 0,000 USD (Économie : 45% des requêtes)"]
+    REQ["Requête de l'Apprenant\n(Ex: 'Explique-moi le théorème de Pythagore')"] --> CACHE_SEM["1. Cache Sémantique Local & Cloud Memorystore\n(Requête similaire déjà répondue ?)\n-> Coût : 0,000 USD (Économie : 45% des requêtes)"]
     
     CACHE_SEM -->|"Miss Cache"| ROUTEUR["2. Routeur de Complexité IA (Cloud Run)\n(Analyse de la difficulté de la consigne)"]
     
@@ -54,7 +54,7 @@ Chaque apprenant bénéficie d'une allocation journalière d'assistance cognitiv
 sequenceDiagram
     participant ELEVE as Élève
     participant PWA as Interface PWA
-    participant RATE as Rate Limiter (Redis / Cloud Run)
+    participant RATE as Rate Limiter (Cloud Memorystore / Cloud Run)
     participant VERTEX as Google Vertex AI API
 
     ELEVE->>PWA: Pose une question sur un exercice

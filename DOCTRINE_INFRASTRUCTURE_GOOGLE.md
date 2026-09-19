@@ -27,6 +27,66 @@ Il n'y a pas de dérogation. Il n'y a pas d'exception. Il n'y a pas de "cas part
 Toute référence à une infrastructure concurrente (AWS, Azure, Hetzner, OVH, Scaleway,
 K3s bare-metal, MinIO auto-hébergé, NATS self-hosted, ou tout autre cloud tiers)
 est **nulle et non avenue** dans ce projet.
+---
+
+## ARTICLE 1 BIS — RÈGLE D'OR : « GOOGLE ET GOOGLE UNIQUEMENT » (Amendement du 17/09/2026)
+
+**Par directive écrite et irrévocable du Promoteur, l'écosystème ELLYSIUM est GOOGLE,
+et GOOGLE UNIQUEMENT.** Cette règle vaut pour l'intégralité de la chaîne de valeur technique :
+
+1. **Infrastructure & runtime** : GKE Autopilot, Cloud Run, Cloud Functions, Compute Engine — rien d'autre.
+2. **Données & stockage** : Cloud SQL, Cloud Spanner, Cloud Storage (GCS), Firestore, Memorystore, BigQuery.
+3. **Intelligence artificielle** : Vertex AI, Model Garden, Gemini API, Vector Search, Document AI.
+4. **Identité & sécurité** : Firebase Authentication, Cloud Identity, Cloud KMS/EKM, Secret Manager, Cloud Armor.
+5. **Réseau & diffusion** : Cloud CDN, Cloud Load Balancing, Cloud DNS, VPC, Certificate Manager.
+6. **Observabilité** : Cloud Monitoring, Cloud Logging, Cloud Trace, Error Reporting.
+7. **Productivité & collaboration** : Google Workspace (Gmail, Drive, Docs, Meet, Calendar, Forms).
+8. **Cartographie & interfaces** : Google Maps Platform, reCAPTCHA Enterprise.
+9. **Analytics & BI** : BigQuery, Looker Studio, GA4.
+10. **Chaîne de développement** : Cloud Build, Cloud Deploy, Artifact Registry, Cloud Workstations, Cloud Code, Gemini Code Assist.
+11. **Mobile & web clients** : Firebase (Hosting, FCM, Crashlytics, Test Lab, App Distribution).
+
+### Table de Transposition Normative (obligatoire dans tout le corpus)
+
+Toute mention d'une technologie auto-hébergée ou tierce héritée des anciennes spécifications
+est **nulle et non avenue en tant qu'infrastructure** et doit être lue comme suit :
+
+| Mention héritée dans le corpus | Équivalent Google OBLIGATOIRE |
+|---|---|
+| Redis (cache, files, sessions) | **Cloud Memorystore pour Redis** |
+| MinIO / stockage S3 auto-hébergé | **Cloud Storage (GCS)** |
+| NATS / NATS JetStream | **Cloud Pub/Sub** |
+| K3s / Kubernetes self-hosted / bare-metal | **GKE Autopilot** |
+| Prometheus | **Cloud Monitoring** |
+| Grafana | **Tableaux de bord Cloud Monitoring / Looker Studio** |
+| Loki / ELK / Elastic Stack | **Cloud Logging** |
+| Jaeger | **Cloud Trace** |
+| OpenTofu / Terraform (provisioning) | **Terraform avec provider Google Cloud** (Art. 6.1) ou **Infrastructure Manager** |
+| Ansible (configuration d'OS) | **OS Config / Patch Management (Google Cloud)** |
+| ArgoCD (GitOps) | **Cloud Deploy** |
+| SonarQube (qualité de code) | **Gemini Code Assist + Cloud Build** |
+| HashiCorp Vault | **Secret Manager + Cloud KMS** |
+| Keycloak / Auth0 | **Firebase Authentication / Cloud Identity** |
+| Jitsi / BigBlueButton | **Google Meet API** |
+| Vercel / Netlify / Cloudflare Pages | **Firebase Hosting** |
+| DockerHub (registry finale) | **Artifact Registry** |
+| PostgreSQL / MongoDB auto-hébergés | **Cloud SQL / Firestore** |
+
+**Deux exceptions encadrées, et elles seules :**
+- **Stockage embarqué côté client** (SQLite, IndexedDB, caches Service Worker) : il s'agit de
+  données locales sur le terminal de l'usager, pas d'infrastructure — autorisé et même exigé
+  par la doctrine Local-First (Tome 7).
+- **Dépôt des sources sur GitHub** : toléré comme miroir de code uniquement (les Google Cloud
+  Source Repositories ayant été retirés du marché), sans aucun compute ni CI associé ;
+  toute intégration continue s'exécute **exclusivement sur Cloud Build**.
+
+Les contenus **pédagogiques** (programmes d'études, syllabus) peuvent citer des technologies
+tiers comme *objets d'enseignement* ; cette citation ne constitue jamais une autorisation
+d'infrastructure.
+
+---
+
+## ARTICLE 2 — CARTOGRAPHIE DES SERVICES GOOGLE AUTORISÉS
 
 ---
 
@@ -276,7 +336,19 @@ Elle s'applique :
 *Document fondateur rédigé par l'agent ELLYSIUM selon directive du Promoteur.*
 *Valeur : CONSTITUTIONNELLE — Opposable à tout intervenant humain ou IA.*
 *Version 1.0 — Inscrit en marbre le 17 septembre 2026.*
-*Toute modification requiert l'accord écrit explicite du Fondateur.*
+*Version 1.1 — Amendement du 17 septembre 2026, par directive écrite du Promoteur : Article 1 bis « Règle d'or : Google et Google uniquement », Table de Transposition Normative, Acquit de transposition (Article 9), exception GitHub encadrée.*
+*Toute modification ultérieure requiert l'accord écrit explicite du Fondateur.*
+
+---
+
+## ARTICLE 9 — ACQUIT DE TRANSPOSITION DU CORPUS (17/09/2026)
+
+Les Tomes 7, 8, 9, 13, 17 et 19 mentionnaient des composants auto-hébergés hérités
+des spécifications antérieures (Redis, MinIO, NATS, K3s, Prometheus, Grafana, Loki,
+OpenTofu, Ansible, ArgoCD, SonarQube). **La transposition intégrale vers les équivalents
+Google de la Table 1 bis a été effectuée et vérifiée le 17 septembre 2026.** Toute
+réintroduction d'une infrastructure non-Google dans le corpus est interdite et devra
+être corrigée immédiatement conformément à l'Article 6.2.
 
 ---
 

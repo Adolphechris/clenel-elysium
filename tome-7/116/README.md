@@ -21,7 +21,7 @@ ELLYSIUM doit échanger des données en temps réel avec des écosystèmes infor
 sequenceDiagram
     participant EVT as Événement Métier (ex. Diplôme Scellé)
     participant WH_SVC as Moteur Webhooks ELLYSIUM
-    participant QUEUE as File de Persistance (Redis / NATS)
+    participant QUEUE as File de Persistance (Cloud Memorystore / Cloud Pub/Sub)
     participant PARTNER as Serveur Partenaire Externe
 
     EVT->>WH_SVC: Publication événement (type: diploma.sealed)

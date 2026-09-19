@@ -49,7 +49,7 @@ Seules deux suites modernes et post-quantiques résilientes sont configurées :
 ELLYSIUM superpose deux couches de chiffrement physique et logique :
 
 ### 3.1 Chiffrement de l'Infrastructure (Disque / Système de Fichiers)
-- Tous les serveurs de production (bases PostgreSQL, buckets MinIO, caches Redis) ont leurs disques entièrement chiffrés par **LUKS / dm-crypt** avec l'algorithme `AES-256-XTS` et clés de 512 bits.
+- Tous les serveurs de production (bases PostgreSQL, buckets Cloud Storage (GCS), caches Cloud Memorystore) ont leurs disques entièrement chiffrés par **LUKS / dm-crypt** avec l'algorithme `AES-256-XTS` et clés de 512 bits.
 
 ### 3.2 Chiffrement Applicatif par Colonne (Column-Level Encryption)
 - Les données d'identification personnelle (état civil, téléphones des parents, copies de devoirs scannées) sont chiffrées **avant écriture dans la base de données** avec `AES-256-GCM`.

@@ -39,18 +39,18 @@ graph TD
 | [**111**](./111/README.md) | **Architecture Backend** | Découpage en couches propres (Clean Architecture, DDD, CQRS) |
 | [**112**](./112/README.md) | **Architecture Frontend Web** | SPA / PWA résiliente, Service Workers et mise en cache prédictive |
 | [**113**](./113/README.md) | **Architecture des Applications Mobiles** | Client Android natif / Flutter optimisé pour 1 Go de RAM |
-| [**114**](./114/README.md) | **Base de Données et Persistance** | PostgreSQL (relationnel strict ACID) et Redis (cache haute performance) |
+| [**114**](./114/README.md) | **Base de Données et Persistance** | PostgreSQL (relationnel strict ACID) et Cloud Memorystore (cache haute performance) |
 | [**115**](./115/README.md) | **API Internes et Conventions RESTful** | Spécifications OpenAPI 3.1, versioning d'API, contrats d'interface JSON:API |
 | [**116**](./116/README.md) | **API Partenaires et Webhooks** | Passerelles d'intégration externes, livraison garantie des webhooks |
 | [**117**](./117/README.md) | **Authentification et Gestion des Sessions** | Protocole d'authentification souverain (JWT, mTLS, OAuth2/OIDC) |
-| [**118**](./118/README.md) | **Infrastructure Cloud et Hébergement** | Stratégie multi-cloud souveraine, bare-metal local en RDC et conteneurisation K8s |
-| [**119**](./119/README.md) | **Stockage de Fichiers et CDN** | Stockage objet compatible S3 (MinIO), compression WebP/AVIF, CDN local |
+| [**118**](./118/README.md) | **Infrastructure Cloud et Hébergement** | Écosystème Google exclusif — GKE Autopilot (région africa-south1), continuité en environnement dégradé RDC |
+| [**119**](./119/README.md) | **Stockage de Fichiers et CDN** | Cloud Storage (GCS), compression WebP/AVIF, Cloud CDN |
 | [**120**](./120/README.md) | **Mode Hors-Ligne et Synchronisation Différée** | Moteur de réplication CRDT, synchronisation delta sur réseau dégradé |
 | [**121**](./121/README.md) | **Interopérabilité — API EPST et ESU** | Connecteurs officiels pour les systèmes nationaux de scolarité (SIGE, EXETAT) |
 | [**122**](./122/README.md) | **Interopérabilité — Mobile Money** | Intégration native des passerelles M-Pesa, Orange Money et Airtel Money |
 | [**123**](./123/README.md) | **Interopérabilité — Logiciels Comptables** | Exports et imports normalisés OHADA (formats XML / JSON / FEC) |
 | [**124**](./124/README.md) | **Gestion de la Charge et Montée en Volume** | Stratégie de haute disponibilité (100 000 requêtes/sec), dimensionnement |
-| [**125**](./125/README.md) | **Gestion du Cache et Optimisation SQL** | Stratégie multi-niveaux (L1 local, L2 Redis), indexation B-Tree et GIN |
+| [**125**](./125/README.md) | **Gestion du Cache et Optimisation SQL** | Stratégie multi-niveaux (L1 local, L2 Cloud Memorystore), indexation B-Tree et GIN |
 | [**126**](./126/README.md) | **Gestion des Échecs Réseau et Résilience** | Modèle Circuit Breaker, Exponential Backoff et dégradation gracieuse |
 | [**127**](./127/README.md) | **Environnements de Déploiement** | Découpage des environnements (Dev, Test, Staging, Production) |
 | [**128**](./128/README.md) | **Gestion des Versions, CI/CD et Conventions** | Pipelines d'intégration continue, tests automatisés, linters stricts |

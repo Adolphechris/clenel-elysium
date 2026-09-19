@@ -26,7 +26,7 @@ Ce module définit les durées de rétention pour chaque catégorie de données 
 | **Données analytics anonymisées** | **5 ans** | Amélioration service | Suppression GCS |
 | **Données d'entraînement IA** | **2 ans** | Politique IA éthique Module 167 | Suppression sécurisée |
 | **Snapshots de backup** | **Selon tableau Module 161** | Plan de reprise | Suppression automatique |
-| **Tokens / sessions expirés** | **90 jours** | Forensics potentiel | Purge automatique Redis |
+| **Tokens / sessions expirés** | **90 jours** | Forensics potentiel | Purge automatique Cloud Memorystore |
 
 ---
 

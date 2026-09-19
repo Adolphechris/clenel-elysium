@@ -44,7 +44,7 @@ Conformément à la **DOCTRINE INFRASTRUCTURE IMMUABLE DU 17 SEPTEMBRE 2026**, l
 | [238](./238/README.md) | Haute disponibilité des bases de données – Cloud SQL PostgreSQL HA & Read Replicas | ✅ COMPLET |
 | [239](./239/README.md) | Tests unitaires, d'intégration et de non-régression | ✅ COMPLET |
 | [240](./240/README.md) | Tests de charge, de performance et de stress (Mode Haute Tempête 65k req/s) | ✅ COMPLET |
-| [241](./241/README.md) | Assurance qualité du code (SonarQube, static analysis, dette technique) | ✅ COMPLET |
+| [241](./241/README.md) | Assurance qualité du code (Gemini Code Assist, static analysis, dette technique) | ✅ COMPLET |
 | [242](./242/README.md) | Procédure d'audit de panne et revue post-incident (Post-Mortem sans blâme) | ✅ COMPLET |
 | [243](./243/README.md) | Gestion des coûts d'infrastructure et optimisation (FinOps Google Cloud) | ✅ COMPLET |
 | [244](./244/README.md) | Maintenance préventive et corrective (Zéro interruption de service) | ✅ COMPLET |

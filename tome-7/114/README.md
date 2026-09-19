@@ -11,7 +11,7 @@
 
 ## 1. Objet et Portée du Sous-Tome
 
-Le registre d'État des apprentissages, des évaluations et des diplômes d'ELLYSIUM engage la sécurité juridique de la nation. Une perte de données ou une corruption de base de données équivaudrait à l'effacement de la scolarité de millions de citoyens. Ce sous-tome formalise l'architecture de données centrale sous **PostgreSQL 16 Enterprise**, la modélisation relationnelle stricte, le partitionnement par cohorte provinciale, la sécurité au niveau des lignes (Row-Level Security) et l'usage ciblé du NoSQL/Redis.
+Le registre d'État des apprentissages, des évaluations et des diplômes d'ELLYSIUM engage la sécurité juridique de la nation. Une perte de données ou une corruption de base de données équivaudrait à l'effacement de la scolarité de millions de citoyens. Ce sous-tome formalise l'architecture de données centrale sous **PostgreSQL 16 Enterprise**, la modélisation relationnelle stricte, le partitionnement par cohorte provinciale, la sécurité au niveau des lignes (Row-Level Security) et l'usage ciblé du NoSQL/Cloud Memorystore.
 
 ---
 
@@ -27,7 +27,7 @@ graph TD
         PG_REPLICA_2[("POSTGRESQL LECTURE 2\n(Consultation massive des cours)")]
     end
     
-    subgraph REDIS_CLUSTER["CLUSTER REDIS 7 (IN-MEMORY)"]
+    subgraph MEMSTORE_CLUSTER["CLOUD MEMORSTORE (CACHE DISTRIBUÉ)"]
         REDIS_CACHE[("Cache de données chaudes (L2)\nSessions JWT actives & Quotas IA")]
     end
 
@@ -90,9 +90,9 @@ CREATE POLICY ecole_isolation_policy ON registre_eleves
 
 ---
 
-## 5. Rôle Complémentaire du Moteur NoSQL (Redis)
+## 5. Rôle Complémentaire du Moteur NoSQL (Cloud Memorystore)
 
-Redis n'est jamais utilisé pour stocker l'état souverain définitif d'un élève. Il remplit 3 missions auxiliaires d'accélération :
+Cloud Memorystore n'est jamais utilisé pour stocker l'état souverain définitif d'un élève. Il remplit 3 missions auxiliaires d'accélération :
 1. **Sessions et révocations de jetons (Token Blacklist)** : Révocation instantanée d'une session suspecte en moins d'1 milliseconde.
 2. **Gestion des verrous distribués (Redlock)** : Empêche deux enseignants de valider simultanément la même délibération de classe.
 3. **Limiteurs de débit (Rate Limiting)** : Comptage strict du quota tuteur IA de 50 requêtes/jour par élève (Tome 5, Module 74).

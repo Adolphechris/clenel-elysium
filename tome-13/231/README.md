@@ -14,7 +14,7 @@ Ce module définit les standards de conteneurisation des microservices ELLYSIUM,
 
 ## 2. Répartition des Rôles : Cloud Run vs GKE Autopilot
 
-ELLYSIUM n'utilise aucun cluster Kubernetes non managé ou bare-metal (K3s, MicroK8s). La charge de calcul est arbitré selon une dichotomie claire :
+ELLYSIUM n'utilise aucun cluster Kubernetes non managé ou auto-hébergé (MicroK8s, K3s, k0s) : l'orchestration est assurée exclusivement par GKE Autopilot. La charge de calcul est arbitré selon une dichotomie claire :
 
 ```mermaid
 graph TD

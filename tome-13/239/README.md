@@ -18,7 +18,7 @@ Ce module définit la pyramide des tests, la politique de couverture logicielle,
 graph TD
     subgraph "Pyramide de Test Qualité"
         E2E["Niveau 3 — Tests Bout-en-Bout (E2E)<br/>(Scénarios utilisateurs réels sur Firebase Test Lab — 10%)"]
-        INT["Niveau 2 — Tests d'Intégration & Contrats API<br/>(Validation des flux Cloud SQL, Pub/Sub, Redis — 25%)"]
+        INT["Niveau 2 — Tests d'Intégration & Contrats API<br/>(Validation des flux Cloud SQL, Pub/Sub, Cloud Memorystore — 25%)"]
         UNIT["Niveau 1 — Tests Unitaires Pédagogiques & Arithmétiques<br/>(Exécution ultra-rapide < 100 ms par test — 65%)"]
     end
 

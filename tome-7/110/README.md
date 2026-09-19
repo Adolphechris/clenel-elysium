@@ -29,7 +29,7 @@ graph TD
     API_GW --> BC6["BC6 : CAISSE & FINANCES D'ÉCOLE\n(Mobile Money, bimonétaire, isolée de la pédagogie)"]
     API_GW --> BC7["BC7 : MESSAGERIE & NOTIFICATIONS\n(SMS, Push, courriels, modération sémantique)"]
 
-    BUS["BUS D'ÉVÉNEMENTS ASYNCHRONE (NATS JetStream / Redis Streams)"]
+    BUS["BUS D'ÉVÉNEMENTS ASYNCHRONE (Cloud Pub/Sub / Cloud Memorystore Streams)"]
     
     BC1 -.->|Événements| BUS
     BC2 -.->|Événements| BUS
@@ -82,7 +82,7 @@ graph TD
 
 ## 4. Modèle de Communication Inter-Contextes
 
-**Règle TECH-110-01** : Toute communication modifiant l'état du système entre deux contextes délimités s'effectue obligatoirement de façon asynchrone via des événements de domaine publiés sur le bus NATS JetStream.
+**Règle TECH-110-01** : Toute communication modifiant l'état du système entre deux contextes délimités s'effectue obligatoirement de façon asynchrone via des événements de domaine publiés sur le bus Cloud Pub/Sub.
 - Aucun appel HTTP direct synchrone n'est autorisé entre BC4 (Cotes) et BC6 (Caisse).
 - L'échec temporaire du service de caisse ou de notification n'empêche jamais la saisie des notes ou la consultation des cours.
 
@@ -93,7 +93,7 @@ graph TD
 | Réf. | Intitulé | Conséquence en cas de transgression |
 |---|---|---|
 | **VF-110-01** | Indépendance physique de la caisse | Le service de caisse (BC6) est hébergé sur une instance de base de données séparée. Aucune indisponibilité financière ne peut bloquer l'accès pédagogique. |
-| **VF-110-02** | Contrat d'interface strict (Schema Registry) | Tout événement transitant sur le bus NATS doit être validé par un schéma Protocol Buffers (Protobuf) versionné. Tout message non conforme est rejeté en Dead-Letter Queue. |
+| **VF-110-02** | Contrat d'interface strict (Schema Registry) | Tout événement transitant sur le bus Cloud Pub/Sub doit être validé par un schéma Protocol Buffers (Protobuf) versionné. Tout message non conforme est rejeté en Dead-Letter Queue. |
 
 | **`VF-110-03`** | **Push critique pour convocations officielles** | Les convocations disciplinaires ou d'examen sont transmises par SMS et push simultanément. |
 | **`VF-110-04`** | **Accusé de réception obligatoire pour actes importants** | Le parent confirme explicitement réception des bulletins et décisions de jury. |

@@ -1,0 +1,26 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Environnements et secrets (jamais commités)
+.env
+.env.*
+*.local
+GITHUB_TOKEN*
+*.pem
+*.key
+credentials*.json
+
+# Dépendances et build
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Outils locaux
+.idea/
+.vscode/
+*.log

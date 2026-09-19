@@ -19,7 +19,7 @@ Pour qu'un système d'État survive aux décennies et aux changements d'équipes
 
 ```mermaid
 graph TD
-    INFRA["COUCHE 4 : INFRASTRUCTURE & DRIVERS\n(Pilotes PostgreSQL pgx, Client Redis, MinIO S3, NATS JetStream, Telco SMS)"]
+    INFRA["COUCHE 4 : INFRASTRUCTURE & DRIVERS\n(Pilotes Cloud SQL PostgreSQL (pgx), Client Cloud Memorystore, Cloud Storage (GCS), Cloud Pub/Sub, SMS opérateurs télécoms)"]
     ADAPT["COUCHE 3 : ADAPTATEURS D'INTERFACE (PORTS)\n(Contrôleurs HTTP/REST, Handlers gRPC, Consommateurs d'événements, DTOs)"]
     APP["COUCHE 2 : CAS D'USAGE & APPLICATION\n(Orchestration des commandes métiers, Transactions, Politiques de sécurité)"]
     DOM["COUCHE 1 : DOMAINE MÉTIER PUR (ENTITÉS)\n(Règles de calcul immuables RDC, Formules de points, Invariants souverains)\n*ZÉRO DÉPENDANCE EXTERNE*"]
@@ -53,7 +53,7 @@ graph LR
 
     subgraph LECTURE["VOIE REQUÊTES (Lecture - Optimisée Haute Performance)"]
         QUERY["Consultation Cours / Bulletin"] --> QUERY_HNDL["Query Handler"]
-        QUERY_HNDL --> CACHE_READ[("Redis Cache + Réplicas Read-Only")]
+        QUERY_HNDL --> CACHE_READ[("Cloud Memorystore Cache + Réplicas Read-Only")]
     end
 
     USER --> CMD

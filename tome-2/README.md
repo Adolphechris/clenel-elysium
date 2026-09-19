@@ -2,7 +2,7 @@ TOME 2 — CONSTITUTION DE L'INSTITUTION
 
 Projet ELYSIUM (Nom provisoire)
 
-Version 1.0 — Document fondateur
+Version 1.1 — Document fondateur (amendé le 17/09/2026 : Article 1 bis — écosystème exclusivement Google)
 
 ---
 
@@ -23,6 +23,16 @@ Article 1 — Raison d'être
 L'institution existe afin de rendre l'enseignement secondaire et universitaire accessible au plus grand nombre tout en contribuant à la modernisation des établissements scolaires.
 
 Elle place l'accès au savoir, la qualité pédagogique, l'innovation technologique et le développement des compétences au cœur de sa mission.
+
+---
+
+Article 1 bis — Souveraineté technologique : écosystème exclusivement Google
+
+L'infrastructure, les services, les outils et l'ensemble de l'écosystème technique de l'institution relèvent exclusivement de l'écosystème Google (Google Cloud Platform et Firebase).
+
+Il n'existe aucune dérogation à ce principe. Aucun document, aucune décision technique et aucune implémentation ne peut prescrire, introduire ou tolérer une infrastructure tierce ou auto-hébergée. Les technologies héritées des spécifications antérieures sont transposées vers leurs équivalents Google conformément à la Table de Transposition Normative de la Doctrine d'Infrastructure, qui fait partie intégrante de la présente Constitution.
+
+Ce principe est inviolable et s'impose à tout intervenant, humain ou artificiel.
 
 ---
 
@@ -68,7 +78,8 @@ Aucune évolution future ne pourra remettre en cause les principes suivants :
 - l'amélioration continue ;
 - l'intégrité scientifique ;
 - la transparence ;
-- le respect de la dignité humaine.
+- le respect de la dignité humaine ;
+- l'écosystème technologique exclusivement Google (Article 1 bis).
 
 ---
 

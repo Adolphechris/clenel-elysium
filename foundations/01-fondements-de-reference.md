@@ -41,7 +41,8 @@ Les principes suivants doivent guider toutes les décisions futures :
 - amélioration continue ;
 - intégrité scientifique ;
 - transparence ;
-- respect de la dignité humaine.
+- respect de la dignité humaine ;
+- écosystème technologique exclusivement Google (GCP / Firebase), conformément à la Constitution (Article 1 bis) et à la Doctrine d'Infrastructure.
 
 ### 3.2 Règle d’usage de l’intelligence artificielle
 L’IA doit être utilisée comme un outil d’assistance pédagogique et administrative. Elle ne remplace pas les décisions humaines. Les décisions académiques, disciplinaires ou administratives définitives restent sous responsabilité humaine.
@@ -148,6 +149,10 @@ Le système doit être :
 - évolutif ;
 - conforme aux règles de qualité pédagogique et technique ;
 - capable de supporter un déploiement progressif.
+
+### 7.3 Fondement d’infrastructure — écosystème Google exclusif
+Conformément à l’Article 1 bis de la Constitution et à la Doctrine d’Infrastructure, la totalité de l’écosystème technique repose sur Google et Google uniquement : calcul (GKE Autopilot, Cloud Run), données (Cloud SQL, Cloud Storage, Firestore, Memorystore, BigQuery), intelligence artificielle (Vertex AI, Gemini), identité (Firebase Authentication), sécurité (Cloud KMS/EKM, Secret Manager, Cloud Armor), réseau (Cloud CDN, Cloud DNS), observabilité (Cloud Monitoring, Cloud Logging, Cloud Trace), productivité (Google Workspace) et chaîne de développement (Cloud Build, Cloud Deploy, Artifact Registry, Gemini Code Assist).
+Toute mention d’un composant auto-hébergé ou tiers hérité des spécifications antérieures est nulle en tant qu’infrastructure et doit être lue selon la Table de Transposition Normative de la Doctrine. Seules exceptions encadrées : le stockage embarqué côté client (SQLite, IndexedDB) et le dépôt des sources sur GitHub en tant que miroir uniquement, toute intégration continue s’exécutant exclusivement sur Cloud Build.
 
 ## 8. Fondements d’opération et de lancement
 

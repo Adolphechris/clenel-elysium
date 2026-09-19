@@ -36,14 +36,14 @@ graph TB
     subgraph "Couche Données & Stockage Souverain (africa-south1)"
         SQL_PRIMARY["🗄️ Google Cloud SQL PostgreSQL 16 (Instance Primaire HA)"]
         SQL_REPLICA["🗄️ Google Cloud SQL Read Replicas (Lectures publiques)"]
-        REDIS["⚡ Google Memorystore for Redis (Cache L2 distribué)"]
+        MEMSTORE["⚡ Cloud Memorystore (Cache L2 distribué)"]
         GCS["📦 Google Cloud Storage (Bucket WORM & Médias)"]
         PUBSUB["📡 Google Cloud Pub/Sub (Bus de messages asynchrone)"]
     end
 
     INTERNET --> GLB --> ARMOR
     GLB --> CDN & HOSTING & RUN & GKE
-    RUN & GKE --> REDIS & SQL_PRIMARY & SQL_REPLICA & GCS & PUBSUB
+    RUN & GKE --> MEMSTORE & SQL_PRIMARY & SQL_REPLICA & GCS & PUBSUB
 ```
 
 ---

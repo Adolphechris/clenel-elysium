@@ -41,7 +41,7 @@ Dans un programme scolaire national, des milliers d'élèves de 4e secondaire po
 ```mermaid
 sequenceDiagram
     participant E as Élève
-    participant CACHE as Cache Sémantique (Redis + Embeddings)
+    participant CACHE as Cache Sémantique (Cloud Memorystore + Embeddings)
     participant LLM as Cluster d'Inférence GPU
 
     E->>CACHE: Envoie sa question
