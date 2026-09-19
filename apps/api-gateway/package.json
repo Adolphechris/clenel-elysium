@@ -1,0 +1,25 @@
+{
+  "name": "@elysium/api-gateway",
+  "version": "1.0.0",
+  "description": "API Gateway Cloud Run du PGI ELLYSIUM (Modules 55-83)",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@elysium/academic-engine": "^1.0.0",
+    "@elysium/report-card-generator": "^1.0.0",
+    "@elysium/attendance-service": "^1.0.0",
+    "@elysium/finance-service": "^1.0.0",
+    "@elysium/student-service": "^1.0.0",
+    "@elysium/shared-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

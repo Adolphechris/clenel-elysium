@@ -1,0 +1,20 @@
+{
+  "name": "@elysium/finance-service",
+  "version": "1.0.0",
+  "description": "Module de caisse étanche et gestion des paiements Mobile Money (Module 71 / Art. 5)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@elysium/shared-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

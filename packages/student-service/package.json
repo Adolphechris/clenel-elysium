@@ -1,0 +1,20 @@
+{
+  "name": "@elysium/student-service",
+  "version": "1.0.0",
+  "description": "Service régalien d'identification unique (IUNE) et dossiers scolaires numériques (Modules 58 & 60)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@elysium/shared-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@elysium/audit-trail",
+  "version": "1.0.0",
+  "description": "Journal d'audit immuable append-only pour la traçabilité souveraine (Tome 9 / VF-161-xx)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}
