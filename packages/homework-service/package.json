@@ -1,0 +1,17 @@
+{
+  "name": "@elysium/homework-service",
+  "version": "1.0.0",
+  "description": "Système de gestion des devoirs, soumissions et correction en ligne (Module 69)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

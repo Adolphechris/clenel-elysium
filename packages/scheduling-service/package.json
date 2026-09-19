@@ -1,0 +1,17 @@
+{
+  "name": "@elysium/scheduling-service",
+  "version": "1.0.0",
+  "description": "Service de paramétrage pédagogique, référentiels de matières et emplois du temps (Modules 63 & 64)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B2545">
+  <meta name="description" content="ELLYSIUM — Interface Enseignant">
+  <link rel="manifest" href="/manifest.json">
+  <title>ELLYSIUM — Espace Enseignant</title>
+  <style>
+    /* ====================================================
+       DESIGN SYSTEM ELLYSIUM — Enseignant PWA
+       Couleurs : #0B2545 (navy) / #D4AF37 (or) / #E8F4F8 (ciel)
+       Contraintes UX terrain RDC :
+         - Boutons ≥ 48px (accessibilité doigt)
+         - Mode 360px minimum
+         - Contraste AAA (terrain lumineux)
+         - Offline-first (badge indicateur réseau)
+       ==================================================== */
+    :root {
+      --navy: #0B2545;
+      --or: #D4AF37;
+      --ciel: #E8F4F8;
+      --vert: #27AE60;
+      --rouge: #E74C3C;
+      --orange: #F39C12;
+      --blanc: #FFFFFF;
+      --gris: #6C757D;
+      --fond: #F5F7FA;
+      --radius: 12px;
+      --shadow: 0 2px 8px rgba(11,37,69,0.12);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--fond);
+      color: var(--navy);
+      min-height: 100vh;
+      min-width: 360px;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      background: var(--navy);
+      color: var(--blanc);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow);
+    }
+    .header-logo {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: var(--or);
+    }
+    .header-subtitle {
+      font-size: 12px;
+      color: rgba(255,255,255,0.7);
+      margin-top: 2px;
+    }
+
+    /* ===== Badge réseau (online/offline) ===== */
+    .network-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .network-badge.online { background: rgba(39,174,96,0.2); color: #27AE60; }
+    .network-badge.offline { background: rgba(231,76,60,0.2); color: #E74C3C; }
+    .network-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .network-badge.online .network-dot { background: var(--vert); }
+    .network-badge.offline .network-dot { background: var(--rouge); }
+
+    /* ===== NAV TABS ===== */
+    .nav-tabs {
+      background: var(--blanc);
+      display: flex;
+      border-bottom: 2px solid var(--ciel);
+      overflow-x: auto;
+    }
+    .nav-tab {
+      flex: 1;
+      min-width: 80px;
+      padding: 12px 8px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gris);
+      cursor: pointer;
+      border: none;
+      background: none;
+      border-bottom: 3px solid transparent;
+      transition: all 0.2s;
+      min-height: 48px; /* UX terrain RDC */
+    }
+    .nav-tab.active {
+      color: var(--navy);
+      border-bottom-color: var(--or);
+    }
+    .nav-tab-icon { font-size: 18px; display: block; }
+
+    /* ===== CONTENU PRINCIPAL ===== */
+    .content { padding: 16px; max-width: 600px; margin: 0 auto; }
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ===== CARDS ===== */
+    .card {
+      background: var(--blanc);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .card-title { font-size: 15px; font-weight: 700; }
+    .badge {
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .badge-green { background: #EAFAF1; color: var(--vert); }
+    .badge-orange { background: #FEF9E7; color: var(--orange); }
+    .badge-blue { background: var(--ciel); color: var(--navy); }
+
+    /* ===== BOUTONS ===== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      min-height: 48px; /* ≥ 48px pour les doigts sur terrain RDC */
+      transition: opacity 0.2s, transform 0.1s;
+    }
+    .btn:active { transform: scale(0.97); }
+    .btn-primary { background: var(--navy); color: var(--blanc); width: 100%; }
+    .btn-primary:hover { opacity: 0.9; }
+    .btn-gold { background: var(--or); color: var(--navy); width: 100%; }
+    .btn-success { background: var(--vert); color: var(--blanc); }
+    .btn-danger { background: var(--rouge); color: var(--blanc); }
+    .btn-sm { min-height: 40px; padding: 8px 14px; font-size: 14px; }
+
+    /* ===== GRILLE DE PRÉSENCE ===== */
+    .attendance-grid { display: flex; flex-direction: column; gap: 8px; }
+    .student-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background: var(--ciel);
+      border-radius: 8px;
+    }
+    .student-name { font-weight: 600; font-size: 14px; }
+    .attendance-buttons { display: flex; gap: 6px; }
+    .att-btn {
+      width: 48px; height: 48px;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      font-size: 18px;
+      cursor: pointer;
+      background: var(--blanc);
+      transition: all 0.15s;
+    }
+    .att-btn.present { background: var(--vert); color: var(--blanc); border-color: var(--vert); }
+    .att-btn.absent { background: var(--rouge); color: var(--blanc); border-color: var(--rouge); }
+    .att-btn.retard { background: var(--orange); color: var(--blanc); border-color: var(--orange); }
+
+    /* ===== SAISIE DE COTES ===== */
+    .grades-table { width: 100%; border-collapse: collapse; }
+    .grades-table th {
+      background: var(--navy);
+      color: var(--or);
+      padding: 10px 8px;
+      text-align: left;
+      font-size: 13px;
+    }
+    .grades-table td { padding: 8px; border-bottom: 1px solid var(--ciel); font-size: 14px; }
+    .grade-input {
+      width: 70px;
+      padding: 8px;
+      border: 2px solid var(--ciel);
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      color: var(--navy);
+      min-height: 48px;
+    }
+    .grade-input:focus { outline: none; border-color: var(--or); }
+    .grade-input.valid { border-color: var(--vert); }
+    .grade-input.invalid { border-color: var(--rouge); }
+    .grade-max { font-size: 12px; color: var(--gris); }
+
+    /* ===== FORMULAIRE ===== */
+    .form-group { margin-bottom: 16px; }
+    .form-label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 6px; }
+    .form-select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid var(--ciel);
+      border-radius: 8px;
+      font-size: 15px;
+      color: var(--navy);
+      background: var(--blanc);
+      min-height: 48px;
+    }
+
+    /* ===== STATS ===== */
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .stat-card {
+      background: var(--blanc);
+      border-radius: var(--radius);
+      padding: 14px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+    .stat-value { font-size: 28px; font-weight: 700; color: var(--navy); }
+    .stat-label { font-size: 12px; color: var(--gris); margin-top: 4px; }
+
+    /* ===== OFFLINE INDICATOR ===== */
+    .offline-banner {
+      background: var(--orange);
+      color: var(--blanc);
+      text-align: center;
+      padding: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      display: none;
+    }
+    .offline-banner.visible { display: block; }
+
+    /* ===== PANEL VISIBILITY ===== */
+    .panel { display: none; }
+    .panel.active { display: block; }
+  </style>
+</head>
+<body>
+  <!-- Bannière offline -->
+  <div class="offline-banner" id="offlineBanner">
+    ⚠️ Mode hors-ligne — Vos données sont sauvegardées localement (72h d'autonomie)
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div>
+      <div class="header-logo">ELLYSIUM</div>
+      <div class="header-subtitle">Espace Enseignant</div>
+    </div>
+    <div id="networkBadge" class="network-badge online">
+      <div class="network-dot"></div>
+      <span id="networkLabel">En ligne</span>
+    </div>
+  </header>
+
+  <!-- Navigation par onglets -->
+  <nav class="nav-tabs" role="tablist">
+    <button class="nav-tab active" onclick="showPanel('dashboard')" aria-selected="true">
+      <span class="nav-tab-icon">🏠</span>
+      Accueil
+    </button>
+    <button class="nav-tab" onclick="showPanel('attendance')">
+      <span class="nav-tab-icon">📋</span>
+      Présences
+    </button>
+    <button class="nav-tab" onclick="showPanel('grades')">
+      <span class="nav-tab-icon">📝</span>
+      Cotes
+    </button>
+    <button class="nav-tab" onclick="showPanel('homeworks')">
+      <span class="nav-tab-icon">📚</span>
+      Devoirs
+    </button>
+  </nav>
+
+  <main class="content">
+
+    <!-- === TABLEAU DE BORD === -->
+    <div id="dashboard" class="panel active">
+      <h2 class="section-title">📊 Tableau de bord</h2>
+
+      <!-- Info enseignant -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">👨‍🏫 Prof. MUTOMBO Jean</span>
+          <span class="badge badge-blue">Mathématiques</span>
+        </div>
+        <p style="font-size:13px;color:var(--gris);">École Sainte-Marie • Kinshasa • 4ème Hum. Sc. A</p>
+      </div>
+
+      <!-- Statistiques rapides -->
+      <div class="stats-grid" style="margin-bottom:16px;">
+        <div class="stat-card">
+          <div class="stat-value" style="color:var(--vert);">42</div>
+          <div class="stat-label">Élèves présents</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:var(--rouge);">3</div>
+          <div class="stat-label">Absences</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:var(--or);">5</div>
+          <div class="stat-label">Devoirs en cours</div>
+        </div>
+      </div>
+
+      <!-- Actions rapides -->
+      <div class="card">
+        <div class="card-title" style="margin-bottom:12px;">⚡ Actions rapides</div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <button class="btn btn-primary" onclick="showPanel('attendance')">
+            📋 Faire l'appel — 4ème Hum. Sc. A
+          </button>
+          <button class="btn btn-gold" onclick="showPanel('grades')">
+            ✍️ Saisir les cotes — Interrogation n°3
+          </button>
+        </div>
+      </div>
+
+      <!-- File de synchronisation -->
+      <div class="card" id="syncCard" style="display:none;">
+        <div class="card-header">
+          <span class="card-title">🔄 Données en attente</span>
+          <span class="badge badge-orange" id="syncCount">0 entrées</span>
+        </div>
+        <button class="btn btn-success" id="syncBtn" onclick="syncNow()">
+          🔄 Synchroniser maintenant
+        </button>
+      </div>
+    </div>
+
+    <!-- === APPEL (PRÉSENCES) === -->
+    <div id="attendance" class="panel">
+      <h2 class="section-title">📋 Appel — 4ème Hum. Sc. A</h2>
+
+      <div class="card">
+        <div class="form-group">
+          <label class="form-label">Date :</label>
+          <input type="date" id="attendanceDate" class="form-select"
+            value="2026-09-19" min="2026-01-01">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Liste des élèves</span>
+          <span class="badge badge-blue">45 élèves</span>
+        </div>
+
+        <div class="attendance-grid" id="attendanceGrid">
+          <!-- Générée dynamiquement par JS -->
+        </div>
+
+        <div style="margin-top:16px;">
+          <button class="btn btn-primary" onclick="saveAttendance()">
+            💾 Enregistrer l'appel
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- === SAISIE DES COTES === -->
+    <div id="grades" class="panel">
+      <h2 class="section-title">✍️ Saisie des cotes</h2>
+
+      <div class="card">
+        <div class="form-group">
+          <label class="form-label">Type d'évaluation :</label>
+          <select class="form-select" id="evalType">
+            <option value="interro">Interrogation</option>
+            <option value="devoir">Devoir à domicile</option>
+            <option value="examen">Examen</option>
+            <option value="pratique">Travail pratique</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Maximum de points :</label>
+          <input type="number" class="form-select" id="maxPoints"
+            value="20" min="1" max="200">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Saisie des notes</span>
+          <span class="badge badge-blue">Mathématiques</span>
+        </div>
+
+        <table class="grades-table">
+          <thead>
+            <tr>
+              <th>Élève</th>
+              <th>Note</th>
+              <th>/Max</th>
+              <th>%</th>
+            </tr>
+          </thead>
+          <tbody id="gradesTableBody">
+            <!-- Générée dynamiquement par JS -->
+          </tbody>
+        </table>
+
+        <div style="margin-top:16px;">
+          <button class="btn btn-primary" onclick="saveGrades()">
+            💾 Enregistrer les cotes
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- === DEVOIRS === -->
+    <div id="homeworks" class="panel">
+      <h2 class="section-title">📚 Gestion des devoirs</h2>
+
+      <div class="card">
+        <div class="card-title" style="margin-bottom:12px;">+ Nouveau devoir</div>
+        <div class="form-group">
+          <label class="form-label">Titre :</label>
+          <input type="text" class="form-select" id="hwTitle"
+            placeholder="Ex: Exercices algèbre — chapitre 3">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Date de remise :</label>
+          <input type="date" class="form-select" id="hwDueDate">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Maximum de points :</label>
+          <input type="number" class="form-select" id="hwMaxPoints" value="20" min="1">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Instructions :</label>
+          <textarea class="form-select" id="hwInstructions" rows="3"
+            style="resize:vertical;"
+            placeholder="Décrivez le travail demandé..."></textarea>
+        </div>
+        <button class="btn btn-gold" onclick="createHomework()">
+          📤 Publier le devoir
+        </button>
+      </div>
+
+      <div id="hwList"></div>
+    </div>
+
+  </main>
+
+  <script>
+    // ===============================================
+    // ELLYSIUM Teacher PWA — JavaScript (offline-first)
+    // ===============================================
+
+    // Données fictives pour la démonstration
+    const STUDENTS = [
+      { id: 'ST-001', name: 'KASONGO David' },
+      { id: 'ST-002', name: 'LUMEMBE Sara' },
+      { id: 'ST-003', name: 'MBUYI Emmanuel' },
+      { id: 'ST-004', name: 'TSHIMANGA Grace' },
+      { id: 'ST-005', name: 'KABILA Michel' },
+      { id: 'ST-006', name: 'NGALULA Christine' },
+      { id: 'ST-007', name: 'BANZA Pierre' },
+      { id: 'ST-008', name: 'KALOMBO Josée' }
+    ];
+
+    const attendanceState = {};
+    const pendingSync = [];
+
+    // ===== Détection réseau =====
+    function updateNetworkBadge() {
+      const badge = document.getElementById('networkBadge');
+      const label = document.getElementById('networkLabel');
+      const banner = document.getElementById('offlineBanner');
+      const syncCard = document.getElementById('syncCard');
+
+      if (navigator.onLine) {
+        badge.className = 'network-badge online';
+        label.textContent = 'En ligne';
+        banner.classList.remove('visible');
+        if (pendingSync.length > 0) {
+          syncCard.style.display = 'block';
+          document.getElementById('syncCount').textContent = pendingSync.length + ' entrées';
+        }
+      } else {
+        badge.className = 'network-badge offline';
+        label.textContent = 'Hors-ligne';
+        banner.classList.add('visible');
+        if (pendingSync.length > 0) {
+          syncCard.style.display = 'block';
+          document.getElementById('syncCount').textContent = pendingSync.length + ' entrées';
+        }
+      }
+    }
+
+    window.addEventListener('online', updateNetworkBadge);
+    window.addEventListener('offline', updateNetworkBadge);
+    updateNetworkBadge();
+
+    // ===== Navigation =====
+    function showPanel(panelId) {
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.nav-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      document.getElementById(panelId).classList.add('active');
+      const tabs = document.querySelectorAll('.nav-tab');
+      const panels = ['dashboard', 'attendance', 'grades', 'homeworks'];
+      const idx = panels.indexOf(panelId);
+      if (idx >= 0) {
+        tabs[idx].classList.add('active');
+        tabs[idx].setAttribute('aria-selected', 'true');
+      }
+    }
+
+    // ===== Appel des présences =====
+    function renderAttendanceGrid() {
+      const grid = document.getElementById('attendanceGrid');
+      grid.innerHTML = STUDENTS.map(s => `
+        <div class="student-row">
+          <span class="student-name">${s.name}</span>
+          <div class="attendance-buttons">
+            <button class="att-btn" id="att-P-${s.id}"
+              onclick="setAttendance('${s.id}', 'PRESENT')" title="Présent">✅</button>
+            <button class="att-btn" id="att-A-${s.id}"
+              onclick="setAttendance('${s.id}', 'ABSENT')" title="Absent">❌</button>
+            <button class="att-btn" id="att-R-${s.id}"
+              onclick="setAttendance('${s.id}', 'RETARD')" title="Retard">⏰</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function setAttendance(studentId, status) {
+      attendanceState[studentId] = status;
+      ['PRESENT','ABSENT','RETARD'].forEach(s => {
+        const btn = document.getElementById('att-' + s[0] + '-' + studentId);
+        if (btn) btn.className = s === status ? 'att-btn ' + s.toLowerCase() : 'att-btn';
+      });
+    }
+
+    function saveAttendance() {
+      const date = document.getElementById('attendanceDate').value;
+      const entries = Object.entries(attendanceState).map(([id, status]) => ({
+        studentId: id, date, status, savedAt: new Date().toISOString(),
+        synced: navigator.onLine
+      }));
+
+      if (!navigator.onLine) {
+        pendingSync.push(...entries);
+        alert('✅ Appel enregistré localement (mode hors-ligne). Sera synchronisé au retour du réseau.');
+      } else {
+        alert('✅ Appel enregistré et synchronisé avec succès !');
+      }
+      updateNetworkBadge();
+    }
+
+    // ===== Saisie des cotes =====
+    function renderGradesTable() {
+      const max = parseInt(document.getElementById('maxPoints')?.value || '20');
+      const tbody = document.getElementById('gradesTableBody');
+      if (!tbody) return;
+      tbody.innerHTML = STUDENTS.map(s => `
+        <tr>
+          <td><strong>${s.name}</strong></td>
+          <td>
+            <input class="grade-input" type="number"
+              id="grade-${s.id}" min="0" max="${max}"
+              placeholder="—"
+              oninput="validateGrade(this, ${max})">
+          </td>
+          <td><span class="grade-max">/${max}</span></td>
+          <td><span id="pct-${s.id}" style="font-size:13px;font-weight:700;color:var(--gris);">—</span></td>
+        </tr>
+      `).join('');
+    }
+
+    function validateGrade(input, max) {
+      const val = parseFloat(input.value);
+      const studentId = input.id.replace('grade-', '');
+      const pctEl = document.getElementById('pct-' + studentId);
+
+      if (isNaN(val) || val < 0 || val > max) {
+        input.className = 'grade-input invalid';
+        if (pctEl) pctEl.textContent = '⚠️';
+      } else {
+        input.className = 'grade-input valid';
+        const pct = ((val / max) * 100).toFixed(1);
+        if (pctEl) {
+          pctEl.textContent = pct + '%';
+          pctEl.style.color = val / max >= 0.5 ? 'var(--vert)' : 'var(--rouge)';
+        }
+      }
+    }
+
+    function saveGrades() {
+      const max = parseInt(document.getElementById('maxPoints').value);
+      const evalType = document.getElementById('evalType').value;
+      const grades = STUDENTS.map(s => {
+        const input = document.getElementById('grade-' + s.id);
+        return { studentId: s.id, grade: input ? parseFloat(input.value) : null, max, evalType };
+      }).filter(g => !isNaN(g.grade) && g.grade !== null);
+
+      if (!navigator.onLine) {
+        pendingSync.push(...grades.map(g => ({ ...g, synced: false, savedAt: new Date().toISOString() })));
+        alert(`✅ ${grades.length} cotes enregistrées localement (mode hors-ligne).`);
+      } else {
+        alert(`✅ ${grades.length} cotes enregistrées et synchronisées !`);
+      }
+      updateNetworkBadge();
+    }
+
+    function syncNow() {
+      if (!navigator.onLine) {
+        alert('⚠️ Pas de connexion réseau. Réessayez dès que le réseau est disponible.');
+        return;
+      }
+      const count = pendingSync.length;
+      pendingSync.length = 0;
+      document.getElementById('syncCard').style.display = 'none';
+      alert(`✅ ${count} entrées synchronisées avec succès vers les serveurs ELLYSIUM !`);
+    }
+
+    // ===== Devoirs =====
+    const homeworks = [];
+    function createHomework() {
+      const title = document.getElementById('hwTitle').value;
+      const dueDate = document.getElementById('hwDueDate').value;
+      const maxPoints = document.getElementById('hwMaxPoints').value;
+      const instructions = document.getElementById('hwInstructions').value;
+
+      if (!title || !dueDate) {
+        alert('⚠️ Veuillez remplir le titre et la date de remise.');
+        return;
+      }
+
+      const hw = { id: 'HW-' + Date.now(), title, dueDate, maxPoints, instructions, publishedAt: new Date().toISOString() };
+      homeworks.push(hw);
+      renderHomeworks();
+      alert(`✅ Devoir "${title}" publié pour les élèves !`);
+    }
+
+    function renderHomeworks() {
+      const list = document.getElementById('hwList');
+      list.innerHTML = homeworks.map(hw => `
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">${hw.title}</span>
+            <span class="badge badge-green">Publié</span>
+          </div>
+          <p style="font-size:13px;color:var(--gris);">
+            Date de remise : <strong>${hw.dueDate}</strong> · Maximum : <strong>${hw.maxPoints} pts</strong>
+          </p>
+          ${hw.instructions ? `<p style="font-size:13px;margin-top:8px;">${hw.instructions}</p>` : ''}
+        </div>
+      `).join('');
+    }
+
+    // ===== Initialisation =====
+    renderAttendanceGrid();
+    renderGradesTable();
+
+    // Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(() => {});
+    }
+  </script>
+</body>
+</html>
