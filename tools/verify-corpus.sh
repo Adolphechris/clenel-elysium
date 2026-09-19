@@ -109,6 +109,18 @@ MODS=$(ls -d tome-*/[0-9]* 2>/dev/null | awk -F/ '$NF ~ /^[0-9]+$/' | wc -l)
 VF=$(grep -rhoE 'VF-[0-9]{3}-[0-9]{2}' tome-*/[0-9]*/README.md 2>/dev/null | sort -u | wc -l)
 echo "────────────────────────────────────────────────────"
 echo " Modules numérotés : $MODS | Verrous VF uniques : $VF"
+
+# --- 6. Chaîne de production des contenus pédagogiques ------------------------
+if [ -x tools/verify-contenus.sh ]; then
+  echo "────────────────────────────────────────────────────"
+  echo " Chaîne de production des contenus (N0→N1→N2) :"
+  if bash tools/verify-contenus.sh > /tmp/verify-contenus.out 2>&1; then
+    echo "  ✓ Contenus conformes"
+  else
+    echo "  ✗ Contenus NON conformes :"; tail -25 /tmp/verify-contenus.out; ERR=1
+  fi
+fi
+
 if [ "$ERR" -eq 0 ]; then
   echo " ✅ CONFORME — Publication autorisée"
 else

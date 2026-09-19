@@ -45,6 +45,8 @@ ELLYSIUM est la plateforme nationale souveraine de l'éducation en République D
 
 > **Exécution :** le plan opérationnel de mise en production (pistes IA / humaine), le backlog MVP du PGI (≈ 520 SP) et le catalogue des leçons L1 Informatique (≈ 196 leçons) sont dans [`docs/`](./docs/PLAN-EXECUTION.md).
 
+> **Production des matières enseignées :** la chaîne de production pédagogique (référentiels officiels du Ministère → fiches-matières → syllabus → leçons) est dans [`contenus/`](./contenus/README.md), pilotée par [`docs/PLAN-REDACTION-MATIERES.md`](./docs/PLAN-REDACTION-MATIERES.md) et contrôlée par `tools/verify-contenus.sh`. **Vague 1 produite** : 6 fiches-matières + 6 syllabus du cycle terminal de l'Éducation de Base (Mathématiques, SVT, SPTTIC en 7ᵉ et 8ᵉ année), adossés aux programmes officiels DIPROMAD/MEPSP et couvrant **163/163 savoirs essentiels officiels**. Les sources officielles (117 documents PDF du MINEDU-NC) sont recensées dans [`contenus/01-REFERENTIELS/_registre-sources.md`](./contenus/01-REFERENTIELS/_registre-sources.md).
+
 ---
 
 ## 3. État d'Avancement Réel du Projet (Audit Vérifié)
