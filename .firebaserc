@@ -1,19 +1,6 @@
 {
   "projects": {
-    "default": "elysium-rdc-dev",
-    "staging": "elysium-rdc-staging",
-    "prod": "elysium-rdc-prod"
-  },
-  "targets": {
-    "elysium-rdc-prod": {
-      "hosting": {
-        "portal-main": [
-          "elysium-rdc-portal"
-        ],
-        "verify-diplomas": [
-          "elysium-rdc-verify"
-        ]
-      }
-    }
+    "default": "cnel-elysium-rdc",
+    "prod": "cnel-elysium-rdc"
   }
 }

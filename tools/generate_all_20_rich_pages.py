@@ -1,11 +1,18 @@
-<!DOCTYPE html>
+# -*- coding: utf-8 -*-
+import os
+
+DIST_DIR = "/home/adolphe/CNEL -ELYSIUM/clenel-elysium/apps/web-portal/dist"
+os.makedirs(DIST_DIR, exist_ok=True)
+
+def render_page(meta):
+    return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0B2545">
-    <title>Technologie 72h Hors-Ligne — ELLYSIUM (RDC)</title>
-    <meta name="description" content="Face aux coupures de la SNEL et aux instabilités chroniques des réseaux télécoms à Kinshasa comme dans les provinces, ELLYSIUM offre 72 heures d'autonomie opéra">
+    <title>{meta['title']} — ELLYSIUM (RDC)</title>
+    <meta name="description" content="{meta['lead'][:160]}">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,12 +31,12 @@
                 </div>
             </a>
             <ul class="nav-links">
-                <li><a href="index.html" >Accueil</a></li>
-                <li><a href="etablissements.html" >Écoles & PGI</a></li>
-                <li><a href="bulletin-securise.html" >Bulletins Scellés</a></li>
-                <li><a href="parents.html" >Parents</a></li>
-                <li><a href="ead-universite.html" >Université LMD</a></li>
-                <li><a href="souverainete-cloud.html" >Souveraineté</a></li>
+                <li><a href="index.html" {'class="active"' if meta['fn']=='index.html' else ''}>Accueil</a></li>
+                <li><a href="etablissements.html" {'class="active"' if meta['fn']=='etablissements.html' else ''}>Écoles & PGI</a></li>
+                <li><a href="bulletin-securise.html" {'class="active"' if meta['fn']=='bulletin-securise.html' else ''}>Bulletins Scellés</a></li>
+                <li><a href="parents.html" {'class="active"' if meta['fn']=='parents.html' else ''}>Parents</a></li>
+                <li><a href="ead-universite.html" {'class="active"' if meta['fn']=='ead-universite.html' else ''}>Université LMD</a></li>
+                <li><a href="souverainete-cloud.html" {'class="active"' if meta['fn']=='souverainete-cloud.html' else ''}>Souveraineté</a></li>
                 <li><a href="verification-diplomes.html" class="nav-cta">🔍 Vérifier un Diplôme</a></li>
             </ul>
         </div>
@@ -37,12 +44,12 @@
 
     <section class="hero-page">
         <div class="hero-content">
-            <div class="page-badge">Résilience Terrain RDC — Autonomie Absolue</div>
-            <h1>Conçu pour Fonctionner <span>Sans Électricité ni Internet Permanent</span></h1>
-            <p class="hero-lead">Face aux coupures de la SNEL et aux instabilités chroniques des réseaux télécoms à Kinshasa comme dans les provinces, ELLYSIUM offre 72 heures d'autonomie opérationnelle complète sans perte de données.</p>
+            <div class="page-badge">{meta['badge']}</div>
+            <h1>{meta['h1']}</h1>
+            <p class="hero-lead">{meta['lead']}</p>
             <div class="hero-actions">
-                <a href="banc-essai-performance.html" class="btn btn-gold">⚡ Voir le Banc de Performance</a>
-                <a href="enseignants.html" class="btn btn-outline">📱 Application Enseignant</a>
+                <a href="{meta['btn_p_url']}" class="btn btn-gold">{meta['btn_p_text']}</a>
+                <a href="{meta['btn_s_url']}" class="btn btn-outline">{meta['btn_s_text']}</a>
             </div>
             <div class="trust-badges">
                 <span class="trust-badge-item">🛡️ Conforme EPST & ESU</span>
@@ -56,32 +63,14 @@
     <main class="section-wrap">
         <!-- 1. Synthèse Institutionnelle -->
         <div class="section-head">
-            <span class="section-tag">Résilience Technologique</span>
-            <h2>Une technologie taillée pour les réalités du terrain congolais</h2>
-            <p>La plupart des logiciels occidentaux s'arrêtent dès que la connexion Internet coupe. ELLYSIUM a été pensé dès le départ avec le paradigme 'Offline-First'.</p>
+            <span class="section-tag">{meta['tag']}</span>
+            <h2>{meta['section2_title']}</h2>
+            <p>{meta['section2_desc']}</p>
         </div>
 
         <!-- 2. Cartes de Fonctionnalités Approfondies -->
         <div class="grid-3">
-            
-        <div class="feature-card">
-            <div class="card-icon">💾</div>
-            <h3>Base de Données Locale IndexedDB</h3>
-            <p>Chaque smartphone dispose de sa propre base de données chiffrée capable d'enregistrer des milliers d'évaluations et de présences.</p>
-            <a href="offline-first.html" class="card-link">En savoir plus &rarr;</a>
-        </div>
-        <div class="feature-card">
-            <div class="card-icon">🔄</div>
-            <h3>Synchronisation Différée Intelligente</h3>
-            <p>Dès que le terminal détecte un signal Wi-Fi ou data 2G/3G/4G, les données en attente sont transmises par micro-paquets optimisés.</p>
-            <a href="offline-first.html" class="card-link">En savoir plus &rarr;</a>
-        </div>
-        <div class="feature-card">
-            <div class="card-icon">⚖️</div>
-            <h3>Moteur Anti-Collision CRDT</h3>
-            <p>Horodatage cryptographique et signatures individuelles empêchant tout écrasement d'informations lors de la synchronisation de plusieurs appareils.</p>
-            <a href="sre-monitoring.html" class="card-link">En savoir plus &rarr;</a>
-        </div>
+            {meta['cards_html']}
         </div>
 
         <!-- 3. Workflow Opérationnel Étape par Étape -->
@@ -91,27 +80,7 @@
                 <h2>Comment le dispositif fonctionne pas-à-pas</h2>
             </div>
             <div class="step-flow">
-                
-        <div class="step-item">
-            <div class="step-number">1</div>
-            <h4>Déconnexion Réseau</h4>
-            <p>Une coupure générale d'électricité survient à 9h00. L'application bascule automatiquement en mode 'Hors-Ligne' sans aucun message d'erreur.</p>
-        </div>
-        <div class="step-item">
-            <div class="step-number">2</div>
-            <h4>Travail Continu en Classe</h4>
-            <p>L'enseignant continue d'effectuer les appels, saisir les devoirs et encoder les notes d'interrogations normalement.</p>
-        </div>
-        <div class="step-item">
-            <div class="step-number">3</div>
-            <h4>Stockage Local Résilient</h4>
-            <p>Les entrées sont consignées dans la file d'attente chiffrée du téléphone pendant jusqu'à 72 heures.</p>
-        </div>
-        <div class="step-item">
-            <div class="step-number">4</div>
-            <h4>Rétablissement & Envoi Silencieux</h4>
-            <p>Le soir, au retour du réseau au domicile de l'enseignant, la synchronisation s'effectue en arrière-plan en quelques secondes.</p>
-        </div>
+                {meta['steps_html']}
             </div>
         </div>
 
@@ -127,22 +96,7 @@
                         <tr><th>Aspect Analysé</th><th>Système Traditionnel (Manuel / Papier)</th><th>Système ELLYSIUM (Souverain & Scellé)</th></tr>
                     </thead>
                     <tbody>
-                        
-        <tr>
-            <td><strong>Logiciels Web classiques (SaaS)</strong></td>
-            <td><span class="compare-badge-bad">Manuel / Traditionnel</span><br>Écran blanc, blocage immédiat et perte du travail en cours lors d'une coupure</td>
-            <td><span class="compare-badge-good">ELLYSIUM Numérique</span><br><strong>Fonctionnement fluide et continu sans aucune interruption</strong></td>
-        </tr>
-        <tr>
-            <td><strong>Consommation de données mobiles</strong></td>
-            <td><span class="compare-badge-bad">Manuel / Traditionnel</span><br>Téléchargement lourd et permanent de pages web coûteuses</td>
-            <td><span class="compare-badge-good">ELLYSIUM Numérique</span><br><strong>Micro-paquets compressés (< 20 Ko) préservant le forfait de l'école</strong></td>
-        </tr>
-        <tr>
-            <td><strong>Sécurité des données locales</strong></td>
-            <td><span class="compare-badge-bad">Manuel / Traditionnel</span><br>Données souvent stockées en clair dans le navigateur</td>
-            <td><span class="compare-badge-good">ELLYSIUM Numérique</span><br><strong>Chiffrement local fort au repos protégé par le code PIN de l'agent</strong></td>
-        </tr>
+                        {meta['compare_rows_html']}
                     </tbody>
                 </table>
             </div>
@@ -150,15 +104,15 @@
 
         <!-- 5. Étude de Cas / Terrain RDC -->
         <div class="case-study-box">
-            <h3>🏛️ Cas d'Usage Terrain : Test de Résilience Extrême à Mbuji-Mayi (Kasaï-Oriental)</h3>
-            <p>Durant une panne d'antenne relais de 48 heures dans la ville, les enseignants de l'Institut du Travail ont saisi 1 450 notes et 3 jours d'appels complets sans connexion. Toutes les données ont été téléversées avec 100% d'intégrité dès la remise en service de l'opérateur.</p>
-            <p><strong>Impact mesuré :</strong> Zéro heure de cours perdue, intégrité parfaite des 1 450 enregistrements, preuve concrète de la souveraineté technologique d'ELLYSIUM.</p>
+            <h3>🏛️ Cas d'Usage Terrain : {meta['case_title']}</h3>
+            <p>{meta['case_text']}</p>
+            <p><strong>Impact mesuré :</strong> {meta['case_impact']}</p>
         </div>
 
         <!-- 6. Verrous Fonctionnels Associés -->
         <div style="margin: 40px 0; padding: 24px; background: #fff; border-radius: var(--radius-md); border: 1px solid var(--border);">
             <h4 style="color:var(--primary); margin-bottom: 12px;">🛡️ Verrous Fonctionnels Constitutionnels Impliqués</h4>
-            <div><span class="vf-tag">VF-112-01</span><span class="vf-tag">VF-112-02</span><span class="vf-tag">VF-112-03</span><span class="vf-tag">VF-211-01</span></div>
+            <div>{meta['vf_html']}</div>
         </div>
 
         <!-- 7. FAQ Détaillée -->
@@ -167,29 +121,17 @@
                 <span class="section-tag">Foire Aux Questions</span>
                 <h2>Questions Fréquentes & Éclaircissements</h2>
             </div>
-            
-        <div class="faq-item">
-            <div class="faq-question">❓ L'application fonctionne-t-elle sur les téléphones d'entrée de gamme ?</div>
-            <div class="faq-answer">Oui. L'interface PWA a été testée et validée sur des smartphones Android disposant de seulement 1 Go de mémoire RAM.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">❓ Que se passe-t-il si un téléphone est volé ou perdu avant la synchronisation ?</div>
-            <div class="faq-answer">Les données locales sont chiffrées et inaccessibles sans le mot de passe de l'enseignant. Une sauvegarde locale journalière peut être exportée sur carte SD de secours.</div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question">❓ Combien de temps l'application peut-elle tenir hors-ligne sans connexion ?</div>
-            <div class="faq-answer">Le cahier des charges impose 72 heures garanties, mais la capacité de stockage local permet de conserver plusieurs semaines de données académiques.</div>
-        </div>
+            {meta['faq_html']}
         </div>
 
         <!-- 8. Bannière Citation Régalien -->
         <div class="regal-quote">
-            « Le manque d'infrastructures ne doit plus être une excuse pour retarder l'excellence scolaire de notre pays. ELLYSIUM fonctionne là où d'autres échouent. »
+            « {meta['quote']} »
         </div>
 
         <!-- 9. Appel à l'Action de Fin de Page -->
         <div style="text-align: center; margin-top: 50px;">
-            <a href="banc-essai-performance.html" class="btn btn-gold" style="font-size: 1.15rem; padding: 16px 36px;">⚡ Voir le Banc de Performance</a>
+            <a href="{meta['btn_p_url']}" class="btn btn-gold" style="font-size: 1.15rem; padding: 16px 36px;">{meta['btn_p_text']}</a>
             <span style="display:block; margin-top:10px; font-size:0.9rem; color:var(--text-muted);">Assistance officielle assurée par la Délégation ELLYSIUM de Kinshasa.</span>
         </div>
     </main>
@@ -261,3 +203,6 @@
     </footer>
 </body>
 </html>
+"""
+
+print("Générateur prêt.")
