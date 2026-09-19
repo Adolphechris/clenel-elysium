@@ -20,6 +20,10 @@ venv/
 __pycache__/
 *.pyc
 
+# Artefacts de compilation (sauf le dossier servi par Firebase Hosting)
+**/dist/**
+!apps/web-portal/dist/**
+
 # Outils locaux
 .idea/
 .vscode/

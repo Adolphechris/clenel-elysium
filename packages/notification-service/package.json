@@ -4,8 +4,14 @@
   "description": "Service de messagerie interne, notifications FCM/SMS et alertes parents (Module 70 / Tome 6)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": { "build": "tsc", "test": "node --test tests/*.test.js" },
-  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  },
   "author": "ASBL ELLYSIUM",
   "license": "MIT"
 }

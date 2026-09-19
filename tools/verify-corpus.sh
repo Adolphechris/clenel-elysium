@@ -76,6 +76,34 @@ else
   ERR=1
 fi
 
+# --- 4 bis. Liens internes des landing pages (Firebase Hosting) ---------------
+HTML_BROKEN=$(python3 - <<'PY'
+import re, pathlib, glob, os
+broken = 0
+for f in glob.glob('apps/web-portal/dist/*.html'):
+    p = pathlib.Path(f)
+    for m in re.findall(r'href="([^"#?]+)"', p.read_text(encoding='utf-8')):
+        if m.startswith(('http', 'mailto')) or m.endswith('.css'):
+            continue
+        if not (p.parent / m).exists():
+            broken += 1; print(f"  ✗ {f} -> {m}", file=os.sys.stderr)
+print(broken)
+PY
+)
+if [ "$HTML_BROKEN" -eq 0 ]; then
+  echo "  ✓ Liens internes des landing pages tous valides"
+else
+  echo "  ✗ $HTML_BROKEN lien(s) HTML cassé(s)"; ERR=1
+fi
+
+# --- 4 ter. Promesses publiques sourcées (pas de chiffres marketing non certifiés)
+OVERPROMISE=$(grep -rl '240k\|ops/s' apps/web-portal/dist/*.html 2>/dev/null | wc -l)
+if [ "$OVERPROMISE" -eq 0 ]; then
+  echo "  ✓ Landing pages : aucune promesse de performance non sourcée"
+else
+  echo "  ✗ $OVERPROMISE page(s) avec chiffre marketing non certifié"; ERR=1
+fi
+
 # --- 5. Statistiques ----------------------------------------------------------
 MODS=$(ls -d tome-*/[0-9]* 2>/dev/null | awk -F/ '$NF ~ /^[0-9]+$/' | wc -l)
 VF=$(grep -rhoE 'VF-[0-9]{3}-[0-9]{2}' tome-*/[0-9]*/README.md 2>/dev/null | sort -u | wc -l)
