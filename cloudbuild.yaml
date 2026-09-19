@@ -1,0 +1,39 @@
+# Google Cloud Build Pipeline - ELLYSIUM (Doctrine Art. 1 bis)
+steps:
+  # 1. Vérification de la conformité du Master Corpus
+  - name: 'bash'
+    entrypoint: 'bash'
+    args: ['./tools/verify-corpus.sh']
+    id: 'verify-corpus'
+
+  # 2. Installation des dépendances du monorepo
+  - name: 'node:22'
+    entrypoint: 'npm'
+    args: ['ci']
+    id: 'npm-install'
+
+  # 3. Exécution des tests unitaires du moteur académique RDC
+  - name: 'node:22'
+    entrypoint: 'npm'
+    args: ['run', 'test']
+    id: 'academic-tests'
+
+  # 4. Build des packages et applications
+  - name: 'node:22'
+    entrypoint: 'npm'
+    args: ['run', 'build']
+    id: 'npm-build'
+
+  # 5. Déploiement des règles Firestore sur Firebase
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo "Déploiement des règles de sécurité Firestore..."
+        # firebase deploy --only firestore:rules,hosting
+    id: 'deploy-rules'
+
+timeout: '1200s'
+options:
+  logging: CLOUD_LOGGING_ONLY

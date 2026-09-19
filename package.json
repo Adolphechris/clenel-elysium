@@ -1,0 +1,26 @@
+{
+  "name": "elysium-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo officiel du Système de Gestion Scolaire et Plateforme Nationale ELLYSIUM (RDC)",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "verify:corpus": "./tools/verify-corpus.sh"
+  },
+  "keywords": [
+    "elysium",
+    "cnel",
+    "rdc",
+    "education",
+    "gcp",
+    "firebase"
+  ],
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@elysium/shared-types",
+  "version": "1.0.0",
+  "description": "Modèles de données et typages partagés pour l'écosystème ELLYSIUM",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

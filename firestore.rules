@@ -1,0 +1,112 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // =========================================================================
+    // FONCTIONS D'AUTHENTIFICATION ET DE RÔLES (RBAC / ABAC)
+    // =========================================================================
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function getUserRole() {
+      return request.auth.token.role;
+    }
+
+    function getUserSchoolId() {
+      return request.auth.token.schoolId;
+    }
+
+    function isSuperAdmin() {
+      return isAuthenticated() && getUserRole() == 'SUPER_ADMIN';
+    }
+
+    function isPrefet(schoolId) {
+      return isAuthenticated() && (getUserRole() == 'PREFET' || getUserRole() == 'DIRECTEUR') && getUserSchoolId() == schoolId;
+    }
+
+    function isTeacher(schoolId) {
+      return isAuthenticated() && getUserRole() == 'ENSEIGNANT' && getUserSchoolId() == schoolId;
+    }
+
+    function isAccountant(schoolId) {
+      return isAuthenticated() && (getUserRole() == 'COMPTABLE' || getUserRole() == 'CAISSIER') && getUserSchoolId() == schoolId;
+    }
+
+    function isStudent() {
+      return isAuthenticated() && (getUserRole() == 'ELEVE_AFFILIE' || getUserRole() == 'APPRENANT_INDEPENDANT');
+    }
+
+    // =========================================================================
+    // ARTICLE 5 DE LA CONSTITUTION — SÉPARATION ABSOLUE CAISSE / PÉDAGOGIE
+    // Verrou VF-056-02 et VF-071-01 :
+    // Aucun contrôle de solde financier n'est permis pour accéder aux cours ou notes.
+    // Les enseignants et élèves ne peuvent en aucun cas lire la table financière.
+    // =========================================================================
+
+    // 1. ÉTABLISSEMENTS SCOLAIRES
+    match /schools/{schoolId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin();
+
+      // Classes et promotions
+      match /classes/{classId} {
+        allow read: if isAuthenticated() && getUserSchoolId() == schoolId;
+        allow write: if isPrefet(schoolId);
+      }
+
+      // Cahier des Cotes (Évaluations académiques)
+      match /grades/{gradeId} {
+        // Les élèves lisent uniquement leurs propres cotes
+        allow read: if isTeacher(schoolId) || isPrefet(schoolId) || (isStudent() && resource.data.studentId == request.auth.uid);
+        // Seuls les enseignants et préfets saisissent les cotes (interdiction absolue aux caissiers)
+        allow create, update: if (isTeacher(schoolId) || isPrefet(schoolId)) && !isAccountant(schoolId);
+        allow delete: if false; // Les notes ne sont jamais supprimées (historisation immuable)
+      }
+
+      // Bulletins Scellés et Relevés de notes officiels
+      match /report_cards/{reportCardId} {
+        allow read: if isPrefet(schoolId) || isTeacher(schoolId) || (isStudent() && resource.data.studentId == request.auth.uid);
+        // Seul le préfet/directeur scelle le bulletin (décision humaine souveraine)
+        allow create, update: if isPrefet(schoolId);
+        allow delete: if false;
+      }
+
+      // Registre des Présences
+      match /attendance/{attendanceId} {
+        allow read: if isTeacher(schoolId) || isPrefet(schoolId) || (isStudent() && resource.data.studentId == request.auth.uid);
+        allow create, update: if isTeacher(schoolId) || isPrefet(schoolId);
+        allow delete: if false;
+      }
+
+      // MODULE FINANCIER ÉTANCHE (CAISSE)
+      // Strictement réservé au personnel financier et à la direction
+      // L'ENSEIGNANT ET LE TUTEUR IA N'ONT AUCUN ACCÈS EN LECTURE NI EN ÉCRITURE
+      match /finances/{paymentId} {
+        allow read, write: if isAccountant(schoolId) || isPrefet(schoolId);
+      }
+    }
+
+    // 2. DOSSIERS NUMÉRIQUES DES ÉLÈVES (IUNE)
+    match /students/{studentId} {
+      allow read: if isAuthenticated() && (request.auth.uid == studentId || isTeacher(resource.data.schoolId) || isPrefet(resource.data.schoolId));
+      allow create: if isAuthenticated();
+      allow update: if isPrefet(resource.data.schoolId) || isSuperAdmin();
+      allow delete: if false;
+    }
+
+    // 3. REGISTRE PUBLIC D'AUTHENTICITÉ DES DIPLÔMES ET BULLETINS
+    // Accessible publiquement en lecture pour vérification par employeurs et universités
+    match /public_registry/{documentHash} {
+      allow read: if true; // Vérification publique sans authentification (Module 76 / 68)
+      allow write: if isSuperAdmin(); // Alimenté uniquement par Cloud Functions signées
+    }
+
+    // 4. TRACE D'AUDIT IMMUABLE (APPEND-ONLY)
+    match /audit_trail/{logId} {
+      allow read: if isSuperAdmin();
+      allow create: if isAuthenticated();
+      allow update, delete: if false; // Immutabilité cryptographique
+    }
+  }
+}

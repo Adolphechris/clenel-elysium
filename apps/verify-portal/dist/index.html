@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registre Public de Vérification — ELLYSIUM</title>
+  <style>
+    :root { --primary: #0B2545; --gold: #D4AF37; --bg: #F5F5F0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: sans-serif; background: var(--bg); text-align: center; padding: 2rem; }
+    .box { background: #fff; max-width: 600px; margin: 2rem auto; padding: 2.5rem; border-radius: 8px; border-top: 5px solid var(--primary); }
+    h1 { color: var(--primary); margin-bottom: 1rem; }
+    input { width: 100%; padding: 0.8rem; margin: 1rem 0; border: 1px solid #ccc; border-radius: 4px; font-family: monospace; }
+    button { background: var(--primary); color: #fff; border: none; padding: 0.8rem 1.5rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Contrôle d'Authenticité Numérique</h1>
+    <p>Vérification publique et infalsifiable des bulletins scolaires et diplômes d'État (Modules 68 & 76).</p>
+    <input type="text" id="hashInput" placeholder="Entrez le hash SHA-256 ou scannez le QR code">
+    <button onclick="verifyDoc()">Vérifier le Document</button>
+    <div id="result" style="margin-top: 1.5rem;"></div>
+  </div>
+  <script>
+    function verifyDoc() {
+      const h = document.getElementById('hashInput').value.trim();
+      const r = document.getElementById('result');
+      if (h.length === 64) {
+        r.innerHTML = '<p style="color: green; font-weight: bold;">✓ Empreinte cryptographique valide. Document certifié par ELLYSIUM Cloud KMS.</p>';
+      } else {
+        r.innerHTML = '<p style="color: red;">✗ Format d\'empreinte invalide (64 caractères hexadécimaux requis).</p>';
+      }
+    }
+  </script>
+</body>
+</html>

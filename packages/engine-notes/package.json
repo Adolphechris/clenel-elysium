@@ -1,0 +1,11 @@
+{
+  "name": "@ellysium/engine-notes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Moteur de calcul académique officiel RDC — Module 67 (Tome 5). Alias vers @elysium/academic-engine.",
+  "main": "../academic-engine/dist/index.js",
+  "types": "../academic-engine/dist/index.d.ts",
+  "scripts": {
+    "test": "npm test --workspace=@elysium/academic-engine"
+  }
+}

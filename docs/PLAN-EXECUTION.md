@@ -25,16 +25,18 @@ Règle : **l'IA ne déclare jamais accompli un travail humain**, et réciproquem
 
 ## 3. PLAN SÉQUENCÉ (chemin vers la mise en production)
 
-### SÉQUENCE 0 — Clôture BLOC A  *(IA — 2 à 4 semaines)*
-0.1 Consolider les statuts des tomes 11–14 et du module 228.  *(IA)*
-0.2 Découper M001–M054 en modules unitaires + baliser les ~258 verrous manquants → 1 680/1 680.  *(IA)*
-0.3 Scellement officiel du BLOC A après `tools/verify-corpus.sh` vert + revue humaine.  *(IA + Promoteur)*
+### SÉQUENCE 0 — Clôture BLOC A  *(AMENDÉE : réduite, hors chemin critique)*
+0.1 Consolider les statuts des tomes 11–14 et du module 228 — passe de bookkeeping différé (heures, pas semaines).  *(IA, non prioritaire)*
+0.2 ~~Découper M001–M054 en modules unitaires~~ → **RETIRÉ du chemin critique** (pure conformité documentaire ; les spécifications 55–336 au vert suffisent à coder).  *(différé — jamais avant le code)*
+0.3 Scellement du BLOC A au stade 87 % vérifié, assumé.  *(déjà fait — `verify-corpus.sh` vert)*
+> **Amendement du 17/09/2026 (revue de plan) :** interdiction de consacrer plus de temps à la documentation avant le code. On passe au développement.
 
 ### SÉQUENCE 1 — Montage du chantier  *(semaines 1–6)*
-1.1 Immatriculation ASBL (statuts = Tome 19).  **(HUMAIN — bloque le reste)**
-1.2 Compte Google Cloud organisationnel + facturation + 3 projets (dev/staging/prod).  **(HUMAIN + IA : préparation IaC)**
+1.1 Immatriculation ASBL (statuts = Tome 19).  **(HUMAIN — tâche de fond administrative, ne bloque PAS le développement ; bloque uniquement la mise en production des données réelles d'élèves — T9/T19)**
+1.2 Compte Google Cloud organisationnel + facturation + 3 projets (dev/staging/prod).  **(HUMAIN + IA : préparation IaC — le développement démarre SANS attendre, sur émulateurs Firebase locaux + PostgreSQL en conteneur local, conformément à la Doctrine Art. 7 ; LocalStack interdit)**
 1.3 Monorepo code + CI Cloud Build + Terraform provider GCP.  *(IA — squelettes livrés)*
-1.4 Recrutement équipe cœur : 4–6 devs, 1 SRE, 1 QA, 1 designer.  **(HUMAIN)**
+1.4 Recrutement équipe cœur : 4–6 devs, 1 SRE, 1 QA, 1 designer.  **(HUMAIN — les développeurs rejoignent une base de code existante, pas une page blanche)**
+> **Amendement du 17/09/2026 (revue de plan) :** les démarches juridiques tournent en tâche de fond et ne bloquent jamais le code. Exécution initiale : binôme Promoteur (arbitre métier) + Agent IA (ingénierie).
 
 ### SÉQUENCE 2 — Construction MVP PGI  *(mois 1–7 — voir `BACKLOG-MVP.md`, ≈ 520 SP)*
 Socle identité/RBAC → établissements → scolarité → présences → cotes → **moteur formule RDC** → bulletins scellés → caisse étanche → examens/diplômes QR → messagerie → PWA hors-ligne + Android. Sécurité transverse T9 + SRE T13 en continu.  *(IA : code + revues ; HUMAIN : arbitrages produit, validation métier)*
@@ -42,9 +44,9 @@ Socle identité/RBAC → établissements → scolarité → présences → cotes
 ### SÉQUENCE 3 — Phase 0 laboratoire  *(mois 7–13 — Module 281)*
 Banc Kinshasa (50 postes, WAN 2G/800 ms/25 % perte, coupures électriques) ; cohorte 50 testeurs ; 4 épreuves de certification ; critères de sortie.  *(HUMAIN : labo physique, cohorte — IA : outils de test, jeux de données, correction)*
 
-### SÉQUENCE 4 — Contenus pédagogiques  *(parallèle dès le mois 4)*
+### SÉQUENCE 4 — Contenus pédagogiques  *(REPORTÉ en préparation Phase 2 — amendement du 17/09/2026)*
 4.1 Contenus de test pilote (cours témoins, devoirs formateurs — léger).  *(IA rédige, humains valident)*
-4.2 **Catalogue L1 Informatique** : ≈ 200 leçons (voir `CATALOGUE-LECONS-L1-INFORMATIQUE.md`) — chaîne Tome 14 : brouillon IA → validation didactique humaine → publication OER.  *(bloque Phase 2, pas Phase 1)*
+4.2 **Catalogue L1 Informatique** : ≈ 200 leçons (voir `CATALOGUE-LECONS-L1-INFORMATIQUE.md`) — la Phase 1 (pilote SGS) est dispensée par les professeurs des écoles ; la rédaction des leçons L1 ne démarre qu'en préparation de la Phase 2 (EAD).  *(ne bloque rien avant le mois 10)*
 
 ### SÉQUENCE 5 — Phase 1 pilote  *(J0 → J+180 — Module 290)*
 10 écoles, 2 600 élèves, 100 enseignants ; jalons J+30/60/90/120/150/180 ; **6 feux verts** : rétention ≥ 75 %, réussite ≥ 65 %, NPS ≥ +40, SLA ≥ 99,5 %, zéro violation Art. 5, formule RDC conforme.  *(HUMAIN : terrain — IA : tableaux de suivi)*
