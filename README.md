@@ -43,6 +43,8 @@ ELLYSIUM est la plateforme nationale souveraine de l'éducation en République D
 
 > **Convention de numérotation :** les modules M001–M054 (tomes 1 à 4) sont matérialisés par des documents continus et non par des dossiers unitaires ; la numérotation physique des modules débute au **module 55 (Tome 5)** et s'achève au **module 336 (Tome 19)** — soit **282 modules unitaires**, tous balisés `VF-`.
 
+> **Exécution :** le plan opérationnel de mise en production (pistes IA / humaine), le backlog MVP du PGI (≈ 520 SP) et le catalogue des leçons L1 Informatique (≈ 196 leçons) sont dans [`docs/`](./docs/PLAN-EXECUTION.md).
+
 ---
 
 ## 3. État d'Avancement Réel du Projet (Audit Vérifié)
