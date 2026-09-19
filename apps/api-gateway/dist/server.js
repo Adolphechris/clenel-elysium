@@ -40,9 +40,19 @@ const report_card_generator_1 = require("@elysium/report-card-generator");
 const attendance_service_1 = require("@elysium/attendance-service");
 const finance_service_1 = require("@elysium/finance-service");
 const student_service_1 = require("@elysium/student-service");
+const diploma_registry_1 = require("@elysium/diploma-registry");
+const oer_library_1 = require("@elysium/oer-library");
+const sre_monitoring_1 = require("@elysium/sre-monitoring");
+const rbac_engine_1 = require("@elysium/rbac-engine");
+const notification_service_1 = require("@elysium/notification-service");
 const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
 const financeService = new finance_service_1.SealedFinanceService();
 const studentService = new student_service_1.StudentService();
+const diplomaRegistry = new diploma_registry_1.DiplomaRegistry();
+const oerLibrary = new oer_library_1.OerLibraryService();
+const sreMonitoring = new sre_monitoring_1.SreMonitoringService('elysium-pgi-gateway');
+const rbacEngine = new rbac_engine_1.RbacEngine();
+const notificationService = new notification_service_1.NotificationService();
 function parseJSON(req) {
     return new Promise((resolve, reject) => {
         let body = '';
@@ -67,10 +77,22 @@ function sendJSON(res, status, data) {
     res.end(JSON.stringify(data));
 }
 exports.server = http.createServer(async (req, res) => {
+    const startTime = Date.now();
     const url = new URL(req.url || '/', `http://${req.headers.host || 'localhost'}`);
-    const method = req.method;
+    const method = req.method || 'GET';
+    // Enregistrement télémétrique à la fin de la réponse
+    res.on('finish', () => {
+        const durationMs = Date.now() - startTime;
+        sreMonitoring.recordRequest({
+            route: url.pathname,
+            method,
+            statusCode: res.statusCode,
+            durationMs,
+            timestampUTC: new Date().toISOString()
+        });
+    });
     try {
-        // 1. Health Check pour Google Cloud Run & Load Balancer
+        // 1. Health Check Google Cloud Run & Load Balancer
         if (method === 'GET' && url.pathname === '/health') {
             return sendJSON(res, 200, {
                 status: 'UP',
@@ -112,17 +134,50 @@ exports.server = http.createServer(async (req, res) => {
         // 6. Encaissement Caisse Étanche (Module 71 / Article 5)
         if (method === 'POST' && url.pathname === '/api/finance/pay') {
             const payload = await parseJSON(req);
-            // Contrôle de rôle obligatoire
             const role = req.headers['x-user-role'] || 'UNKNOWN';
             financeService.assertFinancialAccessAuthorized(role);
             const result = financeService.processPayment(payload);
             return sendJSON(res, result.success ? 200 : 400, result);
         }
+        // 7. Émission et Vérification de Diplôme (Module 76)
+        if (method === 'POST' && url.pathname === '/api/diplomas/issue') {
+            const payload = await parseJSON(req);
+            const diploma = diplomaRegistry.issueDiploma(payload);
+            return sendJSON(res, 201, { success: true, diploma });
+        }
+        if (method === 'GET' && url.pathname === '/api/diplomas/verify') {
+            const query = url.searchParams.get('q') || '';
+            const verification = diplomaRegistry.verify(query);
+            return sendJSON(res, 200, verification);
+        }
+        // 8. Bibliothèque OER / Ressources didactiques (Module 73)
+        if (method === 'POST' && url.pathname === '/api/oer/search') {
+            const query = await parseJSON(req);
+            const results = oerLibrary.search(query);
+            return sendJSON(res, 200, { success: true, count: results.length, resources: results });
+        }
+        // 9. Observabilité SRE & SLO/SLI (Tome 13)
+        if (method === 'GET' && url.pathname === '/api/sre/health') {
+            const health = sreMonitoring.evaluateHealth();
+            return sendJSON(res, 200, health);
+        }
+        // 10. Contrôle d'accès RBAC / ABAC (Module 80)
+        if (method === 'POST' && url.pathname === '/api/rbac/check') {
+            const request = await parseJSON(req);
+            const decision = rbacEngine.evaluate(request);
+            return sendJSON(res, decision.httpStatus, decision);
+        }
+        // 11. Notification Alert (Module 70)
+        if (method === 'POST' && url.pathname === '/api/notifications/alert-absence') {
+            const payload = await parseJSON(req);
+            const notif = notificationService.alertAbsenceToParent(payload);
+            return sendJSON(res, 200, { success: true, notification: notif });
+        }
         // 404 Route inconnue
         return sendJSON(res, 404, { error: 'NOT_FOUND', message: 'Route non répertoriée dans le PGI ELLYSIUM.' });
     }
     catch (err) {
-        const isArticle5 = err.message && err.message.includes('VIOLATION_ARTICLE_5');
+        const isArticle5 = err.message && (err.message.includes('VIOLATION_ARTICLE_5') || err.message.includes('FORBIDDEN_ARTICLE_5'));
         const statusCode = isArticle5 ? 403 : 400;
         return sendJSON(res, statusCode, {
             error: isArticle5 ? 'FORBIDDEN_ARTICLE_5' : 'BAD_REQUEST',

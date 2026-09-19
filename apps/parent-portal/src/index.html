@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B2545">
+  <title>ELLYSIUM — Espace Parent</title>
+  <style>
+    :root {
+      --navy: #0B2545; --or: #D4AF37; --ciel: #E8F4F8; --vert: #27AE60;
+      --rouge: #E74C3C; --blanc: #FFFFFF; --fond: #F5F7FA; --gris: #6C757D;
+      --radius: 12px; --shadow: 0 2px 8px rgba(11,37,69,0.12);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--fond); color: var(--navy); min-height: 100vh; min-width: 360px; }
+    .header { background: var(--navy); color: var(--blanc); padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 20px; font-weight: 700; color: var(--or); }
+    .sub { font-size: 12px; color: rgba(255,255,255,0.7); }
+    .content { padding: 16px; max-width: 500px; margin: 0 auto; }
+    .card { background: var(--blanc); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; margin-bottom: 12px; }
+    .card-title { font-size: 15px; font-weight: 700; margin-bottom: 10px; }
+    .child-header { background: linear-gradient(135deg, var(--navy) 0%, #1a3a63 100%); border-radius: var(--radius); padding: 20px; margin-bottom: 16px; color: var(--blanc); }
+    .child-name { font-size: 22px; font-weight: 700; }
+    .child-class { font-size: 14px; opacity: 0.8; margin-top: 4px; }
+    .pct-big { font-size: 42px; font-weight: 700; color: var(--or); }
+    .mention { font-size: 14px; opacity: 0.9; margin-top: 4px; }
+    .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--ciel); }
+    .stat-row:last-child { border-bottom: none; }
+    .stat-label { font-size: 14px; color: var(--gris); }
+    .stat-value { font-size: 14px; font-weight: 700; }
+    .badge { padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+    .badge-green { background: #EAFAF1; color: var(--vert); }
+    .badge-red { background: #FDECEA; color: var(--rouge); }
+    .badge-or { background: #FEF9E7; color: #B7860B; }
+    .notif-item { display: flex; gap: 10px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--ciel); }
+    .notif-item:last-child { border-bottom: none; }
+    .notif-icon { font-size: 22px; }
+    .notif-text { font-size: 13px; line-height: 1.4; }
+    .notif-time { font-size: 11px; color: var(--gris); margin-top: 4px; }
+    .btn { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 14px; border-radius: 8px; font-size: 15px; font-weight: 700; border: none; cursor: pointer; width: 100%; min-height: 48px; margin-bottom: 8px; }
+    .btn-primary { background: var(--navy); color: var(--blanc); }
+    .btn-outline { background: transparent; border: 2px solid var(--navy); color: var(--navy); }
+    .discipline-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--ciel); }
+    .discipline-row:last-child { border-bottom: none; }
+    .disc-name { font-size: 14px; font-weight: 600; }
+    .disc-score { font-size: 14px; font-weight: 700; }
+    .progress-bar { height: 6px; background: var(--ciel); border-radius: 3px; margin-top: 4px; }
+    .progress-fill { height: 100%; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <div class="logo">ELLYSIUM</div>
+      <div class="sub">Espace Parent</div>
+    </div>
+    <div>👤 Parent</div>
+  </header>
+
+  <main class="content">
+    <!-- Enfant sélectionné -->
+    <div class="child-header">
+      <div class="child-name">KASONGO David</div>
+      <div class="child-class">4ème Humanités Scientifiques A · École Sainte-Marie</div>
+      <div style="margin-top:16px;display:flex;align-items:baseline;gap:12px;">
+        <div class="pct-big">74.3%</div>
+        <div>
+          <div style="font-size:16px;font-weight:700;color:var(--or);">DISTINCTION</div>
+          <div class="mention">1er semestre — ADMIS ✅</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Assiduité -->
+    <div class="card">
+      <div class="card-title">📋 Assiduité du mois</div>
+      <div class="stat-row">
+        <span class="stat-label">Taux de présence</span>
+        <span class="stat-value" style="color:var(--vert);">94.2%</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Absences ce mois</span>
+        <span class="stat-value">2 jours</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Retards</span>
+        <span class="stat-value">1</span>
+      </div>
+    </div>
+
+    <!-- Dernières cotes -->
+    <div class="card">
+      <div class="card-title">📝 Dernières évaluations</div>
+      <div class="discipline-row">
+        <div>
+          <div class="disc-name">Mathématiques</div>
+          <div class="progress-bar"><div class="progress-fill" style="width:84%;background:var(--vert);"></div></div>
+        </div>
+        <div>
+          <div class="disc-score">42/50</div>
+          <div style="font-size:12px;color:var(--gris);">84%</div>
+        </div>
+      </div>
+      <div class="discipline-row">
+        <div>
+          <div class="disc-name">Français</div>
+          <div class="progress-bar"><div class="progress-fill" style="width:68%;background:var(--or);"></div></div>
+        </div>
+        <div>
+          <div class="disc-score">34/50</div>
+          <div style="font-size:12px;color:var(--gris);">68%</div>
+        </div>
+      </div>
+      <div class="discipline-row">
+        <div>
+          <div class="disc-name">Biologie</div>
+          <div class="progress-bar"><div class="progress-fill" style="width:72%;background:var(--or);"></div></div>
+        </div>
+        <div>
+          <div class="disc-score">36/50</div>
+          <div style="font-size:12px;color:var(--gris);">72%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notifications récentes -->
+    <div class="card">
+      <div class="card-title">🔔 Notifications récentes</div>
+      <div class="notif-item">
+        <div class="notif-icon">🎉</div>
+        <div>
+          <div class="notif-text">Bulletin du 1er semestre disponible — DISTINCTION (74.3%)</div>
+          <div class="notif-time">Il y a 2 heures</div>
+        </div>
+      </div>
+      <div class="notif-item">
+        <div class="notif-icon">📋</div>
+        <div>
+          <div class="notif-text">Votre enfant était absent le 15/09/2026</div>
+          <div class="notif-time">Il y a 4 jours</div>
+        </div>
+      </div>
+      <div class="notif-item">
+        <div class="notif-icon">📚</div>
+        <div>
+          <div class="notif-text">Nouveau devoir publié : Mathématiques — Algèbre (remise: 26/09)</div>
+          <div class="notif-time">Il y a 1 semaine</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <button class="btn btn-primary" onclick="alert('Téléchargement du bulletin sécurisé (PDF scellé ELLYSIUM)')">
+      📄 Télécharger le bulletin
+    </button>
+    <button class="btn btn-outline" onclick="alert('Vérificateur de diplômes : https://elysium.cd/verify')">
+      🔍 Vérifier un document
+    </button>
+  </main>
+</body>
+</html>

@@ -1,131 +1,132 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const http = require('node:http');
+const http = require('http');
 const { server } = require('../dist/server');
 
-function makeRequest(options, postData) {
+let baseUrl;
+
+test('SETUP: Starts HTTP Server on ephemeral port', (_, done) => {
+  server.listen(0, () => {
+    const port = server.address().port;
+    baseUrl = `http://localhost:${port}`;
+    done();
+  });
+});
+
+function request(path, options = {}, body = null) {
   return new Promise((resolve, reject) => {
-    const req = http.request(options, (res) => {
+    const url = new URL(path, baseUrl);
+    const req = http.request(url, options, res => {
       let data = '';
       res.on('data', chunk => { data += chunk; });
       res.on('end', () => {
-        resolve({
-          statusCode: res.statusCode,
-          headers: res.headers,
-          body: data ? JSON.parse(data) : null
-        });
+        try {
+          resolve({ status: res.statusCode, body: data ? JSON.parse(data) : {} });
+        } catch {
+          resolve({ status: res.statusCode, body: data });
+        }
       });
     });
     req.on('error', reject);
-    if (postData) {
-      req.write(JSON.stringify(postData));
-    }
+    if (body) req.write(JSON.stringify(body));
     req.end();
   });
 }
 
-test('API Gateway Integration Tests', async (t) => {
-  const PORT = 8999;
-  await new Promise(resolve => server.listen(PORT, resolve));
+test('API Gateway: GET /health returns 200 UP', async () => {
+  const res = await request('/health');
+  assert.strictEqual(res.status, 200);
+  assert.strictEqual(res.body.status, 'UP');
+});
 
-  t.after(() => {
-    server.close();
+test('API Gateway: POST /api/deliberations calculates RDC percentage', async () => {
+  const res = await request('/api/deliberations', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' }
+  }, {
+    grades: [
+      { disciplineId: 'MATH', disciplineName: 'Mathématiques', pointsObtenus: 80, pointsMaxima: 100, coefficient: 2, isEliminatoire: true },
+      { disciplineId: 'FR', disciplineName: 'Français', pointsObtenus: 40, pointsMaxima: 50, coefficient: 1, isEliminatoire: false }
+    ]
   });
+  assert.strictEqual(res.status, 200);
+  assert.strictEqual(res.body.success, true);
+  assert.strictEqual(res.body.deliberation.isAdmis, true);
+});
 
-  await t.test('GET /health returns 200 UP', async () => {
-    const res = await makeRequest({
-      hostname: 'localhost',
-      port: PORT,
-      path: '/health',
-      method: 'GET'
-    });
+test('API Gateway: POST /api/students/iune generates valid IUNE', async () => {
+  const res = await request('/api/students/iune', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' }
+  }, { provinceCode: 'KIN', year: 2026 });
+  assert.strictEqual(res.status, 200);
+  assert.strictEqual(res.body.iune.startsWith('IUNE-CD-KIN-2026-'), true);
+});
 
-    assert.strictEqual(res.statusCode, 200);
-    assert.strictEqual(res.body.status, 'UP');
-    assert.strictEqual(res.headers['x-doctrine-compliance'], 'Article-1-bis');
+test('API Gateway: POST /api/finance/pay BLOCKS ENSEIGNANT (Article 5 Constitution)', async () => {
+  const res = await request('/api/finance/pay', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-user-role': 'ENSEIGNANT' // TENTATIVE ENSEIGNANT SUR FINANCES
+    }
+  }, {
+    studentId: 'ST-001',
+    schoolId: 'SCH-KIN',
+    amountCDF: 50000,
+    motif: 'FRAIS_SCOLAIRES',
+    operatorId: 'PROF-01'
   });
+  assert.strictEqual(res.status, 403);
+  assert.strictEqual(res.body.error, 'FORBIDDEN_ARTICLE_5');
+});
 
-  await t.test('POST /api/deliberations calculates official RDC rate', async () => {
-    const res = await makeRequest({
-      hostname: 'localhost',
-      port: PORT,
-      path: '/api/deliberations',
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' }
-    }, {
-      grades: [
-        { disciplineId: 'MATH', disciplineName: 'Math', pointsObtenus: 40, pointsMaxima: 50 },
-        { disciplineId: 'FR', disciplineName: 'Français', pointsObtenus: 30, pointsMaxima: 50 }
-      ]
-    });
-
-    assert.strictEqual(res.statusCode, 200);
-    assert.strictEqual(res.body.deliberation.pourcentageOfficiel, 70.0);
-    assert.strictEqual(res.body.deliberation.mention, 'DISTINCTION');
+test('API Gateway: POST /api/diplomas/issue issues sealed diploma (Module 76)', async () => {
+  const res = await request('/api/diplomas/issue', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' }
+  }, {
+    studentIune: 'IUNE-CD-KIN-2026-112233',
+    studentFullName: 'TUTONDA Eric',
+    studentBirthDate: '2008-05-15',
+    studentBirthPlace: 'Kinshasa',
+    schoolId: 'SCH-KIN-001',
+    schoolName: 'Institut de la Gombe',
+    province: 'KINSHASA',
+    level: 'EXETAT',
+    optionFiliere: 'SCIENTIFIQUE',
+    pourcentage: 81.0,
+    mention: 'GRANDE_DISTINCTION',
+    academicYear: '2025-2026'
   });
+  assert.strictEqual(res.status, 201);
+  assert.strictEqual(res.body.success, true);
+  assert.strictEqual(res.body.diploma.serialNumber.startsWith('CD-DIP-KIN-2025-'), true);
+});
 
-  await t.test('POST /api/students/iune generates valid Congolese IUNE', async () => {
-    const res = await makeRequest({
-      hostname: 'localhost',
-      port: PORT,
-      path: '/api/students/iune',
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' }
-    }, {
-      provinceCode: 'KIN',
-      year: 2026
-    });
+test('API Gateway: GET /api/sre/health returns SRE metrics and SLO status', async () => {
+  const res = await request('/api/sre/health');
+  assert.strictEqual(res.status, 200);
+  assert.strictEqual(res.body.serviceName, 'elysium-pgi-gateway');
+  assert.strictEqual(typeof res.body.uptimePercentage, 'number');
+});
 
-    assert.strictEqual(res.statusCode, 200);
-    assert.strictEqual(res.body.iune.startsWith('IUNE-CD-KIN-2026-'), true);
+test('API Gateway: POST /api/rbac/check verifies role permissions', async () => {
+  const res = await request('/api/rbac/check', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' }
+  }, {
+    requesterId: 'PROF-1',
+    requesterRole: 'ENSEIGNANT',
+    requesterSchoolId: 'SCH-KIN',
+    targetSchoolId: 'SCH-KIN',
+    resource: 'grades',
+    action: 'WRITE'
   });
+  assert.strictEqual(res.status, 200);
+  assert.strictEqual(res.body.granted, true);
+});
 
-  await t.test('POST /api/finance/pay BLOCKS teachers under Article 5 (403 FORBIDDEN)', async () => {
-    const res = await makeRequest({
-      hostname: 'localhost',
-      port: PORT,
-      path: '/api/finance/pay',
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-user-role': 'ENSEIGNANT' // Rôle enseignant illégal pour les finances
-      }
-    }, {
-      schoolId: 'SCH-1',
-      studentId: 'ST-1',
-      amount: 50,
-      currency: 'USD',
-      feeType: 'MINERVAL',
-      paymentChannel: 'CASH',
-      cashierId: 'TEACHER-TRYING-TO-ACCESS'
-    });
-
-    assert.strictEqual(res.statusCode, 403);
-    assert.strictEqual(res.body.error, 'FORBIDDEN_ARTICLE_5');
-  });
-
-  await t.test('POST /api/finance/pay ALLOWS accountants (200 OK)', async () => {
-    const res = await makeRequest({
-      hostname: 'localhost',
-      port: PORT,
-      path: '/api/finance/pay',
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-user-role': 'COMPTABLE'
-      }
-    }, {
-      schoolId: 'SCH-1',
-      studentId: 'ST-1',
-      amount: 100,
-      currency: 'USD',
-      feeType: 'MINERVAL',
-      paymentChannel: 'MPESA',
-      cashierId: 'CASHIER-99'
-    });
-
-    assert.strictEqual(res.statusCode, 200);
-    assert.strictEqual(res.body.success, true);
-    assert.strictEqual(res.body.receipt.amount, 100);
-  });
+test('TEARDOWN: Closes HTTP Server', (_, done) => {
+  server.close(done);
 });

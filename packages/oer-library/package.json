@@ -1,0 +1,17 @@
+{
+  "name": "@elysium/oer-library",
+  "version": "1.0.0",
+  "description": "Bibliothèque de ressources éducatives libres (REL/OER) et catalogue didactique national (Module 73 / Tome 10)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

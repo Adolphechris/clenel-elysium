@@ -1,0 +1,17 @@
+{
+  "name": "@elysium/diploma-registry",
+  "version": "1.0.0",
+  "description": "Registre public d'authenticité des diplômes et scellement d'État (Module 76 / Tome 8)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}
