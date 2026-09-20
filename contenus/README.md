@@ -11,7 +11,7 @@
 |---|---|---|---|
 | `01-REFERENTIELS/` | **N0** | Registre des documents officiels (117 recensés) | État + veille humaine |
 | `02-FICHES-MATIERES/` | **N1** | Identité de chaque matière (source, savoirs essentiels, volumes, TP) | IA |
-| `03-SYLLABUS/` | **N2** | Progression annuelle : modules → séquences → leçons | IA → validation humaine |
+| `03-COURS/` | **N2** | Progression annuelle : modules → séquences → leçons | IA → validation humaine |
 | `04-LECONS/` | **N3** | Leçons complètes | IA → validation enseignant |
 | `05-EVALUATIONS/` | **N4** | Interrogations, devoirs, examens | IA → validation |
 | `_templates/` | — | Les 4 modèles à copier | — |
@@ -23,9 +23,9 @@
 
 1. **Vérifier la source (N0).** La matière doit être à l'état ✅ dans `01-REFERENTIELS/_registre-sources.md`. Sinon : `⚠️ SOURCE À OBTENIR` — **on ne produit pas.**
 2. **Créer la fiche-matière (N1)** à partir de `_templates/TEMPLATE-N1-FICHE-MATIERE.md`, en extrayant les savoirs essentiels **avec leurs codes officiels**.
-3. **Créer le syllabus (N2)** à partir de `_templates/TEMPLATE-N2-SYLLABUS.md` : tous les codes officiels de la fiche doivent être couverts.
+3. **Créer le cours (N2)** à partir de `_templates/TEMPLATE-N2-COURS.md` : tous les codes officiels de la fiche doivent être couverts.
 4. **Faire valider (piste humaine).** 2 enseignants habilités par matière.
-5. **Créer les leçons (N3)** — seulement après validation du syllabus.
+5. **Créer les leçons (N3)** — seulement après validation du le cours.
 6. **Contrôler** : `bash tools/verify-contenus.sh` doit être au vert.
 
 ---
@@ -63,7 +63,7 @@ Format : `ELL-<cycle>-<année>-<discipline>`
 bash tools/verify-contenus.sh
 ```
 
-Vérifie : chaîne N0→N1→N2, couverture des codes officiels, champs non sourcés, conformité Google, absence de leçon sans syllabus.
+Vérifie : chaîne N0→N1→N2 (cours), couverture des codes officiels, champs non sourcés, conformité Google, absence de leçon sans le cours.
 
 ---
 
@@ -71,4 +71,4 @@ Vérifie : chaîne N0→N1→N2, couverture des codes officiels, champs non sour
 
 Ce répertoire est construit selon une règle unique : **ce qui est su est écrit, ce qui n'est pas su est signalé**. Les mentions `⚠️` n'y sont pas des défauts — elles sont la preuve que rien n'a été inventé.
 
-Le syllabus et les leçons **n'existent pas dans le système éducatif congolais** : ce sont des créations ELLYSIUM, rendues possibles parce qu'elles sont strictement contraintes par les programmes officiels de l'État.
+Le le cours et les leçons **n'existent pas dans le système éducatif congolais** : ce sont des créations ELLYSIUM, rendues possibles parce qu'elles sont strictement contraintes par les programmes officiels de l'État.

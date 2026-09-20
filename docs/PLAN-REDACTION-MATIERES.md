@@ -19,7 +19,7 @@ Il ne répond pas à la question « quoi enseigner ? » (c'est l'État qui y ré
 
 **Vérification mesurée :** le mot « syllabus » apparaît **0 fois** dans les programmes officiels du primaire et du secondaire. Les termes officiels sont `Programme éducatif` · `Curriculum` · `Matrices du programme éducatif` · `Guide de l'enseignant` · `Manuel de l'élève` · `Cahier de l'élève` · `Grille horaire`.
 
-**Conséquence :** le syllabus et la leçon sont des **productions ELLYSIUM**, contraintes par le référentiel officiel. Ce n'est ni une copie (rien à copier), ni une invention (tout est adossé).
+**Conséquence :** le cours et la leçon sont des **productions ELLYSIUM**, contraintes par le référentiel officiel. Ce n'est ni une copie (rien à copier), ni une invention (tout est adossé).
 
 ### 2.2 Les travaux pratiques existent officiellement
 
@@ -49,7 +49,7 @@ contenus/
 ├── 01-REFERENTIELS/
 │   └── _registre-sources.md          → N0 : 117 documents officiels + état ✅/⚠️
 ├── 02-FICHES-MATIERES/               → N1 : une fiche par matière × année
-├── 03-SYLLABUS/                      → N2 : un syllabus par fiche
+├── 03-COURS/                      → N2 : chaque cours par fiche
 ├── 04-LECONS/                        → N3 : à produire après validation
 ├── 05-EVALUATIONS/                   → N4
 ├── _templates/                       → 4 modèles (N1, N2, N3, N4)

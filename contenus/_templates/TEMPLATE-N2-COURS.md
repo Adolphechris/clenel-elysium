@@ -1,7 +1,7 @@
 # MODÈLE N2 — SYLLABUS (à copier, ne pas modifier ce modèle)
 
-> **Niveau :** N2 — Syllabus (production ELLYSIUM, adossée au référentiel officiel)
-> **Nature :** ce document **n'existe pas dans le système congolais** (le mot « syllabus » est absent des programmes scolaires officiels). C'est une **production ELLYSIUM** qui opérationnalise les savoirs essentiels officiels en progression enseignable.
+> **Niveau :** N2 — Le cours (production ELLYSIUM, adossée au référentiel officiel)
+> **Nature :** ce document **n'existe pas dans le système congolais** (le mot « le cours » est absent des programmes scolaires officiels). C'est une **production ELLYSIUM** qui opérationnalise les savoirs essentiels officiels en progression enseignable.
 > **Prérequis :** fiche-matière (N1) validée.
 
 ---
@@ -78,4 +78,4 @@ Statut          : [BROUILLON IA — à valider par enseignant habilité]
 | Validateur 1 / date | `<…>` |
 | Validateur 2 / date | `<…>` |
 
-**Note :** aucune leçon (N3) ne peut être produite avant validation de ce syllabus.
+**Note :** aucune leçon (N3) ne peut être produite avant validation de ce le cours.

@@ -1,7 +1,7 @@
 # MODÈLE N3 — LEÇON (à copier, ne pas modifier ce modèle)
 
 > **Niveau :** N3 — Leçon (production ELLYSIUM)
-> **Prérequis :** syllabus (N2) validé. **Aucune leçon ne peut exister sans syllabus validé.**
+> **Prérequis :** le cours (N2) validé. **Aucune leçon ne peut exister sans le cours validé.**
 > **Statut initial obligatoire :** `[BROUILLON IA — à valider par enseignant habilité]`
 
 ---
@@ -11,7 +11,7 @@
 ```
 Code leçon      : L<n>.<n>-<slug>
 Matière         : <code N1>
-Syllabus        : contenus/03-SYLLABUS/<code N1>.md
+Le cours        : contenus/03-COURS/<code N1>.md
 Savoirs essentiels couverts : <codes officiels, ex. MM1.1, MM1.2>
 Séquence        : <S<n>.<n>>
 Durée estimée   : <…> minutes

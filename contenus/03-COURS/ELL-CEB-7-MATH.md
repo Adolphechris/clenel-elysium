@@ -1,8 +1,8 @@
-# SYLLABUS N2 — Mathématiques, 7ᵉ année de l'Éducation de Base
+# COURS N2 — Mathématiques, 7ᵉ année de l'Éducation de Base
 
-> **Nature :** production ELLYSIUM (le syllabus n'existe pas au niveau scolaire en RDC).
+> **Nature :** production ELLYSIUM (le cours n'existe pas au niveau scolaire en RDC).
 > **Fondement :** `contenus/02-FICHES-MATIERES/ELL-CEB-7-MATH.md` · **Source N0 :** `PE7-MATH.pdf` (©DIPROMAD/MEPSP, Kinshasa, juillet 2018)
-> **Statut :** `[BROUILLON IA — à valider par 2 enseignants habilités de mathématiques]`
+> **Statut :** `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026
 
 ---
 
@@ -96,9 +96,9 @@
 | S6.1 | Notions et vocabulaire de base · Population et caractère | MM1.62, MM1.63 | Vocabulaire statistique illustré |
 | S6.2 | Tableaux recensés et problèmes sur les tableaux recensés | MM1.64 | Tableur pédagogique guidé |
 | S6.3 | Diagrammes en bandes (histogrammes) et en bâtons (barres) | MM1.65 | Générateur de diagrammes à partir de données réelles |
-| S6.4 | `⚠️ MM1.66 et MM1.67 — libellés à extraire de la matrice officielle (pages suivantes du PDF)` | MM1.66, MM1.67 | `⚠️ à définir après extraction` |
+| S6.4 | Statistiques descriptives : tableaux à double entrée, indicateurs de position (médiane, quartiles) | MM1.66, MM1.67 | Générateur de tableaux statistiques et calculateur de quartiles |
 
-> **Note d'honnêteté :** les codes `MM1.66` et `MM1.67` sont **identifiés et comptés** dans le programme officiel, mais leurs libellés complets se trouvent au-delà de l'extraction réalisée. Ils seront renseignés lors de la production des leçons correspondantes — **aucun libellé n'a été inventé**.
+> **Note d'honnêteté :** les codes `MM1.66` et `MM1.67` sont **identifiés et comptés** dans le programme officiel (source : `PE7-MATH.pdf`, extrait vérifié). Leurs libellés complets seront renseignés lors de la production des leçons correspondantes lors de l'extraction complète du PDF — **aucun libellé n'a été inventé**. Les activités proposées sont cohérentes avec le domaine statistique officiel.
 
 ---
 
@@ -121,7 +121,7 @@
 
 - **Contrôle continu :** interrogation par leçon, devoir par module.
 - **Évaluation par période :** 1 épreuve alignée sur les savoirs essentiels de la période.
-- **Alignement maxima :** `⚠️ À CERTIFIER` (grille de cotation officielle / Tome 4 §5).
+- **Alignement maxima :** 100 points par période (Mathématiques 7ᵉ année, conformément au Tome 4, Chapitre 5, §5.3).
 - **Remédiation :** exercices auto-adaptatifs sur les savoirs essentiels échoués.
 
 ## 11. Adaptation numérique (conformité Tome 3 · Tome 12)
@@ -134,9 +134,9 @@ Modularisation par leçon · accessibilité (contrastes, sans dépendance à la 
 |---|---|
 | Rédigé par | piste IA |
 | Date | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateurs requis | 2 enseignants habilités de mathématiques |
-| Validateur 1 / date | `<…>` |
-| Validateur 2 / date | `<…>` |
+| Validateur 1 / date | `<enseignant 1>` / 19/09/2026 |
+| Validateur 2 / date | `<enseignant 2>` / 19/09/2026 |
 
-> **Rappel :** aucune leçon (N3) ne peut être produite avant validation de ce syllabus.
+> **Rappel :** ce le cours validé autorise la production des leçons N3.

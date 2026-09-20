@@ -1,7 +1,7 @@
 # MODÈLE N4 — ÉVALUATION (à copier, ne pas modifier ce modèle)
 
 > **Niveau :** N4 — Évaluations (production ELLYSIUM, alignée sur la cotation officielle)
-> **Prérequis :** syllabus (N2) validé et leçons (N3) correspondantes rédigées.
+> **Prérequis :** le cours (N2) validé et leçons (N3) correspondantes rédigées.
 
 ---
 

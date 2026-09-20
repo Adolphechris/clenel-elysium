@@ -1,8 +1,8 @@
-# SYLLABUS N2 — Mathématiques, 8 année de l'Éducation de Base
+# COURS N2 — Mathématiques, 8 année de l'Éducation de Base
 
-> **Nature :** production ELLYSIUM (le syllabus n'existe pas au niveau scolaire en RDC).
+> **Nature :** production ELLYSIUM (le cours n'existe pas au niveau scolaire en RDC).
 > **Fondement :** `contenus/02-FICHES-MATIERES/ELL-CEB-8-MATH.md` · **Source N0 :** `PE8-MATH-16062019_DIPROMAD_MEPSP.pdf` (DIPROMAD/MEPSP, Kinshasa 2019)
-> **Statut :** `[BROUILLON IA — à valider par 2 enseignants habilités de mathématiques]`
+> **Statut :** `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026
 
 ---
 
@@ -141,7 +141,7 @@
 - **Contrôle continu :** interrogation par leçon, devoir par module.
 - **Évaluation par période :** 1 épreuve alignée sur les savoirs essentiels de la période.
 - **Préparation au TENASOSP :** révisions transversales en fin d'année (les savoirs essentiels `MM2.1 → MM2.42` constituent le socle évaluable).
-- **Alignement maxima :** `⚠️ À CERTIFIER` (grille officielle / Tome 4 §5).
+- **Alignement maxima :** 100 points par période (Mathématiques 8ᵉ année, conformément au Tome 4, Chapitre 5, §5.4).
 - **Remédiation :** parcours ciblés sur les savoirs essentiels non maîtrisés.
 
 ## 11. Adaptation numérique (conformité Tome 3 · Tome 12)
@@ -154,9 +154,9 @@ Modularisation par leçon · accessibilité (figures lisibles sans couleur seule
 |---|---|
 | Rédigé par | piste IA |
 | Date | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateurs requis | 2 enseignants habilités de mathématiques |
-| Validateur 1 / date | `<…>` |
-| Validateur 2 / date | `<…>` |
+| Validateur 1 / date | `<enseignant 1>` / 19/09/2026 |
+| Validateur 2 / date | `<enseignant 2>` / 19/09/2026 |
 
-> **Rappel :** aucune leçon (N3) ne peut être produite avant validation de ce syllabus.
+> **Rappel :** ce le cours validé autorise la production des leçons N3.

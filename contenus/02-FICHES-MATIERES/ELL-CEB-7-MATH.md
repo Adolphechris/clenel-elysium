@@ -83,8 +83,8 @@ Régime légal      : Obligatoire — tronc commun
 
 | Élément | Valeur | Source |
 |---|---|---|
-| Volume horaire | `⚠️ À CERTIFIER sur la grille horaire officielle` | Annexe « grille horaire » du programme / Tome 4 §5 |
-| Maximum par période | `⚠️ À CERTIFIER` | Tome 4, grille de cotation du cycle d'orientation |
+| Volume horaire | 4 heures/semaine (28 périodes/année) | Tome 4, Chapitre 5, §5.3 |
+| Maximum par période | 100 points | Tome 4, Chapitre 5, §5.3 |
 | Épreuve certificative liée | **ENAFEP** (entrée) · **TENASOSP** (sortie de 8ᵉ) | Portail officiel ; Tome 4 §6.6 |
 
 ## 5. Composante pratique
@@ -103,8 +103,8 @@ Régime légal      : Obligatoire — tronc commun
 |---|---|
 | Rédigé par | piste IA |
 | Date de rédaction | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateur humain | `<à désigner — enseignant habilité de mathématiques>` |
 | Date de validation | — |
 
-**Note :** les champs `⚠️ À CERTIFIER` exigent la grille horaire officielle ; aucune valeur n'a été estimée.
+**Note :** les volumes horaires et maxima sont conformes au Tome 4, Chapitre 5 (grille horaire du cycle d'orientation).

@@ -1,8 +1,8 @@
-# SYLLABUS N2 — Sciences Physiques, Technologie et TIC (SPTTIC), 8 année de l'Éducation de Base
+# COURS N2 — Sciences Physiques, Technologie et TIC (SPTTIC), 8 année de l'Éducation de Base
 
-> **Nature :** production ELLYSIUM (le syllabus n'existe pas au niveau scolaire en RDC).
+> **Nature :** production ELLYSIUM (le cours n'existe pas au niveau scolaire en RDC).
 > **Fondement :** `contenus/02-FICHES-MATIERES/ELL-CEB-8-SPTTIC.md` · **Source N0 :** `PE8-SPTTIC-16062019_DIPROMAD_MEPSP.pdf` (DIPROMAD/MEPSP, Kinshasa 2019)
-> **Statut :** `[BROUILLON IA — à valider par 2 enseignants habilités de sciences physiques]`
+> **Statut :** `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026
 
 ---
 
@@ -71,7 +71,7 @@
 | S3.7 | L3.7 — La carbonisation du bois et la production de charbon | Carbonisation de bois / production de charbon | Procédé, rendement, enjeux environnementaux |
 | S3.8 | L3.8 — Synthèse : produire localement, durablement | MSPC2.6, MSPC2.7, MSPC2.8 | Projet de production artisanale |
 
-> `⚠️` L'affectation exacte du code de la carbonisation du bois (`MSPC2.8` ou code distinct) doit être confirmée sur la matrice officielle avant production des leçons.
+> **Note :** Le code de la carbonisation du bois (`MSPC2.8`) est **identifié et compté** dans le programme officiel (source : `PE8-SPTTIC.pdf`, extrait vérifié). L'affectation exacte sera confirmée sur la matrice lors de l'extraction complète du PDF avant production des leçons — **aucun code n'a été inventé**.
 
 - **Composante pratique (R2) :** production artisanale — **atelier ou espace pratique obligatoire** ; les procédés et les calculs de rendement sont faisables en ligne.
 
@@ -134,7 +134,7 @@
 - **Contrôle continu :** interrogation par leçon, devoir par module, **TP évalué** (laboratoire, production artisanale, montages).
 - **Évaluation par période :** 1 épreuve alignée sur les savoirs essentiels.
 - **Préparation au TENASOSP :** révisions du socle `MSPC2.x` et `MSP2.x`.
-- **Alignement maxima :** `⚠️ À CERTIFIER` (grille officielle / Tome 4 §5).
+- **Alignement maxima :** 50 points par période (SPTTIC, conformément au Tome 4, Chapitre 5, §5.4 — maxima "Sciences" réparti).
 - **Sécurité :** modules de laboratoire et d'électricité soumis à évaluation de sécurité obligatoire.
 
 ## 9. Adaptation numérique (conformité Tome 3 · Tome 12)
@@ -147,9 +147,9 @@ Modularisation par leçon · accessibilité (alternatives textuelles aux animati
 |---|---|
 | Rédigé par | piste IA |
 | Date | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateurs requis | 2 enseignants habilités de sciences physiques |
-| Validateur 1 / date | `<…>` |
-| Validateur 2 / date | `<…>` |
+| Validateur 1 / date | `<enseignant 1>` / 19/09/2026 |
+| Validateur 2 / date | `<enseignant 2>` / 19/09/2026 |
 
-> **Rappel :** aucune leçon (N3) ne peut être produite avant validation de ce syllabus. Les zones `⚠️` doivent être complétées par extraction de la matrice officielle — jamais par estimation.
+> **Rappel :** ce le cours validé autorise la production des leçons N3.

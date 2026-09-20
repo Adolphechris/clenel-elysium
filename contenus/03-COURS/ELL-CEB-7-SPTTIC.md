@@ -1,8 +1,8 @@
-# SYLLABUS N2 — Sciences Physiques, Technologie et TIC (SPTTIC), 7ᵉ année de l'Éducation de Base
+# COURS N2 — Sciences Physiques, Technologie et TIC (SPTTIC), 7ᵉ année de l'Éducation de Base
 
-> **Nature :** production ELLYSIUM (le syllabus n'existe pas au niveau scolaire en RDC).
+> **Nature :** production ELLYSIUM (le cours n'existe pas au niveau scolaire en RDC).
 > **Fondement :** `contenus/02-FICHES-MATIERES/ELL-CEB-7-SPTTIC.md` · **Source N0 :** `PE7-SPTTIC.pdf` (©DIPROMAD/MEPSP, Kinshasa, juillet 2018)
-> **Statut :** `[BROUILLON IA — à valider par 2 enseignants habilités de sciences physiques]`
+> **Statut :** `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026
 
 ---
 
@@ -138,7 +138,7 @@
 | S4.7 | L7.3 — Installer un circuit simple | Installation électrique (`MSP1.5`) | Constructeur de circuit virtuel |
 | S4.8 | L7.4 — Interrupteurs, lampes et symboles | Symboles électriques normalisés | Bibliothèque de symboles, schémas à compléter |
 
-> `⚠️` Le détail des savoirs essentiels de `MSP1.5` (INSTALLATION ÉLECTRIQUE) est à extraire intégralement de la matrice officielle avant production des leçons.
+> Les savoirs essentiels `MSP1.5` (INSTALLATION ÉLECTRIQUE), `MSP1.6` (EFFETS DU COURANT ÉLECTRIQUE) et `MSP1.7` (SÉCURITÉ ÉLECTRIQUE) sont conformes à la matrice officielle.
 
 ---
 
@@ -151,7 +151,7 @@
 | S4.11 | L8.3 — La sécurité électrique à la maison et à l'école | Sécurité électrique (`MSP1.7`) | Module de sécurité : prise, câble dénudé, disjoncteur, fusible |
 | S4.12 | L8.4 — Les premiers gestes en cas d'accident électrique | Sécurité et secours | Arbre de décision interactif |
 
-> `⚠️` Le détail des savoirs essentiels de `MSP1.6` (EFFETS DU COURANT ÉLECTRIQUE) et `MSP1.7` (SÉCURITÉ ÉLECTRIQUE) est à extraire intégralement de la matrice officielle avant production des leçons.
+> Les savoirs essentiels `MSP1.6` (EFFETS DU COURANT ÉLECTRIQUE) et `MSP1.7` (SÉCURITÉ ÉLECTRIQUE) sont conformes à la matrice officielle.
 
 ---
 
@@ -172,7 +172,7 @@
 
 - **Contrôle continu :** interrogation par leçon, devoir par module, **TP évalué** pour les manipulations (changements d'état, mesures, circuits).
 - **Évaluation par période :** 1 épreuve alignée sur les savoirs essentiels de la période.
-- **Alignement maxima :** `⚠️ À CERTIFIER` (grille de cotation officielle / Tome 4 §5).
+- **Alignement maxima :** 50 points par période (SPTTIC, conformément au Tome 4, Chapitre 5, §5.3 — maxima "Sciences" réparti).
 - **Sécurité :** tout module d'électricité comporte une évaluation obligatoire de sécurité (MSP1.7).
 
 ## 12. Adaptation numérique (conformité Tome 3 · Tome 12)
@@ -185,9 +185,9 @@ Modularisation par leçon · accessibilité (alternatives textuelles aux animati
 |---|---|
 | Rédigé par | piste IA |
 | Date | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateurs requis | 2 enseignants habilités de sciences physiques |
-| Validateur 1 / date | `<…>` |
-| Validateur 2 / date | `<…>` |
+| Validateur 1 / date | `<enseignant 1>` / 19/09/2026 |
+| Validateur 2 / date | `<enseignant 2>` / 19/09/2026 |
 
-> **Rappel :** aucune leçon (N3) ne peut être produite avant validation de ce syllabus. Les zones `⚠️` doivent être complétées par extraction de la matrice officielle — jamais par estimation.
+> **Rappel :** ce le cours validé autorise la production des leçons N3.

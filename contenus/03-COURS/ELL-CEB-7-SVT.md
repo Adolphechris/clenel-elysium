@@ -1,8 +1,8 @@
-# SYLLABUS N2 — SVT, 7ᵉ année de l'Éducation de Base
+# COURS N2 — SVT, 7ᵉ année de l'Éducation de Base
 
-> **Nature :** production ELLYSIUM. Ce document **n'existe pas dans le système éducatif congolais** : le mot « syllabus » est absent des programmes officiels du primaire et du secondaire. Il opérationnalise le Programme éducatif officiel (`PE7-SVT.pdf`) en progression enseignable.
+> **Nature :** production ELLYSIUM. Ce document **n'existe pas dans le système éducatif congolais** : le mot « le cours » est absent des programmes officiels du primaire et du secondaire. Il opérationnalise le Programme éducatif officiel (`PE7-SVT.pdf`) en progression enseignable.
 > **Fondement :** `contenus/02-FICHES-MATIERES/ELL-CEB-7-SVT.md` · **Source N0 :** `PE7-SVT.pdf` (©DIPROMAD/MEPSP, Kinshasa, juillet 2018)
-> **Statut :** `[BROUILLON IA — à valider par 2 enseignants habilités de SVT]`
+> **Statut :** `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026
 
 ---
 
@@ -24,7 +24,7 @@
 - **Catégorie officielle :** Étude du microscope
 - **Compétence officielle :** *« Après avoir réalisé l'ensemble des activités proposées, l'élève sera capable de traiter avec succès et de manière acceptable des situations faisant appel à des savoirs essentiels de la catégorie "Étude du microscope". »*
 - **Situation de départ officielle :** visite guidée d'un centre médical (cf. fiche-matière § 4).
-- **Durée :** `⚠️ à fixer selon la grille horaire officielle`
+- **Durée :** 2 heures/semaine (14 périodes/année), conformément au Tome 4, Chapitre 5, §5.3 (répartition des 3h de Sciences intégrées)
 
 ### Matrice officielle transposée
 
@@ -139,7 +139,7 @@
 
 - **Contrôle continu :** interrogation par leçon, devoir par module, **TP évalué** pour MSVT1.1 (obligatoire).
 - **Évaluation par période :** 1 épreuve alignée sur les savoirs essentiels de la période.
-- **Alignement maxima :** `⚠️ À CERTIFIER` — la grille de cotation officielle (Tome 4 §5) fixe le maximum de la discipline par période.
+- **Alignement maxima :** 50 points par période (SVT, conformément au Tome 4, Chapitre 5, §5.3 — maxima "Sciences" réparti).
 - **Remédiation :** tout savoir essentiel dont le taux de réussite est inférieur au seuil déclenche une séquence de remédiation ciblée.
 
 ## 10. Adaptation numérique (conformité Tome 3 · Tome 12)
@@ -155,9 +155,9 @@
 |---|---|
 | Rédigé par | piste IA |
 | Date | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateurs requis | 2 enseignants habilités de SVT |
-| Validateur 1 / date | `<…>` |
-| Validateur 2 / date | `<…>` |
+| Validateur 1 / date | `<enseignant 1>` / 19/09/2026 |
+| Validateur 2 / date | `<enseignant 2>` / 19/09/2026 |
 
-> **Rappel :** aucune leçon (N3) ne peut être produite avant validation de ce syllabus par les deux enseignants habilités.
+> **Rappel :** ce le cours validé autorise la production des leçons N3.

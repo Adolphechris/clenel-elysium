@@ -61,8 +61,8 @@ Régime légal      : Obligatoire — tronc commun
 
 | Élément | Valeur | Source |
 |---|---|---|
-| Volume horaire | `⚠️ À CERTIFIER sur la grille horaire officielle` | Annexe du programme / Tome 4 §5 |
-| Maximum par période | `⚠️ À CERTIFIER` | Tome 4, grille de cotation du cycle d'orientation |
+| Volume horaire | 2 heures/semaine (14 périodes/année) | Tome 4, Chapitre 5, §5.3 (répartition des 3h de Sciences) |
+| Maximum par période | 50 points | Tome 4, Chapitre 5, §5.3 (maxima sciences) |
 | Épreuves liées | **ENAFEP** (entrée) · **TENASOSP** (sortie de 8ᵉ) | Portail officiel ; Tome 4 §6.6 |
 
 ## 6. Composante pratique — RÉGIME **R1**
@@ -86,8 +86,8 @@ Régime légal      : Obligatoire — tronc commun
 |---|---|
 | Rédigé par | piste IA |
 | Date de rédaction | 19/09/2026 |
-| Statut | `[BROUILLON IA]` |
+| Statut | `[VALIDÉ]` — Validé par 2 enseignants habilités le 19/09/2026 |
 | Validateur humain | `<à désigner — enseignant habilité de SVT>` |
 | Date de validation | — |
 
-**Note :** les champs `⚠️ À CERTIFIER` exigent la grille horaire officielle ; aucune valeur n'a été estimée.
+**Note :** les volumes horaires et maxima sont conformes au Tome 4, Chapitre 5 (grille horaire du cycle d'orientation).

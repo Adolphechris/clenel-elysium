@@ -15,7 +15,7 @@ Ce document fixe :
 
 ## 2. Principe de fer (règle non négociable)
 
-> **Aucune fiche-matière, aucun syllabus, aucune leçon ne peut être produit sans un référentiel officiel identifié et archivé.**
+> **Aucune fiche-matière, aucun le cours, aucune leçon ne peut être produit sans un référentiel officiel identifié et archivé.**
 >
 > - Un contenu non adossé à un document du ministère est **interdit** et ne peut pas franchir le stade `[BROUILLON IA]`.
 > - Toute zone non encore sourcée reste **explicitement vide et signalée** par `⚠️ SOURCE À OBTENIR`.
@@ -83,7 +83,7 @@ Les programmes officiels du Domaine d'Apprentissage des Sciences (DAS) sont cons
 | **Banque des situations** | Situations-problèmes concrètes | Point de départ de l'apprentissage |
 | **Matrices du programme éducatif** | Tableau à deux colonnes : *(i) Actions de l'élève* / *(ii) Contenus sur lesquels portent les actions* | **Opérationnalise chaque savoir essentiel** |
 
-➡️ **Conséquence pour ELLYSIUM :** nos syllabus (N2) doivent reprendre *exactement* les **codes officiels** des savoirs essentiels comme colonne vertébrale, et nos leçons (N3) doivent convertir chaque *« Action de l'élève »* en activité numérique.
+➡️ **Conséquence pour ELLYSIUM :** nos le cours (N2) doivent reprendre *exactement* les **codes officiels** des savoirs essentiels comme colonne vertébrale, et nos leçons (N3) doivent convertir chaque *« Action de l'élève »* en activité numérique.
 
 ### 3.6 Codes officiels des savoirs essentiels (relevés sur les PDF)
 
@@ -105,7 +105,7 @@ Les programmes officiels du Domaine d'Apprentissage des Sciences (DAS) sont cons
 
 ### 4.1 Terminologie officielle réelle
 
-**Vérification mesurée :** le mot **« syllabus » apparaît 0 fois** dans les documents officiels du primaire et du secondaire testés (Informatique secondaire, PE7-SVT, PE7-MATH, Humanités 1ʳᵉ Mathématiques, Éducation civique et morale secondaire). Les termes officiels sont :
+**Vérification mesurée :** le mot **« le cours » apparaît 0 fois** dans les documents officiels du primaire et du secondaire testés (Informatique secondaire, PE7-SVT, PE7-MATH, Humanités 1ʳᵉ Mathématiques, Éducation civique et morale secondaire). Les termes officiels sont :
 
 | Terme officiel | Signification |
 |---|---|
@@ -116,11 +116,11 @@ Les programmes officiels du Domaine d'Apprentissage des Sciences (DAS) sont cons
 | **Cahier de l'élève / de l'apprenant** | Exercices et activités |
 | **Grille horaire** | Répartition officielle des heures (annexe des programmes) |
 
-➡️ **Conclusion mesurée :** le *syllabus* au sens formel (découpage séquencé, progression leçon par leçon, évaluations, ressources) **n'existe pas au niveau scolaire en RDC** — il relève de l'université (LMD/ECTS, Tome 4 chap. 24). Le secondaire dispose du « kit » *Programme + Guide + Manuel + Cahier*.
+➡️ **Conclusion mesurée :** le *le cours* au sens formel (découpage séquencé, progression leçon par leçon, évaluations, ressources) **n'existe pas au niveau scolaire en RDC** — il relève de l'université (LMD/ECTS, Tome 4 chap. 24). Le secondaire dispose du « kit » *Programme + Guide + Manuel + Cahier*.
 
 ### 4.2 Conséquence stratégique — la valeur ajoutée d'ELLYSIUM
 
-Le chaînon manquant entre le **Programme national** (ce que dit l'État : *quoi* enseigner) et la **leçon** (ce que vit l'élève : *comment apprendre*) **est produit par ELLYSIUM**. C'est un travail d'ingénierie pédagogique — non une copie (le syllabus n'existe pas), et non une invention (il est entièrement contraint par les savoirs essentiels, situations et matrices officiels).
+Le chaînon manquant entre le **Programme national** (ce que dit l'État : *quoi* enseigner) et la **leçon** (ce que vit l'élève : *comment apprendre*) **est produit par ELLYSIUM**. C'est un travail d'ingénierie pédagogique — non une copie (le cours n'existe pas), et non une invention (il est entièrement contraint par les savoirs essentiels, situations et matrices officiels).
 
 **Le plan de rédaction des matières repose donc sur 5 niveaux :**
 
@@ -128,11 +128,11 @@ Le chaînon manquant entre le **Programme national** (ce que dit l'État : *quoi
 |---|---|---|---|---|
 | **N0** | Référentiel national | Le programme officiel PDF, archivé et cité | MEN/MEPST-DIPROMAD | Humain (collecte) + IA (ingestion) |
 | **N1** | Fiche-matière | Identité : intitulé officiel, cycle, année, option, volume horaire, maxima, régime légal, **régime des TP**, sources | N0 | IA |
-| **N2** | **Syllabus** | Découpage en modules → séquences → leçons, adossé aux **codes officiels** des savoirs essentiels | N0 | IA → validation humaine |
+| **N2** | **Le cours** | Découpage en modules → séquences → leçons, adossé aux **codes officiels** des savoirs essentiels | N0 | IA → validation humaine |
 | **N3** | Leçon | Cours complet : objectifs, contenu, exemples, activités, exercices, quiz, ressources | N2 | IA (brouillon) → enseignant (validation) |
 | **N4** | Évaluations | Interrogations, devoirs, examens, banque d'items alignés sur les maxima officiels | Tome 4 (grilles) | IA → validation |
 
-**Règle d'or :** *un niveau ne peut être produit que si le niveau supérieur est certifié.* Pas de leçon sans syllabus ; pas de syllabus sans programme officiel (N0).
+**Règle d'or :** *un niveau ne peut être produit que si le niveau supérieur est certifié.* Pas de leçon sans le cours ; pas de le cours sans programme officiel (N0).
 
 ### 4.3 Couverture réelle des sources (mesurée sur 117 documents officiels)
 
@@ -186,8 +186,8 @@ Le registre opérationnel matière par matière (document officiel, URL, état �
 ## 7. Amont et aval
 
 - **Amont :** Tome 4 (programmes et maquettes), Tome 3 (philosophie pédagogique et assurance qualité), Tome 14 (chaîne éditoriale, validation), Tome 15 (accréditations).
-- **Aval :** `contenus/02-FICHES-MATIERES/`, `contenus/03-SYLLABUS/`, `contenus/04-LECONS/`, `contenus/05-EVALUATIONS/`, `contenus/_tableaux-de-bord/`.
-- **Contrôle automatique :** `tools/verify-contenus.sh` — vérifie la chaîne N0→N1→N2→N3, l'absence de contenu non sourcé et la cohérence des codes officiels.
+- **Aval :** `contenus/02-FICHES-MATIERES/`, `contenus/03-COURS/`, `contenus/04-LECONS/`, `contenus/05-EVALUATIONS/`, `contenus/_tableaux-de-bord/`.
+- **Contrôle automatique :** `tools/verify-contenus.sh` — vérifie la chaîne N0→N1→N2 (cours)→N3, l'absence de contenu non sourcé et la cohérence des codes officiels.
 - **Plan directeur :** `docs/PLAN-REDACTION-MATIERES.md`.
 
 ---
@@ -197,6 +197,6 @@ Le registre opérationnel matière par matière (document officiel, URL, état �
 Ce cadre est **contraignant**, non indicatif. Il protège l'institution sur trois plans :
 
 1. **Conformité** : ELLYSIUM enseigne ce que l'État ordonne — les savoirs essentiels officiels — et rien d'autre ;
-2. **Honnêteté** : ce qu'ELLYSIUM ajoute (syllabus, leçons) est **identifié** comme production ELLYSIUM et soumis à validation humaine ;
+2. **Honnêteté** : ce qu'ELLYSIUM ajoute (le cours, leçons) est **identifié** comme production ELLYSIUM et soumis à validation humaine ;
 3. **Sécurité juridique** : la composante pratique (TP, ateliers, stages, habilitations) est **déclarée explicitement**, sans promesse de qualification que la plateforme ne peut pas délivrer seule.
 | **EXETAT** | Fin des humanités — évaluation certificative | Portail officiel, rubrique « Épreuves certificatives » |
