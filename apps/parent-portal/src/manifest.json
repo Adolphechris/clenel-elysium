@@ -1,0 +1,19 @@
+{
+  "name": "ELLYSIUM — Espace Parent",
+  "short_name": "ELLYSIUM Parent",
+  "description": "Suivi scolaire de vos enfants : bulletin sécurisé, assiduité, alertes d'absence et paiement Mobile Money.",
+  "id": "/parent-portal",
+  "theme_color": "#0B2545",
+  "background_color": "#F5F7FA",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["education", "finance", "productivity"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

@@ -126,6 +126,7 @@ erDiagram
 | **`VF-064-03`** | **Grille d'évaluation critériée obligatoire** | Aucune note de devoir ne peut être attribuée sans grille barémée transparente. |
 | **`VF-064-04`** | **Anonymisation optionnelle des copies** | Possibilité d'anonymisation des copies pour les évaluations sommatives d'établissement. |
 | **`VF-064-05`** | **Feedback pédagogique obligatoire** | L'attribution d'une note inférieure à 50% requiert un commentaire d'orientation pour remédiation. |
+| **`VF-064-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

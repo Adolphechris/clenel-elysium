@@ -91,6 +91,7 @@ Pour éviter la frustration silencieuse, un canal anonymisé de suggestion est o
 | VF-291-03 | Il est formellement interdit de censurer les avis critiques ou interrogations émises dans la boîte à suggestions | OBLIGATOIRE |
 | VF-291-04 | La Gazette du Déploiement doit être consultable hors-ligne dans la PWA pour tous les enseignants et directeurs | OBLIGATOIRE |
 | VF-291-05 | Les coordonnées d'urgence de la Ligne Rouge doivent être affichées en permanence dans chaque salle de commande pilote | OBLIGATOIRE |
+| VF-291-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

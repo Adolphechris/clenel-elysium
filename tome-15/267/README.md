@@ -129,6 +129,7 @@ flowchart TD
 | VF-267-03 | Le Rapport d'Auto-Évaluation (RAE) doit être revu par au moins un pair académique externe indépendant avant soumission | CRITIQUE |
 | VF-267-04 | ELLYSIUM doit justifier d'au moins 30 % de son corps enseignant titulaire d'un doctorat avant de soumettre un dossier CAMES | CRITIQUE |
 | VF-267-05 | Toute accréditation sectorielle (ISO, Quality Matters) obtenue est documentée dans le dossier CAMES comme preuve de qualité complémentaire | OBLIGATOIRE |
+| VF-267-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

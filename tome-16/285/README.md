@@ -118,6 +118,7 @@ L'exercice du rôle d'Ambassadeur impose des devoirs stricts :
 | VF-285-03 | Tout ambassadeur recevant de l'argent d'un apprenant ou d'une famille est révoqué immédiatement et radié du registre | CRITIQUE |
 | VF-285-04 | Chaque établissement partenaire doit compter au moins 2 ambassadeurs certifiés actifs en permanence | OBLIGATOIRE |
 | VF-285-05 | Le certificat d'ambassadeur a une validité d'un an, renouvelable après évaluation continue des actions menées | OBLIGATOIRE |
+| VF-285-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

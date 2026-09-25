@@ -198,6 +198,7 @@ func PeutDeclencherIncidentGCP(role DirectionRole) bool {
 | VF-251-03 | Les KPI des trois directeurs sont mesurés et publiés dans le tableau de bord CA chaque trimestre | OBLIGATOIRE |
 | VF-251-04 | Toute modification de périmètre d'un poste doit être approuvée par le CA et archivée dans Cloud Storage | OBLIGATOIRE |
 | VF-251-05 | En cas de vacance d'un poste, un intérimaire nommé par le CA prend les fonctions sous 72 heures maximum | CRITIQUE |
+| VF-251-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

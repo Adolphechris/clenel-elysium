@@ -136,6 +136,7 @@ graph TD
 | **`VF-336-03`** | **Obligation d'Alignement Technologique Exclusif Google** : L'infrastructure demeure à perpétuité fondée exclusivement sur Google Cloud Platform et Firebase, sans dispersion vers d'autres hébergeurs tiers. | Audit d'architecture immédiat et mise en demeure de réalignement. |
 | **`VF-336-04`** | **Intangibilité Constitutionnelle Perpétuelle** : La gratuité fondamentale pour l'apprenant individuel (Art. 3 & 4), la séparation de la caisse et de la pédagogie (Art. 5) et le caractère auxiliaire de l'IA (Art. 6) ne peuvent faire l'objet d'aucune dérogation. | Dissolution d'office et transfert des actifs à une entité garante de la gratuité. |
 | **`VF-336-05`** | **Devise et Rigueur d'Exécution** : L'intégralité des opérations, du code source et des relations humaines au sein d'ELLYSIUM est soumise au principe cardinal : *"Rigueur, sérieux et honnêteté sont nos devises"*. | Exclusion définitive de tout membre dérogeant à la probité institutionnelle. |
+| **`VF-336-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

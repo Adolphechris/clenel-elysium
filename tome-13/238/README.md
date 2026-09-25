@@ -95,6 +95,7 @@ Pour absorber les pics de charge sans épuiser les processus PostgreSQL :
 | VF-238-03 | Séparation stricte du trafic : 100% des lectures publiques orientées sur les Read Replicas | ARCHITECTURE |
 | VF-238-04 | Partitionnement obligatoire de toute table excédant 10 millions d'enregistrements | PERFORMANCE |
 | VF-238-05 | Pooler de connexions PgBouncer configuré pour interdire la saturation mémoire | SÉCURITÉ |
+| VF-238-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

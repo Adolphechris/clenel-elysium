@@ -91,6 +91,7 @@ Chaque build de production exécuté sur **Google Cloud Build** est audité par 
 | VF-212-03 | Proscription totale des bibliothèques de régies publicitaires ou trackers commerciaux | ÉTHIQUE |
 | VF-212-04 | Cible tactile minimale garantie de 48 x 48 points sur tous les éléments cliquables | ERGONOMIE |
 | VF-212-05 | Compatibilité native garantie avec le lecteur d'écran Google TalkBack | INCLUSION |
+| VF-212-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

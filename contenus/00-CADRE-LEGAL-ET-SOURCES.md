@@ -83,7 +83,7 @@ Les programmes officiels du Domaine d'Apprentissage des Sciences (DAS) sont cons
 | **Banque des situations** | Situations-problèmes concrètes | Point de départ de l'apprentissage |
 | **Matrices du programme éducatif** | Tableau à deux colonnes : *(i) Actions de l'élève* / *(ii) Contenus sur lesquels portent les actions* | **Opérationnalise chaque savoir essentiel** |
 
-➡️ **Conséquence pour ELLYSIUM :** nos le cours (N2) doivent reprendre *exactement* les **codes officiels** des savoirs essentiels comme colonne vertébrale, et nos leçons (N3) doivent convertir chaque *« Action de l'élève »* en activité numérique.
+➡️ **Conséquence pour ELLYSIUM :** nos cours (N2) doivent reprendre *exactement* les **codes officiels** des savoirs essentiels comme colonne vertébrale, et nos leçons (N3) doivent convertir chaque *« Action de l'élève »* en activité numérique.
 
 ### 3.6 Codes officiels des savoirs essentiels (relevés sur les PDF)
 

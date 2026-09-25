@@ -136,6 +136,7 @@ flowchart LR
 | VF-281-03 | La synchronisation asynchrone hors-ligne ne doit tolérer aucune perte de données lors d'une rupture inopinée de session | CRITIQUE |
 | VF-281-04 | L'infrastructure GCP doit maintenir un SLA d'au moins 99,9 % sans interruption de service pendant 30 jours continus de test | CRITIQUE |
 | VF-281-05 | Le procès-verbal d'homologation de la Phase 0 doit être co-signé à l'unanimité par le DA, le RP et le PN | CRITIQUE |
+| VF-281-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

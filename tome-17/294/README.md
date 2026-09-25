@@ -80,6 +80,7 @@ flowchart LR
 | VF-294-03 | Les revenus B2B issus des établissements privés solvables doivent financer au moins 40 % des coûts opérationnels d'infrastructure | CRITIQUE |
 | VF-294-04 | L'intégralité des flux financiers entrants et sortants fait l'objet d'un suivi comptable analytique certifié sous Cloud SQL | OBLIGATOIRE |
 | VF-294-05 | Tout excédent budgétaire annuel est obligatoirement réinvesti dans la dotation en matériel des zones scolaires défavorisées | OBLIGATOIRE |
+| VF-294-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

@@ -114,6 +114,7 @@ CREATE INDEX idx_sgs_annee ON sgs_deliberations_bulletins(annee_scolaire);
 | VF-284-03 | L'infrastructure GKE Autopilot et Cloud SQL doit être dimensionnée pour garantir un temps de réponse p95 inférieur à 800 ms sous pic de charge | CRITIQUE |
 | VF-284-04 | L'ouverture de toute nouvelle filière en Phase 3 exige la validation préalable de ses référentiels par le Conseil Académique | OBLIGATOIRE |
 | VF-284-05 | L'intégrité de tous les bulletins d'élèves est garantie par un horodatage cryptographique vérifiable publiquement par QR Code | OBLIGATOIRE |
+| VF-284-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

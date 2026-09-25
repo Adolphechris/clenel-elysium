@@ -95,6 +95,7 @@ graph TD
 | **`VF-102-03`** | **Transition fluide entre orientation portrait et paysage** | Aucun rechargement de page lors de la rotation de l'appareil. |
 | **`VF-102-04`** | **Optimisation tactile des gestes courants** | Support du glissement (swipe) pour tourner les pages de cours ou devoirs. |
 | **`VF-102-05`** | **Barre d'actions ancrée au bas de l'écran sur mobile** | Boutons d'action principaux situés dans la zone naturelle du pouce. |
+| **`VF-102-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

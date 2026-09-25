@@ -94,6 +94,7 @@ CREATE INDEX idx_notif_destinataire ON notifications_systeme (destinataire_id, s
 | VF-204-03 | Modération automatique par Vertex AI active sur tous les messages internes | SÉCURITÉ |
 | VF-204-04 | Droit à la déconnexion : aucune notification ordinaire entre 21h et 06h | ÉTHIQUE |
 | VF-204-05 | Chiffrement au repos (AES-256) de toutes les archives de conversations internes | CONSTITUTIONNEL |
+| VF-204-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

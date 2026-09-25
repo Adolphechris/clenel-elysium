@@ -48,6 +48,7 @@ graph TD
 | **`VF-150-03`** | **Registre des traitements de données conforme à la Loi 15-023** | Inventaire complet de tous les traitements avec finalité, durée et base légale. |
 | **`VF-150-04`** | **Nomination formelle du Délégué à la Protection des Données (DPO)** | Le DPO est désigné par le CA et son identité publiée sur ellysium.cd. |
 | **`VF-150-05`** | **Procédure de notification de violation dans les 72h** | Tout incident de violation de données est signalé à l'autorité compétente et aux victimes. |
+| **`VF-150-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

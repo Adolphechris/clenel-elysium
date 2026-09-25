@@ -124,6 +124,7 @@ func GenererBulletinPDF(ctx context.Context, eleveID string, sessionID string) (
 | VF-183-03 | QR Code obligatoire sur chaque document produit, sans exception | OBLIGATOIRE |
 | VF-183-04 | Rendu PDF/A conforme aux normes d'archivage légal international (ISO 19005-3) | LÉGAL |
 | VF-183-05 | Inscription des armoiries et mentions légales selon la charte graphique de la RDC | INSTITUTIONNEL |
+| VF-183-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

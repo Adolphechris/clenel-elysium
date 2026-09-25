@@ -161,6 +161,7 @@ CREATE TABLE registre_incidents (
 | VF-163-03 | Tout incident est consigné dans le registre (même s'il n'y a pas de violation) | OBLIGATOIRE |
 | VF-163-04 | Un post-mortem est produit pour tout incident P0 et P1 dans les 7 jours | OBLIGATOIRE |
 | VF-163-05 | La suppression d'une entrée du registre des incidents est impossible | CONSTITUTIONNEL |
+| VF-163-06 | Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime | SÉCURITÉ |
 
 ---
 

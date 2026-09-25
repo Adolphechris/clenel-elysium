@@ -81,6 +81,7 @@ Pour éviter la duplication d'efforts et garantir une cohérence métier absolue
 | VF-211-03 | Hébergement de l'ensemble des bundles web et assets sur Firebase Hosting | CONSTITUTIONNEL |
 | VF-211-04 | Parité fonctionnelle garantie : 100% des cours accessibles en PWA et sur App Android | PÉDAGOGIQUE |
 | VF-211-05 | Distribution autonome de l'APK hors Play Store pour garantir la souveraineté | STRATÉGIQUE |
+| VF-211-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

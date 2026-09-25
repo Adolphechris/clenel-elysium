@@ -85,6 +85,7 @@ Dans les zones rurales dépourvues de réseau cellulaire :
 | VF-225-03 | Les deltas de mise à jour OTA doivent peser strictement moins de 500 Ko | FRUGALITÉ |
 | VF-225-04 | Distribution P2P sécurisée avec contrôle de signature d'État obligatoire | SOUVERAINETÉ |
 | VF-225-05 | Rétrocompatibilité garantie sur au moins 2 versions majeures antérieures | DISPONIBILITÉ |
+| VF-225-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

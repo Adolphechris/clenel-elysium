@@ -78,6 +78,7 @@ En cas de contestation par un apprenant ou un enseignant sur une prédiction ou 
 | **`VF-149-03`** | **Alignement avec le Tome 9 (Données) pour l'archivage des diplômes** | Les diplômes générés transitent vers le système d'archivage pérenne du Tome 9. |
 | **`VF-149-04`** | **Compatibilité avec les systèmes EPST/ESU via API standardisée** | Exportation des données académiques dans les formats requis par les Ministères. |
 | **`VF-149-05`** | **Clôture solennelle du Tome 8 — Évaluations et Diplômes** | Validation de l'intégralité du cycle de vie de l'évaluation jusqu'au diplôme scellé. |
+| **`VF-149-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

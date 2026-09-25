@@ -230,6 +230,7 @@ async function notifierMiseAJour(
 | VF-256-03 | L'invalidation du cache CDN est obligatoire après tout déploiement ; un contenu périmé servi aux apprenants est un incident de niveau 2 | OBLIGATOIRE |
 | VF-256-04 | Les apprenants engagés dans un module sont notifiés par Firebase Cloud Messaging lors de toute mise à jour MINEURE ou MAJEURE | OBLIGATOIRE |
 | VF-256-05 | La rétention minimale de toute version archivée est de 5 ans en Cloud Storage Coldline, conformément à la politique de conservation des données éducatives | OBLIGATOIRE |
+| VF-256-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

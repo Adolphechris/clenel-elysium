@@ -111,6 +111,7 @@ CREATE TABLE deliberation_scellement (
 | VF-180-03 | Étanchéité financière absolue : zéro donnée de caisse visible pendant le jury | CONSTITUTIONNEL |
 | VF-180-04 | Double facteur obligatoire (MFA) pour le Président lors de l'exécution du scellement | OBLIGATOIRE |
 | VF-180-05 | Archivage immédiat du PV chiffré dans Cloud Storage (GCS) avec Object Lock 50 ans | LÉGAL |
+| VF-180-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

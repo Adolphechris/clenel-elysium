@@ -111,6 +111,7 @@ CREATE INDEX idx_demandes_user ON schema_juridique.demandes_droits_usagers(utili
 | VF-326-03 | L'exercice des droits d'accès ou d'effacement d'un apprenant doit être traité et clôturé sous un délai maximal de 30 jours | CRITIQUE |
 | VF-326-04 | Tout nouvel algorithme exploitant Vertex AI doit faire l'objet d'une Analyse d'Impact sur la Protection des Données (AIPD) | OBLIGATOIRE |
 | VF-326-05 | Le registre des traitements de données est audité annuellement par le DPO indépendant et publié sous format synthétique | OBLIGATOIRE |
+| VF-326-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

@@ -121,6 +121,7 @@ CREATE INDEX idx_bourse_apprenant ON schema_finance.allocations_bourses_eleves(a
 | VF-299-03 | 100 % des fonds de parrainage de la diaspora doivent être traçables jusqu'à l'apprenant bénéficiaire réel sous Cloud SQL | CRITIQUE |
 | VF-299-04 | Les taux de commission Mobile Money négociés avec les opérateurs télécoms ne doivent jamais excéder 1 % par transaction | CRITIQUE |
 | VF-299-05 | Les rapports financiers destinés aux bailleurs de fonds sont audités annuellement par un commissaire aux comptes indépendant | OBLIGATOIRE |
+| VF-299-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

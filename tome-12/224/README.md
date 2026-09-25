@@ -83,6 +83,7 @@ Future<File?> capturerCopieExamen(BuildContext context) async {
 | VF-224-03 | Détection automatique et validation obligatoire du QR Code d'en-tête de copie | INTÉGRITÉ |
 | VF-224-04 | Interdiction d'importer des photos depuis la galerie pour les copies d'examen | ANTI-FRAUDE |
 | VF-224-05 | Les images brutes temporaires sont purgées de la mémoire après génération du PDF | CONFIDENTIALITÉ |
+| VF-224-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

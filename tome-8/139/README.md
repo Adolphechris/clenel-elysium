@@ -89,6 +89,7 @@ Lorsqu'un élève réussit son parcours de remédiation :
 | **`VF-139-03`** | **Banque d'items d'évaluation alignée sur les programmes EPST/ESU** | Toute question est balisée selon le niveau, la filière et l'objectif pédagogique national. |
 | **`VF-139-04`** | **Validation des items par des enseignants certifiés avant publication** | Aucune question d'examen n'est publiée sans validation scientifique d'un pair. |
 | **`VF-139-05`** | **Protection des sujets d'examen jusqu'à l'heure H par chiffrement** | Les sujets sont déchiffrés automatiquement au signal horaire officiel de démarrage. |
+| **`VF-139-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

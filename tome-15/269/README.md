@@ -142,6 +142,7 @@ Les indicateurs sont calculés de manière automatisée dans BigQuery et visuali
 | VF-269-03 | Il est strictement interdit à tout personnel ou entité ELLYSIUM de prélever un pourcentage sur les indemnités de stage des apprenants | CRITIQUE |
 | VF-269-04 | L'évaluation finale du stage doit être co-signée par le tuteur entreprise et le mentor ELLYSIUM pour valider les crédits ECTS associés | OBLIGATOIRE |
 | VF-269-05 | Les conventions d'immersion et rapports de stage sont archivés avec contrôle d'intégrité SHA-256 dans Google Cloud Storage | OBLIGATOIRE |
+| VF-269-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

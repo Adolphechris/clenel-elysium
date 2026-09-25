@@ -111,6 +111,7 @@ Lorsqu'un circuit breaker passe à l'état **OUVERT** :
 | **`VF-126-03`** | **Pipeline CI/CD signé avec vérification d'intégrité** | Chaque build Cloud Build est signé avec une attestation Binary Authorization. |
 | **`VF-126-04`** | **Rollback automatique en cas d'augmentation du taux d'erreur** | Retour à la version précédente déclenché si le taux d'erreur dépasse 5% en 5 minutes. |
 | **`VF-126-05`** | **Environnement de staging miroir de la production** | Promotion impossible de staging vers prod sans validation du RSSI et du CTO. |
+| **`VF-126-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

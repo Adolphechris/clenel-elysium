@@ -74,6 +74,7 @@ graph TD
 | VF-247-03 | Mandats de direction collégiaux avec obligation de comptes rendus publics annuels | TRANSPARENCE |
 | VF-247-04 | Priorité nationale absolue pour le recrutement des cadres de direction | SOUVERAINETÉ |
 | VF-247-05 | Formalisation de chaque procédure interne sous forme de SOP auditable | QUALITÉ |
+| VF-247-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

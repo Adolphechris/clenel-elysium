@@ -109,6 +109,7 @@ Dans l'éventualité exceptionnelle d'un incident P0 bloquant nécessitant une i
 | VF-232-03 | Zéro accès humain permanent en production (déploiements 100% automatisés par CI/CD) | SÉCURITÉ |
 | VF-232-04 | Gestion d'infrastructure exclusivement par code Terraform audité et versionné | TECHNIQUE |
 | VF-232-05 | L'accès d'urgence Break-Glass nécessite obligatoirement l'accord conjoint RSSI + DPO | CONSTITUTIONNEL |
+| VF-232-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

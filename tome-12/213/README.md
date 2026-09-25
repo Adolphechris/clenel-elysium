@@ -162,6 +162,7 @@ Configuration déclarative `firebase.json` garantissant une sécurité et une vi
 | VF-213-03 | Poids total initial de l'App Shell inférieur à 1 Mo compressé | SLO PERFORMANCE |
 | VF-213-04 | Interdiction stricte de mettre en cache les requêtes de caisse et de paiement | CONSTITUTIONNEL |
 | VF-213-05 | Compatibilité multi-navigateurs : Chrome, Firefox, Edge, Safari Mobile | PORTABILITÉ |
+| VF-213-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

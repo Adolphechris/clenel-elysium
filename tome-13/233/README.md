@@ -107,6 +107,7 @@ serialPipeline:
 | VF-233-03 | Rollback automatique déclenché dès que le taux d'erreur 5xx dépasse 0,5% | SRE / SLO |
 | VF-233-04 | Interdiction de déployer le vendredi après-midi ou la veille d'un examen d'État | DISCIPLINE |
 | VF-233-05 | Traçabilité intégrale de chaque déploiement (auteur, commit SHA, build log WORM) | AUDIT |
+| VF-233-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

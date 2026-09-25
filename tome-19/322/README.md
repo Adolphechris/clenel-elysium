@@ -139,6 +139,7 @@ CREATE TABLE schema_juridique.assemblees_generales_pv (
 | VF-322-03 | En cas de dissolution, l'intégralité des biens et actifs numériques est obligatoirement dévolue à l'Enseignement Public national | CRITIQUE |
 | VF-322-04 | Aucun membre bienfaiteur ou donateur privé ne peut détenir une majorité de voix délibératives à l'Assemblée Générale | CRITIQUE |
 | VF-322-05 | Les procès-verbaux de chaque AG sont déposés au greffe du Tribunal de Grande Instance de Kinshasa sous 30 jours | OBLIGATOIRE |
+| VF-322-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

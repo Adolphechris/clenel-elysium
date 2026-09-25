@@ -171,6 +171,7 @@ erDiagram
 | **`VF-061-03`** | **Verrouillage de la structure après rentrée** | La création ou suppression d'une section après J+30 exige l'accord de l'Inspection Générale. |
 | **`VF-061-04`** | **Cohérence des crédits ECTS en LMD** | Chaque semestre universitaire doit totaliser rigoureusement 30 crédits ECTS. |
 | **`VF-061-05`** | **Traçabilité des transferts d'option** | Tout changement de filière fait l'objet d'un procès-verbal numérique signé. |
+| **`VF-061-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

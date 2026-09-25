@@ -130,6 +130,7 @@ erDiagram
 | **`VF-065-03`** | **Double correction pour écarts significatifs** | Un différentiel de note > 20% entre deux correcteurs déclenche un troisième arbitrage. |
 | **`VF-065-04`** | **Procès-verbal de session inaltérable** | Le PV de déroulement de session est signé par tous les surveillants de salle. |
 | **`VF-065-05`** | **Gestion des incidents de triche réglementée** | Tout constat de fraude suspend la copie sans violence et saisit la commission de discipline. |
+| **`VF-065-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

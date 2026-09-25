@@ -87,6 +87,7 @@ Pour les opérations lourdes d'écriture (ex. 50 000 enseignants validant leurs 
 | **`VF-124-03`** | **Gestion des secrets via Google Secret Manager** | Interdiction absolue de stocker des clés API ou mots de passe en dur dans le code source. |
 | **`VF-124-04`** | **Rotation automatique des clés cryptographiques** | Clés Cloud KMS renouvelées automatiquement selon les politiques de rotation annuelle. |
 | **`VF-124-05`** | **Audit de sécurité Cloud armé par Cloud Security Command Center** | Tableau de bord unifié de vulnérabilités scanné en continu. |
+| **`VF-124-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

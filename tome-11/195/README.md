@@ -112,6 +112,7 @@ sequenceDiagram
 | VF-195-03 | L'affectation d'un enseignant requiert son numéro de matricule SECOPE officiel | LÉGAL |
 | VF-195-04 | Révocation immédiate des droits (< 30s) en cas de suspension de personnel | TECHNIQUE |
 | VF-195-05 | Journalisation WORM de toute modification de la grille des droits d'affectation | OBLIGATOIRE |
+| VF-195-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

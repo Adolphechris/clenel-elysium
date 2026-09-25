@@ -105,6 +105,7 @@ CREATE INDEX idx_crise_statut ON schema_communication.incidents_crises_reputatio
 | VF-317-03 | La page d'état technique `status.ellysium.cd` doit être alimentée en direct par les API de télémétrie Google Cloud | CRITIQUE |
 | VF-317-04 | Tout signalement de violation de l'Article 5 (séparation caisse/pédagogie) déclenche une enquête immédiate de la cellule de crise | CRITIQUE |
 | VF-317-05 | Un rapport de retour d'expérience (Post-Mortem) public doit être publié sous 48 heures suivant la résolution de toute crise | OBLIGATOIRE |
+| VF-317-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

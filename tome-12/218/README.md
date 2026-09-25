@@ -100,6 +100,7 @@ class OutboxItem {
 | VF-218-03 | Aucune donnée saisie hors-ligne ne peut être écrasée silencieusement | INTÉGRITÉ |
 | VF-218-04 | Rétention locale des éléments envoyés jusqu'à confirmation d'acquittement (ACK) serveur | FIABILITÉ |
 | VF-218-05 | La synchronisation complète d'une journée de cours doit consommer moins de 500 Ko | FRUGALITÉ |
+| VF-218-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

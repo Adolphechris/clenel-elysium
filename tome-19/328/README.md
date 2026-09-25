@@ -113,6 +113,7 @@ CREATE INDEX idx_cession_ens ON schema_juridique.cessions_droits_auteurs(enseign
 | VF-328-03 | Tout enseignant concepteur conserve son droit moral perpétuel et inaliénable de paternité sur son œuvre | CRITIQUE |
 | VF-328-04 | La marque ELLYSIUM et son logo officiel font l'objet d'un renouvellement décennal garanti auprès des registres de propriété | OBLIGATOIRE |
 | VF-328-05 | Tout plagiat commercial d'un cours ELLYSIUM par un organisme tiers déclenche une mise en demeure judiciaire sous 72h | OBLIGATOIRE |
+| VF-328-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

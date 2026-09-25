@@ -148,6 +148,7 @@ erDiagram
 | **`VF-070-03`** | **Optimisation des temps de trajet inter-sites** | Prise en compte des temps de transition pour les campus multi-sites à Kinshasa. |
 | **`VF-070-04`** | **Publication transparente aux familles** | Tout changement d'emploi du temps est notifié au moins 24h à l'avance. |
 | **`VF-070-05`** | **Historisation des remplacements** | Les absences de professeurs et affectations de remplaçants sont consignées dans le registre. |
+| **`VF-070-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

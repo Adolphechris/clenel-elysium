@@ -87,6 +87,7 @@ graph LR
 | **`VF-105-03`** | **Protocole de test utilisateur périodique à Kinshasa** | Tests en situation réelle tous les 3 mois auprès d'une cohorte d'élèves et d'enseignants. |
 | **`VF-105-04`** | **Collecte anonymisée du score d'utilisabilité (SUS)** | Indice de facilité d'usage mesuré et devant rester supérieur à 80/100. |
 | **`VF-105-05`** | **Prise en compte des retours dans les cycles de release** | Chaque correctif ergonomique majeur est testé sur terrain avant déploiement général. |
+| **`VF-105-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

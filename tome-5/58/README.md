@@ -181,6 +181,7 @@ Le module consigne obligatoirement dans l'audit log :
 | **`VF-058-03`** | **Vérification des numéros de téléphone locaux** | Validation OTP obligatoire sur les réseaux télécoms congolais (Vodacom, Airtel, Orange, Africell). |
 | **`VF-058-04`** | **Protection du mot de passe et MFA pour personnels** | MFA obligatoire pour tout personnel enseignant et administratif. |
 | **`VF-058-05`** | **Gestion sécurisée de la perte d'accès** | Procédure de récupération d'accès sans divulgation de questions de sécurité vulnérables. |
+| **`VF-058-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

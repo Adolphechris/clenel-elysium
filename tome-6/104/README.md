@@ -97,6 +97,7 @@ Exemple de message d'alerte absence parent :
 | **`VF-104-03`** | **Vocabulaire pédagogique rigoureux et standardisé** | Utilisation stricte des termes officiels du système éducatif de la RDC. |
 | **`VF-104-04`** | **Tonalité bienveillante et non punitive** | Les messages d'erreur orientent vers la progression sans culpabiliser l'élève. |
 | **`VF-104-05`** | **Clarté des notifications d'urgence** | Phrases courtes et directives pour toute alerte de sécurité ou convocation d'examen. |
+| **`VF-104-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

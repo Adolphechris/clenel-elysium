@@ -152,6 +152,7 @@ graph LR
 | VF-171-03 | Le scellement d'un bulletin par le Préfet est irréversible (sauf Super-Admin + procédure) | OBLIGATOIRE |
 | VF-171-04 | Tout résultat doit être contestable dans un délai clairement affiché | CONSTITUTIONNEL |
 | VF-171-05 | La terminologie officielle RDC est utilisée dans toutes les interfaces | OBLIGATOIRE |
+| VF-171-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

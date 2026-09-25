@@ -101,6 +101,7 @@ export function assertFiscalIntegrity(report: TaxComplianceReport): boolean {
 | **`VF-332-03`** | **Déclaration Systématique des Gratifications d'Auteurs** : Tous les droits d'auteurs pédagogiques ou primes versées à des enseignants vacataires font l'objet d'une retenue IPR selon la législation en vigueur. | Rejet de la comptabilité par l'auditeur externe certifié ONEC. |
 | **`VF-332-04`** | **Couverture Cyber Active H24** : Renouvellement tacite et paiement anticipé de la police cyber-risques au moins 30 jours avant son expiration annuelle. | Alerte prioritaire envoyée au CA et responsabilité directe du Trésorier. |
 | **`VF-332-05`** | **Interdiction de Financement des Pénalités sur Fonds Pédagogiques** : Toute pénalité pour retard de déclaration fiscale est prélevée sur le budget de fonctionnement de la direction responsable, sans affecter le budget pédagogique. | Respect inviolable de l'Article 5 de la Constitution ELLYSIUM. |
+| **`VF-332-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

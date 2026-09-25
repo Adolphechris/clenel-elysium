@@ -123,6 +123,7 @@ CREATE INDEX idx_conversion_date ON schema_communication.conversions_landing_pag
 | VF-312-03 | Il est formellement interdit d'utiliser un ton commercial agressif ou racoleur dans la communication destinée aux élèves | CRITIQUE |
 | VF-312-04 | La campagne destinée à la diaspora doit comporter un lien direct vers le registre public d'audit des bourses BigQuery | OBLIGATOIRE |
 | VF-312-05 | Les taux de conversion et métriques de chaque landing page sont analysés chaque semaine sous Google Analytics 4 | OBLIGATOIRE |
+| VF-312-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

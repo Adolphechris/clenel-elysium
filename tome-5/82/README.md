@@ -132,6 +132,7 @@ erDiagram
 | **`VF-082-03`** | **Queue de requêtes hors-ligne persistante** | Toutes les cotes saisies sans réseau sont empilées dans une file FIFO persistante sans perte de données. |
 | **`VF-082-04`** | **Notification claire de l'état de synchronisation** | L'interface affiche en permanence un voyant d'état : Vert (synchronisé), Orange (en attente), Rouge (erreur). |
 | **`VF-082-05`** | **Capacité opérationnelle d'au moins 72 heures sans réseau** | Le logiciel local permet de fonctionner 3 jours complets sans connexion Internet sans bloquer l'école. |
+| **`VF-082-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

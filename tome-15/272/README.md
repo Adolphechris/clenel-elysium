@@ -155,6 +155,7 @@ Pour répondre aux exigences de conformité des bailleurs internationaux (USAID,
 | VF-272-03 | L'attribution des bourses financées par les ONG doit être anonymisée et découplée des évaluateurs pédagogiques | CRITIQUE |
 | VF-272-04 | Tout projet de subvention supérieur à 50 000 USD doit faire l'objet d'un audit financier externe indépendant annuel | OBLIGATOIRE |
 | VF-272-05 | Les intervenants de la diaspora doivent signer le code de déontologie et de protection des apprenants (Module 260) avant toute interaction | CRITIQUE |
+| VF-272-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

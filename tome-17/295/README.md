@@ -113,6 +113,7 @@ REVOKE ALL PRIVILEGES ON SCHEMA schema_academique FROM role_service_finance;
 | VF-295-03 | L'accès aux cours, exercices et examens du tronc commun est garanti à vie et sans frais pour tous les apprenants inscrits | CRITIQUE |
 | VF-295-04 | Aucun enseignant ou membre du personnel académique n'a le droit de collecter des fonds ou de gérer des caisses locales | CRITIQUE |
 | VF-295-05 | Tout établissement partenaire surpris en train de retenir un bulletin pour motif financier voit sa convention révoquée sous 24h | CRITIQUE |
+| VF-295-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

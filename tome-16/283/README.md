@@ -130,6 +130,7 @@ CREATE INDEX idx_info_statut ON filiere_informatique_cursus(statut_apprenant);
 | VF-283-03 | Les environnements de développement et dépôts de code s'exécutent strictement au sein du périmètre sécurisé Google Cloud Platform | CRITIQUE |
 | VF-283-04 | Aucun apprenant ne peut valider le Palier 3 sans avoir réalisé un projet en conditions réelles d'au moins 200 heures de code | OBLIGATOIRE |
 | VF-283-05 | La diplomation finale requiert une soutenance devant un jury paritaire comprenant au moins un professionnel externe en activité | OBLIGATOIRE |
+| VF-283-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

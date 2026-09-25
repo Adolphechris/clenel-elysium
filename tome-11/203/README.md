@@ -110,6 +110,7 @@ CREATE TABLE actes_administratifs (
 | VF-203-03 | Format PDF/A obligatoire pour garantir la pérennité de lecture sur plusieurs décennies | TECHNIQUE |
 | VF-203-04 | Révocation ou résiliation enregistrée obligatoirement avec acte de dénonciation joint | JURIDIQUE |
 | VF-203-05 | Accès aux contrats RH strictement interdit aux administrateurs pédagogiques locaux | CONSTITUTIONNEL |
+| VF-203-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

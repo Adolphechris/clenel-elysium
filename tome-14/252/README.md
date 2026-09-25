@@ -176,6 +176,7 @@ CREATE INDEX idx_ep_province ON etablissements_partenaires(province);
 | VF-252-03 | Tout blocage d'accès apprenant détecté déclenche une résiliation automatique après enquête contradictoire | CRITIQUE |
 | VF-252-04 | Les KPI sont calculés automatiquement depuis BigQuery et publiés sans intervention manuelle du DEP | OBLIGATOIRE |
 | VF-252-05 | La convention-cadre est révisée annuellement et co-signée ; l'absence de renouvellement entraîne la suspension automatique | OBLIGATOIRE |
+| VF-252-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

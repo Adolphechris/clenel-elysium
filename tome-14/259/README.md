@@ -189,6 +189,7 @@ mindmap
 | VF-259-03 | Tout incident de niveau P1 (indisponibilité plateforme, brèche de sécurité) est escaladé automatiquement au Préfet Numérique et au Directeur Général sous 15 minutes | CRITIQUE |
 | VF-259-04 | Les enquêtes de satisfaction post-support sont automatiquement envoyées 1 heure après clôture du ticket via Firebase Cloud Messaging | OBLIGATOIRE |
 | VF-259-05 | Toute décision de modération est archivée dans Cloud Storage avec horodatage et identifiant du modérateur responsable | OBLIGATOIRE |
+| VF-259-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

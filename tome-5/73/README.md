@@ -140,6 +140,7 @@ erDiagram
 | **`VF-073-03`** | **Compatibilité liseuse basse consommation** | Les formats sont optimisés (EPUB, PDF compressé) pour affichage sur écrans modestes. |
 | **`VF-073-04`** | **Indexation sémantique par niveau et programme** | Tout livre est balisé selon la discipline, la filière et la classe officielle. |
 | **`VF-073-05`** | **Interdiction de DRM intrusifs limitant l'apprentissage** | L'accès aux manuels de base est libre et non bridé par des verrous logiciels payants. |
+| **`VF-073-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

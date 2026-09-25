@@ -99,6 +99,7 @@ CREATE TABLE registre_diplomes (
 | VF-184-03 | Tout diplôme émis est inscrit instantanément dans le registre public de vérification | OBLIGATOIRE |
 | VF-184-04 | Rétention minimale de 50 ans avec réplication multi-régionale (Cloud Storage Archive) | LÉGAL |
 | VF-184-05 | L'annulation d'un diplôme ne peut résulter que d'une décision de justice coulée en force de chose jugée | CONSTITUTIONNEL |
+| VF-184-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

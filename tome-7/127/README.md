@@ -80,6 +80,7 @@ graph LR
 | **`VF-127-03`** | **Scan de vulnérabilité de toutes les images Docker** | Artifact Registry bloque le déploiement de toute image avec CVE critique non patchée. |
 | **`VF-127-04`** | **Revue de code obligatoire par deux développeurs seniors** | Fusion de toute PR impactant le moteur de délibération bloquée sans double approbation. |
 | **`VF-127-05`** | **Traçabilité Git complète de chaque ligne de code déployée** | Lien biunivoque entre chaque commit et son ticket de feature ou de bug. |
+| **`VF-127-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

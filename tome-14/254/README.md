@@ -187,6 +187,7 @@ flowchart LR
 | VF-254-03 | La décision du DA est finale et irrévocable ; elle doit être archivée dans Cloud Storage avec un hash d'intégrité | CRITIQUE |
 | VF-254-04 | Le taux de contestation > 20 % déclenche automatiquement une revue du modèle IA par l'équipe Data | OBLIGATOIRE |
 | VF-254-05 | Les rétroactions vers le modèle IA ne peuvent être appliquées qu'après validation humaine lors de la revue mensuelle ML | CRITIQUE |
+| VF-254-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

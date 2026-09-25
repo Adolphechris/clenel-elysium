@@ -113,6 +113,7 @@ CREATE INDEX idx_audit_phase ON audits_conformite_deploiement(phase_deploiement)
 | VF-279-03 | Le calcul des délibérations et bulletins scolaires pilotes doit exécuter exclusivement la Formule Constitutionnelle RDC non modifiée | CRITIQUE |
 | VF-279-04 | L'audit de parité de genre (>= 45 % de filles) est un prérequis obligatoire pour valider la fin de la Phase 1 | OBLIGATOIRE |
 | VF-279-05 | Les rapports de conformité constitutionnelle sont versés de manière inaltérable dans Google Cloud Storage avant chaque passage de phase | OBLIGATOIRE |
+| VF-279-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

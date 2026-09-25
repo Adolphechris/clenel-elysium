@@ -89,6 +89,7 @@ En cas de manquement grave (fraude massive aux examens, non-respect de l'étanch
 | VF-196-03 | L'expulsion ou la fermeture d'une école ne détruit jamais les dossiers des élèves (WORM) | CONSTITUTIONNEL |
 | VF-196-04 | Tous les documents légaux d'agrément sont archivés de façon immuable sur GCS | OBLIGATOIRE |
 | VF-196-05 | Vérification annuelle de la validité de l'agrément ministériel par audit systématique | INSTITUTIONNEL |
+| VF-196-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

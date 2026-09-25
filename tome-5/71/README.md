@@ -174,6 +174,7 @@ erDiagram
 | **`VF-071-03`** | **Clôture de caisse quotidienne obligatoire** | Le caissier ne peut ouvrir une session sans validation contradictoire du solde précédent. |
 | **`VF-071-04`** | **Interdiction d'annulation sans visa de la direction** | Toute annulation d'écriture financière requiert l'approbation conjointe du gestionnaire et du préfet. |
 | **`VF-071-05`** | **Audit comptable continu** | Le grand livre des écritures est exportable selon le plan comptable OHADA en vigueur en RDC. |
+| **`VF-071-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

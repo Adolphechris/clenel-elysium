@@ -92,6 +92,7 @@ Le Tome 17 étant achevé dans son intégralité (15 modules sur 15), le chantie
 | VF-308-03 | L'adéquation entre facturation Cloud GCP réelle et budget d'exploitation est révisée mensuellement par la Direction Financière | OBLIGATOIRE |
 | VF-308-04 | L'intégrité de la cartographie des dépendances financières est préservée par un scellement documentaire sous Google Cloud Storage | OBLIGATOIRE |
 | VF-308-05 | Ce module constitue la référence officielle d'audit pour l'évaluation de la viabilité économique décennale d'ELLYSIUM | OBLIGATOIRE |
+| VF-308-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

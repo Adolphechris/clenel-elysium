@@ -147,6 +147,7 @@ graph TD
 | VF-266-03 | Les examens finaux de niveau supérieur se tiennent dans des centres physiques agréés et supervisés ; aucun examen certifiant de niveau Bac+2 ou plus ne peut se tenir uniquement en ligne | OBLIGATOIRE |
 | VF-266-04 | Le rapport annuel d'activité destiné à l'ESU est produit et soumis dans les 60 jours suivant la clôture de l'année académique | OBLIGATOIRE |
 | VF-266-05 | Aucune clause d'un accord avec l'ESU ne peut restreindre l'accès gratuit des apprenants indépendants (AIS/AIU) ni introduire de discrimination basée sur le statut économique | CRITIQUE |
+| VF-266-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

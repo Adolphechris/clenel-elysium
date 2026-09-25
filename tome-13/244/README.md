@@ -88,6 +88,7 @@ Toute intervention de maintenance programmée est enregistrée et rendue publiqu
 | VF-244-03 | Préavis obligatoire de 72 heures pour toute opération de maintenance planifiée | TRANSPARENCE |
 | VF-244-04 | Interdiction totale d'exécuter des opérations manuelles non scriptées en production | SÉCURITÉ |
 | VF-244-05 | Rollback planifié et testé avant toute intervention de maintenance majeure | RÉSILIENCE |
+| VF-244-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

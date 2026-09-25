@@ -117,6 +117,7 @@ CREATE INDEX idx_couts_exercice ON schema_finance.centre_couts_depenses(exercice
 | VF-296-03 | L'infrastructure d'hébergement doit exclusivement exploiter les services managés GCP à coût optimisé (CUD, Autoscaling) | CRITIQUE |
 | VF-296-04 | La masse salariale pédagogique et les forfaits d'enseignants doivent représenter au minimum 30 % des dépenses globales OPEX | OBLIGATOIRE |
 | VF-296-05 | L'audit analytique des coûts est réconcilié mensuellement avec la facturation réelle Google Cloud Billing sous BigQuery | OBLIGATOIRE |
+| VF-296-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

@@ -151,6 +151,7 @@ sequenceDiagram
 | VF-271-03 | Tout cybercentre agréé appliquant une tarification abusive aux apprenants ELLYSIUM est suspendu immédiatement sous 24h | CRITIQUE |
 | VF-271-04 | La synchronisation des données de progression depuis les relais hors-ligne vers GCP doit comporter une signature d'intégrité SHA-256 | CRITIQUE |
 | VF-271-05 | Une visite d'inspection inopinée annuelle est obligatoire pour maintenir le label « Espace Agréé ELLYSIUM » | OBLIGATOIRE |
+| VF-271-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

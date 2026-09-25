@@ -77,6 +77,7 @@ graph TD
 | **`VF-138-03`** | **Délibération systématique par le jury humain souverain** | Aucun algorithme ne peut proclamer les résultats officiels sans délibération du jury. |
 | **`VF-138-04`** | **Conservation des procès-verbaux de jury pendant 50 ans** | Archivage long terme des délibérations dans le Cloud Storage avec scellement KMS. |
 | **`VF-138-05`** | **Appel des résultats encadré par des délais légaux** | Le recours contre une délibération doit être introduit dans les 15 jours suivant la publication. |
+| **`VF-138-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

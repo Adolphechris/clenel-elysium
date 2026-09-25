@@ -77,6 +77,7 @@ flowchart LR
 | **`VF-335-03`** | **Obligation de Remédiation sous 60 Jours pour Tout Écart Critique** : Toute non-conformité majeure révélée par un audit (faille de données, écart fiscal) doit être résolue sous 60 jours calendrier. | Mise sous tutelle administrative du pôle défaillant par le Conseil d'Administration. |
 | **`VF-335-04`** | **Audit de Pentest GCP Obligatoire Avant Tout Déploiement Majeur** : Aucune nouvelle version majeure du portail ne peut être déployée en production sans validation des tests d'intrusion. | Blocage des pipelines Cloud Build et interdiction de release par le RSSI. |
 | **`VF-335-05`** | **Sanctuarisation Intemporelle des Valeurs Fondatrices** : Aucune révision des politiques ou des statuts ne peut abroger ou restreindre la gratuité pour les apprenants isolés (Art. 3 & 4) ou l'indépendance de la pédagogie face aux finances (Art. 5). | Nullité absolue et immédiate de l'amendement pour violation de la clause d'intangibilité constitutionnelle. |
+| **`VF-335-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

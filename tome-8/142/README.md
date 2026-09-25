@@ -91,6 +91,7 @@ Chaque mémoire soutenu avec succès en RDC sur ELLYSIUM est automatiquement hac
 | **`VF-142-03`** | **Génération simultanée des bulletins de toute une classe en un clic** | Traitement par lot avec notification de fin de génération au préfet. |
 | **`VF-142-04`** | **Vérification préalable de la complétude des données avant génération** | Alerte bloquante si des cotes manquantes sont détectées dans le bulletin. |
 | **`VF-142-05`** | **QR Code dynamique liant le bulletin au registre d'authenticité public** | Vérification en ligne de l'authenticité accessible par tout tiers sans inscription. |
+| **`VF-142-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

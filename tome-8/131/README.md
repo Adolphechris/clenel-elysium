@@ -92,6 +92,7 @@ sequenceDiagram
 | **`VF-131-03`** | **Surveillance 24/7 par le Security Operations Center (SOC)** | Tableaux de bord Cloud Security Command Center actifs en permanence. |
 | **`VF-131-04`** | **Détection et blocage des attaques DDoS via Cloud Armor** | Règles WAF personnalisées avec protection contre les OWASP Top 10. |
 | **`VF-131-05`** | **Rapport mensuel des menaces et incidents de sécurité** | Synthèse des incidents et remèdes transmise au CA de l'ASBL. |
+| **`VF-131-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

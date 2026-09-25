@@ -95,6 +95,7 @@ Les corps d'inspection de l'État disposent d'un outil de voyage temporel :
 | **`VF-155-03`** | **Append-only Event Store pour l'historique académique** | Aucune ligne du journal académique ne peut être modifiée ou supprimée. |
 | **`VF-155-04`** | **Hash cryptographique de chaque événement** | Chaque événement académique est lié au précédent par hash SHA-256 (structure Merkle). |
 | **`VF-155-05`** | **Vérification périodique de l'intégrité de la chaîne** | Audit automatisé mensuel détectant toute rupture dans la chaîne d'événements. |
+| **`VF-155-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

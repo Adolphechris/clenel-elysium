@@ -96,6 +96,7 @@ Chaque jour à **17h00 (heure locale)**, le système déclenche un arrêté auto
 | VF-201-03 | Les données de caisse sont hermétiquement isolées du domaine pédagogique (Art. 5) | CONSTITUTIONNEL |
 | VF-201-04 | Arrêté et clôture de caisse quotidiens obligatoires avec journalisation WORM | COMPTABLE |
 | VF-201-05 | Conservation légale des écritures et reçus pendant 10 ans (Norme SYSCOHADA) | LÉGAL |
+| VF-201-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

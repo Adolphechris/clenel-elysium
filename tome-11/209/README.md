@@ -122,6 +122,7 @@ Un pipeline d'analyse continue (Vertex AI + BigQuery) surveille les comportement
 | VF-209-03 | Horodatage certifié par synchronisation continue NTP Google Cloud (TrueTime) | TECHNIQUE |
 | VF-209-04 | Alerte immédiate au DPO et RSSI en cas de rupture de la chaîne de Merkle | SÉCURITÉ |
 | VF-209-05 | Consultation des logs réservée au DPO et aux auditeurs d'État sous mandat | CONSTITUTIONNEL |
+| VF-209-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

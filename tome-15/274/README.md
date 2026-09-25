@@ -123,6 +123,7 @@ CREATE INDEX idx_eval_periode ON evaluations_partenariats(periode_revue);
 | VF-274-03 | La revue annuelle conjointe est obligatoire pour toute convention tacitement reconductible | OBLIGATOIRE |
 | VF-274-04 | Un partenaire sous Plan d'Action Correctif ne peut accueillir de nouveaux apprenants pendant la période probatoire de 90 jours | OBLIGATOIRE |
 | VF-274-05 | Les procès-verbaux de comités paritaires et rapports d'évaluation sont archivés de façon immuable dans Google Cloud Storage | OBLIGATOIRE |
+| VF-274-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

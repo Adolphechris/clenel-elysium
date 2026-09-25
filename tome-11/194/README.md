@@ -94,6 +94,7 @@ L'annuaire d'authentification s'appuie sur la synergie entre **Firebase Authenti
 | VF-194-03 | Les jetons d'accès révoqués sont invalidés en moins de 30 secondes (Firebase Auth) | TECHNIQUE |
 | VF-194-04 | Aucun compte d'élève mineur ne peut être activé sans rattachement à un tuteur | LÉGAL |
 | VF-194-05 | La radiation d'un compte conserve l'historique dans le registre d'audit WORM | OBLIGATOIRE |
+| VF-194-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

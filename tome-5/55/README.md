@@ -162,6 +162,7 @@ Pour qu'un sous-tome de la série 55 à 83 soit déclaré conforme et prêt pour
 | **`VF-055-03`** | **Auditabilité totale des opérations** | Toute transaction ou modification fonctionnelle génère un log immuable avec auteur, horodatage et état avant/après. |
 | **`VF-055-04`** | **Séparation stricte des couches fonctionnelles** | Aucune dépendance technique ou schéma DDL ne peut être injecté dans les spécifications fonctionnelles. |
 | **`VF-055-05`** | **Résilience hors-ligne obligatoire** | Tout composant fonctionnel interactif doit prévoir son mode dégradé en cas de coupure de connectivité. |
+| **`VF-055-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

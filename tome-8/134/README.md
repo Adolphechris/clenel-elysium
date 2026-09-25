@@ -90,6 +90,7 @@ Le tuteur intègre un classifieur de détection d'urgence :
 | **`VF-134-03`** | **Sauvegarde 3-2-1 appliquée strictement** | 3 copies, 2 supports différents, 1 copie hors site (région GCP secondaire). |
 | **`VF-134-04`** | **Test de restauration mensuel obligatoire** | La restauration d'une base de données depuis backup est testée et documentée chaque mois. |
 | **`VF-134-05`** | **RPO < 1h et RTO < 4h pour les données critiques** | Objectifs contractuels de reprise définis et mesurés lors des DR Tests annuels. |
+| **`VF-134-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

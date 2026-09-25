@@ -105,6 +105,7 @@ CREATE TABLE schema_communication.series_video_documentaires (
 | VF-314-03 | L'ensemble des articles et pages de blog doit respecter un score de performance SEO Google Lighthouse d'au moins 95/100 | CRITIQUE |
 | VF-314-04 | Aucun article ne peut promouvoir de produit commercial payant externe à la plateforme ELLYSIUM | OBLIGATOIRE |
 | VF-314-05 | Les podcasts audio doivent être encodés en formats légers (< 10 Mo) pour être téléchargeables sans surconsommation de données | OBLIGATOIRE |
+| VF-314-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

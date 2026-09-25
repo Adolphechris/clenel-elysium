@@ -87,6 +87,7 @@ En cas de catastrophe majeure (sinistre sur le datacenter de Kinshasa, coupure g
 | **`VF-118-03`** | **Signalement d'urgence sécurité accessible en 1 clic** | Bouton SOS visible sur la page d'accueil parent pour alerter la direction en cas de danger. |
 | **`VF-118-04`** | **Procédure de crise partagée avec les parents** | En cas d'incident grave, le plan d'urgence est distribué en push immédiat. |
 | **`VF-118-05`** | **Contact de l'assistante sociale de l'école dans l'application** | Accès direct aux coordonnées du conseiller scolaire pour problèmes familiaux. |
+| **`VF-118-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

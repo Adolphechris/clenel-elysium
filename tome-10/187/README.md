@@ -108,6 +108,7 @@ Tous les premiers jours du trimestre, un job **Cloud Functions Gen 2** déclench
 | VF-187-03 | Réplication géographique obligatoire en dehors du datacenter primaire | SÉCURITÉ |
 | VF-187-04 | Audit trimestriel automatique de vérification d'intégrité par hachage SHA-256 | OBLIGATOIRE |
 | VF-187-05 | Interdiction absolue de stocker les archives permanentes sur cloud non-Google | CONSTITUTIONNEL |
+| VF-187-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

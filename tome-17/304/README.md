@@ -98,6 +98,7 @@ CREATE INDEX idx_financement_type ON schema_finance.instruments_financement_ethi
 | VF-304-03 | Le taux d'intérêt des instruments de dette éthique ne peut en aucun cas excéder le plafond strict de 3,50 % par an | CRITIQUE |
 | VF-304-04 | Dès l'atteinte du seuil des 48 000 élèves payants, aucun recours à de nouvelles dettes d'exploitation n'est permis | OBLIGATOIRE |
 | VF-304-05 | L'ensemble des contrats de levée de fonds éthique est validé par le Conseil d'Administration à la majorité des 3/4 | OBLIGATOIRE |
+| VF-304-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

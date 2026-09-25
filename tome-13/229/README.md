@@ -71,6 +71,7 @@ Pour prévenir tout risque de chantage ou de coupure abusive :
 | VF-229-03 | Accès direct SSH aux conteneurs de production strictement proscrit | SÉCURITÉ |
 | VF-229-04 | Bascule automatique multi-zones garantie en moins de 60 secondes | RÉSILIENCE |
 | VF-229-05 | Journal d'audit d'infrastructure WORM inaltérable conservé pendant 7 ans | LÉGAL |
+| VF-229-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

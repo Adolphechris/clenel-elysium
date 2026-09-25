@@ -105,6 +105,7 @@ CREATE TABLE schema_finance.reserves_perpetuelles_deblocages (
 | VF-306-03 | Même au niveau le plus sévère de crise financière, l'accès au tronc commun reste gratuit pour tous les apprenants (Art. 3) | CRITIQUE |
 | VF-306-04 | 40 % des excédents annuels sont automatiquement virés sur le compte séquestre du Fonds de Péréquation Sociale sous 30 jours | OBLIGATOIRE |
 | VF-306-05 | Tout plan de secours activé doit faire l'objet d'un rapport de situation hebdomadaire adressé au Comité de Pilotage | OBLIGATOIRE |
+| VF-306-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

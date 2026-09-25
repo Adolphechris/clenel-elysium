@@ -115,6 +115,7 @@ CREATE INDEX idx_tarif_pack ON schema_finance.grille_tarifs_sgs(pack_nom, catego
 | VF-300-03 | La formule constitutionnelle RDC de calcul des délibérations est incluse sans surcoût dans tous les packs | CRITIQUE |
 | VF-300-04 | Les prix de la grille tarifaire SGS sont garantis inaltérables pendant toute la durée de l'année scolaire en cours | OBLIGATOIRE |
 | VF-300-05 | L'activation des options SMS doit comporter un filtre strict interdisant tout message publicitaire ou commercial | CRITIQUE |
+| VF-300-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

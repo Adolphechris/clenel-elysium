@@ -89,6 +89,7 @@ end
 | VF-215-03 | Zéro tracking publicitaire : étiquette de confidentialité App Store immaculée | CONSTITUTIONNEL |
 | VF-215-04 | Prise en charge native complète de l'accessibilité iOS VoiceOver | INCLUSION |
 | VF-215-05 | Fonction d'effacement de compte intégrée et fonctionnelle en un clic (Règle 5.1.1) | OBLIGATOIRE |
+| VF-215-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

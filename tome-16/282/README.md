@@ -151,6 +151,7 @@ Le passage à la Phase 2 (Module 283) ne peut être décrété par le COPIL que 
 | VF-282-03 | L'accès à la plateforme et aux équipements pour les apprenants de la cohorte pilote est strictement gratuit | CRITIQUE |
 | VF-282-04 | Une visite de contrôle physique bimensuelle par le Délégué Provincial est obligatoire pour chaque établissement pilote | OBLIGATOIRE |
 | VF-282-05 | Les résultats scolaires du pilote sont délibérés sous le contrôle de la Formule Constitutionnelle RDC et scellés dans Cloud SQL | CRITIQUE |
+| VF-282-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

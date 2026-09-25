@@ -113,6 +113,7 @@ Les cycles d'amélioration en Phase 1 et 2 suivent une cadence immuable de 14 jo
 | VF-288-03 | Les retours d'expérience sont traités en direct sous BigQuery sans aucune altération ou falsification des scores | CRITIQUE |
 | VF-288-04 | Le délai maximal de correction d'un bug ergonomique critique signalé par les ambassadeurs est de 14 jours ouvrés | OBLIGATOIRE |
 | VF-288-05 | Un rapport consolidé de satisfaction trimestriel est soumis obligatoirement au Comité de Pilotage (COPIL) | OBLIGATOIRE |
+| VF-288-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

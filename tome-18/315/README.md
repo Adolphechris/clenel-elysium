@@ -109,6 +109,7 @@ CREATE TABLE schema_communication.inscriptions_evenements (
 | VF-315-03 | Les équipes des hackathons d'élèves doivent obligatoirement respecter une parité filles/garçons d'au moins 40 % de mixité | CRITIQUE |
 | VF-315-04 | Tout événement physique accueillant des élèves mineurs doit disposer d'un protocole de sécurité et de secours validé in situ | OBLIGATOIRE |
 | VF-315-05 | Le budget événementiel annuel global ne doit jamais dépasser 8 % des charges d'exploitation totales de l'institution | OBLIGATOIRE |
+| VF-315-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

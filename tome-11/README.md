@@ -3,7 +3,7 @@
 > **Domaine :** Vie Quotidienne, Gestion des Établissements et Communication Institutionnelle
 > **Périmètre :** Gestion globale des utilisateurs, inscriptions, scolarité, caisse, paie enseignante, messagerie et gouvernance
 > **Modules :** 192 à 210 (19 sous-tomes)
-> **Statut :** EN COURS D'EXÉCUTION 🚀
+> **Statut :** COMPLÉTÉ ✅
 
 ---
 
@@ -29,25 +29,25 @@ Piloter avec rigueur, transparence et frugalité la **vie administrative quotidi
 
 | Module | Titre Officiel | Statut |
 |---|---|---|
-| [192](./192/README.md) | Périmètre du Tome 11 – fonctions administratives centralisées | ⏳ En cours |
-| [193](./193/README.md) | Conformité avec la Constitution (transparence, protection) | ⏳ En attente |
-| [194](./194/README.md) | Gestion des comptes utilisateurs (création, suspension, radiation) | ⏳ En attente |
-| [195](./195/README.md) | Gestion des rôles et responsabilités (affectation des personnels) | ⏳ En attente |
-| [196](./196/README.md) | Gestion des établissements partenaires (agrément, paramétrage) | ⏳ En attente |
-| [197](./197/README.md) | Gestion des inscriptions, réinscriptions et transferts inter-écoles | ⏳ En attente |
-| [198](./198/README.md) | Gestion administrative des élèves, étudiants et enseignants | ⏳ En attente |
-| [199](./199/README.md) | Paramétrage des années académiques, périodes et calendriers | ⏳ En attente |
-| [200](./200/README.md) | Gestion financière – frais, échéanciers, bourses, exonérations | ⏳ En attente |
-| [201](./201/README.md) | Module Caisse – encaissements, reçus, rapprochement | ⏳ En attente |
-| [202](./202/README.md) | Gestion de la paie enseignante (contrats, heures, versements) | ⏳ En attente |
-| [203](./203/README.md) | Gestion des documents administratifs (contrats, conventions, PV) | ⏳ En attente |
-| [204](./204/README.md) | Messagerie interne et notifications multicanaux (SMS, email, push FCM) | ⏳ En attente |
-| [205](./205/README.md) | Communiqués officiels et affichage institutionnel | ⏳ En attente |
-| [206](./206/README.md) | Gestion des réunions virtuelles (Google Meet API / Workspace) | ⏳ En attente |
-| [207](./207/README.md) | Support utilisateur et gestion des tickets d'assistance | ⏳ En attente |
-| [208](./208/README.md) | Tableaux de bord administratifs et rapports réglementaires | ⏳ En attente |
-| [209](./209/README.md) | Journal des opérations administratives (traçabilité WORM) | ⏳ En attente |
-| [210](./210/README.md) | Dépendances – avec les Tomes 5, 13, 17 | ⏳ En attente |
+| [192](./192/README.md) | Périmètre du Tome 11 – fonctions administratives centralisées | ✅ COMPLÉT |
+| [193](./193/README.md) | Conformité avec la Constitution (transparence, protection) | ✅ COMPLÉT |
+| [194](./194/README.md) | Gestion des comptes utilisateurs (création, suspension, radiation) | ✅ COMPLÉT |
+| [195](./195/README.md) | Gestion des rôles et responsabilités (affectation des personnels) | ✅ COMPLÉT |
+| [196](./196/README.md) | Gestion des établissements partenaires (agrément, paramétrage) | ✅ COMPLÉT |
+| [197](./197/README.md) | Gestion des inscriptions, réinscriptions et transferts inter-écoles | ✅ COMPLÉT |
+| [198](./198/README.md) | Gestion administrative des élèves, étudiants et enseignants | ✅ COMPLÉT |
+| [199](./199/README.md) | Paramétrage des années académiques, périodes et calendriers | ✅ COMPLÉT |
+| [200](./200/README.md) | Gestion financière – frais, échéanciers, bourses, exonérations | ✅ COMPLÉT |
+| [201](./201/README.md) | Module Caisse – encaissements, reçus, rapprochement | ✅ COMPLÉT |
+| [202](./202/README.md) | Gestion de la paie enseignante (contrats, heures, versements) | ✅ COMPLÉT |
+| [203](./203/README.md) | Gestion des documents administratifs (contrats, conventions, PV) | ✅ COMPLÉT |
+| [204](./204/README.md) | Messagerie interne et notifications multicanaux (SMS, email, push FCM) | ✅ COMPLÉT |
+| [205](./205/README.md) | Communiqués officiels et affichage institutionnel | ✅ COMPLÉT |
+| [206](./206/README.md) | Gestion des réunions virtuelles (Google Meet API / Workspace) | ✅ COMPLÉT |
+| [207](./207/README.md) | Support utilisateur et gestion des tickets d'assistance | ✅ COMPLÉT |
+| [208](./208/README.md) | Tableaux de bord administratifs et rapports réglementaires | ✅ COMPLÉT |
+| [209](./209/README.md) | Journal des opérations administratives (traçabilité WORM) | ✅ COMPLÉT |
+| [210](./210/README.md) | Dépendances – avec les Tomes 5, 13, 17 | ✅ COMPLÉT |
 
 ---
 

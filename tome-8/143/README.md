@@ -94,6 +94,7 @@ graph TD
 | **`VF-143-03`** | **Publication différée des résultats selon décision du jury** | Le directeur contrôle l'heure exacte de publication des résultats en ligne. |
 | **`VF-143-04`** | **SMS de résultat envoyé automatiquement à la liste des parents** | Envoi groupé via les passerelles télécoms congolaises dès la publication. |
 | **`VF-143-05`** | **Accès aux résultats sans inscription pour les familles** | Consultation des résultats par code-élève public sans création de compte. |
+| **`VF-143-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

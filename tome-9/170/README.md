@@ -176,6 +176,7 @@ Le Tome 9 étant **complet et clos**, le chantier ELLYSIUM continue avec :
 | **`VF-170-03`** | **Compatibilité avec le Tome 8 pour les exigences de sécurité** | Les contrôles IAM et les politiques de rétention du Tome 9 respectent les normes du Tome 8. |
 | **`VF-170-04`** | **Interface de reporting vers le Tome 11 (Analytique)** | Les données anonymisées du Tome 9 alimentent les tableaux BigQuery du Tome 11. |
 | **`VF-170-05`** | **Clôture solennelle du Tome 9 — Données et Sécurité** | Validation de l'intégralité du cadre de gouvernance des données et de protection souveraine. |
+| **`VF-170-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -5,7 +5,7 @@ Projet ELLYSIUM
 Cahier des charges — Structure pour rédaction
 ---
 > **AVERTISSEMENT DE LECTURE (17/09/2026)**
-> Ce document est le plan de rédaction historique. Il a servi de trame pour la rédaction des tomes. **Pour l'état réel et à jour du corpus, consulter le [`README.md`](./README.md)** (table des 19 tomes, statuts vérifiés, 1 422 verrous fonctionnels balisés) et les [`foundations/`](./foundations/README.md).
+> Ce document est le plan de rédaction historique. Il a servi de trame pour la rédaction des tomes. **Pour l'état réel et à jour du corpus, consulter le [`README.md`](./README.md)** (table des 19 tomes, statuts vérifiés, **1 680 verrous fonctionnels balisés** — corpus complètement scellé) et les [`foundations/`](./foundations/README.md).
 > La structure physique du corpus est la suivante : les modules M001–M054 (tomes 1 à 4) sont matérialisés par des documents continus ; la numérotation physique des modules unitaires s'étend de **55** (Tome 5) à **336** (Tome 19).
 > L'écosystème technique est exclusivement Google (Constitution, Article 1 bis ; Doctrine d'Infrastructure, Table de Transposition Normative).
 

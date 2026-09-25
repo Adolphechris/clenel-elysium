@@ -132,6 +132,7 @@ CREATE INDEX idx_actes_hash ON schema_juridique.registre_actes_signes(hash_docum
 | VF-323-03 | Les clés privées de signature électronique doivent impérativement résider sous Google Cloud KMS sans extraction possible | CRITIQUE |
 | VF-323-04 | Tout diplôme ou relevé officiel ne portant pas la signature électronique Cloud KMS scellée est réputé nul et non avenu | CRITIQUE |
 | VF-323-05 | Les mandats d'administrateurs et délégations de signature sont révisés annuellement lors de l'Assemblée Générale Ordinaire | OBLIGATOIRE |
+| VF-323-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

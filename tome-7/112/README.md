@@ -92,6 +92,7 @@ Le fichier `manifest.webmanifest` transforme le site en application installable 
 | **`VF-112-03`** | **Paiement fractionné des minervals autorisé** | Le système enregistre les paiements partiels et calcule automatiquement le solde restant. |
 | **`VF-112-04`** | **Reçu PDF immédiat après chaque paiement** | Le reçu est généré et envoyé par e-mail/WhatsApp en moins de 60 secondes. |
 | **`VF-112-05`** | **Interdiction de relance agressive pour impayés** | Les communications de relance respectent un délai de grâce et un ton bienveillant. |
+| **`VF-112-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

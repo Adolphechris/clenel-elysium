@@ -91,6 +91,7 @@ Les tableaux de notes scolaires constituent le défi d'accessibilité le plus co
 | :--- | :--- | :--- |
 | **`VF-101-04`** | **Navigation intégrale au clavier sans souris** | Focus visuel visible sur chaque élément interactif pour les utilisateurs au clavier. |
 | **`VF-101-05`** | **Attributs ARIA complets pour lecteurs d'écran** | Balisage sémantique systématique pour l'inclusion des déficients visuels. |
+| **`VF-101-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

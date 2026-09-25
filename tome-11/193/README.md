@@ -69,6 +69,7 @@ graph TD
 | VF-193-03 | Les candidats libres (AIS/AIU) ne peuvent faire l'objet d'aucune facturation | CONSTITUTIONNEL |
 | VF-193-04 | Droit d'accès et d'export des données personnelles en libre-service (Loi RDC 15/023) | LÉGAL |
 | VF-193-05 | Journalisation obligatoire de toute suspension ou mesure disciplinaire administrative | OBLIGATOIRE |
+| VF-193-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

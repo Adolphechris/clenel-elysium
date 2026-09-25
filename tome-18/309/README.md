@@ -109,6 +109,7 @@ sequenceDiagram
 | VF-309-03 | Il est formellement interdit d'afficher de la publicité tierce ou commerciale sur les landing pages d'ELLYSIUM | CRITIQUE |
 | VF-309-04 | Chaque landing page doit être accessible en français et comporter un résumé dans les 4 langues nationales congolaises | OBLIGATOIRE |
 | VF-309-05 | L'accès à la PWA d'apprentissage doit être directement accessible en 1 clic depuis n'importe quelle landing page | OBLIGATOIRE |
+| VF-309-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

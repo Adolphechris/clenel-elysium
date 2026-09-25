@@ -147,6 +147,7 @@ erDiagram
 | **`VF-063-03`** | **Alerte de retard de programme** | Un différentiel > 15% entre le prévisionnel et le réalisé déclenche un rapport d'alerte pédagogique. |
 | **`VF-063-04`** | **Enrichissement par ressources OER libres** | Toute ressource pédagogique liée doit respecter les licences ouvertes non commerciales. |
 | **`VF-063-05`** | **Signature hebdomadaire par la direction** | Le préfet des études doit viser et valider électroniquement le cahier de textes chaque semaine. |
+| **`VF-063-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

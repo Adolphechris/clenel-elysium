@@ -126,6 +126,7 @@ CREATE INDEX idx_mineur_alerte ON schema_juridique.alertes_securite_mineurs(appr
 | VF-327-03 | Tout déclenchement du Bouton d'Alerte SOS doit faire l'objet d'une prise en charge humaine qualifiée en moins de 15 minutes | CRITIQUE |
 | VF-327-04 | Le filtre de modération Vertex AI Safety s'exécute en amont de toute publication sur les espaces d'échange d'élèves | CRITIQUE |
 | VF-327-05 | L'ensemble des signalements d'atteinte aux mineurs fait l'objet d'un rapport mensuel scellé adressé au Ministère de la Justice | OBLIGATOIRE |
+| VF-327-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

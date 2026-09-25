@@ -79,6 +79,7 @@ $$P(\text{Succès}) = \frac{1}{1 + e^{-(\theta - \beta)}}$$
 | **`VF-135-03`** | **Rétention des journaux pendant 3 ans minimum** | Cloud Logging configuré en rétention longue durée pour obligations légales. |
 | **`VF-135-04`** | **Export immédiat des journaux vers BigQuery pour analyse SIEM** | Corrélation des événements en temps réel pour détection d'anomalies. |
 | **`VF-135-05`** | **Imputabilité de tout événement système à un compte nominatif** | Interdiction des comptes génériques partagés sur les systèmes de production. |
+| **`VF-135-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

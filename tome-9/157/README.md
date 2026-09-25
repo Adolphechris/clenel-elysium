@@ -87,6 +87,7 @@ Le parent ou tuteur légal dispose d'un droit de regard permanent depuis son tab
 | **`VF-157-03`** | **Isolation des données de mineurs sur des buckets dédiés** | Séparation physique et logique des données d'élèves de moins de 18 ans. |
 | **`VF-157-04`** | **Accès pédiatriques soumis à double habilitation** | Toute consultation de données de mineurs requiert deux niveaux d'authentification. |
 | **`VF-157-05`** | **Effacement prioritaire et immédiat sur demande parentale** | Traitement de toute demande d'effacement de données de mineur sous 48h maximum. |
+| **`VF-157-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

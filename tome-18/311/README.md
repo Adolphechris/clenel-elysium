@@ -109,6 +109,7 @@ export const ELLYSIUM_BRAND_ASSETS = {
 | VF-311-03 | Les 5 déclinaisons de sous-marques (Académie, SGS, Certif, Pro, Solidaire) doivent impérativement conserver le préfixe ELLYSIUM | CRITIQUE |
 | VF-311-04 | Tous les assets de marque vectoriels sont obligatoirement servis via Google Cloud CDN avec politique de mise en cache pérenne | OBLIGATOIRE |
 | VF-311-05 | La charte graphique officielle fait l'objet d'un scellement juridique à l'Office Congolais de Contrôle (OCC) et à l'OMPI | OBLIGATOIRE |
+| VF-311-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

@@ -105,6 +105,7 @@ $$\text{Score Pertinence} = \text{ReRankerScore}(\text{Question}, \text{Fragment
 | **`VF-133-03`** | **Principe du moindre privilège sur tous les comptes IAM** | Revue trimestrielle des permissions et suppression des droits inutilisés. |
 | **`VF-133-04`** | **Authentification multi-facteurs obligatoire pour tous les comptes admin** | Clés FIDO2/YubiKey requises pour les Super Admins GCP. |
 | **`VF-133-05`** | **Pas de clé de service à longue durée de vie pour les applications** | Usage exclusif de Workload Identity Federation pour les services Cloud. |
+| **`VF-133-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

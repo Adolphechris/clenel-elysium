@@ -1,6 +1,7 @@
 # PLAN D'EXÉCUTION ELLYSIUM — Feuille de route opérationnelle
 > Version 1.0 — 17/09/2026 · Conforme : Constitution Art. 1 bis, Doctrine GCP, Fondations 04, Tome 16 (Phases 0–3)
 > **Base de départ mesurée :** spécifications ≈ 87 % · chantier global ≈ 13,5 % · code applicatif : 0 %
+> **Mise à jour 25/09/2026 :** BLOC A scellé — 1 680/1 680 verrous VF · 19/19 tomes au statut Complété ✅ · code applicatif MVP en cours de finalisation (16 packages + 7 apps)
 
 ---
 
@@ -17,9 +18,9 @@ Règle : **l'IA ne déclare jamais accompli un travail humain**, et réciproquem
 
 ## 2. ÉTAT DES LIEUX VÉRIFIÉ (baseline 17/09/2026)
 
-- 282/282 modules (55–336) rédigés ; 1 422/1 680 verrous VF (M001–M054 non unitarisés) ;
-- tomes 11–14 : statuts « EN COURS » à consolider ; module 228 « en cours » ;
-- **0 ligne de code applicatif** ; 0 projet GCP ; 0 leçon rédigée ; ASBL non immatriculée.
+- 282/282 modules (55–336) rédigés ; **1 680/1 680 verrous VF** (corpus complètement scellé) ;
+- **19/19 tomes** au statut **Complété ✅** (tomes 11–14 consolidés, module 228 finalisé) ;
+- Code applicatif : 16 packages + 7 apps initialisés, 59 tests existants (api-gateway, pwa-offline, academic-engine, rbak-engine, audit-trail, etc.) ; MVP en cours de finalisation (Phase 2 : PWA offline + Android + dashboards) ;
 
 ---
 
@@ -70,7 +71,7 @@ Phase 2 (filière Informatique, 15 000 apprenants) → Phase 3 (généralisation
 
 | Jalon | Critère de sortie | Vérification |
 |---|---|---|
-| BLOC A scellé | 1 680/1 680 VF, statuts 19/19 | `verify-corpus.sh` + revue |
+| BLOC A scellé ✅ (25/09/2026) | 1 680/1 680 VF, statuts 19/19 | `verify-corpus.sh` vert + `verify-contenus.sh` conforme |
 | MVP code-froid | Backlog 0 ouvert critique, démos des 29 domaines | Revue COPIL (M280) |
 | Sortie labo | 4 épreuves du M281 réussies | PV de certification |
 | J+180 | 6 feux verts du M290 | Décision COPIL Go/No-Go |

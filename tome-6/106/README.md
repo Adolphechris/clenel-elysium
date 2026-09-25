@@ -80,6 +80,7 @@ Lorsqu'une règle métier du Tome 5 est modifiée (ex. décret ministériel rév
 | **`VF-106-03`** | **Garantie d'opérabilité sur les applications du Tome 12** | Le Design System est la référence unique pour les applications Web, Android et Offline. |
 | **`VF-106-04`** | **Mise à jour synchronisée des maquettes et du code** | Toute évolution d'un token de design est propagée dans le dépôt UI partagé. |
 | **`VF-106-05`** | **Clôture solennelle du Tome 6** | Le présent module valide l'intégralité ergonomique et visuelle des 23 sous-tomes d'ELLYSIUM. |
+| **`VF-106-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

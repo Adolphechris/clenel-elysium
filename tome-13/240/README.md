@@ -109,6 +109,7 @@ $$\text{Taux d'Échec HTTP 5xx} \le 0,05\% \quad \text{au pic de 65 000 req/sec}
 | VF-240-03 | Délestage Edge obligatoire : au moins 90% des lectures publiques servies par CDN | TECHNIQUE |
 | VF-240-04 | Interdiction d'exécuter des tirs de charge sur l'environnement de production direct | SÉCURITÉ |
 | VF-240-05 | Traçabilité intégrale des métriques de chaque tir archivée sur Cloud Storage | QUALITÉ |
+| VF-240-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

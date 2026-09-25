@@ -80,6 +80,7 @@ Avant d'émettre une réponse complexe en sciences (Physique, Chimie, Mathémati
 | **`VF-144-03`** | **Attestation de réussite générée automatiquement sous 5 minutes** | Le document est disponible le jour même de la délibération officielle. |
 | **`VF-144-04`** | **Numéro de série national unique sur chaque attestation** | Format standardisé par le Ministère pour garantir l'interopérabilité nationale. |
 | **`VF-144-05`** | **Revocation publique possible avec journalisation** | Les attestations annulées sont marquées invalides dans le registre public d'authenticité. |
+| **`VF-144-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

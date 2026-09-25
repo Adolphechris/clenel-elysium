@@ -120,6 +120,7 @@ CREATE INDEX idx_risque_statut ON registre_risques_deploiement(statut_risque);
 | VF-292-03 | Le Plan de Continuité d'Activité (PCA) hors-ligne doit permettre un fonctionnement scolaire autonome d'au moins 14 jours | CRITIQUE |
 | VF-292-04 | La matrice des risques est révisée mensuellement lors des sessions ordinaires du Comité de Pilotage (COPIL) | OBLIGATOIRE |
 | VF-292-05 | Les sauvegardes chiffrées des bases de données locales sont répliquées chaque nuit sur un support physique amovible étanche | OBLIGATOIRE |
+| VF-292-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

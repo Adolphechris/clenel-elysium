@@ -115,6 +115,7 @@ CREATE INDEX idx_licence_annee ON schema_finance.contrats_licences_b2b(annee_sco
 | VF-297-03 | Tout retard de paiement de la direction d'une école ne peut en aucun cas entraîner le blocage des accès des élèves ou la retenue de leurs notes | CRITIQUE |
 | VF-297-04 | Les établissements situés en zone de grande précarité ou en milieu rural isolé bénéficient d'une licence gracieuse à 0 USD | CRITIQUE |
 | VF-297-05 | 100 % des encaissements B2B sont centralisés sous Cloud SQL et réconciliés quotidiennement avec les relevés bancaires officiels | OBLIGATOIRE |
+| VF-297-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

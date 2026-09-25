@@ -91,6 +91,7 @@ CREATE INDEX idx_presences_eleve ON presences_cours (eleve_id, statut_presence);
 | VF-198-03 | L'appel en classe doit s'effectuer en moins de 90 secondes sur l'interface mobile | ERGONOMIE (SLO) |
 | VF-198-04 | Impossibilité pour un enseignant de modifier l'appel passé plus de 2 heures auparavant | SÉCURITÉ |
 | VF-198-05 | Protection des données de santé : motifs médicaux réservés au dossier confidentiel | LÉGAL |
+| VF-198-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

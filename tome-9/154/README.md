@@ -82,6 +82,7 @@ stateDiagram-v2
 | **`VF-154-03`** | **Purge automatique des données temporaires de session** | Les tokens de session et données de navigation sont détruits à la fermeture. |
 | **`VF-154-04`** | **Politique de rétention différenciée par catégorie de donnée** | Les délibérations sont conservées 100 ans, les logs réseau 12 mois. |
 | **`VF-154-05`** | **Gel légal des données en cas de procédure judiciaire** | Suspension de la purge automatique pour les dossiers sous injonction judiciaire. |
+| **`VF-154-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

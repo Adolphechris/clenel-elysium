@@ -71,6 +71,7 @@ Conformément à l'Article 19 de la Constitution (Responsabilité sociétale) :
 | **`VF-085-03`** | **Sobriété énergétique logicielle** | Mode sombre natif disponible sur toutes les applications pour préserver les batteries. |
 | **`VF-085-04`** | **Droit à l'effacement visuel direct** | L'apprenant peut masquer son historique d'activité de l'affichage en un clic. |
 | **`VF-085-05`** | **Conformité du langage institutionnel** | Les mentions légales et consentements sont rédigés en français simple accessible aux collégiens. |
+| **`VF-085-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

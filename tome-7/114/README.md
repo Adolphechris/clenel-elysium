@@ -120,6 +120,7 @@ Cloud Memorystore n'est jamais utilisé pour stocker l'état souverain définiti
 | **`VF-114-03`** | **Agenda partagé visible par les parents des activités parascolaires** | Toutes les sorties scolaires figurent avec localisation GPS et liste d'autorisation. |
 | **`VF-114-04`** | **Formulaire de consentement électronique pour activités extrascolaires** | Remplacement du carnet papier d'autorisation parentale par un formulaire numérique signé. |
 | **`VF-114-05`** | **Suivi en direct des activités terrain hors enceinte scolaire** | Localisation GPS des groupes scolaires visible par les parents pendant les sorties. |
+| **`VF-114-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

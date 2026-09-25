@@ -82,6 +82,7 @@ En bas de chaque échange avec le tuteur :
 | **`VF-145-03`** | **Accès individuel aux copies corrigées après délibération** | L'élève peut consulter sa copie scannée avec les corrections de l'enseignant. |
 | **`VF-145-04`** | **Délai légal de contestation affiché sur le relevé** | Rappel explicite des dates limites de recours sur chaque document de résultat. |
 | **`VF-145-05`** | **Commission d'appel numérique avec traçabilité** | Dossier d'appel déposé en ligne avec réponse motivée dans les délais légaux. |
+| **`VF-145-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

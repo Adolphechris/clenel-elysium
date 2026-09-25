@@ -116,6 +116,7 @@ CREATE TABLE schema_communication.campagnes_publicitaires (
 | VF-310-03 | L'utilisation de visuels misérabilistes ou dégradants pour susciter la pitié est strictement interdite dans toutes les campagnes | CRITIQUE |
 | VF-310-04 | La gratuité totale du tronc commun doit être rappelée de manière explicite et lisible sur chaque page publique d'orientation | CRITIQUE |
 | VF-310-05 | Toute réclamation citoyenne pour publicité trompeuse est instruite par le Comité d'Éthique sous 7 jours ouvrés avec réponse publique | OBLIGATOIRE |
+| VF-310-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

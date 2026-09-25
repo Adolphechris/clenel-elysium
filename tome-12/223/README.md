@@ -104,6 +104,7 @@ Pour empêcher la diffusion frauduleuse de sujets d'examen avant l'heure ou la f
 | VF-223-03 | Stockage local chiffré exclusivement en AES-256 avec clé protégée par Keystore/Keychain | CONSTITUTIONNEL |
 | VF-223-04 | Capture d'écran bloquée par `FLAG_SECURE` pendant toute épreuve d'examen | FRAUDE |
 | VF-223-05 | Zéro log applicatif ou donnée sensible dans `Logcat` ou la console en mode release | OBLIGATOIRE |
+| VF-223-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

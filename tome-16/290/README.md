@@ -112,6 +112,7 @@ CREATE INDEX idx_jalon_decision ON jalons_deploiement_pilote(decision_copil);
 | VF-290-03 | L'épreuve de résilience hors-ligne de 72h doit prouver une intégrité parfaite des données à 100 % sous Cloud SQL | CRITIQUE |
 | VF-290-04 | En cas d'ajournement à J+180, une période de remédiation de 60 jours maximum est octroyée avant réévaluation finale | OBLIGATOIRE |
 | VF-290-05 | Les procès-verbaux de passage de jalon sont signés électroniquement par l'ensemble des membres votants du COPIL | OBLIGATOIRE |
+| VF-290-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

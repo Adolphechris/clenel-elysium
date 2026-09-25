@@ -167,6 +167,7 @@ CREATE INDEX idx_disc_cat      ON dossiers_disciplinaires(categorie);
 | VF-260-03 | Le dossier disciplinaire complet (signalement, enquête, décision, appel éventuel) est archivé dans Cloud Storage avec un hash d'intégrité SHA-256 | OBLIGATOIRE |
 | VF-260-04 | La personne sanctionnée est notifiée par écrit sous 24h suivant la décision de la Commission | OBLIGATOIRE |
 | VF-260-05 | Tout manquement impliquant un blocage d'accès apprenant (violation Article 5 Constitution) est automatiquement classé en faute lourde sans possibilité de déclassement | CRITIQUE |
+| VF-260-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

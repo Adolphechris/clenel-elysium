@@ -78,6 +78,7 @@ En cas de divergence apparente entre un impératif technique (ex. limitation de 
 | **`VF-129-03`** | **Dépendance aval avec le Tome 8 (Infrastructure et Sécurité)** | Les services applicatifs s'appuient exclusivement sur l'infrastructure sécurisée du Tome 8. |
 | **`VF-129-04`** | **Compatibilité bidirectionnelle avec le Tome 12 (Applications)** | Le Tome 7 fournit les APIs consommées par les applications web, Android et offline. |
 | **`VF-129-05`** | **Clôture solennelle du Tome 7** | Validation de l'intégralité de l'architecture technique de la plateforme ELLYSIUM. |
+| **`VF-129-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -117,6 +117,7 @@ CREATE TABLE schema_finance.appels_offres_marches (
 | VF-307-03 | Les membres du CFA ne peuvent détenir aucun intérêt direct ou indirect dans une entreprise candidate aux marchés d'ELLYSIUM | CRITIQUE |
 | VF-307-04 | Une alerte de trésorerie inférieure à 2 mois d'OPEX déclenche automatiquement la convocation d'un Conseil d'Administration extraordinaire | CRITIQUE |
 | VF-307-05 | Les procès-verbaux mensuels du CFA sont versés de façon inaltérable sous Google Cloud Storage sous 72 heures ouvrées | OBLIGATOIRE |
+| VF-307-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

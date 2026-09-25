@@ -205,6 +205,7 @@ CREATE INDEX idx_ens_contrat ON enseignants(type_contrat);
 | VF-253-03 | Tout licenciement doit suivre la procédure disciplinaire définie au Module 260, avec avis du DA | CRITIQUE |
 | VF-253-04 | Le score d'évaluation est calculé automatiquement par le système ; aucun directeur ne peut le modifier manuellement | OBLIGATOIRE |
 | VF-253-05 | Les formations obligatoires doivent être complétées dans les 30 jours suivant la convocation, sous peine de suspension temporaire | OBLIGATOIRE |
+| VF-253-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

@@ -87,6 +87,7 @@ Le Tome 18 étant intégralement achevé (11 modules sur 11), le grand œuvre do
 | VF-319-03 | L'articulation entre communication et gestion des incidents terrain est auditée lors de chaque fin de phase pilote | OBLIGATOIRE |
 | VF-319-04 | L'ensemble des spécifications du Tome 18 est scellé avec contrôle d'intégrité cryptographique sous Google Cloud Storage | OBLIGATOIRE |
 | VF-319-05 | Ce module constitue la référence pour toute évaluation de l'alignement éthique de la marque ELLYSIUM | OBLIGATOIRE |
+| VF-319-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

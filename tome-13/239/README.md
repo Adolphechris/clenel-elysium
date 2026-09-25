@@ -103,6 +103,7 @@ Chaque Pull Request déclenche l'exécution des tests en conteneur éphémère :
 | VF-239-03 | Tests de non-régression exécutés automatiquement dans Google Cloud Build | QUALITÉ |
 | VF-239-04 | Interdiction d'utiliser des bases de données de production pour les tests | SÉCURITÉ |
 | VF-239-05 | Validation systématique du comportement en cas de données corrompues ou nulles | RÉSILIENCE |
+| VF-239-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

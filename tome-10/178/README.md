@@ -175,6 +175,7 @@ flowchart TD
 | VF-178-03 | L'apprenant accusé de fraude a droit à une audition avant toute sanction | CONSTITUTIONNEL |
 | VF-178-04 | La falsification d'un diplôme ELLYSIUM est signalée aux autorités RDC | LÉGAL |
 | VF-178-05 | Les algorithmes de détection de fraude sont révisés annuellement pour éviter les faux positifs | OBLIGATOIRE |
+| VF-178-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

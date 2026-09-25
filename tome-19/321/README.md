@@ -110,6 +110,7 @@ CREATE INDEX idx_loi_statut ON schema_juridique.registre_conformite_lois_rdc(sta
 | VF-321-03 | Les filières supérieures doivent respecter l'architecture LMD et le système de crédits reconnu par l'ESU et le CAMES | CRITIQUE |
 | VF-321-04 | Il est formellement interdit de délivrer des titres présentés faussement comme des diplômes d'État sans convention d'homologation | CRITIQUE |
 | VF-321-05 | Le registre de conformité légale fait l'objet d'un audit juridique annuel certifié par un avocat au barreau de Kinshasa | OBLIGATOIRE |
+| VF-321-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

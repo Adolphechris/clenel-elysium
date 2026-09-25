@@ -81,6 +81,7 @@ Une sauvegarde non testée étant réputée inexistante, ELLYSIUM applique un ca
 | VF-237-03 | Chiffrement obligatoire de 100% des sauvegardes au repos via Cloud KMS (CMEK) | SÉCURITÉ |
 | VF-237-04 | Test automatique hebdomadaire de restauration en bac à sable obligatoire | QUALITÉ |
 | VF-237-05 | Rétention des archives de diplômes verrouillée à 50 ans sans suppression possible | LÉGAL |
+| VF-237-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

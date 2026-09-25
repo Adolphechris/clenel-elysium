@@ -107,6 +107,7 @@ Les partenaires institutionnels disposent d'une interface de supervision techniq
 | **`VF-116-03`** | **Formation numérique guidée pour les parents peu alphabétisés** | Tutoriels audio-visuels en langues nationales pour utiliser la plateforme. |
 | **`VF-116-04`** | **Version simplifiée de l'interface pour les non-initiés** | Mode débutant avec 4 boutons principaux uniquement. |
 | **`VF-116-05`** | **Assistance téléphonique référencée dans l'application** | Numéro de support clairement affiché sur toutes les pages d'accueil parent. |
+| **`VF-116-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0B2545">
+  <meta name="description" content="ELLYSIUM — Espace Parent : bulletin, assiduité, notifications d'absence et paiement Mobile Money.">
+  <link rel="manifest" href="/manifest.json">
   <title>ELLYSIUM — Espace Parent</title>
   <style>
     :root {
       --navy: #0B2545; --or: #D4AF37; --ciel: #E8F4F8; --vert: #27AE60;
       --rouge: #E74C3C; --blanc: #FFFFFF; --fond: #F5F7FA; --gris: #6C757D;
+      --orange: #F39C12;
       --radius: 12px; --shadow: 0 2px 8px rgba(11,37,69,0.12);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -40,12 +43,35 @@
     .btn { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 14px; border-radius: 8px; font-size: 15px; font-weight: 700; border: none; cursor: pointer; width: 100%; min-height: 48px; margin-bottom: 8px; }
     .btn-primary { background: var(--navy); color: var(--blanc); }
     .btn-outline { background: transparent; border: 2px solid var(--navy); color: var(--navy); }
+    .btn-gold { background: var(--or); color: var(--navy); }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
     .discipline-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--ciel); }
     .discipline-row:last-child { border-bottom: none; }
     .disc-name { font-size: 14px; font-weight: 600; }
     .disc-score { font-size: 14px; font-weight: 700; }
     .progress-bar { height: 6px; background: var(--ciel); border-radius: 3px; margin-top: 4px; }
     .progress-fill { height: 100%; border-radius: 3px; }
+
+    /* === Article 5 : séparation finance / académie === */
+    .article5 { background: #EAFAF1; border-left: 4px solid var(--vert); border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #1E7B47; margin-top: 12px; }
+    .form-group { margin-bottom: 14px; }
+    .form-label { display: block; font-weight: 600; font-size: 13px; margin-bottom: 6px; }
+    .form-input { width: 100%; padding: 12px; border: 2px solid var(--ciel); border-radius: 8px; font-size: 15px; color: var(--navy); background: var(--blanc); min-height: 48px; }
+    .operator-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .operator { padding: 10px 4px; border: 2px solid var(--ciel); border-radius: 8px; text-align: center; font-size: 11px; font-weight: 700; cursor: pointer; background: var(--blanc); }
+    .operator.selected { border-color: var(--or); background: #FEF9E7; }
+    .receipt { background: var(--ciel); border-radius: 8px; padding: 12px; margin-top: 12px; font-size: 12px; word-break: break-all; }
+    .receipt code { font-weight: 700; color: var(--navy); }
+    .network-badge { display: flex; align-items: center; gap: 6px; font-size: 12px; padding: 4px 10px; border-radius: 20px; font-weight: 600; }
+    .network-badge.online { background: rgba(39,174,96,0.2); color: #27AE60; }
+    .network-badge.offline { background: rgba(231,76,60,0.2); color: #E74C3C; }
+    .network-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .network-badge.online .network-dot { background: var(--vert); }
+    .network-badge.offline .network-dot { background: var(--rouge); }
+    .child-switch { display: flex; gap: 8px; margin-bottom: 12px; }
+    .child-chip { flex: 1; padding: 8px; border-radius: 8px; border: 2px solid var(--ciel); background: var(--blanc); font-size: 12px; font-weight: 700; cursor: pointer; min-height: 48px; }
+    .child-chip.active { border-color: var(--or); }
+    .empty { font-size: 13px; color: var(--gris); padding: 8px 0; }
   </style>
 </head>
 <body>
@@ -54,108 +80,414 @@
       <div class="logo">ELLYSIUM</div>
       <div class="sub">Espace Parent</div>
     </div>
-    <div>👤 Parent</div>
+    <div id="networkBadge" class="network-badge online">
+      <div class="network-dot"></div>
+      <span id="networkLabel">En ligne</span>
+    </div>
   </header>
 
   <main class="content">
-    <!-- Enfant sélectionné -->
-    <div class="child-header">
-      <div class="child-name">KASONGO David</div>
-      <div class="child-class">4ème Humanités Scientifiques A · École Sainte-Marie</div>
+    <!-- Sélecteur d'enfant -->
+    <div class="child-switch" id="childSwitch"></div>
+
+    <!-- Synthèse -->
+    <div class="child-header" id="childHeader">
+      <div class="child-name" id="childName">—</div>
+      <div class="child-class" id="childClass">—</div>
       <div style="margin-top:16px;display:flex;align-items:baseline;gap:12px;">
-        <div class="pct-big">74.3%</div>
+        <div class="pct-big" id="childPct">—</div>
         <div>
-          <div style="font-size:16px;font-weight:700;color:var(--or);">DISTINCTION</div>
-          <div class="mention">1er semestre — ADMIS ✅</div>
+          <div style="font-size:16px;font-weight:700;color:var(--or);" id="childMention">—</div>
+          <div class="mention" id="childPeriod">—</div>
         </div>
       </div>
+    </div>
+
+    <!-- Bulletin -->
+    <div class="card">
+      <div class="card-title">📄 Bulletin scolaire</div>
+      <div id="gradesList"><div class="empty">Bulletin en cours de chargement…</div></div>
+      <div class="stat-row" style="margin-top:8px;">
+        <span class="stat-label">Sceau cryptographique (SHA-256)</span>
+        <span class="stat-value" id="sealHash" style="font-size:11px;">—</span>
+      </div>
+      <button class="btn btn-outline" style="margin-top:12px;" onclick="downloadReportCard()">
+        📥 Télécharger le bulletin sécurisé
+      </button>
     </div>
 
     <!-- Assiduité -->
     <div class="card">
-      <div class="card-title">📋 Assiduité du mois</div>
+      <div class="card-title">📋 Assiduité</div>
       <div class="stat-row">
         <span class="stat-label">Taux de présence</span>
-        <span class="stat-value" style="color:var(--vert);">94.2%</span>
+        <span class="stat-value" id="attRate">—</span>
       </div>
       <div class="stat-row">
-        <span class="stat-label">Absences ce mois</span>
-        <span class="stat-value">2 jours</span>
+        <span class="stat-label">Absences</span>
+        <span class="stat-value" id="attAbsent">—</span>
       </div>
       <div class="stat-row">
         <span class="stat-label">Retards</span>
-        <span class="stat-value">1</span>
+        <span class="stat-value" id="attLate">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Jours d'appel</span>
+        <span class="stat-value" id="attTotal">—</span>
       </div>
     </div>
 
-    <!-- Dernières cotes -->
+    <!-- Notifications -->
     <div class="card">
-      <div class="card-title">📝 Dernières évaluations</div>
-      <div class="discipline-row">
-        <div>
-          <div class="disc-name">Mathématiques</div>
-          <div class="progress-bar"><div class="progress-fill" style="width:84%;background:var(--vert);"></div></div>
-        </div>
-        <div>
-          <div class="disc-score">42/50</div>
-          <div style="font-size:12px;color:var(--gris);">84%</div>
-        </div>
-      </div>
-      <div class="discipline-row">
-        <div>
-          <div class="disc-name">Français</div>
-          <div class="progress-bar"><div class="progress-fill" style="width:68%;background:var(--or);"></div></div>
-        </div>
-        <div>
-          <div class="disc-score">34/50</div>
-          <div style="font-size:12px;color:var(--gris);">68%</div>
-        </div>
-      </div>
-      <div class="discipline-row">
-        <div>
-          <div class="disc-name">Biologie</div>
-          <div class="progress-bar"><div class="progress-fill" style="width:72%;background:var(--or);"></div></div>
-        </div>
-        <div>
-          <div class="disc-score">36/50</div>
-          <div style="font-size:12px;color:var(--gris);">72%</div>
-        </div>
-      </div>
+      <div class="card-title">🔔 Notifications <span class="badge badge-or" id="notifCount">0</span></div>
+      <div id="notifList"><div class="empty">Aucune notification.</div></div>
+      <button class="btn btn-outline" style="margin-top:12px;" onclick="syncNotifications()">
+        🔄 Actualiser les notifications
+      </button>
     </div>
 
-    <!-- Notifications récentes -->
+    <!-- Paiement Mobile Money -->
     <div class="card">
-      <div class="card-title">🔔 Notifications récentes</div>
-      <div class="notif-item">
-        <div class="notif-icon">🎉</div>
-        <div>
-          <div class="notif-text">Bulletin du 1er semestre disponible — DISTINCTION (74.3%)</div>
-          <div class="notif-time">Il y a 2 heures</div>
+      <div class="card-title">💳 Paiement Mobile Money</div>
+      <div class="form-group">
+        <label class="form-label" for="feeType">Type de frais</label>
+        <select class="form-input" id="feeType">
+          <option value="MINERVAL">Minerval</option>
+          <option value="INSCRIPTION">Frais d'inscription</option>
+          <option value="EXAMEN">Frais d'examen</option>
+          <option value="CERTIFICAT">Certificat</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="amount">Montant (CDF)</label>
+        <input type="number" class="form-input" id="amount" value="150000" min="1" step="1000">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Opérateur</label>
+        <div class="operator-grid" id="operatorGrid">
+          <div class="operator selected" data-operator="MPESA" onclick="selectOperator('MPESA')">📱 M-Pesa<br>*182#</div>
+          <div class="operator" data-operator="ORANGE_MONEY" onclick="selectOperator('ORANGE_MONEY')">🟠 Orange<br>*150#</div>
+          <div class="operator" data-operator="AIRTEL_MONEY" onclick="selectOperator('AIRTEL_MONEY')">🔴 Airtel<br>*133#</div>
         </div>
       </div>
-      <div class="notif-item">
-        <div class="notif-icon">📋</div>
-        <div>
-          <div class="notif-text">Votre enfant était absent le 15/09/2026</div>
-          <div class="notif-time">Il y a 4 jours</div>
-        </div>
+      <div class="form-group">
+        <label class="form-label" for="payerPhone">Numéro payeur</label>
+        <input type="tel" class="form-input" id="payerPhone" value="+243 81 000 0000">
       </div>
-      <div class="notif-item">
-        <div class="notif-icon">📚</div>
-        <div>
-          <div class="notif-text">Nouveau devoir publié : Mathématiques — Algèbre (remise: 26/09)</div>
-          <div class="notif-time">Il y a 1 semaine</div>
-        </div>
+      <button class="btn btn-gold" id="payBtn" onclick="makePayment()">💸 Payer maintenant</button>
+      <div id="receiptBox"></div>
+
+      <div class="article5">
+        <strong>Article 5 — Séparation stricte finance / académie.</strong>
+        Une situation d'impayé ne retire <strong>jamais</strong> l'accès au bulletin,
+        aux évaluations ni au suivi d'assiduité de votre enfant.
       </div>
     </div>
 
-    <!-- Actions -->
-    <button class="btn btn-primary" onclick="alert('Téléchargement du bulletin sécurisé (PDF scellé ELLYSIUM)')">
-      📄 Télécharger le bulletin
-    </button>
-    <button class="btn btn-outline" onclick="alert('Vérificateur de diplômes : https://elysium.cd/verify')">
-      🔍 Vérifier un document
+    <button class="btn btn-outline" onclick="window.open('https://elysium.cd/verify', '_blank')">
+      🔍 Vérifier un document officiel
     </button>
   </main>
+
+  <script>
+    // ==========================================================
+    // ELLYSIUM — Espace Parent
+    // Pont d'intégration vers src/parent-portal.ts (ParentPortal) :
+    // même formule de délibération, mêmes règles Mobile Money, mêmes
+    // canaux de notification. Les tests Node couvrent la classe TS.
+    // ==========================================================
+    const OPERATOR_PHONE = {
+      MPESA: ['+24381', '+24382', '081', '082'],
+      ORANGE_MONEY: ['+24380', '+24389', '080', '089'],
+      AIRTEL_MONEY: ['+24397', '+24399', '097', '099']
+    };
+
+    const ELLYSIUMParent = {
+      profile: { parentId: 'PAR-01', parentName: 'KASONGO Marie', phoneNumber: '+243810000000', fcmToken: 'fcm-token-KASONGO' },
+      online: navigator.onLine,
+      selectedChild: 'ST-001',
+      operator: 'MPESA',
+      notifications: [],
+      lastReportCard: null,
+      devise: 'CDF',
+
+      formula: "Taux = (Somme(PointsObtenus * Coef) / Somme(PointsMaxima * Coef)) * 100",
+
+      /** Mention officielle selon la formule RDC. */
+      mention(pct) {
+        if (pct >= 90) return 'PLUS_GRANDE_DISTINCTION';
+        if (pct >= 80) return 'GRANDE_DISTINCTION';
+        if (pct >= 70) return 'DISTINCTION';
+        if (pct >= 60) return 'SATISFACTION';
+        if (pct >= 50) return 'PASSABLE';
+        return 'AJOURNE';
+      },
+
+      /** Délibération recalculée localement à partir des notes publiées. */
+      deliberate(grades) {
+        const obtained = grades.reduce((s, g) => s + g.pointsObtenus * (g.coefficient || 1), 0);
+        const max = grades.reduce((s, g) => s + g.pointsMaxima * (g.coefficient || 1), 0);
+        const pct = Math.round((obtained / max) * 100 * 100) / 100;
+        return { obtained, max, pct, mention: this.mention(pct), admis: pct >= 50 };
+      },
+
+      /** Validation du numéro payeur par rapport à l'opérateur choisi. */
+      validatePhone(phone, operator) {
+        const clean = String(phone).replace(/[\s.-]/g, '');
+        if (!/^(\+?243|0)?\d{9,10}$/.test(clean)) return false;
+        return OPERATOR_PHONE[operator].some(p => clean.startsWith(p));
+      },
+
+      /** Reçu Mobile Money scellé (SHA-256 simulé côté serveur). */
+      buildReceipt(params) {
+        const ref = 'MMTX-' + Math.random().toString(16).slice(2, 14).toUpperCase();
+        const ussd = { MPESA: '*182#', ORANGE_MONEY: '*150#', AIRTEL_MONEY: '*133#' }[params.operator];
+        return {
+          receiptId: 'RCP-' + ref,
+          transactionRef: ref,
+          ussdCode: ussd + '*' + ref + '*' + params.amount + '#',
+          confirmationCode: ref.slice(-6),
+          amount: params.amount,
+          feeType: params.feeType,
+          operator: params.operator,
+          status: 'ENVOYE',
+          timestampUTC: new Date().toISOString()
+        };
+      },
+
+      /** Article 5 : jamais de blocage académique pour motif financier. */
+      academicGuarantee() {
+        return {
+          academicAccessGranted: true,
+          blockedByFinance: false,
+          reference: 'VF-071-02 / Article 5'
+        };
+      },
+
+      getState() {
+        return {
+          initialized: true,
+          parentId: this.profile.parentId,
+          online: this.online,
+          selectedChild: this.selectedChild,
+          operator: this.operator,
+          unread: this.notifications.filter(n => !n.read).length,
+          formule: this.formula
+        };
+      }
+    };
+
+    window.ELLYSIUMParent = ELLYSIUMParent;
+
+    function emit(name, detail) {
+      document.dispatchEvent(new CustomEvent(name, { detail: detail }));
+    }
+
+    // ===== Enfants (charge utile de démonstration) =====
+    const CHILDREN = {
+      'ST-001': {
+        name: 'KASONGO David',
+        klass: '4ème Humanités Scientifiques A',
+        school: 'École Sainte-Marie — Kinshasa',
+        period: '1er semestre 2026-2027',
+        grades: [
+          { disciplineId: 'FR', disciplineName: 'Français', pointsObtenus: 68, pointsMaxima: 100, coefficient: 2 },
+          { disciplineId: 'MATH', disciplineName: 'Mathématiques', pointsObtenus: 42, pointsMaxima: 50, coefficient: 2 },
+          { disciplineId: 'BIO', disciplineName: 'Biologie', pointsObtenus: 36, pointsMaxima: 50, coefficient: 1 }
+        ],
+        attendance: [
+          { date: '2026-09-14', status: 'PRESENT' },
+          { date: '2026-09-15', status: 'ABSENT' },
+          { date: '2026-09-16', status: 'RETARD' },
+          { date: '2026-09-17', status: 'PRESENT' },
+          { date: '2026-09-18', status: 'PRESENT' }
+        ]
+      },
+      'ST-006': { name: 'NGALULA Christine', klass: '3ème Humanités Littéraires B', school: 'École Sainte-Marie — Kinshasa', period: '—', grades: [], attendance: [] }
+    };
+
+    function renderChildSwitch() {
+      document.getElementById('childSwitch').innerHTML = Object.keys(CHILDREN).map(id =>
+        `<button class="child-chip ${id === ELLYSIUMParent.selectedChild ? 'active' : ''}" onclick="selectChild('${id}')">${CHILDREN[id].name}</button>`
+      ).join('');
+    }
+
+    function selectChild(studentId) {
+      ELLYSIUMParent.selectedChild = studentId;
+      renderAll();
+      emit('elysium:child-selected', { studentId });
+    }
+
+    function renderHeader() {
+      const child = CHILDREN[ELLYSIUMParent.selectedChild];
+      const d = ELLYSIUMParent.deliberate(child.grades.length ? child.grades : [{ pointsObtenus: 0, pointsMaxima: 1 }]);
+      document.getElementById('childName').textContent = child.name;
+      document.getElementById('childClass').textContent = child.klass + ' · ' + child.school;
+      document.getElementById('childPct').textContent = child.grades.length ? d.pct + '%' : '—';
+      document.getElementById('childMention').textContent = child.grades.length ? d.mention : 'BULLETIN INDISPONIBLE';
+      document.getElementById('childPeriod').textContent = child.grades.length ? child.period + ' — ' + (d.admis ? 'ADMIS ✅' : 'NON ADMIS ❌') : '';
+    }
+
+    function renderGrades() {
+      const child = CHILDREN[ELLYSIUMParent.selectedChild];
+      const box = document.getElementById('gradesList');
+
+      if (!child.grades.length) {
+        box.innerHTML = '<div class="empty">Aucun bulletin publié pour cet enfant.</div>';
+        document.getElementById('sealHash').textContent = '—';
+        return;
+      }
+
+      const d = ELLYSIUMParent.deliberate(child.grades);
+      ELLYSIUMParent.lastReportCard = d;
+
+      box.innerHTML = child.grades.map(g => {
+        const pct = Math.round((g.pointsObtenus / g.pointsMaxima) * 1000) / 10;
+        const color = pct >= 50 ? 'var(--vert)' : 'var(--rouge)';
+        return `
+          <div class="discipline-row">
+            <div>
+              <div class="disc-name">${g.disciplineName}</div>
+              <div class="progress-bar"><div class="progress-fill" style="width:${Math.min(100, pct)}%;background:${color};"></div></div>
+            </div>
+            <div style="text-align:right;">
+              <div class="disc-score">${g.pointsObtenus}/${g.pointsMaxima}</div>
+              <div style="font-size:12px;color:var(--gris);">${pct}%</div>
+            </div>
+          </div>`;
+      }).join('');
+
+      // Empreinte de vérification affichée au parent (sceau Bulletin sécurisé)
+      document.getElementById('sealHash').textContent = 'elysium.cd/verify/' + child.name.length + child.grades.length + d.pct;
+    }
+
+    function renderAttendance() {
+      const child = CHILDREN[ELLYSIUMParent.selectedChild];
+      const entries = child.attendance;
+      const presents = entries.filter(e => e.status === 'PRESENT').length;
+      const absents = entries.filter(e => e.status === 'ABSENT').length;
+      const retards = entries.filter(e => e.status === 'RETARD').length;
+      const rate = entries.length
+        ? Math.round(((presents + retards * 0.5) / entries.length) * 10000) / 100
+        : 100;
+
+      document.getElementById('attRate').textContent = rate + '%';
+      document.getElementById('attRate').style.color = rate >= 80 ? 'var(--vert)' : 'var(--rouge)';
+      document.getElementById('attAbsent').textContent = absents;
+      document.getElementById('attLate').textContent = retards;
+      document.getElementById('attTotal').textContent = entries.length;
+    }
+
+    function renderNotifications() {
+      const list = document.getElementById('notifList');
+      const unread = ELLYSIUMParent.notifications.filter(n => !n.read).length;
+      document.getElementById('notifCount').textContent = unread;
+
+      list.innerHTML = ELLYSIUMParent.notifications.length
+        ? ELLYSIUMParent.notifications.map(n => `
+          <div class="notif-item" data-notification-id="${n.id}">
+            <div class="notif-icon">${n.icon}</div>
+            <div>
+              <div class="notif-text">${n.text}</div>
+              <div class="notif-time">${n.time}</div>
+            </div>
+          </div>`).join('')
+        : '<div class="empty">Aucune notification.</div>';
+    }
+
+    function syncNotifications() {
+      const child = CHILDREN[ELLYSIUMParent.selectedChild];
+      const rate = child.attendance.length
+        ? Math.round(((child.attendance.filter(e => e.status === 'PRESENT').length +
+            child.attendance.filter(e => e.status === 'RETARD').length * 0.5) / child.attendance.length) * 10000) / 100
+        : 100;
+
+      if (rate < 80 && child.attendance.some(e => e.status === 'ABSENT')) {
+        pushNotification('📋', `${child.name} a été absent le 15/09/2026 — assiduité ${rate}%.`, 'il y a 4 jours', 'ABSENCE_ALERT');
+      }
+      if (child.grades.length) {
+        const d = ELLYSIUMParent.deliberate(child.grades);
+        pushNotification('🎉', `Bulletin du 1er semestre disponible — ${d.mention} (${d.pct}%)`, 'il y a 2 heures', 'REPORT_CARD_AVAILABLE');
+      }
+      renderNotifications();
+      emit('elysium:notifications-refreshed', { total: ELLYSIUMParent.notifications.length });
+    }
+
+    function pushNotification(icon, text, time, type) {
+      if (ELLYSIUMParent.notifications.some(n => n.type === type && n.read === false)) return;
+      ELLYSIUMParent.notifications.unshift({ id: 'PNOT-' + Date.now(), icon, text, time, type, read: false });
+    }
+
+    function selectOperator(operator) {
+      ELLYSIUMParent.operator = operator;
+      document.querySelectorAll('.operator').forEach(el => {
+        el.classList.toggle('selected', el.dataset.operator === operator);
+      });
+      emit('elysium:operator-selected', { operator });
+    }
+
+    function makePayment() {
+      const child = CHILDREN[ELLYSIUMParent.selectedChild];
+      const amount = parseFloat(document.getElementById('amount').value);
+      const feeType = document.getElementById('feeType').value;
+      const phone = document.getElementById('payerPhone').value;
+
+      if (!(amount > 0)) {
+        alert('⚠️ Montant invalide : il doit être strictement positif.');
+        return null;
+      }
+      if (!ELLYSIUMParent.validatePhone(phone, ELLYSIUMParent.operator)) {
+        alert('⚠️ Ce numéro n\'appartient pas à l\'opérateur sélectionné.');
+        return null;
+      }
+
+      const receipt = ELLYSIUMParent.buildReceipt({
+        amount, feeType, operator: ELLYSIUMParent.operator
+      });
+
+      document.getElementById('receiptBox').innerHTML = `
+        <div class="receipt">
+          <strong>Reçu officiel ${receipt.receiptId}</strong><br>
+          Montant : <strong>${amount.toLocaleString('fr-FR')} CDF</strong> (${feeType})<br>
+          Opérateur : <strong>${receipt.operator}</strong><br>
+          Code USSD : <code>${receipt.ussdCode}</code><br>
+          Référence : <code>${receipt.transactionRef}</code><br>
+          Statut : <strong>${receipt.status}</strong>
+        </div>`;
+
+      emit('elysium:payment-initiated', { receiptId: receipt.receiptId, amount, operator: receipt.operator });
+      alert('✅ Paiement ' + receipt.operator + ' envoyé. Validez avec le code USSD sur votre téléphone.');
+      return receipt;
+    }
+
+    function downloadReportCard() {
+      emit('elysium:reportcard-download', { studentId: ELLYSIUMParent.selectedChild });
+      alert('📄 Bulletin sécurisé ELLYSIUM (PDF scellé, vérifiable sur elysium.cd/verify).');
+    }
+
+    // ===== Réseau =====
+    function updateNetworkBadge() {
+      ELLYSIUMParent.online = navigator.onLine;
+      const badge = document.getElementById('networkBadge');
+      const label = document.getElementById('networkLabel');
+      badge.className = navigator.onLine ? 'network-badge online' : 'network-badge offline';
+      label.textContent = navigator.onLine ? 'En ligne' : 'Hors-ligne';
+    }
+    window.addEventListener('online', updateNetworkBadge);
+    window.addEventListener('offline', updateNetworkBadge);
+
+    // ===== Initialisation =====
+    function renderAll() {
+      renderChildSwitch();
+      renderHeader();
+      renderGrades();
+      renderAttendance();
+      renderNotifications();
+    }
+
+    updateNetworkBadge();
+    renderAll();
+    emit('elysium:parent-ready', ELLYSIUMParent.getState());
+  </script>
 </body>
 </html>

@@ -97,6 +97,7 @@ Lorsqu'un processus métier traverse plusieurs services (ex. *Inscription d'un �
 | **`VF-111-03`** | **Accès à l'historique complet de présences sur 12 mois** | Vue chronologique de tous les appels depuis la rentrée avec taux cumulé. |
 | **`VF-111-04`** | **Demande en ligne de justificatif d'absence** | Formulaire de transmission de justificatif médical ou administratif avec pièce jointe. |
 | **`VF-111-05`** | **Notification de risque de non-validation pour absences cumulées** | Alerte automatique à 20%, 30% et 40% d'absences cumulées. |
+| **`VF-111-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

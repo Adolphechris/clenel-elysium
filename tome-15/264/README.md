@@ -154,6 +154,7 @@ sequenceDiagram
 | VF-264-03 | Le taux de réussite moyen >= 60 % sur deux promotions est une condition préalable non négociable à toute demande d'accréditation externe | CRITIQUE |
 | VF-264-04 | Aucun partenaire unique ne peut représenter plus de 30 % des financements externes d'ELLYSIUM | OBLIGATOIRE |
 | VF-264-05 | La grille de conformité constitutionnelle est révisée annuellement par la Direction juridique et soumise au CA pour approbation | OBLIGATOIRE |
+| VF-264-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

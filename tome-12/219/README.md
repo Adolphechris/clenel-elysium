@@ -82,6 +82,7 @@ Pour ne pas saturer la mémoire interne des téléphones d'entrée de gamme :
 | VF-219-03 | L'application ne doit jamais utiliser plus de 90% de l'espace disque libre de l'appareil | PROTECTION |
 | VF-219-04 | Les documents officiels (bulletins, cotes scellées) sont protégés contre toute éviction automatique | CONSTITUTIONNEL |
 | VF-219-05 | Vérification de l'intégrité SHA-256 de chaque fichier extrait du cache | SÉCURITÉ |
+| VF-219-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

@@ -171,6 +171,7 @@ CREATE INDEX idx_we_module    ON workflow_editorial(module_cours_id);
 | VF-255-03 | Le délai maximum de la phase de relecture scientifique est contractuellement garanti (cf. tableau délais) ; tout dépassement déclenche une alerte au RP | OBLIGATOIRE |
 | VF-255-04 | Le relecteur scientifique ne peut pas être l'enseignant auteur du contenu examiné | CRITIQUE |
 | VF-255-05 | Toutes les versions intermédiaires du contenu sont archivées dans Cloud Storage avec horodatage et hash d'intégrité | OBLIGATOIRE |
+| VF-255-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

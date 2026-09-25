@@ -84,6 +84,7 @@ Les quiz d'entraînement et les interrogations de travaux journaliers (TJ) sont 
 | VF-217-03 | Reprise sur incident obligatoire pour tout téléchargement interrompu | TECHNIQUE |
 | VF-217-04 | Chiffrement local des épreuves d'examen non encore soumises (SQLCipher / AES-256) | SÉCURITÉ |
 | VF-217-05 | L'élève garde la maîtrise totale de son espace de stockage avec bouton de purge en 1 clic | ERGONOMIE |
+| VF-217-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

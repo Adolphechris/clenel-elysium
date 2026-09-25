@@ -112,6 +112,7 @@ CREATE INDEX idx_premium_type ON schema_finance.commandes_services_premium(type_
 | VF-298-03 | Les tarifs des services premium sont plafonnés et révisés annuellement par décision souveraine du Conseil d'Administration | OBLIGATOIRE |
 | VF-298-04 | 100 % des certificats numériques émis sont enregistrés avec leur empreinte cryptographique SHA-256 dans Google Cloud Storage | OBLIGATOIRE |
 | VF-298-05 | L'intégrité de la vérification publique d'un diplôme via QR Code doit être garantie H24 avec un SLA de 99,9 % sur Firebase Hosting | CRITIQUE |
+| VF-298-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

@@ -78,6 +78,7 @@ Le budget d'erreur n'est pas un défaut, mais un outil contractuel d'arbitrage e
 | VF-245-03 | MTTR inférieur à 15 minutes pour tout incident critique P0 | SLO / SRE |
 | VF-245-04 | Calcul continu et public des SLI via Google Cloud Monitoring | TRANSPARENCE |
 | VF-245-05 | Revue mensuelle formelle des indicateurs SRE présentée au Conseil d'Administration | CONSTITUTIONNEL |
+| VF-245-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

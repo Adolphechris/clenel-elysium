@@ -101,6 +101,7 @@ Avec la rédaction intégrale des 29 sous-tomes de la série 55 à 83 :
 | **`VF-083-03`** | **Audibilité des dépendances inter-tomes** | Toute évolution du Tome 5 impactant le Tome 11 (Exploitation) doit faire l'objet d'une note d'impact. |
 | **`VF-083-04`** | **Sanctuarisation des interfaces du PGI** | Les contrats d'échange entre le PGI et les modules externes sont versionnés et immuables. |
 | **`VF-083-05`** | **Clôture solennelle du Tome 5** | Le présent module valide l'intégralité fonctionnelle des 29 sous-tomes du Système de Gestion Scolaire. |
+| **`VF-083-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

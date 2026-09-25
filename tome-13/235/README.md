@@ -104,6 +104,7 @@ Chaque incident P0 ou P1 donne lieu, dans les **72 heures ouvrables**, à la pub
 | VF-235-03 | Rédaction obligatoire d'un post-mortem sans blâme dans les 72h après résolution | QUALITÉ |
 | VF-235-04 | Hébergement indépendant de la page de statut sur un tenant Firebase isolé | RÉSILIENCE |
 | VF-235-05 | Suivi et clôture formelle de 100% des plans d'action issus des post-mortems | DISCIPLINE |
+| VF-235-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

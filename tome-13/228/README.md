@@ -79,6 +79,7 @@ graph TD
 | VF-228-03 | Astreinte technique opérationnelle 24h/24 avec temps de réponse < 5 minutes pour P0 | SÉCURITÉ |
 | VF-228-04 | Interdiction formelle de planifier des interruptions de service en journée ouvrable | DISPONIBILITÉ |
 | VF-228-05 | Publication mensuelle transparente de l'état de santé du service sur `status.ellysium.cd` | TRANSPARENCE |
+| VF-228-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

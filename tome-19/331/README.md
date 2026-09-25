@@ -81,6 +81,7 @@ flowchart TD
 | **`VF-331-03`** | **Traçabilité Horodatée des Échanges Contentieux** : Tout dossier de médiation fait l'objet d'un ticket horodaté dans le système interne avec copie archivée sur Cloud Storage chiffré. | Preuve légale inattaquable produite aux débats. |
 | **`VF-331-04`** | **Continuité Pédagogique Pendant le Litige** : Conformément à l'Article 5 de la Constitution ELLYSIUM, aucun apprenant ne peut voir son compte suspendu à titre de mesure de rétorsion durant une instance de litige financier ou administratif mineur. | Sanction disciplinaire contre l'administrateur et réactivation immédiate du compte. |
 | **`VF-331-05`** | **Validation du Conseil d'Administration pour Toute Transaction > 5 000 USD** : Aucune indemnité transactionnelle ou renonciation à droit ne peut être signée par le Directeur Général sans autorisation préalable du CA. | Nullité d'ordre public de la transaction financière non approuvée. |
+| **`VF-331-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

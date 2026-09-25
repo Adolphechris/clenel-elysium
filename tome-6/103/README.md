@@ -98,6 +98,7 @@ Tout acte important (paiement, scellement de note, remise de copie, validation d
 | **`VF-103-03`** | **Gestion bienveillante des formulaires expirés** | Reconnexion transparente sans perte des données saisies dans les champs. |
 | **`VF-103-04`** | **Écrans d'état vide motivants (Empty States)** | Présentation d'orientations concrètes lorsque le tableau de bord ne contient pas de données. |
 | **`VF-103-05`** | **Message d'erreur humain et constructif** | Rejet des codes d'erreur machine incompréhensibles au profit d'explications guidées. |
+| **`VF-103-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -65,6 +65,7 @@ graph TD
 | **`VF-130-03`** | **Audit continu des 6 piliers CIS Google Cloud** | Revue automatisée hebdomadaire contre le CIS Benchmark GCP Level 2. |
 | **`VF-130-04`** | **Isolation réseau par Virtual Private Cloud (VPC) dédié** | Séparation stricte des sous-réseaux production, staging et outils. |
 | **`VF-130-05`** | **Certification ISO 27001 et SOC 2 Type II obligatoire pour sous-traitants** | Aucun fournisseur tiers ne peut traiter des données ELLYSIUM sans certification auditée. |
+| **`VF-130-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

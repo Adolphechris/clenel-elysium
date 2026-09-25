@@ -99,6 +99,7 @@ Les versions logicielles de la plateforme suivent le schéma formel `MAJOR.MINOR
 | **`VF-128-03`** | **Formation obligatoire RGPD/Loi 15-023 pour tous les développeurs** | Attestation de formation data privacy requise avant accès aux environnements de production. |
 | **`VF-128-04`** | **Interdiction des accès direct à la base de production** | Toute requête manuelle de correction doit passer par un pipeline approuvé et audité. |
 | **`VF-128-05`** | **Rapport mensuel de conformité technique au DPO** | Synthèse des accès aux données personnelles transmise au Délégué à la Protection des Données. |
+| **`VF-128-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

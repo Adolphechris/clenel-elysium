@@ -78,6 +78,7 @@ $$\text{Taux de Réussite des Tests} = 100\% \quad \text{sur l'ensemble des scé
 | VF-226-03 | Validation automatique des 3 scénarios critiques E2E avant toute release | TECHNIQUE |
 | VF-226-04 | Tous les rapports de tests sont conservés de manière traçable sur Cloud Logging | AUDIT |
 | VF-226-05 | Interdiction absolue de publier en production un build sans rapport de test vert | SÉCURITÉ |
+| VF-226-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

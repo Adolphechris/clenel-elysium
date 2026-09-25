@@ -124,6 +124,7 @@ erDiagram
 | **`VF-062-03`** | **Seuil d'exclusion pour absences encadré par la loi** | L'alerte de non-validation d'année pour défaut d'assiduité requiert un avis du conseil des maîtres. |
 | **`VF-062-04`** | **Saisie hors-ligne des présences avec synchronisation** | L'enseignant peut pointer les élèves hors connexion, synchronisation automatique dès retour réseau. |
 | **`VF-062-05`** | **Interdiction d'altération rétroactive des registres** | Le registre d'appel de la veille ne peut être corrigé que par le Préfet avec motif justificatif. |
+| **`VF-062-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

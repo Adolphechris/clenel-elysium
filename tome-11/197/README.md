@@ -106,6 +106,7 @@ CREATE TABLE inscriptions_scolaires (
 | VF-197-03 | Interdiction de refuser le transfert d'un élève pour arriéré financier (Article 5) | CONSTITUTIONNEL |
 | VF-197-04 | Tous les documents téléversés sont scannés par Cloud Armor et analysés antivirus | TECHNIQUE |
 | VF-197-05 | L'inscription d'un élève mineur nécessite l'approbation formelle d'un tuteur légal | LÉGAL |
+| VF-197-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

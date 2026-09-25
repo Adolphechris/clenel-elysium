@@ -137,6 +137,7 @@ NOTIFICATIONS_EXAMEN = [
 | VF-176-03 | Les absences non justifiées donnent cote 0 (non modifiable sans PV du Préfet) | OBLIGATOIRE |
 | VF-176-04 | Toute session d'examen est notifiée aux apprenants au moins 7 jours à l'avance | OBLIGATOIRE |
 | VF-176-05 | Le mode hors-ligne est systématiquement testé avant toute session d'examen majeure | OBLIGATOIRE |
+| VF-176-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

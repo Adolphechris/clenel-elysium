@@ -119,6 +119,7 @@ CREATE INDEX idx_vulnerabilite_etab ON schema_finance.indices_vulnerabilite_etab
 | VF-301-03 | Il est strictement interdit à une école bénéficiant d'un coefficient social de refacturer des frais SGS aux parents | CRITIQUE |
 | VF-301-04 | Le calcul de l'indice IITV est révisé annuellement pour chaque établissement partenaire par le Comité des Finances | OBLIGATOIRE |
 | VF-301-05 | Tout détournement d'une exonération sociale par un établissement solvable entraîne sa radiation et le remboursement des sommes | CRITIQUE |
+| VF-301-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

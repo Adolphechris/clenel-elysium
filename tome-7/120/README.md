@@ -92,6 +92,7 @@ Lorsqu'un conflit ne peut être résolu mathématiquement de manière triviale (
 | **`VF-120-03`** | **Vue consolidée multi-établissements pour famille dispersée** | Un parent dont des enfants sont dans différentes écoles voit tout sur un seul tableau de bord. |
 | **`VF-120-04`** | **Alertes de rentrée et inscription anticipée** | Rappels de dates d'inscription aux examens et de renouvellement d'année scolaire. |
 | **`VF-120-05`** | **Clôture solennelle de l'espace parents ELLYSIUM** | Validation de l'intégralité des 14 modules de l'Espace Parents et Tuteurs. |
+| **`VF-120-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

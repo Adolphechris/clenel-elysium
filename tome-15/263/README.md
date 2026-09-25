@@ -124,6 +124,7 @@ Six principes guident toute la stratégie de partenariat et de reconnaissance d'
 | VF-263-03 | La stratégie de reconnaissance est révisée annuellement par le CA et actualisée dans ce module | OBLIGATOIRE |
 | VF-263-04 | Aucun partenariat ne peut imposer à ELLYSIUM un hébergement de données en dehors de l'infrastructure Google Cloud Platform | CRITIQUE |
 | VF-263-05 | La feuille de route de reconnaissance est publiée sur le site ELLYSIUM (Firebase Hosting) et mise à jour à chaque étape franchie | OBLIGATOIRE |
+| VF-263-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

@@ -72,6 +72,7 @@ Pour éradiquer les réponses arrogantes, trop verbeuses ou fournissant des corr
 | **`VF-147-03`** | **Simulation d'examen blanc avec feedback immédiat** | L'apprenant peut s'entraîner sur des épreuves types avec correction automatique. |
 | **`VF-147-04`** | **Statistiques de performance individuelle sur les examens blancs** | Courbes d'évolution personnalisées par matière et par type d'épreuve. |
 | **`VF-147-05`** | **Recommandation IA de révision ciblée (purement consultative)** | Le tuteur IA suggère les chapitres à réviser en priorité sans décider de la note finale. |
+| **`VF-147-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

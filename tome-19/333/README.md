@@ -93,6 +93,7 @@ flowchart TD
 | **`VF-333-03`** | **Scellement Cryptographique des Diplômes** : Chaque diplôme archivé est accompagné d'un fichier manifeste contenant le hash SHA-256 signé par la clé maîtresse Cloud KMS d'ELLYSIUM. | Détection immédiate de toute falsification ou corruption de fichier. |
 | **`VF-333-04`** | **Interdiction de Conservation Indéfinie des Flux Biométriques** : Tout enregistrement vidéo de session d'examen non contesté sous 90 jours est irrémédiablement effacé. | Responsabilité pénale du responsable de traitement pour rétention illicite de données sensibles. |
 | **`VF-333-05`** | **Droit d'Accès et Délivrance de Duplicata Perpétuel** : Tout apprenant diplômé peut à tout moment, sans frais prohibitifs, requérir une copie certifiée conforme de son diplôme archivé. | Sanction administrative et mise en demeure de délivrance sous 15 jours. |
+| **`VF-333-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

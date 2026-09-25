@@ -110,6 +110,7 @@ CREATE TABLE echeanciers_facturation (
 | VF-200-03 | Tarifs des écoles partenaires plafonnés par les arrêtés provinciaux officiels | LÉGAL |
 | VF-200-04 | Traitement des relances financières réservé exclusivement au contact parent/tuteur | OBLIGATOIRE |
 | VF-200-05 | Les bourses d'excellence attribuées sont inaliénables pour toute l'année académique | INSTITUTIONNEL |
+| VF-200-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

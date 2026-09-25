@@ -163,6 +163,7 @@ interface UE {
 | VF-268-03 | La table de reconnaissance de crédits est révisée chaque année avec chaque université partenaire et archivée dans Cloud Storage | OBLIGATOIRE |
 | VF-268-04 | Un apprenant ayant échoué à une UE ELLYSIUM ne peut pas demander la reconnaissance de cette UE auprès d'une université partenaire | OBLIGATOIRE |
 | VF-268-05 | Tout partenariat universitaire imposant des frais supplémentaires aux apprenants ELLYSIUM doit prévoir un mécanisme de bourse ou d'exonération pour les apprenants AIS/AIU | CRITIQUE |
+| VF-268-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

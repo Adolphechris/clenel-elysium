@@ -66,6 +66,7 @@ Toute action corrective identifiée lors d'un audit de panne est soumise à un s
 | VF-242-03 | Les actions correctives P0 doivent être livrées et testées en moins de 24 heures | SRE / SÉCURITÉ |
 | VF-242-04 | Tous les rapports d'audit de panne sont conservés de manière inaltérable sur GCS | ARCHIVE |
 | VF-242-05 | Publication semestrielle d'une synthèse de fiabilité pour le Conseil d'Administration | TRANSPARENCE |
+| VF-242-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

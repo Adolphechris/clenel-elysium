@@ -150,6 +150,7 @@ erDiagram
 | **`VF-075-03`** | **Traductions en 4 langues nationales congolaises** | Les annonces institutionnelles majeures sont disponibles en Lingala, Swahili, Kikongo et Tshiluba. |
 | **`VF-075-04`** | **Consignation de la preuve de distribution** | Horodatage de la remise du SMS ou de la notification push par l'opérateur télécom. |
 | **`VF-075-05`** | **Interdiction d'usage commercial ou partisan** | Le canal de notification ne peut être utilisé pour de la publicité ou des messages politiques. |
+| **`VF-075-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -104,6 +104,7 @@ L'architecture légale d'ELLYSIUM s'articule autour des textes de référence su
 | VF-320-03 | Toute modification des statuts fondamentaux exige un vote à la majorité qualifiée des 3/4 de l'Assemblée Générale Extraordinaire | CRITIQUE |
 | VF-320-04 | Le siège social statutaire et le domicile juridique d'ELLYSIUM sont établis à Kinshasa, République Démocratique du Congo | CRITIQUE |
 | VF-320-05 | L'ensemble des conventions judiciaires et arrêtés d'agrément est numérisé et conservé de manière inaltérable sous Cloud Storage | OBLIGATOIRE |
+| VF-320-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

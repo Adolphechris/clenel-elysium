@@ -66,6 +66,7 @@ Conformément à l'**Article 6 de la Constitution** :
 | VF-248-03 | Interdiction absolue de subordonner la rémunération d'un professeur au taux de réussite | ÉTHIQUE |
 | VF-248-04 | Droit garanti à la formation continue numérique prise en charge à 100% | SOCIAL |
 | VF-248-05 | Protection juridique intégrale de l'enseignant contre les pressions financières indues | INSTITUTIONNEL |
+| VF-248-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

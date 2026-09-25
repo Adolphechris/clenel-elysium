@@ -77,6 +77,7 @@ L'écran de correction de l'enseignant (Tome 6, Module 90) présente côte à c�
 | **`VF-137-03`** | **Plan de communication de crise testé annuellement** | Simulation d'incident majeur avec activation du plan de communication. |
 | **`VF-137-04`** | **Porte-parole désigné pour les incidents de sécurité publics** | Communication officielle centralisée pour éviter les déclarations contradictoires. |
 | **`VF-137-05`** | **Clôture solennelle du Tome 8** | Validation de l'intégralité de l'architecture d'infrastructure, de sécurité et de résilience. |
+| **`VF-137-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

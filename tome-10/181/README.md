@@ -122,6 +122,7 @@ func CalculerRangs(etudiants []ResultatEtudiant) []RangEtudiant {
 | VF-181-03 | Barème éliminatoire (< 07/20) non contournable par les délibérations automatiques | OBLIGATOIRE |
 | VF-181-04 | Précision arithmétique à virgule fixe (Decimal 128-bit) pour éliminer les erreurs d'arrondi | OBLIGATOIRE |
 | VF-181-05 | Exécution vérifiable et reproductible garantie sur conteneurs Cloud Run | OBLIGATOIRE |
+| VF-181-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

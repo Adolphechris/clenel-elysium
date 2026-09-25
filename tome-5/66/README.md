@@ -142,6 +142,7 @@ erDiagram
 | **`VF-066-03`** | **Contrôle des maxima autorisés** | Impossibilité de saisir une cote supérieure au maximum fixé pour l'épreuve. |
 | **`VF-066-04`** | **Signature cryptographique de l'enseignant** | L'enseignant valide l'intégralité de son cahier de cotes par signature électronique. |
 | **`VF-066-05`** | **Disponibilité hors-ligne intégrale** | Saisie possible en classe sur tablette/PC hors réseau avec scellement lors de la synchronisation. |
+| **`VF-066-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

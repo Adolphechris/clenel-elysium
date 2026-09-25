@@ -97,6 +97,7 @@ Le Tome 15 étant intégralement achevé (15 modules sur 15), la documentation s
 | VF-277-03 | Les dépendances croisées entre les Tomes 15, 16, 17 et 19 sont réévaluées à chaque jalon stratégique annuel par le Conseil d'Administration | OBLIGATOIRE |
 | VF-277-04 | Aucune relation partenariale ne peut déroger aux exigences de sécurité et de conformité légale édictées dans le Tome 17 | CRITIQUE |
 | VF-277-05 | L'intégrité de la cartographie des dépendances est préservée par un scellement documentaire immuable sous Google Cloud Storage | OBLIGATOIRE |
+| VF-277-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

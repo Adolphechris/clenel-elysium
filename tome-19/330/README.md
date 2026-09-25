@@ -86,6 +86,7 @@ export function verifyDisclaimerCompliance(audit: DisclaimerConsentAudit): boole
 | **`VF-330-03`** | **Sanctuarisation de l'Obligation de Moyens** : Aucune communication officielle ou support marketing d'ELLYSIUM ne peut utiliser les termes "succès garanti" ou "100% de réussite garanti". | Rejet automatique par le comité d'éthique et validation juridique préalable obligatoire. |
 | **`VF-330-04`** | **Exclusion Explicite des Préjudices Indirects** : Limitation contractuelle des dommages directs éventuels imputables à la plateforme au montant total des cotisations versées au cours des 3 derniers mois. | Annulation et irrecevabilité immédiate de toute assignation en dommages-intérêts exorbitants. |
 | **`VF-330-05`** | **Non-Responsabilité Liée à la Restitution d'Urgence** : En cas de coupure de service force majeure, l'apprenant ne peut réclamer de prorogation de délais d'examen que dans le cadre des règlements édictés par le Ministère de tutelle. | Refus de toute pénalité de retard opposée à l'ASBL ELLYSIUM. |
+| **`VF-330-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -101,6 +101,7 @@ Pour révoquer immédiatement l'accès d'un compte compromis ou d'un appareil vo
 | **`VF-117-03`** | **Sondages anonymes de satisfaction parentale semestriels** | Formulaires courts (< 5 questions) pour évaluer la plateforme et l'école. |
 | **`VF-117-04`** | **Résultats des sondages retransmis au COPIL** | Synthèse des NPS parents présentée au comité de pilotage chaque trimestre. |
 | **`VF-117-05`** | **Droit de retrait sans pénalité des sondages** | La non-participation aux sondages n'impacte aucun service accordé à l'élève. |
+| **`VF-117-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

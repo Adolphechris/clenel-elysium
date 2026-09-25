@@ -474,7 +474,19 @@
   <script>
     // ===============================================
     // ELLYSIUM Teacher PWA — JavaScript (offline-first)
+    // Pont d'intégration vers la classe TeacherPWA (src/teacher-app.ts) :
+    // la même règle de validation RDC et la même file de synchronisation
+    // sont appliquées côté navigateur et côté serveur.
     // ===============================================
+
+    const FORMULE_RDC = "Taux = (Somme(PointsObtenus * Coef) / Somme(PointsMaxima * Coef)) * 100";
+    const TEACHER_PROFILE = {
+      teacherId: 'PROF-01',
+      teacherName: 'MUTOMBO Jean',
+      schoolId: 'SCH-KIN-01',
+      schoolName: 'École Sainte-Marie',
+      disciplines: ['MATH', 'PHY']
+    };
 
     // Données fictives pour la démonstration
     const STUDENTS = [
@@ -491,6 +503,117 @@
     const attendanceState = {};
     const pendingSync = [];
 
+    // ===== Pont d'intégration TeacherPWA =====
+    // Miroir navigateur de src/teacher-app.ts (validation RDC, file de
+    // synchronisation, progression). Les tests Node couvrent la classe
+    // TypeScript ; ce pont assure le même comportement dans le PWA installé.
+    const ELLYSIUMTeacher = {
+      profile: TEACHER_PROFILE,
+      formule: FORMULE_RDC,
+      online: navigator.onLine,
+      offlineSince: null,
+      queue: { pending: 0, synced: 0 },
+
+      /** Validation d'une note selon la formule RDC (VF-066-03, VF-067-02). */
+      validateGrade(pointsObtenus, pointsMaxima) {
+        const errors = [];
+        if (typeof pointsObtenus !== 'number' || isNaN(pointsObtenus)) {
+          errors.push('NOTE_INVALIDE: La note doit être un nombre.');
+        }
+        if (typeof pointsMaxima !== 'number' || pointsMaxima <= 0) {
+          errors.push('MAXIMA_NUL: Le maximum doit être strictement positif.');
+        }
+        if (pointsObtenus < 0) {
+          errors.push('NOTE_INVALIDE: Note négative interdite.');
+        }
+        if (pointsObtenus > pointsMaxima) {
+          errors.push('DEPASSEMENT_MAXIMA: ' + pointsObtenus + ' > ' + pointsMaxima);
+        }
+        return {
+          valid: errors.length === 0,
+          errors: errors,
+          rate: errors.length === 0 ? Math.round((pointsObtenus / pointsMaxima) * 10000) / 100 : null
+        };
+      },
+
+      /** Progression d'un élève : délibération officielle sur toutes ses notes. */
+      viewStudentProgress(studentId) {
+        const notes = pendingSync
+          .filter(e => e.kind === 'grade' && e.studentId === studentId);
+        const obtained = notes.reduce((sum, n) => sum + n.pointsObtenus, 0);
+        const max = notes.reduce((sum, n) => sum + n.pointsMaxima, 0);
+        if (max === 0) return { studentId, evaluationCount: 0, pourcentage: null, mention: null };
+        const pct = Math.round(((obtained / max) * 100) * 100) / 100;
+        return {
+          studentId,
+          evaluationCount: notes.length,
+          pourcentage: pct,
+          mention: pct >= 90 ? 'PLUS_GRANDE_DISTINCTION'
+            : pct >= 80 ? 'GRANDE_DISTINCTION'
+            : pct >= 70 ? 'DISTINCTION'
+            : pct >= 60 ? 'SATISFACTION'
+            : pct >= 50 ? 'PASSABLE' : 'AJOURNE'
+        };
+      },
+
+      /** Bascule hors-ligne / en ligne (72h d'autonomie, VF-112-01). */
+      goOffline(offline) {
+        this.online = !offline;
+        this.offlineSince = offline ? new Date().toISOString() : null;
+        updateNetworkBadge();
+        emit('elysium:network-change', { online: this.online, offlineSince: this.offlineSince });
+        return this.getState();
+      },
+
+      /** File de synchronisation différentielle (VF-112-03). */
+      enqueue(entry) {
+        entry.synced = this.online;
+        entry.savedAt = new Date().toISOString();
+        pendingSync.push(entry);
+        this.refreshQueue();
+        emit('elysium:sync-queued', { kind: entry.kind, total: pendingSync.length });
+        return entry;
+      },
+
+      refreshQueue() {
+        this.queue = {
+          pending: pendingSync.filter(e => !e.synced).length,
+          synced: pendingSync.filter(e => e.synced).length
+        };
+      },
+
+      /** Synchronisation différentielle : uniquement les changements en attente. */
+      syncOffline() {
+        if (!this.online) {
+          emit('elysium:sync-deferred', { pending: this.queue.pending });
+          return { status: 'DEFERRED', synced: 0, pending: this.queue.pending };
+        }
+        const batch = pendingSync.filter(e => !e.synced);
+        const syncedAt = new Date().toISOString();
+        batch.forEach(e => { e.synced = true; e.syncedAt = syncedAt; });
+        this.refreshQueue();
+        emit('elysium:sync-complete', { synced: batch.length });
+        return { status: 'SUCCESS', synced: batch.length, pending: this.queue.pending };
+      },
+
+      getState() {
+        return {
+          initialized: true,
+          online: this.online,
+          offlineSince: this.offlineSince,
+          profile: this.profile,
+          queue: this.queue,
+          formule: this.formule
+        };
+      }
+    };
+
+    window.ELLYSIUMTeacher = ELLYSIUMTeacher;
+
+    function emit(name, detail) {
+      document.dispatchEvent(new CustomEvent(name, { detail: detail }));
+    }
+
     // ===== Détection réseau =====
     function updateNetworkBadge() {
       const badge = document.getElementById('networkBadge');
@@ -498,27 +621,32 @@
       const banner = document.getElementById('offlineBanner');
       const syncCard = document.getElementById('syncCard');
 
-      if (navigator.onLine) {
-        badge.className = 'network-badge online';
-        label.textContent = 'En ligne';
-        banner.classList.remove('visible');
-        if (pendingSync.length > 0) {
-          syncCard.style.display = 'block';
-          document.getElementById('syncCount').textContent = pendingSync.length + ' entrées';
-        }
+      ELLYSIUMTeacher.online = navigator.onLine;
+      ELLYSIUMTeacher.refreshQueue();
+
+      badge.className = navigator.onLine ? 'network-badge online' : 'network-badge offline';
+      label.textContent = navigator.onLine ? 'En ligne' : 'Hors-ligne';
+      banner.classList.toggle('visible', !navigator.onLine);
+
+      if (ELLYSIUMTeacher.queue.pending > 0) {
+        syncCard.style.display = 'block';
+        document.getElementById('syncCount').textContent =
+          ELLYSIUMTeacher.queue.pending + ' entrées';
       } else {
-        badge.className = 'network-badge offline';
-        label.textContent = 'Hors-ligne';
-        banner.classList.add('visible');
-        if (pendingSync.length > 0) {
-          syncCard.style.display = 'block';
-          document.getElementById('syncCount').textContent = pendingSync.length + ' entrées';
-        }
+        syncCard.style.display = 'none';
       }
     }
 
-    window.addEventListener('online', updateNetworkBadge);
-    window.addEventListener('offline', updateNetworkBadge);
+    window.addEventListener('online', function () {
+      ELLYSIUMTeacher.offlineSince = null;
+      updateNetworkBadge();
+      emit('elysium:network-change', { online: true });
+    });
+    window.addEventListener('offline', function () {
+      ELLYSIUMTeacher.offlineSince = new Date().toISOString();
+      updateNetworkBadge();
+      emit('elysium:network-change', { online: false });
+    });
     updateNetworkBadge();
 
     // ===== Navigation =====
@@ -566,18 +694,21 @@
 
     function saveAttendance() {
       const date = document.getElementById('attendanceDate').value;
-      const entries = Object.entries(attendanceState).map(([id, status]) => ({
-        studentId: id, date, status, savedAt: new Date().toISOString(),
-        synced: navigator.onLine
-      }));
+      if (!Object.keys(attendanceState).length) {
+        alert('⚠️ Aucun élève convoqué. Lancez d\'abord l\'appel.');
+        return;
+      }
+      const entries = Object.entries(attendanceState).map(([id, status]) =>
+        ELLYSIUMTeacher.enqueue({ kind: 'rollCall', studentId: id, date, status })
+      );
+      updateNetworkBadge();
 
       if (!navigator.onLine) {
-        pendingSync.push(...entries);
-        alert('✅ Appel enregistré localement (mode hors-ligne). Sera synchronisé au retour du réseau.');
+        alert('✅ Appel enregistré localement (mode hors-ligne). sera synchronisé au retour du réseau.');
       } else {
         alert('✅ Appel enregistré et synchronisé avec succès !');
       }
-      updateNetworkBadge();
+      emit('elysium:attendance-saved', { date, count: entries.length });
     }
 
     // ===== Saisie des cotes =====
@@ -604,16 +735,16 @@
       const val = parseFloat(input.value);
       const studentId = input.id.replace('grade-', '');
       const pctEl = document.getElementById('pct-' + studentId);
+      const validation = ELLYSIUMTeacher.validateGrade(val, max);
 
-      if (isNaN(val) || val < 0 || val > max) {
+      if (!validation.valid) {
         input.className = 'grade-input invalid';
         if (pctEl) pctEl.textContent = '⚠️';
       } else {
         input.className = 'grade-input valid';
-        const pct = ((val / max) * 100).toFixed(1);
         if (pctEl) {
-          pctEl.textContent = pct + '%';
-          pctEl.style.color = val / max >= 0.5 ? 'var(--vert)' : 'var(--rouge)';
+          pctEl.textContent = validation.rate.toFixed(1) + '%';
+          pctEl.style.color = validation.rate >= 50 ? 'var(--vert)' : 'var(--rouge)';
         }
       }
     }
@@ -621,29 +752,56 @@
     function saveGrades() {
       const max = parseInt(document.getElementById('maxPoints').value);
       const evalType = document.getElementById('evalType').value;
-      const grades = STUDENTS.map(s => {
-        const input = document.getElementById('grade-' + s.id);
-        return { studentId: s.id, grade: input ? parseFloat(input.value) : null, max, evalType };
-      }).filter(g => !isNaN(g.grade) && g.grade !== null);
+      const accepted = [];
+      const rejected = [];
 
-      if (!navigator.onLine) {
-        pendingSync.push(...grades.map(g => ({ ...g, synced: false, savedAt: new Date().toISOString() })));
-        alert(`✅ ${grades.length} cotes enregistrées localement (mode hors-ligne).`);
-      } else {
-        alert(`✅ ${grades.length} cotes enregistrées et synchronisées !`);
-      }
+      STUDENTS.forEach(s => {
+        const input = document.getElementById('grade-' + s.id);
+        if (!input || input.value === '') return;
+        const validation = ELLYSIUMTeacher.validateGrade(parseFloat(input.value), max);
+        if (!validation.valid) {
+          rejected.push({ studentId: s.id, reason: validation.errors.join(' | ') });
+        } else {
+          accepted.push(ELLYSIUMTeacher.enqueue({
+            kind: 'grade',
+            studentId: s.id,
+            studentName: s.name,
+            pointsObtenus: parseFloat(input.value),
+            pointsMaxima: max,
+            evalType,
+            rate: validation.rate
+          }));
+        }
+      });
+
       updateNetworkBadge();
+      emit('elysium:grades-saved', {
+        accepted: accepted.length,
+        rejected: rejected.length,
+        offline: !navigator.onLine
+      });
+
+      if (rejected.length) {
+        alert(`⚠️ ${accepted.length} cotes acceptées, ${rejected.length} rejetées :\n` +
+          rejected.map(r => r.studentId + ' — ' + r.reason).join('\n'));
+      } else if (!navigator.onLine) {
+        alert(`✅ ${accepted.length} cotes enregistrées localement (mode hors-ligne).`);
+      } else {
+        alert(`✅ ${accepted.length} cotes enregistrées et synchronisées !`);
+      }
     }
 
     function syncNow() {
-      if (!navigator.onLine) {
+      const report = ELLYSIUMTeacher.syncOffline();
+      document.getElementById('syncCard').style.display =
+        report.pending > 0 ? 'block' : 'none';
+
+      if (report.status === 'DEFERRED') {
         alert('⚠️ Pas de connexion réseau. Réessayez dès que le réseau est disponible.');
-        return;
+      } else {
+        alert(`✅ ${report.synced} entrées synchronisées avec succès vers les serveurs ELLYSIUM !`);
       }
-      const count = pendingSync.length;
-      pendingSync.length = 0;
-      document.getElementById('syncCard').style.display = 'none';
-      alert(`✅ ${count} entrées synchronisées avec succès vers les serveurs ELLYSIUM !`);
+      return report;
     }
 
     // ===== Devoirs =====
@@ -685,10 +843,17 @@
     renderAttendanceGrid();
     renderGradesTable();
 
-    // Service Worker
+    // Service Worker : CACHE_FIRST pour les assets, NETWORK_FIRST pour l'API
+    // (source générée par src/service-worker.ts → public/sw.js)
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js').catch(() => {});
+      navigator.serviceWorker.register('/sw.js')
+        .then(() => emit('elysium:sw-registered', { scope: '/' }))
+        .catch(() => emit('elysium:sw-failed', { reason: 'enregistrement impossible' }));
     }
+
+    // Pont vers la couche métier compilée (dist/index.js) lorsqu'elle est
+    // exposée par le bundler ; sinon le pont navigateur ci-dessus fait foi.
+    emit('elysium:teacher-ready', ELLYSIUMTeacher.getState());
   </script>
 </body>
 </html>

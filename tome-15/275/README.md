@@ -133,6 +133,7 @@ Le label n'est jamais acquis à titre définitif. Il fait l'objet d'une révocat
 | VF-275-03 | L'audit de labellisation doit comporter l'avis confidentiel d'un panel d'au moins 20 apprenants tirés au sort | OBLIGATOIRE |
 | VF-275-04 | Les certificats de labellisation sont scellés cryptographiquement et vérifiables publiquement sur Firebase Hosting | OBLIGATOIRE |
 | VF-275-05 | Aucun membre de l'équipe d'audit ne peut avoir d'intérêt financier ou de lien familial avec la direction de l'établissement audité | CRITIQUE |
+| VF-275-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

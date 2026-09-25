@@ -88,6 +88,7 @@ CREATE TABLE communiques_officiels (
 | VF-205-03 | Impossibilité de modifier un communiqué après publication (amendement par erratum) | OBLIGATOIRE |
 | VF-205-04 | Rétention illimitée de l'historique des communiqués dans le registre public | ARCHIVE |
 | VF-205-05 | Affichage obligatoire en bandeau d'urgence pour les alertes sanitaires et sécuritaires | SÉCURITÉ CIVILE |
+| VF-205-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

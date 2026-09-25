@@ -98,6 +98,7 @@ graph TD
 | **`VF-110-03`** | **Push critique pour convocations officielles** | Les convocations disciplinaires ou d'examen sont transmises par SMS et push simultanément. |
 | **`VF-110-04`** | **Accusé de réception obligatoire pour actes importants** | Le parent confirme explicitement réception des bulletins et décisions de jury. |
 | **`VF-110-05`** | **Archivage des communications parent-école** | Tous les échanges sont conservés 3 ans pour preuves éventuelles. |
+| **`VF-110-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

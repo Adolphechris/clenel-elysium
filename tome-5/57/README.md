@@ -164,6 +164,7 @@ Pour garantir l'intégrité institutionnelle et se conformer aux meilleures prat
 | **`VF-057-03`** | **Ségrégation des tâches financières et pédagogiques** | L'enseignant ne dispose d'aucun droit de consultation sur le solde financier des familles. |
 | **`VF-057-04`** | **Délégation de pouvoir temporaire bornée** | Toute délégation d'autorité est horodatée avec date de fin obligatoire et trace d'audit. |
 | **`VF-057-05`** | **Vérification d'identité tuteur/parent** | L'association d'un parent à un élève requiert la présentation d'une pièce d'état civil vérifiée. |
+| **`VF-057-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

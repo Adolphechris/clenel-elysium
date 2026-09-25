@@ -111,6 +111,7 @@ android {
 | VF-214-03 | Lancement à froid (*Cold Start*) réalisé en moins de 1,8 seconde sur Tecno Pop 7 | ERGONOMIE |
 | VF-214-04 | Compilation avec R8 et obfuscation obligatoire de tout code release | SÉCURITÉ |
 | VF-214-05 | Clés et jetons sensibles stockés exclusivement via Android Keystore sécurisé | CONSTITUTIONNEL |
+| VF-214-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

@@ -109,6 +109,7 @@ CREATE TABLE schema_finance.etats_financiers_annuels (
 | VF-303-03 | Dès l'Année 4, au moins 70 % des coûts opérationnels récurrents doivent être couverts par les revenus B2B et Premium | CRITIQUE |
 | VF-303-04 | Tout excédent d'exercice dégagé à partir de l'Année 4 est réaffecté au Fonds de Dotation sans distribution de dividendes | CRITIQUE |
 | VF-303-05 | Les projections financières sont actualisées semestriellement et présentées en session plénière du Conseil d'Administration | OBLIGATOIRE |
+| VF-303-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

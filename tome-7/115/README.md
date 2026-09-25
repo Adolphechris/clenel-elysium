@@ -118,6 +118,7 @@ Chaque requête transitant par le système doit comporter les en-têtes suivants
 | **`VF-115-03`** | **Forum de parents modéré et non commercial** | Espace d'échange entre parents excluant toute prospection commerciale. |
 | **`VF-115-04`** | **Accès aux résultats des conseils de classe résumés** | Compte-rendu anonymisé du conseil de classe transmis aux parents. |
 | **`VF-115-05`** | **Signalement direct au DPO pour data privacy** | Formulaire de plainte data personnalisé accessible depuis l'espace parent. |
+| **`VF-115-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

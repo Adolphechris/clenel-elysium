@@ -117,6 +117,7 @@ Le module prend en charge deux modes de mise à disposition :
 | **`VF-068-03`** | **Indépendance vis-à-vis du statut financier** | Conformément à l'Art. 5, le bulletin est généré même en cas de dette scolaire. |
 | **`VF-068-04`** | **Vérification publique d'authenticité** | Toute personne munie du lien ou du QR code peut vérifier l'authenticité du bulletin sur ellysium.cd/verify. |
 | **`VF-068-05`** | **Duplicata numéroté et tracé** | Toute réédition porte la mention légale de duplicata avec date d'impression et identifiant de l'opérateur. |
+| **`VF-068-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

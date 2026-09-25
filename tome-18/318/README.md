@@ -96,6 +96,7 @@ CREATE INDEX idx_metriques_campagne ON schema_communication.metriques_campagnes_
 | VF-318-03 | Les données analytiques Google Analytics 4 doivent être anonymisées conformément au RGPD et à la loi congolaise | CRITIQUE |
 | VF-318-04 | Toute campagne générant un ROII jugé insuffisant lors de deux revues trimestrielles consécutives est arrêtée | OBLIGATOIRE |
 | VF-318-05 | Les tableaux de bord de performance sont revus mensuellement par le Comité des Finances et d'Audit | OBLIGATOIRE |
+| VF-318-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

@@ -119,6 +119,7 @@ Le Tome 10 étant **intégralement rédigé, scellé et validé**, le chantier E
 | **`VF-191-03`** | **Validation formelle par le Comité d'Architecture** | Ce module de clôture requiert signature du Directeur Technique. |
 | **`VF-191-04`** | **Publication du rapport de conformité documentaire** | Rapport d'état du tome transmis au COPIL avant passage en phase de code. |
 | **`VF-191-05`** | **Clôture solennelle du TOME-10** | Validation de l'intégralité des sous-tomes de ce volume architectural. |
+| **`VF-191-06`** | **Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

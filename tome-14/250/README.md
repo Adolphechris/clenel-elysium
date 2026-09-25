@@ -65,6 +65,7 @@ En cas de friction ou de divergence entre les pôles :
 | VF-250-03 | Le pôle technique ne peut jamais modifier de cote ou de bulletin en base de données | SOUVERAINETÉ |
 | VF-250-04 | Droit de veto sécuritaire accordé au RSSI en cas de faille compromise avérée | SÉCURITÉ |
 | VF-250-05 | Enregistrement de tout arbitrage inter-pôles dans le registre d'audit institutionnel | TRANSPARENCE |
+| VF-250-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

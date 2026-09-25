@@ -81,6 +81,7 @@ Une part importante du parc utilise des résolutions modestes ($480 \times 854$ 
 | VF-221-03 | Mode Survie Énergétique activé automatiquement sous 15% de batterie restante | ERGONOMIE |
 | VF-221-04 | Sauvegarde d'état locale continue pour résister aux extinctions brutales du terminal | FIABILITÉ |
 | VF-221-05 | Compatibilité certifiée jusqu'à la résolution minimale de 480 x 800 pixels | PORTABILITÉ |
+| VF-221-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

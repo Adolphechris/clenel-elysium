@@ -141,6 +141,7 @@ Le moteur calcule et soumet au Jury de fin d'année les propositions suivantes :
 | **`VF-067-03`** | **Règle de compensation LMD souveraine** | Application des seuils de compensation entre UE conformément aux normes de l'ESU. |
 | **`VF-067-04`** | **Gestion automatique des dispenses et reports** | Les dispenses légales sont neutralisées sans pénaliser le total des maxima. |
 | **`VF-067-05`** | **Détection des cas d'échec critique** | Alerte automatique sur les matières éliminatoires définies par les règlements pédagogiques. |
+| **`VF-067-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

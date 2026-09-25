@@ -96,6 +96,7 @@ Pour les complexes scolaires partenaires regroupant plus de 500 élèves dans un
 | **`VF-119-03`** | **Interface de réclamation des bulletins non reçus** | Formulaire de demande de réédition avec traçabilité de la demande. |
 | **`VF-119-04`** | **Archivage personnel des bulletins dans l'espace parent** | Coffre-fort numérique personnel pour conserver les bulletins de chaque enfant. |
 | **`VF-119-05`** | **Vérification d'authenticité du bulletin par QR code** | Scan du code permettant la vérification institutionnelle immédiate. |
+| **`VF-119-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

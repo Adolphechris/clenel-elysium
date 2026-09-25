@@ -118,6 +118,7 @@ CREATE INDEX idx_disc_user ON schema_juridique.dossiers_disciplinaires(utilisate
 | VF-324-03 | L'usage d'outils d'IA générative doit obligatoirement être déclaré sous peine d'annulation intégrale de l'épreuve | CRITIQUE |
 | VF-324-04 | Tout apprenant faisant l'objet d'une sanction a droit à un recours contradictoire devant le Conseil de Discipline sous 15 jours | OBLIGATOIRE |
 | VF-324-05 | L'historique des infractions graves est scellé sous Cloud Storage et transmis aux universités partenaires conventionnées | OBLIGATOIRE |
+| VF-324-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

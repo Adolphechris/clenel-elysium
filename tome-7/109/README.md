@@ -84,6 +84,7 @@ graph TD
 | **`VF-109-03`** | **Validation de la relation parent-enfant par l'établissement** | Le directeur d'école doit approuver tout lien parent-enfant nouvellement créé. |
 | **`VF-109-04`** | **Révocation immédiate en cas de jugement de garde** | Suppression de l'accès du parent non-gardien sur décision judiciaire vérifiée. |
 | **`VF-109-05`** | **Protection contre la manipulation parentale des notes** | Aucun parent ne peut initier une modification de cote directement depuis son espace. |
+| **`VF-109-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

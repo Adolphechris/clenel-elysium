@@ -88,6 +88,7 @@ En stricte conformité avec le standard **WCAG 2.2 Niveau AAA** :
 | VF-222-03 | Agrandissement de police supporté jusqu'à 200% sans perte de contenu | ERGONOMIE |
 | VF-222-04 | Interdiction d'utiliser la couleur comme unique indicateur d'état | CONSTITUTIONNEL |
 | VF-222-05 | Lecture vocale accessible des formules scientifiques et mathématiques | PÉDAGOGIQUE |
+| VF-222-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

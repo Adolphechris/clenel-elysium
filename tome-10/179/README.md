@@ -206,6 +206,7 @@ Ce retour est disponible immédiatement après scellement de la cote.
 | VF-179-03 | Le retour pédagogique est fourni à l'apprenant dès la publication des cotes | OBLIGATOIRE |
 | VF-179-04 | La source de chaque cote (AUTOMATIQUE / IA_ACCEPTED / HUMAIN) est enregistrée | OBLIGATOIRE |
 | VF-179-05 | Un écart > 20% entre deux correcteurs déclenche obligatoirement un arbitrage du Préfet | OBLIGATOIRE |
+| VF-179-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

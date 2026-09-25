@@ -106,6 +106,7 @@ Chaque titre académique scellé est inséré comme feuille dans l'arbre de Merk
 | VF-185-03 | QR Code calibré avec tolérance aux erreurs minimale de niveau H (30%) | OBLIGATOIRE |
 | VF-185-04 | Canonisation stricte RFC 8785 avant tout calcul d'empreinte | OBLIGATOIRE |
 | VF-185-05 | Vérification universelle possible en moins de 500 ms sur réseau mobile 2G/3G | TECHNIQUE |
+| VF-185-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

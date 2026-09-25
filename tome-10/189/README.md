@@ -90,6 +90,7 @@ Conformément à la vocation souveraine d'ELLYSIUM :
 | VF-189-03 | Transmission des cotes de scolarité à la DEXETAT chiffrée de bout en bout (mTLS) | SÉCURITÉ |
 | VF-189-04 | Fonctionnement complet garanti en mode hors-ligne sans connexion permanente | TECHNIQUE |
 | VF-189-05 | Neutralité de l'IA : l'IA n'intervient que pour expliquer les corrigés, jamais pour noter | CONSTITUTIONNEL |
+| VF-189-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

@@ -150,6 +150,7 @@ erDiagram
 | **`VF-078-03`** | **Tolérance aux doubles notifications de passerelle (Idempotence)** | Une notification de paiement reçue plusieurs fois ne génère qu'une seule écriture de reçu. |
 | **`VF-078-04`** | **Alerte de divergence financière immédiate** | Tout écart entre le solde déclaré par l'opérateur et le grand livre déclenche une alerte au trésorier. |
 | **`VF-078-05`** | **Support des quatre opérateurs majeurs de RDC** | Interfaçage natif avec M-Pesa, Orange Money, Airtel Money et Afrimoney. |
+| **`VF-078-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

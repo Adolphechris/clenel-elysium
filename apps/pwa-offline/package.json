@@ -4,14 +4,29 @@
   "description": "Moteur de synchronisation hors-ligne PWA pour le terrain congolais (Tome 7 / Module 112)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "public"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@elysium/academic-engine": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
     "@types/node": "^22.0.0"
   },
+  "keywords": [
+    "elysium",
+    "rdc",
+    "pwa",
+    "offline-first",
+    "indexeddb"
+  ],
   "author": "ASBL ELLYSIUM",
   "license": "MIT"
 }

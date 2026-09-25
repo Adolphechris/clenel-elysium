@@ -122,6 +122,7 @@ erDiagram
 | **`VF-081-03`** | **Conservation intégrale des traces académiques en cas d'abandon** | L'abandon scolaire ne supprime aucune des notes ou présences acquises antérieurement. |
 | **`VF-081-04`** | **Enregistrement des causes de décrochage pour remédiation** | Les motifs d'abandon sont qualifiés (économique, santé, déménagement) pour analyse sociologique. |
 | **`VF-081-05`** | **Procédure simplifiée de réintégration** | L'élève réintégré retrouve son IUNE et son dossier sans création d'un doublon d'identité. |
+| **`VF-081-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

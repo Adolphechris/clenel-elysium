@@ -112,6 +112,7 @@ CREATE INDEX idx_form_etab ON formations_cohortes(etablissement_id);
 | VF-286-03 | L'intégralité des sessions de formation pour les enseignants et directeurs d'écoles partenaires est gratuite | CRITIQUE |
 | VF-286-04 | Les ateliers parents doivent être proposés au minimum en français et dans la langue nationale dominante de la province | OBLIGATOIRE |
 | VF-286-05 | Les listes d'émargement et évaluations de compétences post-formation sont scellées dans Google Cloud Storage | OBLIGATOIRE |
+| VF-286-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

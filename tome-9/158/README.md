@@ -97,6 +97,7 @@ graph TD
 | **`VF-158-03`** | **Gestion des clés CMEK dans Cloud KMS région africa-south1** | Les clés maîtresses de chiffrement ne peuvent pas être créées hors de la région africaine. |
 | **`VF-158-04`** | **Rotation annuelle automatique des clés de chiffrement** | Cloud KMS renouvelle automatiquement les clés selon la politique de rotation configurée. |
 | **`VF-158-05`** | **Audit de l'utilisation des clés de chiffrement** | Chaque opération de chiffrement/déchiffrement est consignée dans Cloud Audit Logs. |
+| **`VF-158-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

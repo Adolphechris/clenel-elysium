@@ -143,6 +143,7 @@ erDiagram
 | **`VF-080-03`** | **Révocation immédiate des droits lors du départ** | La désactivation d'un compte personnel coupe l'accès à toutes les ressources en temps réel. |
 | **`VF-080-04`** | **Revue semestrielle obligatoire des privilèges** | Le préfet numérique et le DPO doivent signer un rapport de validation des comptes à privilèges. |
 | **`VF-080-05`** | **Isolation des environnements d'administration** | Les interfaces d'administration avancée exigent une authentification forte MFA systématique. |
+| **`VF-080-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

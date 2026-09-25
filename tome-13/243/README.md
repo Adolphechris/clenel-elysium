@@ -90,6 +90,7 @@ Pour éviter toute dérive de facturation :
 | VF-243-03 | Engagements d'usage CUD négociés sur toutes les instances de bases de données stables | ÉCONOMIE |
 | VF-243-04 | Cycle de vie automatique GCS actif pour réduire le coût du stockage long terme | FRUGALITÉ |
 | VF-243-05 | Alerte budgétaire immédiate déclenchée en cas de dérive de consommation anormale | SÉCURITÉ |
+| VF-243-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

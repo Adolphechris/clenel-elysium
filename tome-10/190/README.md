@@ -106,6 +106,7 @@ HAVING
 | VF-190-03 | Séparation physique totale entre base transactionnelle Cloud SQL et BigQuery | SÉCURITÉ |
 | VF-190-04 | Interdiction d'utiliser les statistiques individuelles à des fins de profilage commercial | CONSTITUTIONNEL |
 | VF-190-05 | Export ouvert des données consolidées annuelles sous licence publique d'État | INSTITUTIONNEL |
+| VF-190-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

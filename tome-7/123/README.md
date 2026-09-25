@@ -90,6 +90,7 @@ BQ	MPESA	ECR-002	20250917	411100	Clients Usagers	CD-EL-0142	REC-2025-01	20250917
 | **`VF-123-03`** | **Basculement transparent entre régions GCP** | Aucune interruption visible pour l'utilisateur lors d'un failover régional. |
 | **`VF-123-04`** | **Politique de rétention des snapshots de base de données** | Conservation de 30 snapshots journaliers et 12 snapshots mensuels. |
 | **`VF-123-05`** | **Test de reprise après sinistre (DR Test) annuel** | Simulation de perte totale de la région primaire avec objectif RTO < 4h. |
+| **`VF-123-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

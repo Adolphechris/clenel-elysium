@@ -99,6 +99,7 @@ resource "google_compute_subnetwork" "subnet_africa" {
 | VF-230-03 | Autoscaling dynamique paramétré pour absorber 150 000 requêtes/seconde sans latence | CAPACITAIRE |
 | VF-230-04 | Optimisation FinOps Scale-to-Zero active sur tous les services non critiques | FRUGALITÉ |
 | VF-230-05 | Protection anti-DDoS Google Cloud Armor activée en permanence sur le Load Balancer | CONSTITUTIONNEL |
+| VF-230-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

@@ -80,6 +80,7 @@ De ces profils sociologiques découlent **cinq impératifs de design non négoci
 | **`VF-086-03`** | **Prise en compte des contextes de partage familial** | Mécanisme de déconnexion rapide et sécurisée sur les smartphones partagés par plusieurs enfants. |
 | **`VF-086-04`** | **Alternatives audio pour consignes clés** | Possibilité d'écouter la consigne d'un devoir ou d'un examen pour les élèves peu lecteurs. |
 | **`VF-086-05`** | **Support des résolutions d'écran étroites (320px)** | Aucun débordement horizontal autorisé sur les écrans de 320 pixels de large. |
+| **`VF-086-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

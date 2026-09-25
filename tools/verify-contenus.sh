@@ -51,32 +51,32 @@ fi
 ok "Arborescence contenus/ présente"
 
 # -----------------------------------------------------------------------------
-# 1. Chaîne N1 → N2 : chaque fiche doit avoir son syllabus
+# 1. Chaîne N1 → N2 : chaque fiche doit avoir son cours/syllabus
 # -----------------------------------------------------------------------------
 echo ""
-echo "[1] Chaîne N1 → N2 (fiche-matière → syllabus)"
+echo "[1] Chaîne N1 → N2 (fiche-matière → cours/syllabus)"
 for fiche in contenus/02-FICHES-MATIERES/ELL-*.md; do
   [[ -e "$fiche" ]] || continue
   code="$(basename "$fiche" .md)"
-  if [[ -f "contenus/03-SYLLABUS/${code}.md" ]]; then
+  if [[ -f "contenus/03-COURS/${code}.md" ]]; then
     ok "Chaîne complète : ${code}"
   else
-    avertissement "Syllabus manquant pour la fiche ${code} (attendu : contenus/03-SYLLABUS/${code}.md)"
+    avertissement "Cours/Syllabus manquant pour la fiche ${code} (attendu : contenus/03-COURS/${code}.md)"
   fi
 done
 
 # -----------------------------------------------------------------------------
-# 2. Chaîne N2 → N1 : chaque syllabus doit déclarer sa fiche
+# 2. Chaîne N2 → N1 : chaque cours/syllabus doit déclarer sa fiche
 # -----------------------------------------------------------------------------
 echo ""
-echo "[2] Chaîne N2 → N1 (syllabus → fiche-matière)"
-for syl in contenus/03-SYLLABUS/ELL-*.md; do
+echo "[2] Chaîne N2 → N1 (cours/syllabus → fiche-matière)"
+for syl in contenus/03-COURS/ELL-*.md; do
   [[ -e "$syl" ]] || continue
   code="$(basename "$syl" .md)"
   if grep -q "02-FICHES-MATIERES/${code}.md" "$syl"; then
-    ok "Syllabus ${code} adossé à sa fiche"
+    ok "Cours ${code} adossé à sa fiche"
   else
-    erreur "Le syllabus ${code} ne déclare pas sa fiche-matière (02-FICHES-MATIERES/${code}.md)"
+    erreur "Le cours ${code} ne déclare pas sa fiche-matière (02-FICHES-MATIERES/${code}.md)"
   fi
 done
 
@@ -103,7 +103,7 @@ echo "[4] Couverture des savoirs essentiels officiels par les syllabus"
 for fiche in contenus/02-FICHES-MATIERES/ELL-*.md; do
   [[ -e "$fiche" ]] || continue
   code="$(basename "$fiche" .md)"
-  syl="contenus/03-SYLLABUS/${code}.md"
+   syl="contenus/03-COURS/${code}.md"
   [[ -f "$syl" ]] || continue
 
   # Extraction des codes officiels présents dans la fiche (ex. MM1.1, MSVT1.10, MSPC2.8)
@@ -129,7 +129,7 @@ done
 echo ""
 echo "[5] Champs non sourcés (⚠️) dans les contenus déclarés publiés"
 avertissements_non_sources=0
-for f in contenus/02-FICHES-MATIERES/*.md contenus/03-SYLLABUS/*.md; do
+for f in contenus/02-FICHES-MATIERES/*.md contenus/03-COURS/*.md; do
   [[ -e "$f" ]] || continue
   nom="$(basename "$f")"
   nb="$(grep -c '⚠️' "$f" || true)"
@@ -168,10 +168,10 @@ else
   for lecon in contenus/04-LECONS/*.md; do
     [[ -e "$lecon" ]] || continue
     nom="$(basename "$lecon")"
-    if grep -qE 'Syllabus.*03-SYLLABUS/' "$lecon"; then
-      ok "Leçon ${nom} adossée à un syllabus"
+    if grep -qiE 'Cours.*03-COURS/' "$lecon"; then
+      ok "Leçon ${nom} adossée à un cours"
     else
-      erreur "Leçon ${nom} : référence au syllabus manquante"
+      erreur "Leçon ${nom} : référence au cours manquante"
     fi
   done
 fi
@@ -184,7 +184,7 @@ echo "======================================================================"
 echo "  BILAN"
 echo "======================================================================"
 printf "  Fiches-matières (N1) : %s\n" "$(ls -1 contenus/02-FICHES-MATIERES/ELL-*.md 2>/dev/null | wc -l)"
-printf "  Syllabus (N2)        : %s\n" "$(ls -1 contenus/03-SYLLABUS/ELL-*.md 2>/dev/null | wc -l)"
+printf "  Cours/Syllabus (N2) : %s\n" "$(ls -1 contenus/03-COURS/ELL-*.md 2>/dev/null | wc -l)"
 printf "  Leçons (N3)          : %s\n" "$(ls -1 contenus/04-LECONS/*.md 2>/dev/null | wc -l)"
 printf "  Modèles              : %s\n" "$(ls -1 contenus/_templates/*.md 2>/dev/null | wc -l)"
 echo ""

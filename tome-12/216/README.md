@@ -121,6 +121,7 @@ Bien que somptueuses, les landing pages restent ultra-légères pour s'ouvrir en
 | VF-216-03 | Chaque landing page dispose d'une identité visuelle d'élite sans médiocrité admise | ARTISTIQUE |
 | VF-216-04 | Disponibilité intégrale en français et dans les 4 langues nationales congolaises | INCLUSION |
 | VF-216-05 | Zéro tracker publicitaire commercial ou script de régie tiers | ÉTHIQUE |
+| VF-216-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

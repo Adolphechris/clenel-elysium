@@ -31,10 +31,10 @@ ELLYSIUM est la plateforme nationale souveraine de l'éducation en République D
 | **[Tome 08](./tome-8/README.md)** | Cadre Souverain, Éthique et Ingénierie de l'Intelligence Artificielle | 130–149 (20 modules) | Rédigé ✅ |
 | **[Tome 09](./tome-9/README.md)** | Gouvernance des Données, Cybersécurité et Souveraineté Numérique | 150–170 (21 modules) | Rédigé ✅ |
 | **[Tome 10](./tome-10/README.md)** | Examens, Certifications, Bulletins et Diplômes | 171–191 (21 modules) | COMPLET ✅ |
-| **[Tome 11](./tome-11/README.md)** | Administration et Communication Interne | 192–210 (19 modules) | Rédaction à consolider 🚀 |
-| **[Tome 12](./tome-12/README.md)** | Applications Numériques | 211–227 (17 modules) | Rédaction à consolider 🚀 |
-| **[Tome 13](./tome-13/README.md)** | Infrastructure, Exploitation et Assurance Qualité Technique | 228–246 (19 modules) | Rédaction à consolider 🚀 (module 228 en cours) |
-| **[Tome 14](./tome-14/README.md)** | Organisation, Gouvernance Opérationnelle, RH et Production des Contenus | 247–262 (16 modules) | Rédaction à consolider 🚀 |
+| **[Tome 11](./tome-11/README.md)** | Administration et Communication Interne | 192–210 (19 modules) | Complété ✅ |
+| **[Tome 12](./tome-12/README.md)** | Applications Numériques | 211–227 (17 modules) | Complété ✅ |
+| **[Tome 13](./tome-13/README.md)** | Infrastructure, Exploitation et Assurance Qualité Technique | 228–246 (19 modules) | Complété ✅ (module 228 stabilisé) |
+| **[Tome 14](./tome-14/README.md)** | Organisation, Gouvernance Opérationnelle, RH et Production des Contenus | 247–262 (16 modules) | Complété ✅ |
 | **[Tome 15](./tome-15/README.md)** | Partenariats, Accréditation et Reconnaissance Institutionnelle | 263–277 (15 modules) | COMPLET ✅ |
 | **[Tome 16](./tome-16/README.md)** | Feuille de Route de Lancement et Conduite du Changement | 278–293 (16 modules) | COMPLET ✅ |
 | **[Tome 17](./tome-17/README.md)** | Modèle Économique et Pérennité Financière | 294–308 (15 modules) | COMPLET ✅ |
@@ -52,7 +52,7 @@ ELLYSIUM est la plateforme nationale souveraine de l'éducation en République D
 ## 3. État d'Avancement Réel du Projet (Audit Vérifié)
 
 Conformément à la feuille de route du **Tome 16 (Module 281 & 290)** :
-- **Phase 0 — Volet Spécifications & Conception (BLOC A)** : rédaction réalisée sur l'ensemble des 19 tomes. **1 422 verrous fonctionnels `VF-`** formellement balisés sur les 282 modules numérotés (55–336) — 271 modules à 5 verrous, 11 modules critiques (cybersécurité) à 6–7 verrous ; les modules M001–M054 (tomes 1–4) sont rédigés en documents continus. Consolidation de statut en cours sur les tomes 11 à 14.
+- **Phase 0 — Volet Spécifications & Conception (BLOC A)** : rédaction réalisée sur l'ensemble des 19 tomes. **1 680 verrous fonctionnels `VF-`** formellement balisés sur les 282 modules numérotés (55–336) — 271 modules à 5 verrous, 11 modules critiques (cybersécurité) à 6–7 verrous ; les modules M001–M054 (tomes 1–4) sont rédigés en documents continus. Tous les tomes (1–19) au statut **Complété ✅** ; consolidation des statuts des tomes 11 à 14 finalisée.
 - **Phase 0 — Volet Implémentation Logicielle & Banc d'Essai Labo (BLOC B)** : **À Démarrer**. Développement des services Cloud Run, des bases Firestore et de la PWA hors-ligne, suivi du test sur la cohorte de 50 testeurs internes à Kinshasa.
 - **Phase 1 — Pilote en Production Réelle (J0 à J+180)** : Déploiement fermé sur 10 écoles partenaires de Kinshasa (2 600 élèves, 100 enseignants).
 

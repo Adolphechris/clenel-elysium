@@ -148,6 +148,7 @@ CREATE INDEX idx_decision_statut ON copil_decisions(statut_decision);
 | VF-280-03 | Tout membre constatant une violation des Articles 4, 5 ou 6 de la Constitution peut invoquer un arrêt d'urgence suspensif de séance | CRITIQUE |
 | VF-280-04 | Les procès-verbaux complets et relevés de décisions doivent être publiés et scellés sous Cloud Storage sous 48h | OBLIGATOIRE |
 | VF-280-05 | Les représentants des apprenants et des enseignants bénéficient d'une voix délibérative entière sans restriction d'accès aux débats | OBLIGATOIRE |
+| VF-280-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

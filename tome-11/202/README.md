@@ -100,6 +100,7 @@ CREATE TABLE bulletins_paie (
 | VF-202-03 | Les heures prestées doivent être préalablement visées par le Préfet ou Doyen | PÉDAGOGIQUE |
 | VF-202-04 | Bulletin de paie accessible à vie dans le coffre-fort numérique de l'enseignant | OBLIGATOIRE |
 | VF-202-05 | Double validation obligatoire (DAF + Promoteur avec MFA) avant tout virement | SÉCURITÉ |
+| VF-202-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

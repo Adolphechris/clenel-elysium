@@ -131,6 +131,7 @@ stateDiagram-v2
 | **`VF-079-03`** | **Registre des suppléances et remplacements** | Toute heure de remplacement est enregistrée avec nom du suppléant et date. |
 | **`VF-079-04`** | **Protection de la vie privée du personnel** | Les dossiers administratifs des enseignants sont protégés par des habilitations de niveau DRH. |
 | **`VF-079-05`** | **Calcul automatisé des états de prestation** | Génération mensuelle des décomptes d'heures prestées pour justification de traitement. |
+| **`VF-079-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

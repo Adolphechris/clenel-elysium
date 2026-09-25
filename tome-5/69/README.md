@@ -147,6 +147,7 @@ erDiagram
 | **`VF-069-03`** | **Notification obligatoire sous 24h aux tuteurs légaux** | Tout blâme ou exclusion temporaire génère une notification certifiée au parent. |
 | **`VF-069-04`** | **Effacement des sanctions légères après délai** | Les avertissements de conduite sont amnistiés à l'issue de l'année scolaire si assiduité parfaite. |
 | **`VF-069-05`** | **Interdiction des châtiments corporels et vexatoires** | Rejet et signalement administratif de toute mention violant l'intégrité physique de l'élève. |
+| **`VF-069-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

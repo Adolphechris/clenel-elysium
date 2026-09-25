@@ -93,6 +93,7 @@ Le Tome 16 étant achevé dans sa totalité (16 modules sur 16), l'élaboration 
 | VF-293-03 | Les dépendances opérationnelles sont réévaluées à chaque réunion plénière trimestrielle du Comité de Pilotage | OBLIGATOIRE |
 | VF-293-04 | L'intégrité de la feuille de route du Tome 16 est scellée de manière inaltérable sous Google Cloud Storage | OBLIGATOIRE |
 | VF-293-05 | Ce module de dépendances constitue la référence opposable lors de tout audit institutionnel ou ministériel | OBLIGATOIRE |
+| VF-293-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

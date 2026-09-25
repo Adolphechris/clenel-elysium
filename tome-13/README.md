@@ -3,7 +3,7 @@
 > **Domaine :** Haute Disponibilité, Exploitation Industrielle et Fiabilité des Systèmes
 > **Périmètre :** Écosystème Exclusif Google Cloud Platform (GCP), GKE Autopilot, Cloud Run, Cloud SQL HA, CI/CD Cloud Build, PCA/PRA
 > **Modules :** 228 à 246 (19 sous-tomes)
-> **Statut :** EN COURS D'EXÉCUTION 🚀
+> **Statut :** COMPLÉTÉ ✅
 
 ---
 
@@ -31,7 +31,7 @@ Conformément à la **DOCTRINE INFRASTRUCTURE IMMUABLE DU 17 SEPTEMBRE 2026**, l
 
 | Module | Titre Officiel | Statut |
 |---|---|---|
-| [228](./228/README.md) | Périmètre du Tome 13 – politique d'exploitation et SLAs (99,5 %) | ⏳ En cours |
+| [228](./228/README.md) | Périmètre du Tome 13 – politique d'exploitation et SLAs (99,5 %) | ✅ COMPLÉT |
 | [229](./229/README.md) | Conformité avec la Constitution (continuité de service, protection) | ✅ COMPLET |
 | [230](./230/README.md) | Stratégie d'hébergement – 100% Google Cloud (GKE, Cloud Run, dimensionnement) | ✅ COMPLET |
 | [231](./231/README.md) | Conteneurisation et orchestration – GKE Autopilot & Cloud Run | ✅ COMPLET |

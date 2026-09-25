@@ -66,6 +66,7 @@ Pour garantir la gratuité constitutionnelle des apprenants indépendants (Tome 
 | **`VF-107-03`** | **Portail parent consultable hors authentification renforcée** | Toute consultation de données d'élèves exige un cookie de session valide MFA. |
 | **`VF-107-04`** | **Tableaux de bord multilingues (Lingala, Swahili, Français)** | Le portail parent est disponible dans les 4 langues nationales congolaises. |
 | **`VF-107-05`** | **Clôture solennelle Tome 7 — Espace Parents** | Validation de l'intégralité des parcours parents et tuteurs légaux. |
+| **`VF-107-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

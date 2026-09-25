@@ -79,6 +79,7 @@ Pour garantir la souveraineté absolue et prévenir la compromission d'identifia
 | VF-241-03 | Taux de duplication de code strictement inférieur à 2,5% sur le dépôt | TECHNIQUE |
 | VF-241-04 | Sprint trimestriel de résorption de dette technique obligatoire avant chaque examen | GOUVERNANCE |
 | VF-241-05 | L'évaluation statique du code est exécutée automatiquement sur Google Cloud Build | PROCESSUS |
+| VF-241-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

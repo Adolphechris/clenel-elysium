@@ -188,6 +188,7 @@ func CalculerMention(taux float64) string {
 | VF-173-03 | Toute transition d'état d'une cote est enregistrée dans audit_evaluations | OBLIGATOIRE |
 | VF-173-04 | Le service de vérification est public (sans authentification) | OBLIGATOIRE |
 | VF-173-05 | Les PDFs des bulletins sont générés côté serveur (jamais côté client) | OBLIGATOIRE |
+| VF-173-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

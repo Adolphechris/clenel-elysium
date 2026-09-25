@@ -94,6 +94,7 @@ Dans chacune des 26 provinces de la RDC :
 | VF-249-03 | Impossibilité pour la direction générale de modifier unilatéralement un résultat de jury | CONSTITUTIONNEL |
 | VF-249-04 | Représentation obligatoire des 26 provinces au sein du conseil consultatif | SOUVERAINETÉ |
 | VF-249-05 | Parité homme-femme activement promue dans la composition des comités et directions | INCLUSION |
+| VF-249-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

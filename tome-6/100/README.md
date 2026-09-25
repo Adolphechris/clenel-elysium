@@ -86,6 +86,7 @@ L'échelle typographique assure une hiérarchie visuelle claire sans écraser le
 | **`VF-100-03`** | **Lisibilité des formules scientifiques KaTeX** | Rendu optimisé des équations mathématiques et chimiques sans débordement d'écran. |
 | **`VF-100-04`** | **Ajustement dynamique de la taille de police** | L'apprenant peut agrandir le texte d'au moins 200% sans casser la mise en page. |
 | **`VF-100-05`** | **Rendu fluide des diacritiques des langues nationales** | Support natif des caractères accentués et tons du Lingala et du Swahili. |
+| **`VF-100-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

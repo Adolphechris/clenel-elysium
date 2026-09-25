@@ -61,6 +61,7 @@ Le périmètre du Tome 6 couvre :
 | **`VF-084-03`** | **Affichage instantané du texte** | Utilisation de polices système de secours avec font-display: swap sans blocage d'affichage. |
 | **`VF-084-04`** | **Indicateur permanent de connectivité** | L'interface signale sans ambiguïté si l'utilisateur opère en ligne ou hors-ligne. |
 | **`VF-084-05`** | **Navigation universelle à 3 clics** | Toute ressource pédagogique fondamentale doit être accessible en 3 interactions au maximum. |
+| **`VF-084-06`** | **L'interface reste pleinement fonctionnelle avec un contraste minimum de 4,5:1 sur tous les supports** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

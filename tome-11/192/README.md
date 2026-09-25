@@ -83,6 +83,7 @@ Conformément à la **DOCTRINE INFRASTRUCTURE GOOGLE**, les modules administrati
 | VF-192-03 | Hébergement strict des dossiers scolaires sur l'infrastructure Google Cloud agréée | CONSTITUTIONNEL |
 | VF-192-04 | Séparation des privilèges : le personnel administratif local n'a aucun accès aux tables globales | SÉCURITÉ |
 | VF-192-05 | Traçabilité intégrale : toute modification d'un dossier administratif est enregistrée en log WORM | OBLIGATOIRE |
+| VF-192-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

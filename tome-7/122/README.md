@@ -100,6 +100,7 @@ Conformément à la réglementation de la Banque Centrale du Congo (BCC) :
 | **`VF-122-03`** | **Test de charge trimestriel obligatoire** | Simulation d'usage concurrent de 10 000 utilisateurs chaque trimestre. |
 | **`VF-122-04`** | **Pré-chauffe des instances avant les examens nationaux** | Mise en alerte maximale de Cloud Run 48h avant les sessions d'examens. |
 | **`VF-122-05`** | **Rapport de performance transmis au COPIL** | Indicateurs de temps de réponse et taux d'erreur mensuels publiés. |
+| **`VF-122-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -107,6 +107,7 @@ Pour respecter la bande passante limitée des usagers congolais, les charges uti
 | VF-220-03 | Zéro donnée confidentielle ou note d'examen détaillée en clair dans le payload FCM | SÉCURITÉ |
 | VF-220-04 | Révocation immédiate des jetons FCM lors de la déconnexion de l'appareil | CONSTITUTIONNEL |
 | VF-220-05 | Canaux de notification distincts sous Android pour permettre aux parents de filtrer | ERGONOMIE |
+| VF-220-06 | L'application Android consomme moins de 2 Mo de données pour 60 minutes d'utilisation terrain | PERFORMANCE |
 
 ---
 

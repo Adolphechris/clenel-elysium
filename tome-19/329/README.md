@@ -107,6 +107,7 @@ CREATE INDEX idx_contrat_statut ON schema_juridique.contrats_conventions_actifs(
 | VF-329-03 | Les contrats de travail des enseignants sont établis en stricte conformité avec le Code du Travail congolais | CRITIQUE |
 | VF-329-04 | Tout contrat d'auteur doit comporter la cession expresse d'exploitation sous licence Creative Commons CC BY-NC-SA 4.0 | OBLIGATOIRE |
 | VF-329-05 | L'exemplaire officiel scellé de chaque contrat est archivé avec horodatage cryptographique dans Google Cloud Storage | OBLIGATOIRE |
+| VF-329-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

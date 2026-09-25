@@ -113,6 +113,7 @@ CREATE INDEX idx_telemetrie_apprenant_jour ON schema_finance.telemetrie_consomma
 | VF-302-03 | L'IA ne doit en aucun cas être sollicitée pour des tâches administratives répétitives pouvant être résolues par du code standard | CRITIQUE |
 | VF-302-04 | Le coût mensuel moyen d'inférence IA par apprenant actif ne doit pas dépasser 0,25 USD sous peine de restriction des modèles | OBLIGATOIRE |
 | VF-302-05 | L'activation du Context Caching sous Vertex AI est obligatoire pour tout document de cours supérieur à 10 000 tokens | OBLIGATOIRE |
+| VF-302-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

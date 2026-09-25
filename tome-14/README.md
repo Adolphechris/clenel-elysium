@@ -3,7 +3,7 @@
 > **Domaine :** Capital Humain, Gouvernance Institutionnelle et Ingénierie Éditoriale
 > **Périmètre :** Organigramme de commandement, statut des enseignants, médiation IA-humain, chaîne éditoriale et propriété intellectuelle
 > **Modules :** 247 à 262 (16 sous-tomes)
-> **Statut :** EN COURS D'EXÉCUTION 🚀
+> **Statut :** COMPLÉTÉ ✅
 
 ---
 
@@ -28,22 +28,22 @@ Définir avec précision **l'institution humaine souveraine** qui fait vivre, en
 
 | Module | Titre Officiel | Statut |
 |---|---|---|
-| [247](./247/README.md) | Périmètre du Tome 14 – organisation générale et gouvernance | ⏳ En cours |
-| [248](./248/README.md) | Conformité avec la Constitution (engagements envers les enseignants, transparence) | ⏳ En attente |
-| [249](./249/README.md) | Organigramme fonctionnel – conseil d'administration, direction, comités | ⏳ En attente |
-| [250](./250/README.md) | Gouvernance académique, technique et administrative (rôles distincts) | ⏳ En attente |
-| [251](./251/README.md) | Rôle du directeur académique, du responsable pédagogique et du préfet numérique | ⏳ En attente |
-| [252](./252/README.md) | Rôle des directeurs d'établissements partenaires | ⏳ En attente |
-| [253](./253/README.md) | Gestion intégrée des enseignants – recrutement, contrat-type, rémunération, formation | ⏳ En attente |
-| [254](./254/README.md) | Gestion des conflits entre enseignant et recommandation IA – médiation | ⏳ En attente |
-| [255](./255/README.md) | Chaîne éditoriale – rédaction, relecture scientifique, validation pédagogique | ⏳ En attente |
-| [256](./256/README.md) | Chaîne éditoriale – publication, versionnage et mise à jour des contenus | ⏳ En attente |
-| [257](./257/README.md) | Outils de création éditoriale – studio vidéo, templates, captation | ⏳ En attente |
-| [258](./258/README.md) | Propriété intellectuelle des contenus – contrats de cession, licence ELLYSIUM, OER | ⏳ En attente |
-| [259](./259/README.md) | Gestion des équipes de support et modération | ⏳ En attente |
-| [260](./260/README.md) | Procédure disciplinaire interne et code de déontologie | ⏳ En attente |
-| [261](./261/README.md) | Manuel des procédures opérationnelles standards (SOP) | ⏳ En attente |
-| [262](./262/README.md) | Dépendances – avec les Tomes 4, 16, 19 | ⏳ En attente |
+| [247](./247/README.md) | Périmètre du Tome 14 – organisation générale et gouvernance | ✅ COMPLÉT |
+| [248](./248/README.md) | Conformité avec la Constitution (engagements envers les enseignants, transparence) | ✅ COMPLÉT |
+| [249](./249/README.md) | Organigramme fonctionnel – conseil d'administration, direction, comités | ✅ COMPLÉT |
+| [250](./250/README.md) | Gouvernance académique, technique et administrative (rôles distincts) | ✅ COMPLÉT |
+| [251](./251/README.md) | Rôle du directeur académique, du responsable pédagogique et du préfet numérique | ✅ COMPLÉT |
+| [252](./252/README.md) | Rôle des directeurs d'établissements partenaires | ✅ COMPLÉT |
+| [253](./253/README.md) | Gestion intégrée des enseignants – recrutement, contrat-type, rémunération, formation | ✅ COMPLÉT |
+| [254](./254/README.md) | Gestion des conflits entre enseignant et recommandation IA – médiation | ✅ COMPLÉT |
+| [255](./255/README.md) | Chaîne éditoriale – rédaction, relecture scientifique, validation pédagogique | ✅ COMPLÉT |
+| [256](./256/README.md) | Chaîne éditoriale – publication, versionnage et mise à jour des contenus | ✅ COMPLÉT |
+| [257](./257/README.md) | Outils de création éditoriale – studio vidéo, templates, captation | ✅ COMPLÉT |
+| [258](./258/README.md) | Propriété intellectuelle des contenus – contrats de cession, licence ELLYSIUM, OER | ✅ COMPLÉT |
+| [259](./259/README.md) | Gestion des équipes de support et modération | ✅ COMPLÉT |
+| [260](./260/README.md) | Procédure disciplinaire interne et code de déontologie | ✅ COMPLÉT |
+| [261](./261/README.md) | Manuel des procédures opérationnelles standards (SOP) | ✅ COMPLÉT |
+| [262](./262/README.md) | Dépendances – avec les Tomes 4, 16, 19 | ✅ COMPLÉT |
 
 ---
 

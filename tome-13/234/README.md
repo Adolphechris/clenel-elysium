@@ -91,6 +91,7 @@ Pour identifier instantanément le goulot d'étranglement lors d'un appel API co
 | VF-234-03 | Traçabilité distribuée activée sur 100% des appels d'API de production | TECHNIQUE |
 | VF-234-04 | Tous les dashboards de supervision accessibles sans latence aux équipes SRE | OPÉRATIONNEL |
 | VF-234-05 | Zéro mot de passe ou donnée confidentielle en clair dans les logs d'application | SÉCURITÉ |
+| VF-234-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

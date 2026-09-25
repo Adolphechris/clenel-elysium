@@ -160,6 +160,7 @@ Tout contenu publié doit satisfaire les critères suivants :
 | VF-257-03 | L'utilisation des gabarits officiels est obligatoire ; toute déviation non approuvée par le RP entraîne le retour du contenu en phase de révision | OBLIGATOIRE |
 | VF-257-04 | Le score Lighthouse Accessibilité d'un module HTML5 doit être >= 90 avant déploiement en production | OBLIGATOIRE |
 | VF-257-05 | Les fichiers vidéo bruts dans le bucket staging sont automatiquement supprimés après 30 jours pour maîtriser les coûts Cloud Storage | OBLIGATOIRE |
+| VF-257-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

@@ -136,6 +136,7 @@ erDiagram
 | **`VF-074-03`** | **Transparence de la nature artificielle** | L'interface rappelle continuellement à l'apprenant qu'il converse avec un assistant artificiel. |
 | **`VF-074-04`** | **Enregistrement intégral des échanges pour modération** | Toutes les conversations sont auditées pour prévenir toute dérive ou hallucination. |
 | **`VF-074-05`** | **Droit d'escalade vers un tuteur humain** | L'apprenant peut à tout moment solliciter l'intervention d'un enseignant ou tuteur référent. |
+| **`VF-074-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

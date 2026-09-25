@@ -145,6 +145,7 @@ Modalités :
 | VF-175-03 | Tout TFE passe obligatoirement par le système anti-plagiat avant soutenance | OBLIGATOIRE |
 | VF-175-04 | Le seuil de plagiat pour un TFE est fixé à 15% maximum | OBLIGATOIRE |
 | VF-175-05 | Le résultat d'une soutenance est enregistré par le système immédiatement après le vote | OBLIGATOIRE |
+| VF-175-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

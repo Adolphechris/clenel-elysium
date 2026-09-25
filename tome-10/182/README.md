@@ -99,6 +99,7 @@ CREATE TABLE sessions_rattrapage (
 | VF-182-03 | Accès automatique aux modules de remédiation IA (Module 139) dès l'attribution du statut ABI | PÉDAGOGIQUE |
 | VF-182-04 | Impossibilité pour un candidat absent injustifié (ABS) de valider sans décision du jury | LÉGAL |
 | VF-182-05 | Inscription infalsifiable de la mention "Seconde Session" sur le bulletin final | CONSTITUTIONNEL |
+| VF-182-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

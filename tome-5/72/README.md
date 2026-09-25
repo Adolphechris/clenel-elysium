@@ -151,6 +151,7 @@ erDiagram
 | **`VF-072-03`** | **Suivi en direct de la soumission des travaux** | Tableau de bord indiquant en temps réel les devoirs rendus, en attente et corrigés. |
 | **`VF-072-04`** | **Outils d'émargement des séances de cours** | Validation de la tenue de cours avec résumé pédagogique de séance sous 2h. |
 | **`VF-072-05`** | **Protection des données personnelles de l'enseignant** | Le numéro de téléphone personnel de l'enseignant n'est jamais divulgué aux apprenants. |
+| **`VF-072-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -77,6 +77,7 @@ Lors de toute inscription d'un élève (Tome 5, Module 59) :
 | **`VF-156-03`** | **Algorithme de détection des IUNE fictifs ou erronés** | Validation algorithmique du format et de la cohérence des identifiants nationaux. |
 | **`VF-156-04`** | **Processus de fusion des doublons avec validation manuelle obligatoire** | Aucune fusion de dossiers ne peut s'effectuer sans approbation d'un administrateur. |
 | **`VF-156-05`** | **Rapport mensuel de qualité des données au DPO** | Indicateurs de complétude, d'exactitude et de cohérence des données clés. |
+| **`VF-156-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

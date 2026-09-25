@@ -115,6 +115,7 @@ WHERE statut = 'ACTIF' AND deleted_at IS NULL;
 | **`VF-125-03`** | **Tableau de bord temps réel de l'état des services** | Page de statut publique affichant la disponibilité de toutes les fonctions critiques. |
 | **`VF-125-04`** | **Escalade automatique des alertes P1 au Directeur Technique** | Tout incident critique est notifié par SMS et e-mail au CTO en moins de 5 minutes. |
 | **`VF-125-05`** | **Post-mortem publié pour chaque incident P1** | Rapport d'analyse systémique sans blâme publié dans les 72h après résolution. |
+| **`VF-125-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

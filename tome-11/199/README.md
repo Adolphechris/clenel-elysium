@@ -110,6 +110,7 @@ CREATE TABLE periodes_scolaires (
 | VF-199-03 | Une seule année académique active à la fois par établissement | TECHNIQUE |
 | VF-199-04 | Impossibilité de clôturer l'année sans que 100% des jurys soient scellés | LÉGAL |
 | VF-199-05 | L'historique des calendriers est archivé de manière inaltérable (Cloud Storage) | OBLIGATOIRE |
+| VF-199-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

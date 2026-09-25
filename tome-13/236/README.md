@@ -85,6 +85,7 @@ Pour s'assurer que le plan de reprise n'est pas une simple déclaration théoriq
 | VF-236-03 | Exercice pratique de simulation de sinistre réalisé obligatoirement tous les 6 mois | QUALITÉ |
 | VF-236-04 | RTO global inférieur à 30 minutes en cas de perte intégrale de la région primaire | SLO |
 | VF-236-05 | Continuité pédagogique locale garantie même en cas de coupure Internet nationale | CONSTITUTIONNEL |
+| VF-236-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

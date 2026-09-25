@@ -134,6 +134,7 @@ erDiagram
 | **`VF-076-03`** | **Signature numérique de l'autorité habilitée** | Application du cachet numérique et de la signature électronique du chef d'établissement. |
 | **`VF-076-04`** | **Horodatage et durée de validité mentionnée** | Chaque attestation comporte sa date d'émission et sa durée de validité juridique. |
 | **`VF-076-05`** | **Révocation possible avec journalisation** | En cas d'erreur matérielle, l'attestation peut être révoquée publiquement sur le portail. |
+| **`VF-076-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

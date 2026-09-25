@@ -79,6 +79,7 @@ Pour permettre l'exécution des modèles d'IA sur des serveurs GPU économiques 
 | **`VF-132-03`** | **Toute donnée au repos chiffrée AES-256 via CMEK** | Aucune donnée persistante sans chiffrement par clé gérée par le client. |
 | **`VF-132-04`** | **TLS 1.3 exclusif sur toutes les communications réseau** | Désactivation forcée des protocoles SSLv3, TLS 1.0 et TLS 1.1. |
 | **`VF-132-05`** | **Chiffrement côté client pour données ultra-sensibles** | Dossiers médicaux et IUNE chiffrés avant transmission vers GCP. |
+| **`VF-132-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

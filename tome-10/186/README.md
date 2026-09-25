@@ -112,6 +112,7 @@ Réponse JSON :
 | VF-186-03 | Protection stricte des données privées : zéro divulgation des cotes détaillées en public | LÉGAL |
 | VF-186-04 | Isolation de la base publique : interrogation exclusive d'un Read-Replica dédié | TECHNIQUE |
 | VF-186-05 | Temps de réponse global garanti < 1,5 seconde au 95e centile sur réseau africain | SLO |
+| VF-186-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

@@ -188,6 +188,7 @@ def generer_examen_equilibre(
 | VF-174-03 | Aucun téléchargement d'épreuve SECRÈTE : consultation uniquement via interface sécurisée | OBLIGATOIRE |
 | VF-174-04 | Chaque épreuve est taguée avec le niveau de la taxonomie de Bloom | OBLIGATOIRE |
 | VF-174-05 | La banque d'épreuves est sauvegardée quotidiennement dans GCS (chiffré) | OBLIGATOIRE |
+| VF-174-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

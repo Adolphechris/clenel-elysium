@@ -74,6 +74,7 @@ flowchart TD
 | **`VF-334-03`** | **Seuil d'Alerte Critique Automatisé** : Tout risque juridique dont le score résiduel dépasse 12/25 déclenche un plan de remédiation d'urgence audité en session extraordinaire du CA. | Audit externe juridique et technique déclenché immédiatement. |
 | **`VF-334-04`** | **Archivage Historique des Versions de la Cartographie** : Chaque version du registre des risques est immuablement scellée dans Google Cloud Storage pour justification de diligence raisonnable (Due Diligence). | Présomption irréfragable de bonne foi juridique en cas de contrôle étatique. |
 | **`VF-334-05`** | **Indépendance Opérationnelle du DPO et Auditeur Juridique** : Le DPO et le responsable conformité ne peuvent recevoir d'instructions opérationnelles contraires à la loi de la part de la direction générale. | Droit d'alerte direct auprès du Président du Conseil d'Administration. |
+| **`VF-334-06`** | **Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -110,6 +110,7 @@ CREATE TABLE sessions_virtuelles (
 | VF-206-03 | Les cours virtuels ne peuvent démarrer sans la présence connectée de l'enseignant | PÉDAGOGIQUE |
 | VF-206-04 | Enregistrements de cours stockés exclusivement sur Google Cloud Storage | CONSTITUTIONNEL |
 | VF-206-05 | Mode basse consommation obligatoire activé par défaut pour les zones rurales | TECHNIQUE |
+| VF-206-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

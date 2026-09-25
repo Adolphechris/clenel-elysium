@@ -94,6 +94,7 @@ Le mode **Autopilot** de GKE décharge l'équipe d'exploitation de la gestion de
 | VF-231-03 | Binary Authorization activée : refus de démarrage de toute image non signée | CONSTITUTIONNEL |
 | VF-231-04 | Stockage des images exclusivement dans Google Artifact Registry (africa-south1) | SOUVERAINETÉ |
 | VF-231-05 | Workload Identity obligatoire : zéro clé de service JSON codée en dur | SÉCURITÉ |
+| VF-231-06 | Tout déploiement nécessite un plan de secours documenté testé au moins une fois par mois | FIABILITÉ |
 
 ---
 

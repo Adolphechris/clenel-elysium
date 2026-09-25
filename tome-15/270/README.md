@@ -186,6 +186,7 @@ CREATE INDEX idx_telecom_statut ON telecom_partenariats(statut);
 | VF-270-03 | Les clés secrètes des API Mobile Money et webhooks opérateurs doivent être stockées dans Google Cloud Secret Manager avec chiffrement Cloud KMS | CRITIQUE |
 | VF-270-04 | Tout webhook de paiement non signé ou dont la signature est invalide doit être rejeté et journalisé dans Cloud Logging | CRITIQUE |
 | VF-270-05 | Les métriques de consommation réseau en zéro-rating doivent être réconciliées mensuellement avec les données BigQuery des opérateurs | OBLIGATOIRE |
+| VF-270-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

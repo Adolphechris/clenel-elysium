@@ -149,6 +149,7 @@ erDiagram
 | **`VF-059-03`** | **Affectation univoque à un établissement** | Un élève sous parcours établissement ne peut être inscrit simultanément dans deux écoles actives. |
 | **`VF-059-04`** | **Enregistrement probant de la date d'admission** | L'ancienneté académique prend effet à la date exacte de scellement du dossier. |
 | **`VF-059-05`** | **Quota d'admission par classe respecté** | Alerte bloquante en cas de dépassement des effectifs réglementaires fixés par l'EPST. |
+| **`VF-059-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

@@ -107,6 +107,7 @@ CREATE TABLE tickets_support (
 | VF-207-03 | L'IA propose des solutions mais n'a aucun droit de clôturer un ticket sans accord usager | CONSTITUTIONNEL |
 | VF-207-04 | Tous les échanges de support sont historisés et chiffrés (AES-256) | SÉCURITÉ |
 | VF-207-05 | Enquête de satisfaction obligatoire soumise après chaque clôture de ticket | QUALITÉ |
+| VF-207-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

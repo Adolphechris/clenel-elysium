@@ -103,6 +103,7 @@ CREATE INDEX idx_presse_etab ON schema_communication.couvertures_presse_pilote(c
 | VF-316-03 | Tout incident technique survenant en phase pilote doit être assumé avec transparence et pédagogie | CRITIQUE |
 | VF-316-04 | Les Ambassadeurs locaux doivent être briefés sur les messages clés avant toute interaction avec la presse locale | OBLIGATOIRE |
 | VF-316-05 | Les retombées presse de la phase pilote sont consolidées chaque mois dans le rapport d'étape remis au COPIL | OBLIGATOIRE |
+| VF-316-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

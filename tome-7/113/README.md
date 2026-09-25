@@ -95,6 +95,7 @@ Pour permettre aux élèves de soumettre leurs devoirs manuscrits sans saturer l
 | **`VF-113-03`** | **Commentaires parentaux soumis à modération** | Aucun commentaire n'est publié sans validation d'un modérateur humain. |
 | **`VF-113-04`** | **Anonymisation des avis sur les enseignants** | Les évaluations pédagogiques des parents sont agrégées sans attribution nominale. |
 | **`VF-113-05`** | **Calendrier collaboratif parent-école** | Synchronisation des dates importantes dans le calendrier du smartphone du parent. |
+| **`VF-113-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

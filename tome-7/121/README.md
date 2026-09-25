@@ -106,6 +106,7 @@ Pour l'enseignement supérieur, ELLYSIUM implémente le standard d'échange univ
 | **`VF-121-03`** | **Inventaire automatisé des ressources et équipements** | Traçabilité de tout équipement informatique attribué à un établissement. |
 | **`VF-121-04`** | **Gestion des licences logicielles par établissement** | Suivi de l'expiration des licences GCP et Firebase par site de déploiement. |
 | **`VF-121-05`** | **Procédure de décommissionnement sécurisé des équipements** | Effacement certifié des données locales avant retrait ou redistribution de matériel. |
+| **`VF-121-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

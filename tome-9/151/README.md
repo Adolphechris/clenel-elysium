@@ -64,6 +64,7 @@ Aucune autorité, pas même le Ministre en exercice, ne peut effacer ou modifier
 | **`VF-151-03`** | **Interdiction absolue de profilage commercial des apprenants** | Les données éducatives ne peuvent jamais être cédées à des régies publicitaires. |
 | **`VF-151-04`** | **Droit à la portabilité des données académiques** | L'apprenant peut exporter son dossier complet en format JSON/PDF à tout moment. |
 | **`VF-151-05`** | **Suppression certifiée via crypto-shredding** | La suppression de données personnelles est réalisée par destruction de clé cryptographique. |
+| **`VF-151-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

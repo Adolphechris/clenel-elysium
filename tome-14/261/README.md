@@ -180,6 +180,7 @@ sequenceDiagram
 | VF-261-03 | Tout nouvel employé doit lire et signer les SOP de son domaine dans les 10 jours suivant son onboarding | OBLIGATOIRE |
 | VF-261-04 | Le catalogue des SOP est hébergé sur Firebase Hosting, accessible 24h/24, avec contrôle d'accès par rôle IAM | OBLIGATOIRE |
 | VF-261-05 | Toute déviation documentée d'une SOP en situation réelle est consignée comme « leçon apprise » et transmise à l'équipe de révision sous 48h | OBLIGATOIRE |
+| VF-261-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

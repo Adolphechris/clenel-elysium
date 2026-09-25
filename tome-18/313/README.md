@@ -118,6 +118,7 @@ CREATE TABLE schema_communication.retombees_presse (
 | VF-313-03 | Il est strictement interdit de rémunérer des journalistes ou des influenceurs pour publier des avis complaisants sur ELLYSIUM | CRITIQUE |
 | VF-313-04 | Tous les commentaires sur les canaux sociaux officiels font l'objet d'une modération active protégeant les mineurs contre le cyberharcèlement | CRITIQUE |
 | VF-313-05 | Les vidéos diffusées sur YouTube doivent comporter des sous-titres complets et être hébergées en copie sur Cloud Storage | OBLIGATOIRE |
+| VF-313-06 | Toute communication institutionnelle porte un identifiant de source vérifiable | OBLIGATOIRE |
 
 ---
 

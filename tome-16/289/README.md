@@ -134,6 +134,7 @@ CREATE INDEX idx_changement_statut ON incidents_conduite_changement(statut_incid
 | VF-289-03 | L'assistance technique de saisie par les Ambassadeurs doit être mobilisée dès qu'un risque d'épuisement ou de surcharge est détecté | OBLIGATOIRE |
 | VF-289-04 | Les démonstrations de prise en main doivent impérativement valoriser l'autonomie et le pouvoir de décision de l'enseignant (Art. 6) | OBLIGATOIRE |
 | VF-289-05 | L'évaluation semestrielle de climat scolaire doit mesurer la réduction du niveau d'anxiété technologique déclaré | OBLIGATOIRE |
+| VF-289-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

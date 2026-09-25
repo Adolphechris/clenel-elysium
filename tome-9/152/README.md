@@ -148,6 +148,7 @@ Pour assurer des temps de réponse inférieurs à 10 ms lors de la consultation 
 | **`VF-152-03`** | **Normalisation des identifiants selon le référentiel national IUNE** | Aucun doublon de dossier académique ne peut exister dans le système. |
 | **`VF-152-04`** | **Versionnement des schémas de données avec migration sans interruption** | Toute modification de schéma est déployée sans perte de données ni coupure de service. |
 | **`VF-152-05`** | **Validation de l'intégrité référentielle à chaque transaction** | Les contraintes de clé étrangère sont maintenues et auditées en continu. |
+| **`VF-152-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

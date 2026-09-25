@@ -130,6 +130,7 @@ CREATE INDEX idx_accord_statut ON conventions_accords_cadres(statut);
 | VF-273-03 | La Direction Juridique et le Directeur Général doivent co-signer tout Accord-Cadre de Partenariat | CRITIQUE |
 | VF-273-04 | L'accord DPA (Data Processing Agreement) pour la protection des données doit être annexé et paraphé obligatoirement | CRITIQUE |
 | VF-273-05 | L'exemplaire officiel numérisé doit être versé dans Google Cloud Storage avec empreinte SHA-256 scellée sous 48h | OBLIGATOIRE |
+| VF-273-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

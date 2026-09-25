@@ -106,6 +106,7 @@ sequenceDiagram
 | VF-325-03 | Toute mise à jour substantielle des CGU/CGS doit être notifiée aux utilisateurs au moins 30 jours avant son entrée en vigueur | CRITIQUE |
 | VF-325-04 | L'engagement SLA de disponibilité de la plateforme pour les établissements partenaires est garanti à 99,5 % sous GCP | OBLIGATOIRE |
 | VF-325-05 | Les preuves cryptographiques de consentement Click-wrap sont conservées de manière inaltérable pendant 10 ans | OBLIGATOIRE |
+| VF-325-06 | Tout document juridique est indexé par un UUID et horodaté par Google Cloud Logging | CONSTITUTIONNEL |
 
 ---
 

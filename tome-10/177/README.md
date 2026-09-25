@@ -158,6 +158,7 @@ Ces informations figurent dans le formulaire de consentement IUNE.
 | VF-177-03 | L'apprenant est informé des modalités de surveillance avant le début de l'examen | OBLIGATOIRE |
 | VF-177-04 | Une coupure réseau de < 5 minutes ne peut pas entraîner l'invalidation d'un examen | OBLIGATOIRE |
 | VF-177-05 | Les logs de proctoring sont conservés 1 an après la fin de l'année académique | OBLIGATOIRE |
+| VF-177-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

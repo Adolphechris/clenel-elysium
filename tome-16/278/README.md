@@ -97,6 +97,7 @@ sequenceDiagram
 | VF-278-03 | L'infrastructure technique supportant les déploiements successifs demeure 100% hébergée sur Google Cloud Platform | CRITIQUE |
 | VF-278-04 | La durée minimale de la Phase 1 pilote est fixée à 6 mois scolaires pleins avant toute décision de généralisation | OBLIGATOIRE |
 | VF-278-05 | Les manuels utilisateurs et capsules vidéo doivent être disponibles en mode déconnecté dans tous les terminaux pilotes | OBLIGATOIRE |
+| VF-278-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

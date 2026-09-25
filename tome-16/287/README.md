@@ -115,6 +115,7 @@ sequenceDiagram
 | VF-287-03 | Les manuels et tutoriels doivent être pré-chargés dans le cache Service Worker dès l'onboarding pour garantir un accès 100% hors-ligne | CRITIQUE |
 | VF-287-04 | Les dépliants destinés aux parents doivent impérativement comporter une version traduite dans la langue nationale locale | OBLIGATOIRE |
 | VF-287-05 | Toute mise à jour fonctionnelle de la plateforme entraîne la révision obligatoire sous 15 jours des manuels et vidéos associés | OBLIGATOIRE |
+| VF-287-06 | Chaque jalon est validé par un vote formel du COPIL avant passage à l'étape suivante | OBLIGATOIRE |
 
 ---
 

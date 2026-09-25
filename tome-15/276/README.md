@@ -103,6 +103,7 @@ Le franchissement d'un horizon vers le suivant est subordonné à un vote solenn
 | VF-276-03 | La feuille de route stratégique fait l'objet d'un réalignement formel annuel au sein du Conseil d'Administration | OBLIGATOIRE |
 | VF-276-04 | Aucun jalon d'expansion ne peut être validé si le SLA technique GCP descend en deçà de 99,5 % sur l'exercice écoulé | CRITIQUE |
 | VF-276-05 | Les rapports décennaux d'impact éducatif et sociétal sont publiés en libre accès (Creative Commons) pour la recherche académique | OBLIGATOIRE |
+| VF-276-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 

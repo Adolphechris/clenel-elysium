@@ -116,6 +116,7 @@ CREATE TABLE recours_academiques (
 | VF-188-03 | Double correction arbitrale aveugle obligatoire pour toute réévaluation d'épreuve | PÉDAGOGIQUE |
 | VF-188-04 | Annulation d'un diplôme impossible sans réquisition judiciaire ou ministérielle formelle | LÉGAL |
 | VF-188-05 | Publication instantanée de toute révocation sur le portail public de vérification | OBLIGATOIRE |
+| VF-188-06 | Toute suspicion de tricherie déclenche une révision manuelle obligatoire par un jury humain | CONSTITUTIONNEL |
 
 ---
 

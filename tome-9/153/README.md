@@ -80,6 +80,7 @@ graph LR
 | **`VF-153-03`** | **Données minimales collectées selon le principe de minimisation** | Aucun champ de données non strictement nécessaire n'est collecté. |
 | **`VF-153-04`** | **Consentement granulaire pour chaque catégorie de données** | L'utilisateur contrôle individuellement chaque type de donnée collectée. |
 | **`VF-153-05`** | **Interdiction de corrélation des données entre apprenants sans anonymisation** | Les analyses croisées inter-apprenants utilisent exclusivement des données agrégées. |
+| **`VF-153-06`** | **Aucun accès en ligne de mire aux données sensibles n'est possible sans justifier d'un motif légitime** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

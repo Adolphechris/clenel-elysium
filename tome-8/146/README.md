@@ -81,6 +81,7 @@ Aucun administrateur de base de données ne peut modifier ou supprimer une infé
 | **`VF-146-03`** | **Archivage à 100 ans des diplômes avec redondance géographique** | Deux copies dans deux régions GCP différentes avec politique de rétention illimitée. |
 | **`VF-146-04`** | **Lien de vérification permanente accessible par les employeurs** | URL pérenne et non modifiable permettant la vérification à vie d'un diplôme. |
 | **`VF-146-05`** | **Emission de transcriptions académiques officielles** | Relevé de notes certifié généré à la demande de l'étudiant avec QR Code. |
+| **`VF-146-06`** | **Toute suggestion d'IA doit inclure un code de confiance (0-100) horodaté et vérifiable** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

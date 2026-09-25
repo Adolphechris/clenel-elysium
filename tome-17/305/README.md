@@ -113,6 +113,7 @@ CREATE INDEX idx_treso_statut ON schema_finance.mouvements_tresorerie(statut_exe
 | VF-305-03 | Les comptes annuels sont certifiés chaque année par un commissaire aux comptes agréé externe indépendant | CRITIQUE |
 | VF-305-04 | L'intégralité du rapport d'audit financier annuel est publiée en accès libre sur le portail public Firebase Hosting | OBLIGATOIRE |
 | VF-305-05 | Les rapprochements bancaires et réconciliations Mobile Money sont exécutés automatiquement chaque jour ouvrable | OBLIGATOIRE |
+| VF-305-06 | Aucun modèle économique ne peut introduire de barrière monétaire à l'accès aux connaissances fondamentales | CONSTITUTIONNEL |
 
 ---
 

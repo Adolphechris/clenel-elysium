@@ -90,6 +90,7 @@ En fin d'année scolaire, le palmarès officiel de chaque promotion est génér�
 | VF-208-03 | Les palmarès annuels sont scellés et immuables dès la clôture de la délibération finale | OBLIGATOIRE |
 | VF-208-04 | Agrégation des données sur BigQuery respectant le k-anonymat (Module 167) | SÉCURITÉ |
 | VF-208-05 | Export garanti sous format ouvert non propriétaire (PDF/A, CSV, ODS) | TECHNIQUE |
+| VF-208-06 | Toute opération administrative est réversible jusqu'à validation humaine explicite par le responsable hiérarchique | OBLIGATOIRE |
 
 ---
 

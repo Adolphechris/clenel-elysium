@@ -146,6 +146,7 @@ erDiagram
 | **`VF-077-03`** | **Export aux formats ouverts d'analyse** | Possibilité d'exporter les jeux de données d'établissement en CSV/Parquet pour audit. |
 | **`VF-077-04`** | **Contrôle d'accès aux tableaux stratégiques** | Les données financières consolidées sont réservées aux membres du conseil d'administration. |
 | **`VF-077-05`** | **Transmission sécurisée des statistiques ministérielles** | Génération automatique du rapport annuel destiné aux services statistiques de l'EPST. |
+| **`VF-077-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

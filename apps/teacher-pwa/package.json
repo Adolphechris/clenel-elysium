@@ -1,0 +1,32 @@
+{
+  "name": "@elysium/teacher-pwa",
+  "version": "1.0.0",
+  "description": "Espace enseignant hors-ligne : appels, cotes et suivi de progression (Tome 7 / Module 112)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@elysium/academic-engine": "^1.0.0",
+    "@elysium/pwa-offline": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "elysium",
+    "rdc",
+    "pwa",
+    "teacher",
+    "offline-first"
+  ],
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

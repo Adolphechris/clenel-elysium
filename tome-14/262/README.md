@@ -143,6 +143,7 @@ Le Tome 14 étant intégralement complété (16 modules sur 16), le chantier se 
 | VF-262-03 | La matrice de dépendances est révisée à chaque mise à jour majeure d'un tome connexe | OBLIGATOIRE |
 | VF-262-04 | Le budget RH prévisionnel (M253 + M259) doit être soumis à T19 au moins 6 mois avant le début de la Phase 1 | OBLIGATOIRE |
 | VF-262-05 | Ce module de clôture est le document de référence pour tout audit de cohérence inter-tomes du Tome 14 | OBLIGATOIRE |
+| VF-262-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

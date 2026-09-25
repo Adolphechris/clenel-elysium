@@ -1,0 +1,33 @@
+{
+  "name": "@elysium/parent-portal",
+  "version": "1.0.0",
+  "description": "Espace parent/tuteur : suivi scolaire, notifications d'absence et paiement Mobile Money (Article 5)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@elysium/academic-engine": "^1.0.0",
+    "@elysium/attendance-service": "^1.0.0",
+    "@elysium/shared-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "elysium",
+    "rdc",
+    "parent",
+    "mobile-money",
+    "article-5"
+  ],
+  "author": "ASBL ELLYSIUM",
+  "license": "MIT"
+}

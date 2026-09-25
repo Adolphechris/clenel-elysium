@@ -187,6 +187,7 @@ CREATE INDEX idx_pi_regime ON registre_pi(regime_pi);
 | VF-258-03 | La labellisation OER d'un contenu requiert l'accord écrit exprès de l'enseignant auteur ; aucune labellisation automatique n'est autorisée | CRITIQUE |
 | VF-258-04 | Tout signalement de violation de droits d'auteur entraîne une suspension préventive automatique du contenu sous 24 heures | OBLIGATOIRE |
 | VF-258-05 | Le droit moral de l'enseignant (paternité) doit être affiché sur le contenu et ne peut jamais être supprimé, même après résiliation du contrat | CRITIQUE |
+| VF-258-06 | Toute décision de gestion est revêtue d'un identifiant de traçabilité unique lié à l'acte signé | OBLIGATOIRE |
 
 ---
 

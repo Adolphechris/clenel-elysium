@@ -173,6 +173,7 @@ Toute tentative par un utilisateur ou un script de contourner un verrou constitu
 | **`VF-056-03`** | **Conformité constitutionnelle Art. 6** | L'IA est cantonnée à un rôle d'assistance et ne peut attribuer une sanction. |
 | **`VF-056-04`** | **Protection absolue des données d'élèves mineurs** | Interdiction de partage des données à des tiers publicitaires ou commerciaux. |
 | **`VF-056-05`** | **Sanctuarisation de la formule de délibération RDC** | La formule officielle Taux = (Points / Maxima) * 100 est inviolable. |
+| **`VF-056-06`** | **Toute donnée d'apprenant peut être exportée sur demande conformément à l'Article 8 de la Constitution** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 
 ---
 

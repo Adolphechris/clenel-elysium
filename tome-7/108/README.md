@@ -69,6 +69,7 @@ Toute altération a posteriori d'un enregistrement brise la chaîne cryptographi
 | **`VF-108-03`** | **Audit de toutes les consultations des dossiers enfants** | Chaque consultation parentale est tracée avec horodatage. |
 | **`VF-108-04`** | **Restriction d'accès par plage horaire configurable** | Les parents peuvent restreindre l'accès à la plateforme de leur enfant le soir. |
 | **`VF-108-05`** | **Mise à jour automatique des coordonnées de contact** | Synchronisation des numéros de téléphone avec les opérateurs OTP en cas de changement. |
+| **`VF-108-06`** | **Toute réponse d'API cache doit être invalidée via Cloud CDN purge sur écriture critique** | **Conséquence : violation = inéligibilité du module pour mise en production** |
 ---
 
 *Sous-tome rédigé conformément aux Normes documentaires ELLYSIUM — Fondations 04.*  

@@ -145,6 +145,7 @@ graph LR
 | VF-265-03 | Aucune clause d'une convention EPST ne peut contredire les Articles 4, 5 et 6 de la Constitution ELLYSIUM | CRITIQUE |
 | VF-265-04 | Le rapport d'alignement curriculaire est mis à jour chaque fois que l'EPST révise ses programmes | OBLIGATOIRE |
 | VF-265-05 | Un représentant ELLYSIUM (DA ou délégué) participe aux commissions de révision curriculaire EPST lorsqu'il est invité | OBLIGATOIRE |
+| VF-265-06 | Aucun partenariat commercial ne peut modifier les règles académiques de la plateforme | CONSTITUTIONNEL |
 
 ---
 
